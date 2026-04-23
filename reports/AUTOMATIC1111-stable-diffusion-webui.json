@@ -1,0 +1,618 @@
+{
+  "scan_id": "AUTOMATIC1111-stable-diffusion-webui",
+  "timestamp": "2026-03-20T00:22:34.821386",
+  "target": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+  "summary": {
+    "total_packages": 40,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "accelerate",
+      "version": "0.21.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.13.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/cache",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-node",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-python",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "blendmodes",
+      "version": "2022",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2025",
+      "version_status": "outdated"
+    },
+    {
+      "package": "clean-fid",
+      "version": "0.1.35",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.1.35",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "diskcache",
+      "version": "5.6.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.6.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "einops",
+      "version": "0.4.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.8.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "facexlib",
+      "version": "0.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.3.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "fastapi",
+      "version": "0.94.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.135.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gitpython",
+      "version": "3.1.32",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.1.46",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gradio",
+      "version": "3.41.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.9.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "httpcore",
+      "version": "0.15",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.9",
+      "version_status": "outdated"
+    },
+    {
+      "package": "httpx",
+      "version": "0.24.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.28.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "inflection",
+      "version": "0.5.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.5.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jsonmerge",
+      "version": "1.8.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.9.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "kornia",
+      "version": "0.6.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.8.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lark",
+      "version": "1.1.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "numpy",
+      "version": "1.26.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "omegaconf",
+      "version": "2.2.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "open-clip-torch",
+      "version": "2.20.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "piexif",
+      "version": "1.1.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.1.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pillow",
+      "version": "9.5.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.1.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pillow-avif-plugin",
+      "version": "1.4.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.5.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "protobuf",
+      "version": "3.20.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.34.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "psutil",
+      "version": "5.9.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.2.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytorch-lightning",
+      "version": "1.9.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.6.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "resize-right",
+      "version": "0.0.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.0.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "safetensors",
+      "version": "0.4.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "scikit-image",
+      "version": "0.21.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.26.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "setuptools",
+      "version": "69.5.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "82.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "spandrel",
+      "version": "0.3.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "spandrel-extra-arches",
+      "version": "0.1.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "synr",
+      "version": "0.5.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tomesd",
+      "version": "0.1.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.1.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "torchdiffeq",
+      "version": "0.2.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.2.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "torchsde",
+      "version": "0.2.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.2.6",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "transformers",
+      "version": "4.30.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.3.0",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "accelerate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "actions/cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "actions/setup-node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "blendmodes"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "clean-fid"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "diskcache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "einops"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "facexlib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "fastapi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "gitpython"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "gradio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "httpcore"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "httpx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "inflection"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "jsonmerge"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "kornia"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "lark"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "numpy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "omegaconf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "open-clip-torch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "piexif"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "pillow"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "pillow-avif-plugin"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "protobuf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "psutil"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "pytorch-lightning"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "resize-right"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "safetensors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "scikit-image"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "setuptools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "spandrel"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "spandrel-extra-arches"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "synr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "tomesd"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "torchdiffeq"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "torchsde"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "AUTOMATIC1111-stable-diffusion-webui",
+      "child": "transformers"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "scan_id": "tonsky-FiraCode",
+  "timestamp": "2026-03-20T01:39:32.357112",
+  "target": "https://github.com/tonsky/FiraCode",
+  "summary": {
+    "total_packages": 8,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fontbakery",
+      "version": "1.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.1.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "fontmake",
+      "version": "3.11.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.11.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "gftools",
+      "version": "0.9.993",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.9.994",
+      "version_status": "outdated"
+    },
+    {
+      "package": "glyphslib",
+      "version": "6.12.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.13.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ufo2ft",
+      "version": "3.7.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.7.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "uharfbuzz",
+      "version": "0.53.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.53.3",
+      "version_status": "up_to_date"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tonsky-FiraCode",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tonsky-FiraCode",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tonsky-FiraCode",
+      "child": "fontbakery"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tonsky-FiraCode",
+      "child": "fontmake"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tonsky-FiraCode",
+      "child": "gftools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tonsky-FiraCode",
+      "child": "glyphslib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tonsky-FiraCode",
+      "child": "ufo2ft"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tonsky-FiraCode",
+      "child": "uharfbuzz"
+    }
+  ]
+}

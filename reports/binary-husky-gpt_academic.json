@@ -1,0 +1,513 @@
+{
+  "scan_id": "binary-husky-gpt_academic",
+  "timestamp": "2026-03-20T02:23:33.946558",
+  "target": "https://github.com/binary-husky/gpt_academic",
+  "summary": {
+    "total_packages": 33,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/stale",
+      "version": "8",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "10.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "conda-incubator/setup-miniconda",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/build-push-action",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/build-push-action",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/login-action",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/login-action",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/metadata-action",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/setup-buildx-action",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/setup-qemu-action",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fastapi",
+      "version": "0.110",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.135.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gradio-client",
+      "version": "0.8",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "linkify-it-py",
+      "version": "2.0.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llama-index-core",
+      "version": "0.10.68",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.14.18",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llama-index-embeddings-azure-openai",
+      "version": "0.1.10",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.5.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llama-index-embeddings-openai",
+      "version": "0.1.10",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llama-index-legacy",
+      "version": "0.9.48",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.9.48.post4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llama-index-readers-file",
+      "version": "0.1.33",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llama-index-readers-llama-parse",
+      "version": "0.1.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llama-parse",
+      "version": "0.4.9",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.94",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mkdocs",
+      "version": "1.6.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.6.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mkdocs-shadcn",
+      "version": "0.9.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.10.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mkdocstrings",
+      "version": "0.30.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mkdocstrings-python",
+      "version": "1.18.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "protobuf",
+      "version": "3.20",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.34.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pydantic",
+      "version": "2.9.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.12.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pymdown-extensions",
+      "version": "10.16.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "10.21",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pypdf2",
+      "version": "2.12.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "slack-sdk",
+      "version": "3.21.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.41.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "spacy",
+      "version": "3.7.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.8.11",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zhipuai",
+      "version": "2.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.1.5.20250825",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "actions/stale"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "conda-incubator/setup-miniconda"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "docker/build-push-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "docker/build-push-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "docker/login-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "docker/login-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "docker/metadata-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "docker/setup-buildx-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "docker/setup-qemu-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "fastapi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "gradio-client"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "linkify-it-py"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "llama-index-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "llama-index-embeddings-azure-openai"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "llama-index-embeddings-openai"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "llama-index-legacy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "llama-index-readers-file"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "llama-index-readers-llama-parse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "llama-parse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "mkdocs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "mkdocs-shadcn"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "mkdocstrings"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "mkdocstrings-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "protobuf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "pydantic"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "pymdown-extensions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "pypdf2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "slack-sdk"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "spacy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "binary-husky-gpt_academic",
+      "child": "zhipuai"
+    }
+  ]
+}

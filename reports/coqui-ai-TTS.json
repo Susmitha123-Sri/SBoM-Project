@@ -1,0 +1,348 @@
+{
+  "scan_id": "coqui-ai-TTS",
+  "timestamp": "2026-03-20T06:45:47.814722",
+  "target": "https://github.com/coqui-ai/TTS",
+  "summary": {
+    "total_packages": 22,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/download-artifact",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-python",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-python",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bokeh",
+      "version": "1.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.9.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/build-push-action",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/login-action",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/setup-buildx-action",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/setup-qemu-action",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "faster-whisper",
+      "version": "0.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gradio",
+      "version": "4.7.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.9.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gruut",
+      "version": "2.2.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mecab-python3",
+      "version": "1.0.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.12",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mutagen",
+      "version": "1.47.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.47.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "myst-parser",
+      "version": "2.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "numba",
+      "version": "0.55.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.64.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "numpy",
+      "version": "1.22.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pylint",
+      "version": "2.10.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sphinx",
+      "version": "7.2.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unidic-lite",
+      "version": "1.0.8",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.8",
+      "version_status": "up_to_date"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coqui-ai-TTS",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coqui-ai-TTS",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coqui-ai-TTS",
+      "child": "actions/download-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coqui-ai-TTS",
+      "child": "actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coqui-ai-TTS",
+      "child": "actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coqui-ai-TTS",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coqui-ai-TTS",
+      "child": "bokeh"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coqui-ai-TTS",
+      "child": "docker/build-push-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coqui-ai-TTS",
+      "child": "docker/login-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coqui-ai-TTS",
+      "child": "docker/setup-buildx-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coqui-ai-TTS",
+      "child": "docker/setup-qemu-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coqui-ai-TTS",
+      "child": "faster-whisper"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coqui-ai-TTS",
+      "child": "gradio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coqui-ai-TTS",
+      "child": "gruut"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coqui-ai-TTS",
+      "child": "mecab-python3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coqui-ai-TTS",
+      "child": "mutagen"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coqui-ai-TTS",
+      "child": "myst-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coqui-ai-TTS",
+      "child": "numba"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coqui-ai-TTS",
+      "child": "numpy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coqui-ai-TTS",
+      "child": "pylint"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coqui-ai-TTS",
+      "child": "sphinx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coqui-ai-TTS",
+      "child": "unidic-lite"
+    }
+  ]
+}

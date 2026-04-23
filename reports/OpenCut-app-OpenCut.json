@@ -1,0 +1,63 @@
+{
+  "scan_id": "OpenCut-app-OpenCut",
+  "timestamp": "2026-03-20T06:03:11.793923",
+  "target": "https://github.com/OpenCut-app/OpenCut",
+  "summary": {
+    "total_packages": 3,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/cache",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.0.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "oven-sh/setup-bun",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.2.0",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "OpenCut-app-OpenCut",
+      "child": "actions/cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "OpenCut-app-OpenCut",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "OpenCut-app-OpenCut",
+      "child": "oven-sh/setup-bun"
+    }
+  ]
+}

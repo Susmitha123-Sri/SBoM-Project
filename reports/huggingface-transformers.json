@@ -1,0 +1,753 @@
+{
+  "scan_id": "huggingface-transformers",
+  "timestamp": "2026-03-20T00:23:08.784981",
+  "target": "https://github.com/huggingface/transformers",
+  "summary": {
+    "total_packages": 49,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "./.github/workflows/benchmark_v2.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/build-nightly-ci-docker-images.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/check_failed_tests.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/doctest_job.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/get-pr-info.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/get-pr-number.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/model_jobs.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/model_jobs_intel_gaudi.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/self-past-caller.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/self-scheduled-intel-gaudi.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/self-scheduled.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/slack-report.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/cache",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/download-artifact",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/github-script",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/github-script",
+      "version": "7",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-python",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-python",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "conda-incubator/setup-miniconda",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "datasets",
+      "version": "1.8.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.8.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/build-push-action",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/build-push-action",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/login-action",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/login-action",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/setup-buildx-action",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/setup-buildx-action",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "git-python",
+      "version": "1.0.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.1.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gpustat",
+      "version": "1.1.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.1.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "huggingface/doc-builder/.github/workflows/build_main_documentation.yml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "huggingface/doc-builder/.github/workflows/build_pr_documentation.yml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "huggingface/doc-builder/.github/workflows/upload_pr_documentation.yml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "huggingface/hf-workflows/.github/actions/post-slack",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "huggingface/hf-workflows/.github/workflows/transformers_amd_ci_scheduled.yaml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "huggingface/hf-workflows/.github/workflows/transformers_amd_ci_scheduled_arc_scale_set.yaml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "huggingface/security-workflows/.github/workflows/codeql-reusable.yml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "huggingface/security-workflows/.github/workflows/permissions-advisor-reusable.yml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "huggingface/tailscale-action",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "huggingface/transformers/.github/workflows/collated-reports.yml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "psutil",
+      "version": "6.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.2.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "psycopg2",
+      "version": "2.9.9",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.9.11",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pypa/gh-action-pypi-publish",
+      "version": "release/v1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ruff",
+      "version": "0.14.10",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.15.7",
+      "version_status": "outdated"
+    },
+    {
+      "package": "slackapi/slack-github-action",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tokenizers",
+      "version": "0.9.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.22.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "trufflesecurity/trufflehog",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ty",
+      "version": "0.0.20",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.0.24",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "./.github/workflows/benchmark_v2.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "./.github/workflows/build-nightly-ci-docker-images.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "./.github/workflows/check_failed_tests.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "./.github/workflows/doctest_job.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "./.github/workflows/get-pr-info.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "./.github/workflows/get-pr-number.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "./.github/workflows/model_jobs.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "./.github/workflows/model_jobs_intel_gaudi.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "./.github/workflows/self-past-caller.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "./.github/workflows/self-scheduled-intel-gaudi.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "./.github/workflows/self-scheduled.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "./.github/workflows/slack-report.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "actions/cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "actions/download-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "actions/github-script"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "actions/github-script"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "conda-incubator/setup-miniconda"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "datasets"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "docker/build-push-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "docker/build-push-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "docker/login-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "docker/login-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "docker/setup-buildx-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "docker/setup-buildx-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "git-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "gpustat"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "huggingface/doc-builder/.github/workflows/build_main_documentation.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "huggingface/doc-builder/.github/workflows/build_pr_documentation.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "huggingface/doc-builder/.github/workflows/upload_pr_documentation.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "huggingface/hf-workflows/.github/actions/post-slack"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "huggingface/hf-workflows/.github/workflows/transformers_amd_ci_scheduled.yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "huggingface/hf-workflows/.github/workflows/transformers_amd_ci_scheduled_arc_scale_set.yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "huggingface/security-workflows/.github/workflows/codeql-reusable.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "huggingface/security-workflows/.github/workflows/permissions-advisor-reusable.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "huggingface/tailscale-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "huggingface/transformers/.github/workflows/collated-reports.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "psutil"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "psycopg2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "pypa/gh-action-pypi-publish"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "ruff"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "slackapi/slack-github-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "tokenizers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "trufflesecurity/trufflehog"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huggingface-transformers",
+      "child": "ty"
+    }
+  ]
+}

@@ -1,0 +1,4053 @@
+{
+  "scan_id": "zylon-ai-private-gpt",
+  "timestamp": "2026-03-20T03:43:04.948343",
+  "target": "https://github.com/zylon-ai/private-gpt",
+  "summary": {
+    "total_packages": 269,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "./.github/workflows/actions/install_dependencies",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/github-script",
+      "version": "7",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-node",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-node",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/stale",
+      "version": "8",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aiofiles",
+      "version": "23.2.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "25.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aiohappyeyeballs",
+      "version": "2.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.6.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aiohttp",
+      "version": "3.10.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.13.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aiosignal",
+      "version": "1.3.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "annotated-types",
+      "version": "0.7.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "anyio",
+      "version": "4.6.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.12.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "asgiref",
+      "version": "3.8.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.11.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "async-timeout",
+      "version": "4.0.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "asyncpg",
+      "version": "0.29.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.31.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "attrs",
+      "version": "24.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "26.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "azure-core",
+      "version": "1.31.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.39.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "azure-identity",
+      "version": "1.18.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.25.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "backoff",
+      "version": "2.2.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.2.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "bcrypt",
+      "version": "4.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "beautifulsoup4",
+      "version": "4.12.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.14.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "black",
+      "version": "24.8.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "26.3.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "boto3",
+      "version": "1.35.27",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.42.72",
+      "version_status": "outdated"
+    },
+    {
+      "package": "botocore",
+      "version": "1.35.27",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.42.72",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build",
+      "version": "1.2.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cachetools",
+      "version": "5.5.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.0.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "certifi",
+      "version": "2024.8.30",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2026.2.25",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cffi",
+      "version": "1.17.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cfgv",
+      "version": "3.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.5.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "charset-normalizer",
+      "version": "3.3.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.4.6",
+      "version_status": "outdated"
+    },
+    {
+      "package": "chroma-hnswlib",
+      "version": "0.7.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.6",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "chromadb",
+      "version": "0.5.9",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.5.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "click",
+      "version": "8.1.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8.3.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "clickhouse-connect",
+      "version": "0.7.19",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.14.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "colorama",
+      "version": "0.4.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.6",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "coloredlogs",
+      "version": "15.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "15.0.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "contourpy",
+      "version": "1.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "coverage",
+      "version": "7.6.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.13.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cryptography",
+      "version": "3.4.8",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "46.0.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cycler",
+      "version": "0.12.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.12.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "dataclasses-json",
+      "version": "0.6.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.7",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "decorator",
+      "version": "5.1.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.2.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "deprecated",
+      "version": "1.2.14",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dirtyjson",
+      "version": "1.0.8",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.8",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "diskcache",
+      "version": "5.6.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.6.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "distlib",
+      "version": "0.3.8",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "distro",
+      "version": "1.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.9.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "dnspython",
+      "version": "2.6.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.8.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/build-push-action",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/login-action",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/metadata-action",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/setup-buildx-action",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/setup-qemu-action",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docx2txt",
+      "version": "0.8",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.9",
+      "version_status": "outdated"
+    },
+    {
+      "package": "durationpy",
+      "version": "0.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.10",
+      "version_status": "outdated"
+    },
+    {
+      "package": "einops",
+      "version": "0.8.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.8.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "email-validator",
+      "version": "2.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "environs",
+      "version": "9.5.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "14.6.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "eval-type-backport",
+      "version": "0.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.3.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fastapi",
+      "version": "0.115.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.135.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fastapi-cli",
+      "version": "0.0.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.0.24",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ffmpy",
+      "version": "0.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "filelock",
+      "version": "3.16.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.25.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flatbuffers",
+      "version": "24.3.25",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "25.12.19",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fonttools",
+      "version": "4.54.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.62.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "frozenlist",
+      "version": "1.4.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.8.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fsspec",
+      "version": "2024.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2026.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google-ai-generativelanguage",
+      "version": "0.6.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.10.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google-api-core",
+      "version": "2.20.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.30.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google-api-python-client",
+      "version": "2.147.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.193.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google-auth",
+      "version": "2.35.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.49.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google-auth-httplib2",
+      "version": "0.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google-generativeai",
+      "version": "0.5.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.8.6",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google-github-actions/release-please-action",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "googleapis-common-protos",
+      "version": "1.65.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.73.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gradio",
+      "version": "4.44.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.9.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gradio-client",
+      "version": "1.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "greenlet",
+      "version": "3.1.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.3.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "grpcio",
+      "version": "1.66.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.78.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "grpcio-status",
+      "version": "1.62.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.78.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "grpcio-tools",
+      "version": "1.62.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.78.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "h11",
+      "version": "0.14.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.16.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "h2",
+      "version": "4.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hpack",
+      "version": "4.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "httpcore",
+      "version": "1.0.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.9",
+      "version_status": "outdated"
+    },
+    {
+      "package": "httplib2",
+      "version": "0.22.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.31.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "httptools",
+      "version": "0.6.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "httpx",
+      "version": "0.27.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.28.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "huggingface-hub",
+      "version": "0.25.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.7.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "humanfriendly",
+      "version": "10.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "10.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "hyperframe",
+      "version": "6.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "identify",
+      "version": "2.6.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.6.18",
+      "version_status": "outdated"
+    },
+    {
+      "package": "idna",
+      "version": "3.10",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.11",
+      "version_status": "outdated"
+    },
+    {
+      "package": "importlib-metadata",
+      "version": "8.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "importlib-resources",
+      "version": "6.4.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.5.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "iniconfig",
+      "version": "2.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "injector",
+      "version": "0.22.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.24.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "itsdangerous",
+      "version": "2.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.2.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jinja2",
+      "version": "3.1.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.1.6",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jiter",
+      "version": "0.5.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.13.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jlumbroso/free-disk-space",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jmespath",
+      "version": "1.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "joblib",
+      "version": "1.4.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.5.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jsonpath-python",
+      "version": "1.0.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.1.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "kiwisolver",
+      "version": "1.4.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.5.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "kubernetes",
+      "version": "31.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "35.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llama-cpp-python",
+      "version": "0.2.90",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.3.16",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llama-index-core",
+      "version": "0.11.13.post1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.14.18",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llama-index-embeddings-azure-openai",
+      "version": "0.2.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.5.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llama-index-embeddings-gemini",
+      "version": "0.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llama-index-embeddings-huggingface",
+      "version": "0.3.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llama-index-embeddings-mistralai",
+      "version": "0.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.5.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llama-index-embeddings-ollama",
+      "version": "0.3.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.9.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llama-index-embeddings-openai",
+      "version": "0.2.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llama-index-llms-azure-openai",
+      "version": "0.2.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.5.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llama-index-llms-gemini",
+      "version": "0.3.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llama-index-llms-llama-cpp",
+      "version": "0.2.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llama-index-llms-ollama",
+      "version": "0.3.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.10.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llama-index-llms-openai",
+      "version": "0.2.9",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llama-index-llms-openai-like",
+      "version": "0.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llama-index-readers-file",
+      "version": "0.2.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llama-index-storage-docstore-postgres",
+      "version": "0.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.5.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llama-index-storage-index-store-postgres",
+      "version": "0.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llama-index-storage-kvstore-postgres",
+      "version": "0.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.5.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llama-index-vector-stores-chroma",
+      "version": "0.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.5.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llama-index-vector-stores-clickhouse",
+      "version": "0.3.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llama-index-vector-stores-milvus",
+      "version": "0.2.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llama-index-vector-stores-postgres",
+      "version": "0.2.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.8.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llama-index-vector-stores-qdrant",
+      "version": "0.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.10.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lz4",
+      "version": "4.3.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.4.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "markdown-it-py",
+      "version": "3.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "markupsafe",
+      "version": "2.1.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "marshmallow",
+      "version": "3.22.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.2.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "matplotlib",
+      "version": "3.9.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.10.8",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mdurl",
+      "version": "0.1.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.1.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "milvus-lite",
+      "version": "2.4.10",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.5.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "minijinja",
+      "version": "2.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.18.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mistralai",
+      "version": "1.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mmh3",
+      "version": "5.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.2.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "monotonic",
+      "version": "1.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.6",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mpmath",
+      "version": "1.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "msal",
+      "version": "1.31.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.35.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "msal-extensions",
+      "version": "1.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "multidict",
+      "version": "6.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.7.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mypy",
+      "version": "1.11.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.19.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mypy-extensions",
+      "version": "1.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nest-asyncio",
+      "version": "1.6.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.6.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "networkx",
+      "version": "3.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.6.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nltk",
+      "version": "3.9.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.9.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nodeenv",
+      "version": "1.9.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.10.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "numpy",
+      "version": "1.26.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cublas-cu12",
+      "version": "12.1.3.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.9.1.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cuda-cupti-cu12",
+      "version": "12.1.105",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.9.79",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cuda-nvrtc-cu12",
+      "version": "12.1.105",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.9.86",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cuda-runtime-cu12",
+      "version": "12.1.105",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.9.79",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cudnn-cu12",
+      "version": "9.1.0.70",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.20.0.48",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cufft-cu12",
+      "version": "11.0.2.54",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "11.4.1.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-curand-cu12",
+      "version": "10.3.2.106",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "10.3.10.19",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cusolver-cu12",
+      "version": "11.4.5.107",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "11.7.5.82",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cusparse-cu12",
+      "version": "12.1.0.106",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.5.10.65",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-nccl-cu12",
+      "version": "2.20.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.29.7",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-nvjitlink-cu12",
+      "version": "12.6.68",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.9.86",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-nvtx-cu12",
+      "version": "12.1.105",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.9.79",
+      "version_status": "outdated"
+    },
+    {
+      "package": "oauthlib",
+      "version": "3.2.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.3.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ollama",
+      "version": "0.3.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "onnxruntime",
+      "version": "1.19.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.24.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "openai",
+      "version": "1.48.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.29.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opentelemetry-api",
+      "version": "1.27.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.40.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opentelemetry-exporter-otlp-proto-common",
+      "version": "1.27.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.40.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opentelemetry-exporter-otlp-proto-grpc",
+      "version": "1.27.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.40.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opentelemetry-instrumentation",
+      "version": "0.48b0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.61b0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opentelemetry-instrumentation-asgi",
+      "version": "0.48b0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.61b0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opentelemetry-instrumentation-fastapi",
+      "version": "0.48b0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.61b0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opentelemetry-proto",
+      "version": "1.27.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.40.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opentelemetry-sdk",
+      "version": "1.27.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.40.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opentelemetry-semantic-conventions",
+      "version": "0.48b0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.61b0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opentelemetry-util-http",
+      "version": "0.48b0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.61b0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "orjson",
+      "version": "3.10.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.11.7",
+      "version_status": "outdated"
+    },
+    {
+      "package": "overrides",
+      "version": "7.7.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.7.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "packaging",
+      "version": "24.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "26.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pandas",
+      "version": "2.2.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pathspec",
+      "version": "0.12.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pgvector",
+      "version": "0.2.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pillow",
+      "version": "10.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.1.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "platformdirs",
+      "version": "4.3.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.9.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pluggy",
+      "version": "1.5.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.6.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "portalocker",
+      "version": "2.10.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "posthog",
+      "version": "3.6.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.9.12",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pre-commit",
+      "version": "3.8.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.5.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "proto-plus",
+      "version": "1.24.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.27.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "protobuf",
+      "version": "4.25.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.34.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "psycopg2-binary",
+      "version": "2.9.9",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.9.11",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pyasn1",
+      "version": "0.6.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pyasn1-modules",
+      "version": "0.4.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pycparser",
+      "version": "2.22",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pydantic",
+      "version": "2.9.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.12.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pydantic-core",
+      "version": "2.23.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.42.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pydantic-extra-types",
+      "version": "2.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.11.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pydantic-settings",
+      "version": "2.5.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.13.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pydub",
+      "version": "0.25.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.25.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pygments",
+      "version": "2.18.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.19.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pyjwt",
+      "version": "2.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.12.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pymilvus",
+      "version": "2.4.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.6.10",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pyparsing",
+      "version": "3.1.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.3.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pypdf",
+      "version": "4.3.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.9.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pypika",
+      "version": "0.48.9",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.51.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pyproject-hooks",
+      "version": "1.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pyreadline3",
+      "version": "3.5.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.5.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pytest",
+      "version": "8.3.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytest-asyncio",
+      "version": "0.24.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytest-cov",
+      "version": "5.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "python-dateutil",
+      "version": "2.8.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.9.0.post0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "python-dotenv",
+      "version": "1.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "python-multipart",
+      "version": "0.0.10",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.0.22",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytz",
+      "version": "2024.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2026.1.post1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pywin32",
+      "version": "306",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "311",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pyyaml",
+      "version": "6.0.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "qdrant-client",
+      "version": "1.11.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.17.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "regex",
+      "version": "2024.9.11",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2026.2.28",
+      "version_status": "outdated"
+    },
+    {
+      "package": "requests",
+      "version": "2.32.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.32.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "requests-oauthlib",
+      "version": "2.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "retry-async",
+      "version": "0.1.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.1.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "rich",
+      "version": "13.8.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "14.3.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rsa",
+      "version": "4.9",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.9.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ruff",
+      "version": "0.6.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.15.7",
+      "version_status": "outdated"
+    },
+    {
+      "package": "s3transfer",
+      "version": "0.10.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.16.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "safetensors",
+      "version": "0.4.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "scikit-learn",
+      "version": "1.5.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.8.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "scipy",
+      "version": "1.14.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.17.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "semantic-version",
+      "version": "2.10.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.10.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "sentence-transformers",
+      "version": "3.1.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "setuptools",
+      "version": "75.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "82.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "shellingham",
+      "version": "1.5.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.5.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "six",
+      "version": "1.16.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.17.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sniffio",
+      "version": "1.3.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "soupsieve",
+      "version": "2.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.8.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sqlalchemy",
+      "version": "2.0.35",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.48",
+      "version_status": "outdated"
+    },
+    {
+      "package": "starlette",
+      "version": "0.38.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.52.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "striprtf",
+      "version": "0.0.26",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.0.29",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sympy",
+      "version": "1.13.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.14.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tenacity",
+      "version": "8.5.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.1.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "threadpoolctl",
+      "version": "3.5.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.6.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tiktoken",
+      "version": "0.7.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.12.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tokenizers",
+      "version": "0.20.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.22.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tomlkit",
+      "version": "0.12.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.14.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "torch",
+      "version": "2.4.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.10.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tqdm",
+      "version": "4.66.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.67.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "transformers",
+      "version": "4.45.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "triton",
+      "version": "3.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.6.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typer",
+      "version": "0.12.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.24.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "types-pyyaml",
+      "version": "6.0.12.20240917",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.12.20250915",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typing-extensions",
+      "version": "4.12.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.15.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typing-inspect",
+      "version": "0.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.9.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tzdata",
+      "version": "2024.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2025.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ujson",
+      "version": "5.10.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.12.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "uritemplate",
+      "version": "4.1.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "urllib3",
+      "version": "2.2.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.6.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "uvicorn",
+      "version": "0.30.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.42.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "uvloop",
+      "version": "0.20.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.22.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "virtualenv",
+      "version": "20.26.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "21.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "watchdog",
+      "version": "4.0.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "watchfiles",
+      "version": "0.24.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.1.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "websocket-client",
+      "version": "1.8.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.9.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "websockets",
+      "version": "12.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "16.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wrapt",
+      "version": "1.16.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.1.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "yarl",
+      "version": "1.12.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.23.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zipp",
+      "version": "3.20.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.23.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zstandard",
+      "version": "0.23.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.25.0",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "./.github/workflows/actions/install_dependencies"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "actions/github-script"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "actions/setup-node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "actions/setup-node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "actions/stale"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "aiofiles"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "aiohappyeyeballs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "aiohttp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "aiosignal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "annotated-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "anyio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "asgiref"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "async-timeout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "asyncpg"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "attrs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "azure-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "azure-identity"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "backoff"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "bcrypt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "beautifulsoup4"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "black"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "boto3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "botocore"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "build"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "cachetools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "certifi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "cffi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "cfgv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "charset-normalizer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "chroma-hnswlib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "chromadb"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "click"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "clickhouse-connect"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "colorama"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "coloredlogs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "contourpy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "coverage"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "cryptography"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "cycler"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "dataclasses-json"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "decorator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "deprecated"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "dirtyjson"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "diskcache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "distlib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "distro"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "dnspython"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "docker/build-push-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "docker/login-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "docker/metadata-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "docker/setup-buildx-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "docker/setup-qemu-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "docx2txt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "durationpy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "einops"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "email-validator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "environs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "eval-type-backport"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "fastapi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "fastapi-cli"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "ffmpy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "filelock"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "flatbuffers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "fonttools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "frozenlist"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "fsspec"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "google-ai-generativelanguage"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "google-api-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "google-api-python-client"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "google-auth"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "google-auth-httplib2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "google-generativeai"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "google-github-actions/release-please-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "googleapis-common-protos"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "gradio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "gradio-client"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "greenlet"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "grpcio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "grpcio-status"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "grpcio-tools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "h11"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "h2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "hpack"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "httpcore"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "httplib2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "httptools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "httpx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "huggingface-hub"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "humanfriendly"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "hyperframe"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "identify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "idna"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "importlib-metadata"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "importlib-resources"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "iniconfig"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "injector"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "itsdangerous"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "jinja2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "jiter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "jlumbroso/free-disk-space"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "jmespath"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "joblib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "jsonpath-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "kiwisolver"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "kubernetes"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "llama-cpp-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "llama-index-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "llama-index-embeddings-azure-openai"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "llama-index-embeddings-gemini"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "llama-index-embeddings-huggingface"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "llama-index-embeddings-mistralai"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "llama-index-embeddings-ollama"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "llama-index-embeddings-openai"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "llama-index-llms-azure-openai"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "llama-index-llms-gemini"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "llama-index-llms-llama-cpp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "llama-index-llms-ollama"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "llama-index-llms-openai"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "llama-index-llms-openai-like"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "llama-index-readers-file"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "llama-index-storage-docstore-postgres"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "llama-index-storage-index-store-postgres"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "llama-index-storage-kvstore-postgres"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "llama-index-vector-stores-chroma"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "llama-index-vector-stores-clickhouse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "llama-index-vector-stores-milvus"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "llama-index-vector-stores-postgres"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "llama-index-vector-stores-qdrant"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "lz4"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "markdown-it-py"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "markupsafe"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "marshmallow"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "matplotlib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "mdurl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "milvus-lite"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "minijinja"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "mistralai"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "mmh3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "monotonic"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "mpmath"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "msal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "msal-extensions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "multidict"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "mypy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "mypy-extensions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "nest-asyncio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "networkx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "nltk"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "nodeenv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "numpy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "nvidia-cublas-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "nvidia-cuda-cupti-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "nvidia-cuda-nvrtc-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "nvidia-cuda-runtime-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "nvidia-cudnn-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "nvidia-cufft-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "nvidia-curand-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "nvidia-cusolver-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "nvidia-cusparse-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "nvidia-nccl-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "nvidia-nvjitlink-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "nvidia-nvtx-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "oauthlib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "ollama"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "onnxruntime"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "openai"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "opentelemetry-api"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "opentelemetry-exporter-otlp-proto-common"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "opentelemetry-exporter-otlp-proto-grpc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "opentelemetry-instrumentation"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "opentelemetry-instrumentation-asgi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "opentelemetry-instrumentation-fastapi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "opentelemetry-proto"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "opentelemetry-sdk"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "opentelemetry-semantic-conventions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "opentelemetry-util-http"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "orjson"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "overrides"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "packaging"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "pandas"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "pathspec"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "pgvector"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "pillow"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "platformdirs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "pluggy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "portalocker"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "posthog"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "pre-commit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "proto-plus"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "protobuf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "psycopg2-binary"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "pyasn1"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "pyasn1-modules"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "pycparser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "pydantic"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "pydantic-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "pydantic-extra-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "pydantic-settings"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "pydub"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "pygments"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "pyjwt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "pymilvus"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "pyparsing"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "pypdf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "pypika"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "pyproject-hooks"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "pyreadline3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "pytest"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "pytest-asyncio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "pytest-cov"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "python-dateutil"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "python-dotenv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "python-multipart"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "pytz"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "pywin32"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "pyyaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "qdrant-client"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "regex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "requests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "requests-oauthlib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "retry-async"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "rich"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "rsa"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "ruff"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "s3transfer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "safetensors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "scikit-learn"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "scipy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "semantic-version"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "sentence-transformers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "setuptools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "shellingham"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "six"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "sniffio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "soupsieve"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "sqlalchemy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "starlette"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "striprtf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "sympy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "tenacity"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "threadpoolctl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "tiktoken"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "tokenizers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "tomlkit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "torch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "tqdm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "transformers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "triton"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "typer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "types-pyyaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "typing-extensions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "typing-inspect"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "tzdata"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "ujson"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "uritemplate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "urllib3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "uvicorn"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "uvloop"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "virtualenv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "watchdog"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "watchfiles"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "websocket-client"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "websockets"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "wrapt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "yarl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "zipp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zylon-ai-private-gpt",
+      "child": "zstandard"
+    }
+  ]
+}

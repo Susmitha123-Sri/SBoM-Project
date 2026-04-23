@@ -1,0 +1,168 @@
+{
+  "scan_id": "spf13-cobra",
+  "timestamp": "2026-04-23T14:49:39.199490",
+  "target": "https://github.com/spf13/cobra",
+  "summary": {
+    "total_packages": 10,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/cache",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.0.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/labeler",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-go",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.4.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/cpuguy83/go-md2man/v2",
+      "version": "2.0.6",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/inconshreveable/mousetrap",
+      "version": "1.1.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/spf13/pflag",
+      "version": "1.0.9",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "go.yaml.in/yaml/v3",
+      "version": "3.0.4",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golangci/golangci-lint-action",
+      "version": "8.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "msys2/setup-msys2",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.31.1",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spf13-cobra",
+      "child": "actions/cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spf13-cobra",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spf13-cobra",
+      "child": "actions/labeler"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spf13-cobra",
+      "child": "actions/setup-go"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spf13-cobra",
+      "child": "github.com/cpuguy83/go-md2man/v2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spf13-cobra",
+      "child": "github.com/inconshreveable/mousetrap"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spf13-cobra",
+      "child": "github.com/spf13/pflag"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spf13-cobra",
+      "child": "go.yaml.in/yaml/v3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spf13-cobra",
+      "child": "golangci/golangci-lint-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spf13-cobra",
+      "child": "msys2/setup-msys2"
+    }
+  ]
+}

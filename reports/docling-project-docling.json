@@ -1,0 +1,5193 @@
+{
+  "scan_id": "docling-project-docling",
+  "timestamp": "2026-03-20T03:49:52.561672",
+  "target": "https://github.com/docling-project/docling",
+  "summary": {
+    "total_packages": 345,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "./.github/workflows/checks.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/docs.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "accelerate",
+      "version": "1.13.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.13.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/cache",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/create-github-app-token",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/download-artifact",
+      "version": "7",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/github-script",
+      "version": "8",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aiohappyeyeballs",
+      "version": "2.6.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.6.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "aiohttp",
+      "version": "3.13.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.13.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "aiosignal",
+      "version": "1.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "annotated-doc",
+      "version": "0.0.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.0.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "annotated-types",
+      "version": "0.7.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "antlr4-python3-runtime",
+      "version": "4.9.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.13.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "anyio",
+      "version": "4.12.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.12.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "appnope",
+      "version": "0.1.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.1.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "arelle-release",
+      "version": "2.39.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.39.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "astral-sh/setup-uv",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "astral-sh/setup-uv",
+      "version": "7",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "asttokens",
+      "version": "3.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "async-timeout",
+      "version": "5.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.0.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "attrs",
+      "version": "25.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "26.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "autopep8",
+      "version": "2.3.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.3.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "av",
+      "version": "17.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "17.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "babel",
+      "version": "2.18.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.18.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "backports-tarfile",
+      "version": "1.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "backrefs",
+      "version": "6.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "beautifulsoup4",
+      "version": "4.14.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.14.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "bleach",
+      "version": "6.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.3.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "boto3-stubs",
+      "version": "1.42.71",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.42.72",
+      "version_status": "outdated"
+    },
+    {
+      "package": "botocore-stubs",
+      "version": "1.42.41",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.42.41",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "bottle",
+      "version": "0.13.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.13.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "cachetools",
+      "version": "7.0.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.0.5",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "certifi",
+      "version": "2026.2.25",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2026.2.25",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "cffi",
+      "version": "2.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "cfgv",
+      "version": "3.5.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.5.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "charset-normalizer",
+      "version": "3.4.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.4.6",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "click",
+      "version": "8.3.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8.3.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "click-log",
+      "version": "0.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "codecov/codecov-action",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "colorama",
+      "version": "0.4.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.6",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "coloredlogs",
+      "version": "15.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "15.0.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "colorlog",
+      "version": "6.10.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.10.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "comm",
+      "version": "0.2.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.2.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "coverage",
+      "version": "7.13.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.13.5",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "cryptography",
+      "version": "46.0.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "46.0.5",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "cuda-bindings",
+      "version": "12.9.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "13.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cuda-pathfinder",
+      "version": "1.4.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "cysignals",
+      "version": "1.12.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.12.6",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cysignals",
+      "version": "1.12.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.12.6",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "datasets",
+      "version": "2.21.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.8.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "debugpy",
+      "version": "1.8.20",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.8.20",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "decorator",
+      "version": "5.2.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.2.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "defusedxml",
+      "version": "0.7.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "dill",
+      "version": "0.3.8",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "distlib",
+      "version": "0.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "docling",
+      "version": "2.80.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.80.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "docling-core",
+      "version": "2.70.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.70.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "docling-ibm-models",
+      "version": "3.12.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.12.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "docling-parse",
+      "version": "5.5.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.5.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "docutils",
+      "version": "0.22.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.22.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "dotty-dict",
+      "version": "1.3.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "easyocr",
+      "version": "1.7.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.7.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "et-xmlfile",
+      "version": "2.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "exceptiongroup",
+      "version": "1.3.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "execnet",
+      "version": "2.1.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.1.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "executing",
+      "version": "2.2.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.2.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "faker",
+      "version": "40.11.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "40.11.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "fastapi",
+      "version": "0.135.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.135.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "fastjsonschema",
+      "version": "2.21.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.21.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "filelock",
+      "version": "3.25.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.25.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "filetype",
+      "version": "1.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "flatbuffers",
+      "version": "25.12.19",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "25.12.19",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "frozenlist",
+      "version": "1.8.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.8.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "fsspec",
+      "version": "2024.6.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2026.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ghp-import",
+      "version": "2.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.1.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "gitdb",
+      "version": "4.0.12",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.12",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "gitpython",
+      "version": "3.1.46",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.1.46",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "gliner",
+      "version": "0.2.25",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.2.26",
+      "version_status": "outdated"
+    },
+    {
+      "package": "griffe-pydantic",
+      "version": "1.3.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "griffelib",
+      "version": "2.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "grpcio",
+      "version": "1.67.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.78.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "h11",
+      "version": "0.16.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.16.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "hf-xet",
+      "version": "1.4.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "httpcore",
+      "version": "1.0.9",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.9",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "httpx",
+      "version": "0.28.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.28.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "huggingface-hub",
+      "version": "0.36.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.7.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "humanfriendly",
+      "version": "10.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "10.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "identify",
+      "version": "2.6.18",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.6.18",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "idna",
+      "version": "3.11",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.11",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "imageio",
+      "version": "2.37.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.37.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "importlib-metadata",
+      "version": "8.7.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "iniconfig",
+      "version": "2.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.3.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "invoke",
+      "version": "2.2.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.2.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "ipykernel",
+      "version": "6.31.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ipython",
+      "version": "8.38.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.11.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ipython",
+      "version": "9.10.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.11.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ipython",
+      "version": "9.11.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.11.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "ipython-pygments-lexers",
+      "version": "1.1.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.1.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "ipywidgets",
+      "version": "8.1.8",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8.1.8",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "isodate",
+      "version": "0.7.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jaconv",
+      "version": "0.5.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.5.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jaraco-classes",
+      "version": "3.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.4.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jaraco-context",
+      "version": "6.1.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.1.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jaraco-functools",
+      "version": "4.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.4.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jedi",
+      "version": "0.19.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.19.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jeepney",
+      "version": "0.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.9.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jinja2",
+      "version": "3.1.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.1.6",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jsonlines",
+      "version": "4.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jsonpatch",
+      "version": "1.33",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.33",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jsonpointer",
+      "version": "3.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jsonref",
+      "version": "1.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.1.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jsonschema",
+      "version": "4.26.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.26.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jsonschema-specifications",
+      "version": "2025.9.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2025.9.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jupyter-client",
+      "version": "8.8.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8.8.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jupyter-core",
+      "version": "5.9.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.9.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jupyterlab-pygments",
+      "version": "0.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.3.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jupyterlab-widgets",
+      "version": "3.0.16",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.16",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jupytext",
+      "version": "1.19.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.19.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "keyring",
+      "version": "25.7.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "25.7.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "langchain-core",
+      "version": "1.2.20",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.20",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "langchain-huggingface",
+      "version": "1.2.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "langchain-milvus",
+      "version": "0.3.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.3.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "langchain-text-splitters",
+      "version": "1.1.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.1.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "langsmith",
+      "version": "0.7.20",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.22",
+      "version_status": "outdated"
+    },
+    {
+      "package": "latex2mathml",
+      "version": "3.79.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.79.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "lazy-loader",
+      "version": "0.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.5",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "librt",
+      "version": "0.8.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.8.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "llvmlite",
+      "version": "0.46.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.46.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "lxml",
+      "version": "6.0.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "markdown",
+      "version": "3.10.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.10.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "markdown-it-py",
+      "version": "4.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "marko",
+      "version": "2.2.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.2.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "markupsafe",
+      "version": "3.0.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "matplotlib-inline",
+      "version": "0.2.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.2.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mdit-py-plugins",
+      "version": "0.5.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.5.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mdurl",
+      "version": "0.1.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.1.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mergedeep",
+      "version": "1.3.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mistune",
+      "version": "3.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.2.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mkdocs",
+      "version": "1.6.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.6.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mkdocs-autorefs",
+      "version": "1.4.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mkdocs-click",
+      "version": "0.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.9.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mkdocs-get-deps",
+      "version": "0.2.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.2.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mkdocs-jupyter",
+      "version": "0.25.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.25.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mkdocs-material",
+      "version": "9.7.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.7.6",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mkdocs-material-extensions",
+      "version": "1.3.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mkdocs-redirects",
+      "version": "1.2.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mkdocstrings",
+      "version": "0.30.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mkdocstrings-python",
+      "version": "2.0.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mlx",
+      "version": "0.31.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.31.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mlx-lm",
+      "version": "0.29.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.31.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mlx-metal",
+      "version": "0.31.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.31.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mlx-vlm",
+      "version": "0.3.9",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mlx-whisper",
+      "version": "0.4.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "modelscope",
+      "version": "1.35.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.35.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "more-itertools",
+      "version": "10.8.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "10.8.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mpire",
+      "version": "2.10.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.10.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mpmath",
+      "version": "1.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "multidict",
+      "version": "6.7.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.7.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "multiprocess",
+      "version": "0.70.16",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.70.19",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mypy",
+      "version": "1.19.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.19.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mypy-extensions",
+      "version": "1.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.1.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "nbclient",
+      "version": "0.10.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.10.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "nbconvert",
+      "version": "7.17.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.17.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "nbformat",
+      "version": "5.10.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.10.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "nbqa",
+      "version": "1.9.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.9.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "nest-asyncio",
+      "version": "1.6.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.6.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "networkx",
+      "version": "3.4.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.6.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "networkx",
+      "version": "3.6.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.6.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "nh3",
+      "version": "0.3.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.3.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "ninja",
+      "version": "1.13.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.13.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "nodeenv",
+      "version": "1.10.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.10.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "numba",
+      "version": "0.64.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.64.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "numpy",
+      "version": "2.2.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "numpy",
+      "version": "2.4.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "nvidia-cublas-cu12",
+      "version": "12.8.4.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.9.1.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cuda-cupti-cu12",
+      "version": "12.8.90",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.9.79",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cuda-nvrtc-cu12",
+      "version": "12.8.93",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.9.86",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cuda-runtime-cu12",
+      "version": "12.8.90",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.9.79",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cudnn-cu12",
+      "version": "9.10.2.21",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.20.0.48",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cufft-cu12",
+      "version": "11.3.3.83",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "11.4.1.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cufile-cu12",
+      "version": "1.13.1.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.14.1.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-curand-cu12",
+      "version": "10.3.9.90",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "10.3.10.19",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cusolver-cu12",
+      "version": "11.7.3.90",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "11.7.5.82",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cusparse-cu12",
+      "version": "12.5.8.93",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.5.10.65",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cusparselt-cu12",
+      "version": "0.7.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.8.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-nccl-cu12",
+      "version": "2.27.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.29.7",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-nvjitlink-cu12",
+      "version": "12.8.93",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.9.86",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-nvshmem-cu12",
+      "version": "3.4.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.5.21",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-nvtx-cu12",
+      "version": "12.8.90",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.9.79",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ocrmac",
+      "version": "1.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "omegaconf",
+      "version": "2.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.3.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "onnxruntime",
+      "version": "1.23.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.24.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "onnxruntime-gpu",
+      "version": "1.23.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.24.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "openai-whisper",
+      "version": "20250625",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "20250625",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "opencv-python",
+      "version": "4.13.0.92",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.13.0.92",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "opencv-python-headless",
+      "version": "4.13.0.92",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.13.0.92",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "openpyxl",
+      "version": "3.1.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.1.5",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "orjson",
+      "version": "3.11.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.11.7",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "packaging",
+      "version": "26.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "26.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "paginate",
+      "version": "0.5.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.5.7",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pandas",
+      "version": "2.3.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pandas",
+      "version": "3.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pandas-stubs",
+      "version": "2.3.3.260113",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.0.260204",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pandocfilters",
+      "version": "1.5.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.5.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "parso",
+      "version": "0.8.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.8.6",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pathspec",
+      "version": "1.0.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pexpect",
+      "version": "4.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.9.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pillow",
+      "version": "12.1.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.1.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pkginfo",
+      "version": "1.12.1.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.12.1.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "platformdirs",
+      "version": "4.9.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.9.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pluggy",
+      "version": "1.6.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.6.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "polyfactory",
+      "version": "3.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.3.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pre-commit",
+      "version": "3.8.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.5.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "prompt-toolkit",
+      "version": "3.0.52",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.52",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "propcache",
+      "version": "0.4.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "protobuf",
+      "version": "5.29.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.34.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "psutil",
+      "version": "7.2.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.2.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "ptyprocess",
+      "version": "0.7.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pure-eval",
+      "version": "0.2.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.2.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyarrow",
+      "version": "23.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "23.0.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyclipper",
+      "version": "1.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pycodestyle",
+      "version": "2.14.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.14.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pycparser",
+      "version": "3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pydantic",
+      "version": "2.12.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.12.5",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pydantic-core",
+      "version": "2.41.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.42.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pydantic-settings",
+      "version": "2.13.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.13.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pygments",
+      "version": "2.19.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.19.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pylatexenc",
+      "version": "2.10",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.10",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pymdown-extensions",
+      "version": "10.21",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "10.21",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pymilvus",
+      "version": "2.6.10",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.6.10",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyobjc-core",
+      "version": "12.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyobjc-framework-cocoa",
+      "version": "12.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyobjc-framework-coreml",
+      "version": "12.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyobjc-framework-quartz",
+      "version": "12.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyobjc-framework-vision",
+      "version": "12.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pypa/gh-action-pypi-publish",
+      "version": "release/v1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pyparsing",
+      "version": "3.3.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.3.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pypdfium2",
+      "version": "5.6.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.6.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyreadline3",
+      "version": "3.5.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.5.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pytest",
+      "version": "8.4.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytest-cov",
+      "version": "7.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pytest-dependency",
+      "version": "0.6.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pytest-durations",
+      "version": "1.6.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.6.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pytest-xdist",
+      "version": "3.8.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.8.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "python-bidi",
+      "version": "0.6.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.7",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "python-dateutil",
+      "version": "2.9.0.post0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.9.0.post0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "python-discovery",
+      "version": "1.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "python-docx",
+      "version": "1.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "python-dotenv",
+      "version": "1.2.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "python-gitlab",
+      "version": "3.15.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "python-pptx",
+      "version": "1.0.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "python-rapidjson",
+      "version": "1.23",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.23",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "python-semantic-release",
+      "version": "7.34.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "10.5.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytz",
+      "version": "2026.1.post1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2026.1.post1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pywin32",
+      "version": "311",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "311",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pywin32-ctypes",
+      "version": "0.2.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.2.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyyaml",
+      "version": "6.0.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyyaml-env-tag",
+      "version": "1.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyzmq",
+      "version": "27.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "27.1.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "qwen-vl-utils",
+      "version": "0.0.14",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.0.14",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "rapidocr",
+      "version": "3.7.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.7.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "readme-renderer",
+      "version": "44.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "44.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "referencing",
+      "version": "0.37.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.37.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "regex",
+      "version": "2026.2.28",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2026.2.28",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "requests",
+      "version": "2.32.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.32.5",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "requests-toolbelt",
+      "version": "1.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "rfc3986",
+      "version": "2.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "rich",
+      "version": "14.3.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "14.3.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "rpds-py",
+      "version": "0.30.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.30.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "rtree",
+      "version": "1.4.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "safetensors",
+      "version": "0.7.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "scikit-image",
+      "version": "0.25.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.26.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "scikit-image",
+      "version": "0.26.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.26.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "scipy",
+      "version": "1.15.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.17.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "scipy",
+      "version": "1.17.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.17.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "secretstorage",
+      "version": "3.5.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.5.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "semchunk",
+      "version": "3.2.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.2.5",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "semver",
+      "version": "2.13.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sentencepiece",
+      "version": "0.2.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.2.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "setuptools",
+      "version": "82.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "82.0.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "shapely",
+      "version": "2.1.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.1.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "shellingham",
+      "version": "1.5.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.5.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "six",
+      "version": "1.17.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.17.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "smmap",
+      "version": "5.0.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.0.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "soundfile",
+      "version": "0.13.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.13.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "soupsieve",
+      "version": "2.8.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.8.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "stack-data",
+      "version": "0.6.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "starlette",
+      "version": "0.52.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.52.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "sympy",
+      "version": "1.14.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.14.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tabulate",
+      "version": "0.10.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.10.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tenacity",
+      "version": "9.1.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.1.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tesserocr",
+      "version": "2.10.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.10.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tifffile",
+      "version": "2025.5.10",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2026.3.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tifffile",
+      "version": "2026.3.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2026.3.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tiktoken",
+      "version": "0.12.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.12.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tinycss2",
+      "version": "1.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.5.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tokenize-rt",
+      "version": "6.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.2.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tokenizers",
+      "version": "0.22.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.22.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tomli",
+      "version": "2.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tomlkit",
+      "version": "0.14.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.14.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "torch",
+      "version": "2.10.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.10.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "torchvision",
+      "version": "0.25.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.25.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tornado",
+      "version": "6.5.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.5.5",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tqdm",
+      "version": "4.67.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.67.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "traitlets",
+      "version": "5.14.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.14.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "transformers",
+      "version": "4.57.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tree-sitter",
+      "version": "0.25.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.25.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tree-sitter-c",
+      "version": "0.24.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.24.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tree-sitter-javascript",
+      "version": "0.25.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.25.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tree-sitter-python",
+      "version": "0.25.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.25.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tree-sitter-typescript",
+      "version": "0.23.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.23.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "triton",
+      "version": "3.6.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.6.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tritonclient",
+      "version": "2.66.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.66.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "truststore",
+      "version": "0.10.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.10.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "twine",
+      "version": "3.8.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typer",
+      "version": "0.21.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.24.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "types-awscrt",
+      "version": "0.31.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.31.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "types-defusedxml",
+      "version": "0.7.0.20250822",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.0.20250822",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "types-openpyxl",
+      "version": "3.1.5.20260316",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.1.5.20260316",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "types-pytz",
+      "version": "2026.1.1.20260304",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2026.1.1.20260304",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "types-requests",
+      "version": "2.32.4.20260107",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.32.4.20260107",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "types-s3transfer",
+      "version": "0.16.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.16.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "types-setuptools",
+      "version": "70.3.0.20240710",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "82.0.0.20260210",
+      "version_status": "outdated"
+    },
+    {
+      "package": "types-tqdm",
+      "version": "4.67.3.20260303",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.67.3.20260303",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "types-urllib3",
+      "version": "1.26.25.14",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.26.25.14",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "typing-extensions",
+      "version": "4.15.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.15.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "typing-inspection",
+      "version": "0.4.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tzdata",
+      "version": "2025.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2025.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "urllib3",
+      "version": "2.6.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.6.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "uuid-utils",
+      "version": "0.14.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.14.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "uvicorn",
+      "version": "0.42.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.42.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "virtualenv",
+      "version": "21.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "21.2.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "watchdog",
+      "version": "6.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "wcwidth",
+      "version": "0.6.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "webencodings",
+      "version": "0.5.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.5.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "wheel",
+      "version": "0.46.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.46.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "widgetsnbextension",
+      "version": "4.0.15",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.15",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "xlsxwriter",
+      "version": "3.2.9",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.2.9",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "xxhash",
+      "version": "3.6.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.6.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "yarl",
+      "version": "1.23.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.23.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "zipp",
+      "version": "3.23.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.23.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "zstandard",
+      "version": "0.25.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.25.0",
+      "version_status": "up_to_date"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "./.github/workflows/checks.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "./.github/workflows/docs.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "accelerate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "actions/cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "actions/create-github-app-token"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "actions/download-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "actions/github-script"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "aiohappyeyeballs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "aiohttp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "aiosignal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "annotated-doc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "annotated-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "antlr4-python3-runtime"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "anyio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "appnope"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "arelle-release"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "astral-sh/setup-uv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "astral-sh/setup-uv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "asttokens"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "async-timeout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "attrs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "autopep8"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "av"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "babel"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "backports-tarfile"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "backrefs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "beautifulsoup4"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "bleach"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "boto3-stubs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "botocore-stubs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "bottle"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "cachetools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "certifi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "cffi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "cfgv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "charset-normalizer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "click"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "click-log"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "codecov/codecov-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "colorama"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "coloredlogs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "colorlog"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "comm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "coverage"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "cryptography"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "cuda-bindings"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "cuda-pathfinder"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "cysignals"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "cysignals"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "datasets"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "debugpy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "decorator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "defusedxml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "dill"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "distlib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "docling"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "docling-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "docling-ibm-models"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "docling-parse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "docutils"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "dotty-dict"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "easyocr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "et-xmlfile"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "exceptiongroup"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "execnet"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "executing"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "faker"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "fastapi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "fastjsonschema"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "filelock"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "filetype"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "flatbuffers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "frozenlist"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "fsspec"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "ghp-import"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "gitdb"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "gitpython"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "gliner"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "griffe-pydantic"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "griffelib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "grpcio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "h11"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "hf-xet"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "httpcore"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "httpx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "huggingface-hub"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "humanfriendly"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "identify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "idna"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "imageio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "importlib-metadata"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "iniconfig"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "invoke"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "ipykernel"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "ipython"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "ipython"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "ipython"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "ipython-pygments-lexers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "ipywidgets"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "isodate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "jaconv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "jaraco-classes"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "jaraco-context"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "jaraco-functools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "jedi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "jeepney"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "jinja2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "jsonlines"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "jsonpatch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "jsonpointer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "jsonref"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "jsonschema"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "jsonschema-specifications"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "jupyter-client"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "jupyter-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "jupyterlab-pygments"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "jupyterlab-widgets"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "jupytext"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "keyring"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "langchain-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "langchain-huggingface"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "langchain-milvus"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "langchain-text-splitters"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "langsmith"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "latex2mathml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "lazy-loader"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "librt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "llvmlite"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "lxml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "markdown"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "markdown-it-py"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "marko"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "markupsafe"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "matplotlib-inline"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "mdit-py-plugins"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "mdurl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "mergedeep"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "mistune"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "mkdocs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "mkdocs-autorefs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "mkdocs-click"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "mkdocs-get-deps"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "mkdocs-jupyter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "mkdocs-material"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "mkdocs-material-extensions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "mkdocs-redirects"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "mkdocstrings"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "mkdocstrings-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "mlx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "mlx-lm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "mlx-metal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "mlx-vlm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "mlx-whisper"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "modelscope"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "more-itertools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "mpire"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "mpmath"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "multidict"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "multiprocess"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "mypy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "mypy-extensions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "nbclient"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "nbconvert"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "nbformat"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "nbqa"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "nest-asyncio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "networkx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "networkx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "nh3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "ninja"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "nodeenv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "numba"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "numpy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "numpy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "nvidia-cublas-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "nvidia-cuda-cupti-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "nvidia-cuda-nvrtc-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "nvidia-cuda-runtime-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "nvidia-cudnn-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "nvidia-cufft-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "nvidia-cufile-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "nvidia-curand-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "nvidia-cusolver-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "nvidia-cusparse-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "nvidia-cusparselt-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "nvidia-nccl-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "nvidia-nvjitlink-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "nvidia-nvshmem-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "nvidia-nvtx-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "ocrmac"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "omegaconf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "onnxruntime"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "onnxruntime-gpu"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "openai-whisper"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "opencv-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "opencv-python-headless"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "openpyxl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "orjson"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "packaging"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "paginate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pandas"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pandas"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pandas-stubs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pandocfilters"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "parso"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pathspec"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pexpect"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pillow"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pkginfo"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "platformdirs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pluggy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "polyfactory"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pre-commit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "prompt-toolkit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "propcache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "protobuf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "psutil"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "ptyprocess"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pure-eval"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pyarrow"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pyclipper"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pycodestyle"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pycparser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pydantic"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pydantic-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pydantic-settings"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pygments"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pylatexenc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pymdown-extensions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pymilvus"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pyobjc-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pyobjc-framework-cocoa"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pyobjc-framework-coreml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pyobjc-framework-quartz"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pyobjc-framework-vision"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pypa/gh-action-pypi-publish"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pyparsing"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pypdfium2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pyreadline3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pytest"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pytest-cov"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pytest-dependency"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pytest-durations"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pytest-xdist"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "python-bidi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "python-dateutil"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "python-discovery"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "python-docx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "python-dotenv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "python-gitlab"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "python-pptx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "python-rapidjson"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "python-semantic-release"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pytz"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pywin32"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pywin32-ctypes"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pyyaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pyyaml-env-tag"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "pyzmq"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "qwen-vl-utils"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "rapidocr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "readme-renderer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "referencing"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "regex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "requests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "requests-toolbelt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "rfc3986"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "rich"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "rpds-py"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "rtree"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "safetensors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "scikit-image"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "scikit-image"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "scipy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "scipy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "secretstorage"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "semchunk"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "semver"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "sentencepiece"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "setuptools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "shapely"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "shellingham"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "six"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "smmap"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "soundfile"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "soupsieve"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "stack-data"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "starlette"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "sympy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "tabulate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "tenacity"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "tesserocr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "tifffile"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "tifffile"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "tiktoken"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "tinycss2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "tokenize-rt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "tokenizers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "tomli"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "tomlkit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "torch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "torchvision"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "tornado"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "tqdm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "traitlets"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "transformers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "tree-sitter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "tree-sitter-c"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "tree-sitter-javascript"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "tree-sitter-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "tree-sitter-typescript"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "triton"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "tritonclient"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "truststore"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "twine"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "typer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "types-awscrt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "types-defusedxml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "types-openpyxl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "types-pytz"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "types-requests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "types-s3transfer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "types-setuptools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "types-tqdm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "types-urllib3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "typing-extensions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "typing-inspection"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "tzdata"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "urllib3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "uuid-utils"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "uvicorn"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "virtualenv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "watchdog"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "wcwidth"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "webencodings"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "wheel"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "widgetsnbextension"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "xlsxwriter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "xxhash"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "yarl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "zipp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "docling-project-docling",
+      "child": "zstandard"
+    }
+  ]
+}

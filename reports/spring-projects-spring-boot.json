@@ -1,0 +1,6558 @@
+{
+  "scan_id": "spring-projects-spring-boot",
+  "timestamp": "2026-03-20T01:40:13.437164",
+  "target": "https://github.com/spring-projects/spring-boot",
+  "summary": {
+    "total_packages": 436,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "./.github/actions/await-http-resource",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/build",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/create-github-release",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/prepare-gradle-build",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/print-jvm-thread-dumps",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/publish-gradle-plugin",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/publish-to-sdkman",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/send-notification",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/sync-to-maven-central",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/update-homebrew-tap",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/verify.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./send-notification/.github/actions/send-notification",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@antora/asciidoc-loader",
+      "version": "3.2.0-alpha.11",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@antora/atlas-extension",
+      "version": "1.0.0-alpha.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@antora/cli",
+      "version": "3.2.0-alpha.11",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@antora/content-aggregator",
+      "version": "3.2.0-alpha.11",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@antora/content-classifier",
+      "version": "3.2.0-alpha.11",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@antora/document-converter",
+      "version": "3.2.0-alpha.11",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@antora/expand-path-helper",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@antora/expand-path-helper",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@antora/file-publisher",
+      "version": "3.2.0-alpha.11",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@antora/logger",
+      "version": "3.2.0-alpha.11",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@antora/navigation-builder",
+      "version": "3.2.0-alpha.11",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@antora/page-composer",
+      "version": "3.2.0-alpha.11",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@antora/playbook-builder",
+      "version": "3.2.0-alpha.11",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@antora/redirect-producer",
+      "version": "3.2.0-alpha.11",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@antora/site-generator",
+      "version": "3.2.0-alpha.11",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@antora/site-mapper",
+      "version": "3.2.0-alpha.11",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@antora/site-publisher",
+      "version": "3.2.0-alpha.11",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@antora/ui-loader",
+      "version": "3.2.0-alpha.11",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@antora/user-require-helper",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@asciidoctor/core",
+      "version": "2.2.8",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@asciidoctor/tabs",
+      "version": "1.0.0-beta.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/runtime",
+      "version": "7.26.10",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@iarna/toml",
+      "version": "2.2.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@nodelib/fs.scandir",
+      "version": "2.1.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@nodelib/fs.stat",
+      "version": "2.0.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@nodelib/fs.walk",
+      "version": "1.2.8",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@springio/antora-extensions",
+      "version": "1.14.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@springio/antora-xref-extension",
+      "version": "1.0.0-alpha.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@springio/antora-zip-contents-collector-extension",
+      "version": "1.0.0-alpha.10",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@springio/asciidoctor-extensions",
+      "version": "1.0.0-alpha.18",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "Homebrew/actions/setup-homebrew",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "abort-controller",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "acme-lib",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-java",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "7",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aggregator",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aot",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aot",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aot-class-proxy",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aot-exclude-devtools",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aot-jdk-proxy",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aot-module-info",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aot-native",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aot-native-nbt",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aot-native-profile-buildpacks",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aot-resource-generation",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aot-system-properties",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aot-test",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aot-test-exclude-devtools",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aot-test-skip",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "app",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "archiver",
+      "version": "5.3.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "archiver-utils",
+      "version": "2.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "archiver-utils",
+      "version": "3.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "argparse",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "asciidoctor-opal-runtime",
+      "version": "0.3.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "asciinema-player",
+      "version": "3.7.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "assertj-core",
+      "version": "@assertj.version@",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "async",
+      "version": "3.2.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "async-lock",
+      "version": "1.4.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "atomic-sleep",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "available-typed-arrays",
+      "version": "1.0.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "b4a",
+      "version": "1.7.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "balanced-match",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bare-events",
+      "version": "2.8.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "base64-js",
+      "version": "1.5.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bcprov-jdk18on",
+      "version": "1.78.1",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bl",
+      "version": "1.2.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bl",
+      "version": "4.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "brace-expansion",
+      "version": "1.1.12",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "brace-expansion",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "braces",
+      "version": "3.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "buffer",
+      "version": "5.7.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "buffer",
+      "version": "6.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "buffer-alloc",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "buffer-alloc-unsafe",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "buffer-crc32",
+      "version": "0.2.13",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "buffer-fill",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-image",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-image-app-dir",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-image-bind-caches",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-image-bindings",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-image-builder-error",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-image-caches-multiple",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-image-classifier",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-image-classifier-source",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-image-classifier-source-with-repackage",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-image-classifier-with-repackage",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-image-cmd-line",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-image-created-date",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-image-current-created-date",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-image-custom-buildpacks",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-image-custom-name",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-image-empty-env-entry",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-image-final-name",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-image-fork-classifier",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-image-multi-module",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-image-multi-module-app",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-image-multi-module-library",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-image-network",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-image-platform-linux-arm",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-image-security-opts",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-image-tags",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-image-v2-builder",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-image-v2-trust-builder",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-image-volume-caches",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-image-war-packaging",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-image-with-repackage",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-image-zip-packaging",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-info",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-info",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-info-additional-properties",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-info-custom-build-time",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-info-custom-file",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-info-disable-build-time",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-info-exclude-build-properties",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-info-exclude-build-time",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-reproducible",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build-reproducible-epoch-seconds",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cache-directory",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "call-bind",
+      "version": "1.0.8",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "call-bind-apply-helpers",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "call-bound",
+      "version": "1.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ci",
+      "version": "2.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "clean-git-ref",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "clone",
+      "version": "2.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "colorette",
+      "version": "2.0.20",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "commander",
+      "version": "12.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "commander",
+      "version": "2.20.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "compress-commons",
+      "version": "4.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "concat-map",
+      "version": "0.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "convict",
+      "version": "6.2.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "core-util-is",
+      "version": "1.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "crc-32",
+      "version": "1.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "crc32-stream",
+      "version": "4.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "csstype",
+      "version": "3.1.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "custom",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dateformat",
+      "version": "4.6.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "decompress",
+      "version": "4.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "decompress-response",
+      "version": "6.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "decompress-tar",
+      "version": "4.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "decompress-tarbz2",
+      "version": "4.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "decompress-targz",
+      "version": "4.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "decompress-unzip",
+      "version": "4.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "default",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "define-data-property",
+      "version": "1.1.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "diff3",
+      "version": "0.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dunder-proto",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "duplexify",
+      "version": "4.1.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "end-of-stream",
+      "version": "1.4.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "es-define-property",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "es-errors",
+      "version": "1.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "es-object-atoms",
+      "version": "1.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "event-target-shim",
+      "version": "5.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "events",
+      "version": "3.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "events-universal",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "extend",
+      "version": "3.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fast-copy",
+      "version": "3.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fast-fifo",
+      "version": "1.3.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fast-glob",
+      "version": "3.3.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fast-redact",
+      "version": "3.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fast-safe-stringify",
+      "version": "2.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fast-xml-parser",
+      "version": "4.5.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fastq",
+      "version": "1.19.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fd-slicer",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "file-type",
+      "version": "3.9.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "file-type",
+      "version": "5.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "file-type",
+      "version": "6.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fill-range",
+      "version": "7.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "foo",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "for-each",
+      "version": "0.3.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fs-constants",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fs.realpath",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "function-bind",
+      "version": "1.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "get-intrinsic",
+      "version": "1.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "get-proto",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "get-stream",
+      "version": "2.3.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "getting-started",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "glob",
+      "version": "7.1.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "glob",
+      "version": "7.2.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "glob-parent",
+      "version": "5.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "glob-parent",
+      "version": "6.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "glob-stream",
+      "version": "7.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gopd",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "graceful-fs",
+      "version": "4.2.11",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gradle-wrapper",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gradle/actions/setup-gradle",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "gradle/actions/setup-gradle",
+      "version": "5.0.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "handlebars",
+      "version": "4.7.8",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "has-property-descriptors",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "has-symbols",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "has-tostringtag",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hasown",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "help-me",
+      "version": "5.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hpagent",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ieee754",
+      "version": "1.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ignore",
+      "version": "5.3.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "inflight",
+      "version": "1.0.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "inherits",
+      "version": "2.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "inner",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "integration-tests",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-absolute",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-callable",
+      "version": "1.2.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-extglob",
+      "version": "2.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-glob",
+      "version": "4.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-natural-number",
+      "version": "4.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-negated-glob",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-number",
+      "version": "7.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-relative",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-stream",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-typed-array",
+      "version": "1.1.15",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-unc-path",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-windows",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "isarray",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "isarray",
+      "version": "2.0.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "isomorphic-git",
+      "version": "1.21.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "isomorphic-git",
+      "version": "1.25.10",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jakarta.servlet-api",
+      "version": "@jakarta-servlet.version@",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jar",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jar-attach-disabled",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jar-classifier",
+      "version": "0.0.1",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jar-classifier-main",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jar-classifier-main-attach-disabled",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jar-classifier-source",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jar-classifier-source-attach-disabled",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jar-create-dir",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jar-custom-dir",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jar-custom-layout",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jar-exclude-entry",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jar-exclude-group",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jar-include-entry",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jar-layered",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jar-lib-name-conflict",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jar-no-tools",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jar-optional-default",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jar-optional-exclude",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jar-optional-include",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jar-output-timestamp",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jar-pom",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jar-release",
+      "version": "0.0.1.RELEASE",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jar-signed",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jar-skip",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jar-snapshot",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jar-system-scope",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jar-system-scope-default",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jar-test-scope",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jar-with-kotlin-module",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jar-with-layout-property",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jar-with-unpack",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jar-with-zip-layout",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jfrog/setup-jfrog-cli",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jfrog/setup-jfrog-cli",
+      "version": "4.9.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jlumbroso/free-disk-space",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "joycon",
+      "version": "3.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "js-yaml",
+      "version": "4.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "json-stable-stringify-without-jsonify",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "json5",
+      "version": "2.2.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "junit-jupiter",
+      "version": "@junit-jupiter.version@",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "kotlin-compiler",
+      "version": "@kotlin.version@",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "kotlin-reflect",
+      "version": "@kotlin.version@",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "kotlin-stdlib-jdk8",
+      "version": "@kotlin.version@",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "layout",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lazystream",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "library",
+      "version": "1.0-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lodash.clonedeep",
+      "version": "4.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lodash.defaults",
+      "version": "4.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lodash.difference",
+      "version": "4.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lodash.flatten",
+      "version": "4.4.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lodash.isplainobject",
+      "version": "4.0.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lodash.union",
+      "version": "4.6.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "log4j-api",
+      "version": "@log4j2.version@",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "make-dir",
+      "version": "1.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "math-intrinsics",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "merge2",
+      "version": "1.4.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromatch",
+      "version": "4.0.8",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mime-db",
+      "version": "1.52.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mime-types",
+      "version": "2.1.35",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mimic-response",
+      "version": "3.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "minimatch",
+      "version": "3.1.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "minimatch",
+      "version": "5.1.9",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "minimist",
+      "version": "1.2.8",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "minimisted",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mismatch",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "multi-progress",
+      "version": "4.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "neo-async",
+      "version": "2.6.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nested-jar-app",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "node-gzip",
+      "version": "1.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "normalize-path",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "object-assign",
+      "version": "4.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "on-exit-leak-free",
+      "version": "2.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "once",
+      "version": "1.4.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "one",
+      "version": "1.0",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ordered-read-streams",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "packaging-oci-image",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pako",
+      "version": "1.0.11",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "path-is-absolute",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pend",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "picomatch",
+      "version": "2.3.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "picomatch",
+      "version": "4.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pify",
+      "version": "2.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pify",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pify",
+      "version": "4.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pinkie",
+      "version": "2.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pinkie-promise",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pino",
+      "version": "9.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pino-abstract-transport",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pino-pretty",
+      "version": "11.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pino-std-serializers",
+      "version": "7.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "possible-typed-array-names",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "process",
+      "version": "0.11.10",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "process-nextick-args",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "process-warning",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "progress",
+      "version": "2.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pump",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pumpify",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "queue-microtask",
+      "version": "1.2.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "quick-format-unescaped",
+      "version": "4.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "readable-stream",
+      "version": "2.3.8",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "readable-stream",
+      "version": "3.6.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "readable-stream",
+      "version": "4.7.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "readdir-glob",
+      "version": "1.1.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "real-require",
+      "version": "0.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "regenerator-runtime",
+      "version": "0.14.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "remove-trailing-separator",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "replace-ext",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "require-from-string",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "resources",
+      "version": "1.0.0",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "reusify",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "run",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "run-additional-classpath-directory",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "run-arguments",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "run-arguments-commandline",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "run-envargs",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "run-exclude",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "run-fork",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "run-jvmargs",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "run-jvmargs-commandline",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "run-parallel",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "run-profiles",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "run-toolchains",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "run-use-test-classpath",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "run-working-directory",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "safe-buffer",
+      "version": "5.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "safe-buffer",
+      "version": "5.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "safe-stable-stringify",
+      "version": "2.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sample",
+      "version": "1.0.0",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "secure-json-parse",
+      "version": "2.7.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "seek-bzip",
+      "version": "1.0.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "seroval",
+      "version": "1.4.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "seroval-plugins",
+      "version": "1.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "servlet-api",
+      "version": "2.5",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "set-function-length",
+      "version": "1.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sha.js",
+      "version": "2.4.12",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "should-proxy",
+      "version": "1.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "simple-concat",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "simple-get",
+      "version": "4.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "solid-js",
+      "version": "1.9.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sonic-boom",
+      "version": "4.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "source-map",
+      "version": "0.6.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "split2",
+      "version": "4.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "spring-boot",
+      "version": "@project.version@",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "spring-boot",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "spring-boot-devtools",
+      "version": "@project.version@",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "spring-boot-loader-tools",
+      "version": "@project.version@",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "spring-boot-maven-plugin",
+      "version": "{{version}}",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "spring-boot-test",
+      "version": "@project.version@",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "spring-context",
+      "version": "@spring-framework.version@",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "spring-core",
+      "version": "@spring-framework.version@",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "spring-io/artifactory-deploy-action",
+      "version": "0.0.4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "spring-io/central-publish-action",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "spring-io/github-actions/.github/workflows/codeql-analysis.yml",
+      "version": "unknown",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "spring-io/github-changelog-generator",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "spring-test",
+      "version": "@spring-framework.version@",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "start-stop-fork",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "start-stop-skip",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "stream-shift",
+      "version": "1.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "streamx",
+      "version": "2.23.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "string_decoder",
+      "version": "1.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "string_decoder",
+      "version": "1.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "strip-dirs",
+      "version": "2.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "strip-json-comments",
+      "version": "3.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "strnum",
+      "version": "1.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tar-stream",
+      "version": "1.6.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tar-stream",
+      "version": "2.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "teex",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "test-project",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "test-run",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "text-decoder",
+      "version": "1.2.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "thread-stream",
+      "version": "3.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "through",
+      "version": "2.3.8",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "through2",
+      "version": "2.0.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "through2-filter",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "to-absolute-glob",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "to-buffer",
+      "version": "1.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "to-regex-range",
+      "version": "5.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "two",
+      "version": "1.0",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typed-array-buffer",
+      "version": "1.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "uglify-js",
+      "version": "3.17.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unbzip2-stream",
+      "version": "1.4.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unc-path-regex",
+      "version": "0.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unique-stream",
+      "version": "2.3.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unxhr",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "util-deprecate",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vinyl",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "war",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "war-exclude-entry",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "war-layered",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "war-no-tools",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "war-output-timestamp",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "war-reactor",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "war-signed",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "war-system-scope",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "war-with-unpack",
+      "version": "0.0.1.BUILD-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "which-typed-array",
+      "version": "1.1.19",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wordwrap",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wrappy",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "xdg-basedir",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "xtend",
+      "version": "4.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "yargs-parser",
+      "version": "20.2.9",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "yauzl",
+      "version": "2.10.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "yauzl",
+      "version": "3.1.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "yazl",
+      "version": "2.5.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zip-stream",
+      "version": "4.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "./.github/actions/await-http-resource"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "./.github/actions/build"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "./.github/actions/create-github-release"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "./.github/actions/prepare-gradle-build"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "./.github/actions/print-jvm-thread-dumps"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "./.github/actions/publish-gradle-plugin"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "./.github/actions/publish-to-sdkman"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "./.github/actions/send-notification"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "./.github/actions/sync-to-maven-central"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "./.github/actions/update-homebrew-tap"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "./.github/workflows/verify.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "./send-notification/.github/actions/send-notification"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "@antora/asciidoc-loader"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "@antora/atlas-extension"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "@antora/cli"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "@antora/content-aggregator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "@antora/content-classifier"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "@antora/document-converter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "@antora/expand-path-helper"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "@antora/expand-path-helper"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "@antora/file-publisher"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "@antora/logger"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "@antora/navigation-builder"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "@antora/page-composer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "@antora/playbook-builder"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "@antora/redirect-producer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "@antora/site-generator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "@antora/site-mapper"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "@antora/site-publisher"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "@antora/ui-loader"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "@antora/user-require-helper"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "@asciidoctor/core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "@asciidoctor/tabs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "@babel/runtime"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "@iarna/toml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "@nodelib/fs.scandir"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "@nodelib/fs.stat"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "@nodelib/fs.walk"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "@springio/antora-extensions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "@springio/antora-xref-extension"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "@springio/antora-zip-contents-collector-extension"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "@springio/asciidoctor-extensions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "Homebrew/actions/setup-homebrew"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "abort-controller"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "acme-lib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "actions/setup-java"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "aggregator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "aot"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "aot"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "aot-class-proxy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "aot-exclude-devtools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "aot-jdk-proxy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "aot-module-info"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "aot-native"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "aot-native-nbt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "aot-native-profile-buildpacks"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "aot-resource-generation"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "aot-system-properties"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "aot-test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "aot-test-exclude-devtools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "aot-test-skip"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "app"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "archiver"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "archiver-utils"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "archiver-utils"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "argparse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "asciidoctor-opal-runtime"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "asciinema-player"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "assertj-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "async"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "async-lock"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "atomic-sleep"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "available-typed-arrays"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "b4a"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "balanced-match"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "bare-events"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "base64-js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "bcprov-jdk18on"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "bl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "bl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "brace-expansion"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "brace-expansion"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "braces"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "buffer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "buffer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "buffer-alloc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "buffer-alloc-unsafe"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "buffer-crc32"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "buffer-fill"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-image"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-image-app-dir"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-image-bind-caches"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-image-bindings"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-image-builder-error"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-image-caches-multiple"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-image-classifier"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-image-classifier-source"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-image-classifier-source-with-repackage"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-image-classifier-with-repackage"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-image-cmd-line"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-image-created-date"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-image-current-created-date"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-image-custom-buildpacks"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-image-custom-name"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-image-empty-env-entry"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-image-final-name"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-image-fork-classifier"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-image-multi-module"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-image-multi-module-app"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-image-multi-module-library"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-image-network"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-image-platform-linux-arm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-image-security-opts"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-image-tags"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-image-v2-builder"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-image-v2-trust-builder"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-image-volume-caches"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-image-war-packaging"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-image-with-repackage"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-image-zip-packaging"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-info"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-info"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-info-additional-properties"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-info-custom-build-time"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-info-custom-file"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-info-disable-build-time"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-info-exclude-build-properties"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-info-exclude-build-time"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-reproducible"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "build-reproducible-epoch-seconds"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "cache-directory"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "call-bind"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "call-bind-apply-helpers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "call-bound"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "ci"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "clean-git-ref"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "clone"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "colorette"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "commander"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "commander"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "compress-commons"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "concat-map"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "convict"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "core-util-is"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "crc-32"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "crc32-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "csstype"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "custom"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "dateformat"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "decompress"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "decompress-response"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "decompress-tar"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "decompress-tarbz2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "decompress-targz"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "decompress-unzip"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "default"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "define-data-property"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "diff3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "dunder-proto"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "duplexify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "end-of-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "es-define-property"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "es-errors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "es-object-atoms"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "event-target-shim"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "events"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "events-universal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "extend"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "fast-copy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "fast-fifo"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "fast-glob"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "fast-redact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "fast-safe-stringify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "fast-xml-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "fastq"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "fd-slicer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "file-type"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "file-type"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "file-type"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "fill-range"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "foo"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "for-each"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "fs-constants"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "fs.realpath"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "function-bind"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "get-intrinsic"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "get-proto"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "get-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "getting-started"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "glob"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "glob"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "glob-parent"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "glob-parent"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "glob-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "gopd"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "graceful-fs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "gradle-wrapper"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "gradle/actions/setup-gradle"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "gradle/actions/setup-gradle"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "handlebars"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "has-property-descriptors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "has-symbols"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "has-tostringtag"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "hasown"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "help-me"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "hpagent"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "ieee754"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "ignore"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "inflight"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "inherits"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "inner"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "integration-tests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "is-absolute"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "is-callable"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "is-extglob"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "is-glob"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "is-natural-number"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "is-negated-glob"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "is-number"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "is-relative"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "is-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "is-typed-array"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "is-unc-path"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "is-windows"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "isarray"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "isarray"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "isomorphic-git"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "isomorphic-git"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jakarta.servlet-api"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jar"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jar-attach-disabled"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jar-classifier"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jar-classifier-main"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jar-classifier-main-attach-disabled"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jar-classifier-source"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jar-classifier-source-attach-disabled"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jar-create-dir"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jar-custom-dir"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jar-custom-layout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jar-exclude-entry"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jar-exclude-group"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jar-include-entry"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jar-layered"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jar-lib-name-conflict"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jar-no-tools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jar-optional-default"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jar-optional-exclude"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jar-optional-include"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jar-output-timestamp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jar-pom"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jar-release"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jar-signed"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jar-skip"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jar-snapshot"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jar-system-scope"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jar-system-scope-default"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jar-test-scope"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jar-with-kotlin-module"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jar-with-layout-property"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jar-with-unpack"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jar-with-zip-layout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jfrog/setup-jfrog-cli"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jfrog/setup-jfrog-cli"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "jlumbroso/free-disk-space"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "joycon"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "js-yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "json-stable-stringify-without-jsonify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "json5"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "junit-jupiter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "kotlin-compiler"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "kotlin-reflect"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "kotlin-stdlib-jdk8"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "layout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "lazystream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "library"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "lodash.clonedeep"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "lodash.defaults"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "lodash.difference"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "lodash.flatten"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "lodash.isplainobject"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "lodash.union"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "log4j-api"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "make-dir"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "math-intrinsics"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "merge2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "micromatch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "mime-db"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "mime-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "mimic-response"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "minimatch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "minimatch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "minimist"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "minimisted"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "mismatch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "multi-progress"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "neo-async"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "nested-jar-app"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "node-gzip"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "normalize-path"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "object-assign"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "on-exit-leak-free"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "once"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "one"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "ordered-read-streams"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "packaging-oci-image"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "pako"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "path-is-absolute"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "pend"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "picomatch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "picomatch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "pify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "pify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "pify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "pinkie"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "pinkie-promise"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "pino"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "pino-abstract-transport"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "pino-pretty"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "pino-std-serializers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "possible-typed-array-names"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "process"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "process-nextick-args"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "process-warning"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "progress"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "pump"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "pumpify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "queue-microtask"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "quick-format-unescaped"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "readable-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "readable-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "readable-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "readdir-glob"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "real-require"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "regenerator-runtime"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "remove-trailing-separator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "replace-ext"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "require-from-string"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "resources"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "reusify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "run"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "run-additional-classpath-directory"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "run-arguments"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "run-arguments-commandline"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "run-envargs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "run-exclude"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "run-fork"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "run-jvmargs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "run-jvmargs-commandline"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "run-parallel"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "run-profiles"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "run-toolchains"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "run-use-test-classpath"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "run-working-directory"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "safe-buffer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "safe-buffer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "safe-stable-stringify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "sample"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "secure-json-parse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "seek-bzip"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "seroval"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "seroval-plugins"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "servlet-api"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "set-function-length"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "sha.js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "should-proxy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "simple-concat"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "simple-get"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "solid-js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "sonic-boom"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "source-map"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "split2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "spring-boot"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "spring-boot"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "spring-boot-devtools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "spring-boot-loader-tools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "spring-boot-maven-plugin"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "spring-boot-test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "spring-context"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "spring-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "spring-io/artifactory-deploy-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "spring-io/central-publish-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "spring-io/github-actions/.github/workflows/codeql-analysis.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "spring-io/github-changelog-generator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "spring-test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "start-stop-fork"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "start-stop-skip"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "stream-shift"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "streamx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "string_decoder"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "string_decoder"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "strip-dirs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "strip-json-comments"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "strnum"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "tar-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "tar-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "teex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "test-project"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "test-run"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "text-decoder"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "thread-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "through"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "through2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "through2-filter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "to-absolute-glob"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "to-buffer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "to-regex-range"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "two"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "typed-array-buffer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "uglify-js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "unbzip2-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "unc-path-regex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "unique-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "unxhr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "util-deprecate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "vinyl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "war"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "war-exclude-entry"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "war-layered"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "war-no-tools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "war-output-timestamp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "war-reactor"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "war-signed"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "war-system-scope"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "war-with-unpack"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "which-typed-array"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "wordwrap"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "wrappy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "xdg-basedir"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "xtend"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "yargs-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "yauzl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "yauzl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "yazl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-boot",
+      "child": "zip-stream"
+    }
+  ]
+}

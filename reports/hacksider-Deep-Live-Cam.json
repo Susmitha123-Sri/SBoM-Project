@@ -1,0 +1,198 @@
+{
+  "scan_id": "hacksider-Deep-Live-Cam",
+  "timestamp": "2026-03-20T01:40:32.767815",
+  "target": "https://github.com/hacksider/Deep-Live-Cam",
+  "summary": {
+    "total_packages": 12,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "customtkinter",
+      "version": "5.2.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.2.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "cv2-enumerate-cameras",
+      "version": "1.1.15",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "insightface",
+      "version": "0.7.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "onnx",
+      "version": "1.18.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.20.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "onnxruntime-gpu",
+      "version": "1.24.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.24.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "onnxruntime-silicon",
+      "version": "1.16.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.16.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "opencv-python",
+      "version": "4.10.0.84",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.13.0.92",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opennsfw2",
+      "version": "0.10.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.15.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pillow",
+      "version": "12.1.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.1.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "protobuf",
+      "version": "4.25.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.34.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "psutil",
+      "version": "5.9.8",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.2.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tk",
+      "version": "0.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.1.0",
+      "version_status": "up_to_date"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "hacksider-Deep-Live-Cam",
+      "child": "customtkinter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "hacksider-Deep-Live-Cam",
+      "child": "cv2-enumerate-cameras"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "hacksider-Deep-Live-Cam",
+      "child": "insightface"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "hacksider-Deep-Live-Cam",
+      "child": "onnx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "hacksider-Deep-Live-Cam",
+      "child": "onnxruntime-gpu"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "hacksider-Deep-Live-Cam",
+      "child": "onnxruntime-silicon"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "hacksider-Deep-Live-Cam",
+      "child": "opencv-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "hacksider-Deep-Live-Cam",
+      "child": "opennsfw2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "hacksider-Deep-Live-Cam",
+      "child": "pillow"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "hacksider-Deep-Live-Cam",
+      "child": "protobuf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "hacksider-Deep-Live-Cam",
+      "child": "psutil"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "hacksider-Deep-Live-Cam",
+      "child": "tk"
+    }
+  ]
+}

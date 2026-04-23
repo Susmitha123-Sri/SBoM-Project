@@ -1,0 +1,11 @@
+scan_id,target,timestamp,package,version,type,vulnerability_id,severity,fixed_version,latest_version,version_status
+pathwaycom-llm-app,https://github.com/pathwaycom/llm-app,2026-03-20T03:39:25.996768,abatilo/actions-poetry,3,github-action,None,None,N/A,unknown,outdated
+pathwaycom-llm-app,https://github.com/pathwaycom/llm-app,2026-03-20T03:39:25.996768,actions/checkout,3,github-action,None,None,N/A,unknown,outdated
+pathwaycom-llm-app,https://github.com/pathwaycom/llm-app,2026-03-20T03:39:25.996768,actions/setup-python,5,github-action,None,None,N/A,unknown,outdated
+pathwaycom-llm-app,https://github.com/pathwaycom/llm-app,2026-03-20T03:39:25.996768,aiohttp,3.9.5,python,None,None,N/A,3.13.3,outdated
+pathwaycom-llm-app,https://github.com/pathwaycom/llm-app,2026-03-20T03:39:25.996768,beautifulsoup4,4.12.3,python,None,None,N/A,4.14.3,outdated
+pathwaycom-llm-app,https://github.com/pathwaycom/llm-app,2026-03-20T03:39:25.996768,load-dotenv,0.1.0,python,None,None,N/A,0.1.0,up_to_date
+pathwaycom-llm-app,https://github.com/pathwaycom/llm-app,2026-03-20T03:39:25.996768,nest-asyncio,1.6.0,python,None,None,N/A,1.6.0,up_to_date
+pathwaycom-llm-app,https://github.com/pathwaycom/llm-app,2026-03-20T03:39:25.996768,openai,1.35.10,python,None,None,N/A,2.29.0,outdated
+pathwaycom-llm-app,https://github.com/pathwaycom/llm-app,2026-03-20T03:39:25.996768,streamlit,1.35.0,python,None,None,N/A,1.55.0,outdated
+pathwaycom-llm-app,https://github.com/pathwaycom/llm-app,2026-03-20T03:39:25.996768,streamlit,1.37.0,python,None,None,N/A,1.55.0,outdated

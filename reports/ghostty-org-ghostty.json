@@ -1,0 +1,423 @@
+{
+  "scan_id": "ghostty-org-ghostty",
+  "timestamp": "2026-03-20T06:00:38.477230",
+  "target": "https://github.com/ghostty-org/ghostty",
+  "summary": {
+    "total_packages": 27,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "DeterminateSystems/nix-installer-action",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "21",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "6.0.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/create-github-app-token",
+      "version": "3.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/download-artifact",
+      "version": "8.0.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8.0.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "7.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "c-hive/gha-remove-artifacts",
+      "version": "1.4.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "cachix/cachix-action",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "17",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cachix/install-nix-action",
+      "version": "31.10.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "31.10.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "docker/build-push-action",
+      "version": "7.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "dorny/paths-filter",
+      "version": "4.0.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "flatpak/flatpak-github-actions/flatpak-builder",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "hustcer/milestone-action",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mitchellh/vouch/action/check-issue",
+      "version": "1.4.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mitchellh/vouch/action/check-pr",
+      "version": "1.4.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mitchellh/vouch/action/manage-by-discussion",
+      "version": "1.4.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mitchellh/vouch/action/manage-by-issue",
+      "version": "1.4.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mitchellh/vouch/action/sync-codeowners",
+      "version": "1.4.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "namespacelabs/nscloud-cache-action",
+      "version": "1.4.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "namespacelabs/nscloud-setup",
+      "version": "0.0.12",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.0.12",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "namespacelabs/nscloud-setup-buildx-action",
+      "version": "0.0.23",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.0.23",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "nttld/setup-ndk",
+      "version": "1.6.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.6.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "peter-evans/create-pull-request",
+      "version": "8.1.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8.1.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "ryand56/r2-upload-action",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "snapcore/action-build",
+      "version": "1.3.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "softprops/action-gh-release",
+      "version": "2.6.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.6.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "sparkle",
+      "version": "2.9.0",
+      "type": "swift",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ghostty-org-ghostty",
+      "child": "DeterminateSystems/nix-installer-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ghostty-org-ghostty",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ghostty-org-ghostty",
+      "child": "actions/create-github-app-token"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ghostty-org-ghostty",
+      "child": "actions/download-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ghostty-org-ghostty",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ghostty-org-ghostty",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ghostty-org-ghostty",
+      "child": "c-hive/gha-remove-artifacts"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ghostty-org-ghostty",
+      "child": "cachix/cachix-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ghostty-org-ghostty",
+      "child": "cachix/install-nix-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ghostty-org-ghostty",
+      "child": "docker/build-push-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ghostty-org-ghostty",
+      "child": "dorny/paths-filter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ghostty-org-ghostty",
+      "child": "flatpak/flatpak-github-actions/flatpak-builder"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ghostty-org-ghostty",
+      "child": "hustcer/milestone-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ghostty-org-ghostty",
+      "child": "mitchellh/vouch/action/check-issue"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ghostty-org-ghostty",
+      "child": "mitchellh/vouch/action/check-pr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ghostty-org-ghostty",
+      "child": "mitchellh/vouch/action/manage-by-discussion"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ghostty-org-ghostty",
+      "child": "mitchellh/vouch/action/manage-by-issue"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ghostty-org-ghostty",
+      "child": "mitchellh/vouch/action/sync-codeowners"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ghostty-org-ghostty",
+      "child": "namespacelabs/nscloud-cache-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ghostty-org-ghostty",
+      "child": "namespacelabs/nscloud-setup"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ghostty-org-ghostty",
+      "child": "namespacelabs/nscloud-setup-buildx-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ghostty-org-ghostty",
+      "child": "nttld/setup-ndk"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ghostty-org-ghostty",
+      "child": "peter-evans/create-pull-request"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ghostty-org-ghostty",
+      "child": "ryand56/r2-upload-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ghostty-org-ghostty",
+      "child": "snapcore/action-build"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ghostty-org-ghostty",
+      "child": "softprops/action-gh-release"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ghostty-org-ghostty",
+      "child": "sparkle"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+scan_id,target,timestamp,package,version,type,vulnerability_id,severity,fixed_version,latest_version,version_status
+django-django,https://github.com/django/django,2026-04-23T12:01:10.779408,actions/cache,4,github-action,None,None,N/A,5.0.5,outdated
+django-django,https://github.com/django/django,2026-04-23T12:01:10.779408,actions/checkout,6,github-action,None,None,N/A,6.0.2,outdated
+django-django,https://github.com/django/django,2026-04-23T12:01:10.779408,actions/download-artifact,4,github-action,None,None,N/A,8.0.1,outdated
+django-django,https://github.com/django/django,2026-04-23T12:01:10.779408,actions/first-interaction,1,github-action,None,None,N/A,3.1.0,outdated
+django-django,https://github.com/django/django,2026-04-23T12:01:10.779408,actions/github-script,8,github-action,None,None,N/A,9.0.0,outdated
+django-django,https://github.com/django/django,2026-04-23T12:01:10.779408,actions/setup-node,5,github-action,None,None,N/A,6.4.0,outdated
+django-django,https://github.com/django/django,2026-04-23T12:01:10.779408,actions/setup-python,6,github-action,None,None,N/A,6.2.0,outdated
+django-django,https://github.com/django/django,2026-04-23T12:01:10.779408,actions/upload-artifact,4,github-action,None,None,N/A,7.0.1,outdated
+django-django,https://github.com/django/django,2026-04-23T12:01:10.779408,conda-incubator/setup-miniconda,unknown,github-action,None,None,N/A,4.0.0,outdated
+django-django,https://github.com/django/django,2026-04-23T12:01:10.779408,liskin/gh-problem-matcher-wrap,unknown,github-action,None,None,N/A,3.0.0,outdated
+django-django,https://github.com/django/django,2026-04-23T12:01:10.779408,psf/black,stable,github-action,GHSA-v53h-f6m7-xcgm,High,See advisory,26.3.1,outdated
+django-django,https://github.com/django/django,2026-04-23T12:01:10.779408,zizmorcore/zizmor-action,0.3.0,github-action,None,None,N/A,0.5.3,outdated

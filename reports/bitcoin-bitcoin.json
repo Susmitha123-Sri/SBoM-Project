@@ -1,0 +1,483 @@
+{
+  "scan_id": "bitcoin-bitcoin",
+  "timestamp": "2026-03-20T01:21:56.487694",
+  "target": "https://github.com/bitcoin/bitcoin",
+  "summary": {
+    "total_packages": 31,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "./.github/actions/clear-files",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/configure-docker",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/configure-environment",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/install-homebrew-valgrind",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/print-logs",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/restore-caches",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/run-in-docker-action",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/save-caches",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/cache",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/cache/restore",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/cache/save",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/download-artifact",
+      "version": "8",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/github-script",
+      "version": "8",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "7",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cachix/install-nix-action",
+      "version": "31",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cirruslabs/cache/restore",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cirruslabs/cache/save",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "deterministic-fuzz-coverage",
+      "version": "0.1.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "deterministic-unittest-coverage",
+      "version": "0.1.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/build-push-action",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/setup-buildx-action",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/setup-buildx-action",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ilammy/msvc-dev-cmd",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "test_runner",
+      "version": "0.1.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vmactions/freebsd-vm",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vmactions/netbsd-vm",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vmactions/openbsd-vm",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "bitcoin-bitcoin",
+      "child": "./.github/actions/clear-files"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "bitcoin-bitcoin",
+      "child": "./.github/actions/configure-docker"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "bitcoin-bitcoin",
+      "child": "./.github/actions/configure-environment"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "bitcoin-bitcoin",
+      "child": "./.github/actions/install-homebrew-valgrind"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "bitcoin-bitcoin",
+      "child": "./.github/actions/print-logs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "bitcoin-bitcoin",
+      "child": "./.github/actions/restore-caches"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "bitcoin-bitcoin",
+      "child": "./.github/actions/run-in-docker-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "bitcoin-bitcoin",
+      "child": "./.github/actions/save-caches"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "bitcoin-bitcoin",
+      "child": "actions/cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "bitcoin-bitcoin",
+      "child": "actions/cache/restore"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "bitcoin-bitcoin",
+      "child": "actions/cache/save"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "bitcoin-bitcoin",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "bitcoin-bitcoin",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "bitcoin-bitcoin",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "bitcoin-bitcoin",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "bitcoin-bitcoin",
+      "child": "actions/download-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "bitcoin-bitcoin",
+      "child": "actions/github-script"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "bitcoin-bitcoin",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "bitcoin-bitcoin",
+      "child": "cachix/install-nix-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "bitcoin-bitcoin",
+      "child": "cirruslabs/cache/restore"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "bitcoin-bitcoin",
+      "child": "cirruslabs/cache/save"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "bitcoin-bitcoin",
+      "child": "deterministic-fuzz-coverage"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "bitcoin-bitcoin",
+      "child": "deterministic-unittest-coverage"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "bitcoin-bitcoin",
+      "child": "docker/build-push-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "bitcoin-bitcoin",
+      "child": "docker/setup-buildx-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "bitcoin-bitcoin",
+      "child": "docker/setup-buildx-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "bitcoin-bitcoin",
+      "child": "ilammy/msvc-dev-cmd"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "bitcoin-bitcoin",
+      "child": "test_runner"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "bitcoin-bitcoin",
+      "child": "vmactions/freebsd-vm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "bitcoin-bitcoin",
+      "child": "vmactions/netbsd-vm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "bitcoin-bitcoin",
+      "child": "vmactions/openbsd-vm"
+    }
+  ]
+}

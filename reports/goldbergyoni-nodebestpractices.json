@@ -1,0 +1,78 @@
+{
+  "scan_id": "goldbergyoni-nodebestpractices",
+  "timestamp": "2026-03-20T00:58:15.269329",
+  "target": "https://github.com/goldbergyoni/nodebestpractices",
+  "summary": {
+    "total_packages": 4,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-node",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pascalgn/automerge-action",
+      "version": "0.15.5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "peter-evans/create-pull-request",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "goldbergyoni-nodebestpractices",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "goldbergyoni-nodebestpractices",
+      "child": "actions/setup-node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "goldbergyoni-nodebestpractices",
+      "child": "pascalgn/automerge-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "goldbergyoni-nodebestpractices",
+      "child": "peter-evans/create-pull-request"
+    }
+  ]
+}

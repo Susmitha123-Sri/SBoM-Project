@@ -1,0 +1,93 @@
+{
+  "scan_id": "laravel-laravel",
+  "timestamp": "2026-03-20T01:35:36.528613",
+  "target": "https://github.com/laravel/laravel",
+  "summary": {
+    "total_packages": 5,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "laravel/.github/.github/workflows/issues.yml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "laravel/.github/.github/workflows/pull-requests.yml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "laravel/.github/.github/workflows/update-changelog.yml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "shivammathur/setup-php",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "laravel-laravel",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "laravel-laravel",
+      "child": "laravel/.github/.github/workflows/issues.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "laravel-laravel",
+      "child": "laravel/.github/.github/workflows/pull-requests.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "laravel-laravel",
+      "child": "laravel/.github/.github/workflows/update-changelog.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "laravel-laravel",
+      "child": "shivammathur/setup-php"
+    }
+  ]
+}

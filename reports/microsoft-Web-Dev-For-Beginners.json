@@ -1,0 +1,1743 @@
+{
+  "scan_id": "microsoft-Web-Dev-For-Beginners",
+  "timestamp": "2026-03-20T01:16:02.371842",
+  "target": "https://github.com/microsoft/Web-Dev-For-Beginners",
+  "summary": {
+    "total_packages": 115,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "@babel/helper-string-parser",
+      "version": "7.24.8",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/helper-validator-identifier",
+      "version": "7.24.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/parser",
+      "version": "7.25.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/types",
+      "version": "7.25.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@emnapi/runtime",
+      "version": "1.8.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@img/colour",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@img/sharp-darwin-arm64",
+      "version": "0.34.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@img/sharp-darwin-x64",
+      "version": "0.34.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@img/sharp-libvips-darwin-arm64",
+      "version": "1.2.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@img/sharp-libvips-darwin-x64",
+      "version": "1.2.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@img/sharp-libvips-linux-arm",
+      "version": "1.2.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@img/sharp-libvips-linux-arm64",
+      "version": "1.2.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@img/sharp-libvips-linux-ppc64",
+      "version": "1.2.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@img/sharp-libvips-linux-riscv64",
+      "version": "1.2.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@img/sharp-libvips-linux-s390x",
+      "version": "1.2.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@img/sharp-libvips-linux-x64",
+      "version": "1.2.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@img/sharp-libvips-linuxmusl-arm64",
+      "version": "1.2.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@img/sharp-libvips-linuxmusl-x64",
+      "version": "1.2.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@img/sharp-linux-arm",
+      "version": "0.34.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@img/sharp-linux-arm64",
+      "version": "0.34.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@img/sharp-linux-ppc64",
+      "version": "0.34.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@img/sharp-linux-riscv64",
+      "version": "0.34.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@img/sharp-linux-s390x",
+      "version": "0.34.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@img/sharp-linux-x64",
+      "version": "0.34.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@img/sharp-linuxmusl-arm64",
+      "version": "0.34.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@img/sharp-linuxmusl-x64",
+      "version": "0.34.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@img/sharp-wasm32",
+      "version": "0.34.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@img/sharp-win32-arm64",
+      "version": "0.34.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@img/sharp-win32-ia32",
+      "version": "0.34.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@img/sharp-win32-x64",
+      "version": "0.34.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@jridgewell/sourcemap-codec",
+      "version": "1.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@next/env",
+      "version": "16.1.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@next/swc-darwin-arm64",
+      "version": "16.1.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@next/swc-darwin-x64",
+      "version": "16.1.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@next/swc-linux-arm64-gnu",
+      "version": "16.1.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@next/swc-linux-arm64-musl",
+      "version": "16.1.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@next/swc-linux-x64-gnu",
+      "version": "16.1.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@next/swc-linux-x64-musl",
+      "version": "16.1.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@next/swc-win32-arm64-msvc",
+      "version": "16.1.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@next/swc-win32-x64-msvc",
+      "version": "16.1.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@swc/helpers",
+      "version": "0.5.15",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@vue/compiler-core",
+      "version": "3.4.38",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@vue/compiler-dom",
+      "version": "3.4.38",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@vue/compiler-sfc",
+      "version": "3.4.38",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@vue/compiler-ssr",
+      "version": "3.4.38",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@vue/devtools-api",
+      "version": "6.6.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@vue/reactivity",
+      "version": "3.4.38",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@vue/runtime-core",
+      "version": "3.4.38",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@vue/runtime-dom",
+      "version": "3.4.38",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@vue/server-renderer",
+      "version": "3.4.38",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@vue/shared",
+      "version": "3.4.38",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "Azure/static-web-apps-deploy",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "OSDKDev/lock-issues",
+      "version": "1.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/download-artifact",
+      "version": "6.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/github-script",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/github-script",
+      "version": "8.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/stale",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "6.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "asynckit",
+      "version": "0.4.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "axios",
+      "version": "1.13.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "baseline-browser-mapping",
+      "version": "2.9.19",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "call-bind-apply-helpers",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "caniuse-lite",
+      "version": "1.0.30001737",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "carbon-trigger-extension",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "client-only",
+      "version": "0.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "combined-stream",
+      "version": "1.0.8",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "csstype",
+      "version": "3.1.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "delayed-stream",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "detect-libc",
+      "version": "2.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dunder-proto",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "entities",
+      "version": "4.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "es-define-property",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "es-errors",
+      "version": "1.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "es-object-atoms",
+      "version": "1.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "es-set-tostringtag",
+      "version": "2.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "estree-walker",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "follow-redirects",
+      "version": "1.15.11",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "form-data",
+      "version": "4.0.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "function-bind",
+      "version": "1.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "get-intrinsic",
+      "version": "1.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "get-proto",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/gh-aw/actions/setup",
+      "version": "0.42.8",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gopd",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "has-symbols",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "has-tostringtag",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hasown",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lycheeverse/lychee-action",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "magic-string",
+      "version": "0.30.11",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "math-intrinsics",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "memory-game",
+      "version": "0.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mime-db",
+      "version": "1.52.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mime-types",
+      "version": "2.1.35",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nanoid",
+      "version": "3.3.11",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "next",
+      "version": "16.1.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "peter-evans/create-issue-from-file",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "picocolors",
+      "version": "1.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "postcss",
+      "version": "8.4.31",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "postcss",
+      "version": "8.5.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "proxy-from-env",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "react",
+      "version": "19.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "react-dom",
+      "version": "19.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "scheduler",
+      "version": "0.26.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "semver",
+      "version": "7.7.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sharp",
+      "version": "0.34.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "source-map-js",
+      "version": "1.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "styled-jsx",
+      "version": "5.1.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "to-fast-properties",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tslib",
+      "version": "2.8.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vue",
+      "version": "3.4.38",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vue-project",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vue-router",
+      "version": "4.4.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "web-dev-for-beginners",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@babel/helper-string-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@babel/helper-validator-identifier"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@babel/parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@babel/types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@emnapi/runtime"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@img/colour"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@img/sharp-darwin-arm64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@img/sharp-darwin-x64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@img/sharp-libvips-darwin-arm64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@img/sharp-libvips-darwin-x64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@img/sharp-libvips-linux-arm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@img/sharp-libvips-linux-arm64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@img/sharp-libvips-linux-ppc64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@img/sharp-libvips-linux-riscv64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@img/sharp-libvips-linux-s390x"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@img/sharp-libvips-linux-x64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@img/sharp-libvips-linuxmusl-arm64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@img/sharp-libvips-linuxmusl-x64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@img/sharp-linux-arm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@img/sharp-linux-arm64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@img/sharp-linux-ppc64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@img/sharp-linux-riscv64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@img/sharp-linux-s390x"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@img/sharp-linux-x64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@img/sharp-linuxmusl-arm64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@img/sharp-linuxmusl-x64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@img/sharp-wasm32"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@img/sharp-win32-arm64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@img/sharp-win32-ia32"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@img/sharp-win32-x64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@jridgewell/sourcemap-codec"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@next/env"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@next/swc-darwin-arm64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@next/swc-darwin-x64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@next/swc-linux-arm64-gnu"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@next/swc-linux-arm64-musl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@next/swc-linux-x64-gnu"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@next/swc-linux-x64-musl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@next/swc-win32-arm64-msvc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@next/swc-win32-x64-msvc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@swc/helpers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@vue/compiler-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@vue/compiler-dom"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@vue/compiler-sfc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@vue/compiler-ssr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@vue/devtools-api"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@vue/reactivity"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@vue/runtime-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@vue/runtime-dom"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@vue/server-renderer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "@vue/shared"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "Azure/static-web-apps-deploy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "OSDKDev/lock-issues"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "actions/download-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "actions/github-script"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "actions/github-script"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "actions/stale"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "asynckit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "axios"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "baseline-browser-mapping"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "call-bind-apply-helpers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "caniuse-lite"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "carbon-trigger-extension"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "client-only"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "combined-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "csstype"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "delayed-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "detect-libc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "dunder-proto"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "entities"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "es-define-property"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "es-errors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "es-object-atoms"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "es-set-tostringtag"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "estree-walker"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "follow-redirects"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "form-data"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "function-bind"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "get-intrinsic"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "get-proto"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "github/gh-aw/actions/setup"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "gopd"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "has-symbols"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "has-tostringtag"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "hasown"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "lycheeverse/lychee-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "magic-string"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "math-intrinsics"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "memory-game"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "mime-db"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "mime-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "nanoid"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "next"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "peter-evans/create-issue-from-file"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "picocolors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "postcss"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "postcss"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "proxy-from-env"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "react"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "react-dom"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "scheduler"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "semver"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "sharp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "source-map-js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "styled-jsx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "to-fast-properties"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "tslib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "vue"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "vue-project"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "vue-router"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-Web-Dev-For-Beginners",
+      "child": "web-dev-for-beginners"
+    }
+  ]
+}

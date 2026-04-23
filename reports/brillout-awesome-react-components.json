@@ -1,0 +1,48 @@
+{
+  "scan_id": "brillout-awesome-react-components",
+  "timestamp": "2026-03-20T06:04:24.429673",
+  "target": "https://github.com/brillout/awesome-react-components",
+  "summary": {
+    "total_packages": 2,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "technote-space/toc-generator",
+      "version": "2.4.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "brillout-awesome-react-components",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "brillout-awesome-react-components",
+      "child": "technote-space/toc-generator"
+    }
+  ]
+}

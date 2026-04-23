@@ -1,0 +1,1803 @@
+{
+  "scan_id": "appwrite-appwrite",
+  "timestamp": "2026-03-20T04:04:05.307674",
+  "target": "https://github.com/appwrite/appwrite",
+  "summary": {
+    "total_packages": 119,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/cache",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/download-artifact",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/github-script",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/github-script",
+      "version": "7",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-node",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/setup-node",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/stale",
+      "version": "9",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "adhocore/jwt",
+      "version": "1.1.3",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "appwrite/appwrite",
+      "version": "15.1.0",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "appwrite/php-clamav",
+      "version": "2.0.0",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "appwrite/php-runtimes",
+      "version": "0.19.2",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aquasecurity/trivy-action",
+      "version": "0.20.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "beberlei/assert",
+      "version": "3.3.3",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "brick/math",
+      "version": "0.14.1",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "chillerlan/php-qrcode",
+      "version": "4.4.2",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "chillerlan/php-settings-container",
+      "version": "3.2.1",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "composer/semver",
+      "version": "3.4.4",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/build-push-action",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/build-push-action",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/build-push-action",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/login-action",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/metadata-action",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/setup-buildx-action",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/setup-qemu-action",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dragonmantank/cron-expression",
+      "version": "3.4.0",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dynamic-api-key",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "enshrined/svg-sanitize",
+      "version": "0.22.0",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "giggsey/libphonenumber-for-php-lite",
+      "version": "8.13.36",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/ai-moderator",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/analyze",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/autobuild",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/init",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/upload-sarif",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/issue-labeler",
+      "version": "3.4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google/osv-scanner-action/.github/workflows/osv-scanner-reusable.yml",
+      "version": "1.7.1",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google/protobuf",
+      "version": "4.33.2",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "league/csv",
+      "version": "9.24.1",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "matomo/device-detector",
+      "version": "6.4.8",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mongodb/mongodb",
+      "version": "2.1.2",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mustangostang/spyc",
+      "version": "0.6.3",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "node-appwrite",
+      "version": "17.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "node-fetch-native-with-agent",
+      "version": "1.7.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nyholm/psr7",
+      "version": "1.8.2",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nyholm/psr7-server",
+      "version": "1.1.0",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "open-telemetry/api",
+      "version": "1.7.1",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "open-telemetry/context",
+      "version": "1.4.0",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "open-telemetry/exporter-otlp",
+      "version": "1.3.3",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "open-telemetry/gen-otlp-protobuf",
+      "version": "1.8.0",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "open-telemetry/sdk",
+      "version": "1.10.0",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "open-telemetry/sem-conv",
+      "version": "1.37.0",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "paragonie/constant_time_encoding",
+      "version": "2.8.2",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "paragonie/random_compat",
+      "version": "9.99.100",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "peter-evans/create-or-update-comment",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "peter-evans/create-or-update-comment",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "peter-evans/find-comment",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "php-amqplib/php-amqplib",
+      "version": "3.7.4",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "php-http/discovery",
+      "version": "1.20.0",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "phpmailer/phpmailer",
+      "version": "6.9.1",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "phpseclib/phpseclib",
+      "version": "3.0.48",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "psr/container",
+      "version": "2.0.2",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "psr/http-client",
+      "version": "1.0.3",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "psr/http-factory",
+      "version": "1.1.0",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "psr/http-message",
+      "version": "2.0",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "psr/log",
+      "version": "3.0.2",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ramsey/collection",
+      "version": "2.1.1",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ramsey/uuid",
+      "version": "4.9.2",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "spomky-labs/otphp",
+      "version": "10.0.3",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "symfony/deprecation-contracts",
+      "version": "3.6.0",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "symfony/http-client",
+      "version": "7.4.1",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "symfony/http-client-contracts",
+      "version": "3.6.0",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "symfony/polyfill-mbstring",
+      "version": "1.33.0",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "symfony/polyfill-php82",
+      "version": "1.33.0",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "symfony/polyfill-php83",
+      "version": "1.33.0",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "symfony/polyfill-php85",
+      "version": "1.33.0",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "symfony/service-contracts",
+      "version": "3.6.1",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tbachert/spi",
+      "version": "1.0.5",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "thecodingmachine/safe",
+      "version": "2.5.0",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/abuse",
+      "version": "1.0.2",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/analytics",
+      "version": "0.10.2",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/audit",
+      "version": "1.0.3",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/auth",
+      "version": "0.5.0",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/cache",
+      "version": "0.13.2",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/cli",
+      "version": "0.15.2",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/compression",
+      "version": "0.1.3",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/config",
+      "version": "1.0.0",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/console",
+      "version": "0.0.1",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/database",
+      "version": "4.3.0",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/detector",
+      "version": "0.2.3",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/dns",
+      "version": "1.4.1",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/domains",
+      "version": "0.9.2",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/dsn",
+      "version": "0.2.1",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/emails",
+      "version": "0.6.3",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/fetch",
+      "version": "0.4.2",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/framework",
+      "version": "0.33.35",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/image",
+      "version": "0.8.4",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/locale",
+      "version": "0.8.0",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/logger",
+      "version": "0.6.2",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/messaging",
+      "version": "0.20.0",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/migration",
+      "version": "1.3.5",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/mongo",
+      "version": "0.11.0",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/orchestration",
+      "version": "0.9.1",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/platform",
+      "version": "0.7.13",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/pools",
+      "version": "0.8.3",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/preloader",
+      "version": "0.2.4",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/queue",
+      "version": "0.11.2",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/registry",
+      "version": "0.5.0",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/storage",
+      "version": "0.18.18",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/swoole",
+      "version": "0.8.5",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/system",
+      "version": "0.9.0",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/telemetry",
+      "version": "0.1.1",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/validators",
+      "version": "0.1.0",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/vcs",
+      "version": "0.13.0",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utopia-php/websocket",
+      "version": "0.3.1",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "webmozart/assert",
+      "version": "1.12.1",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "webonyx/graphql-php",
+      "version": "14.11.10",
+      "type": "php-composer",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "actions/cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "actions/download-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "actions/github-script"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "actions/github-script"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "actions/setup-node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "actions/setup-node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "actions/stale"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "adhocore/jwt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "appwrite/appwrite"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "appwrite/php-clamav"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "appwrite/php-runtimes"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "aquasecurity/trivy-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "beberlei/assert"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "brick/math"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "chillerlan/php-qrcode"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "chillerlan/php-settings-container"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "composer/semver"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "docker/build-push-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "docker/build-push-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "docker/build-push-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "docker/login-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "docker/metadata-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "docker/setup-buildx-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "docker/setup-qemu-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "dragonmantank/cron-expression"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "dynamic-api-key"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "enshrined/svg-sanitize"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "giggsey/libphonenumber-for-php-lite"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "github/ai-moderator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "github/codeql-action/analyze"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "github/codeql-action/autobuild"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "github/codeql-action/init"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "github/codeql-action/upload-sarif"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "github/issue-labeler"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "google/osv-scanner-action/.github/workflows/osv-scanner-reusable.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "google/protobuf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "league/csv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "matomo/device-detector"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "mongodb/mongodb"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "mustangostang/spyc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "node-appwrite"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "node-fetch-native-with-agent"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "nyholm/psr7"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "nyholm/psr7-server"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "open-telemetry/api"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "open-telemetry/context"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "open-telemetry/exporter-otlp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "open-telemetry/gen-otlp-protobuf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "open-telemetry/sdk"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "open-telemetry/sem-conv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "paragonie/constant_time_encoding"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "paragonie/random_compat"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "peter-evans/create-or-update-comment"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "peter-evans/create-or-update-comment"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "peter-evans/find-comment"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "php-amqplib/php-amqplib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "php-http/discovery"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "phpmailer/phpmailer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "phpseclib/phpseclib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "psr/container"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "psr/http-client"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "psr/http-factory"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "psr/http-message"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "psr/log"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "ramsey/collection"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "ramsey/uuid"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "spomky-labs/otphp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "symfony/deprecation-contracts"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "symfony/http-client"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "symfony/http-client-contracts"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "symfony/polyfill-mbstring"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "symfony/polyfill-php82"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "symfony/polyfill-php83"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "symfony/polyfill-php85"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "symfony/service-contracts"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "tbachert/spi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "thecodingmachine/safe"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/abuse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/analytics"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/audit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/auth"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/cli"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/compression"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/config"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/console"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/database"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/detector"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/dns"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/domains"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/dsn"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/emails"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/fetch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/framework"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/image"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/locale"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/logger"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/messaging"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/migration"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/mongo"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/orchestration"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/platform"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/pools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/preloader"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/queue"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/registry"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/storage"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/swoole"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/system"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/telemetry"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/validators"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/vcs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "utopia-php/websocket"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "webmozart/assert"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "appwrite-appwrite",
+      "child": "webonyx/graphql-php"
+    }
+  ]
+}

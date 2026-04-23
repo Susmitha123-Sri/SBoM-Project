@@ -1,0 +1,228 @@
+{
+  "scan_id": "harry0703-MoneyPrinterTurbo",
+  "timestamp": "2026-03-20T04:59:20.967810",
+  "target": "https://github.com/harry0703/MoneyPrinterTurbo",
+  "summary": {
+    "total_packages": 14,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "azure-cognitiveservices-speech",
+      "version": "1.41.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.48.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dashscope",
+      "version": "1.20.14",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.25.14",
+      "version_status": "outdated"
+    },
+    {
+      "package": "edge-tts",
+      "version": "6.1.19",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.2.7",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fastapi",
+      "version": "0.115.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.135.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "faster-whisper",
+      "version": "1.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "g4f",
+      "version": "0.5.2.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.3.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google-generativeai",
+      "version": "0.8.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.8.6",
+      "version_status": "outdated"
+    },
+    {
+      "package": "loguru",
+      "version": "0.7.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "moviepy",
+      "version": "2.1.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.2.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "openai",
+      "version": "1.56.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.29.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "python-multipart",
+      "version": "0.0.19",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.0.22",
+      "version_status": "outdated"
+    },
+    {
+      "package": "redis",
+      "version": "5.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "streamlit",
+      "version": "1.45.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.55.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "uvicorn",
+      "version": "0.32.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.42.0",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "harry0703-MoneyPrinterTurbo",
+      "child": "azure-cognitiveservices-speech"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "harry0703-MoneyPrinterTurbo",
+      "child": "dashscope"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "harry0703-MoneyPrinterTurbo",
+      "child": "edge-tts"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "harry0703-MoneyPrinterTurbo",
+      "child": "fastapi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "harry0703-MoneyPrinterTurbo",
+      "child": "faster-whisper"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "harry0703-MoneyPrinterTurbo",
+      "child": "g4f"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "harry0703-MoneyPrinterTurbo",
+      "child": "google-generativeai"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "harry0703-MoneyPrinterTurbo",
+      "child": "loguru"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "harry0703-MoneyPrinterTurbo",
+      "child": "moviepy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "harry0703-MoneyPrinterTurbo",
+      "child": "openai"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "harry0703-MoneyPrinterTurbo",
+      "child": "python-multipart"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "harry0703-MoneyPrinterTurbo",
+      "child": "redis"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "harry0703-MoneyPrinterTurbo",
+      "child": "streamlit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "harry0703-MoneyPrinterTurbo",
+      "child": "uvicorn"
+    }
+  ]
+}

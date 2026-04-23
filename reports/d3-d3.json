@@ -1,0 +1,678 @@
+{
+  "scan_id": "d3-d3",
+  "timestamp": "2026-03-20T00:54:12.705448",
+  "target": "https://github.com/d3/d3",
+  "summary": {
+    "total_packages": 44,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/configure-pages",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/deploy-pages",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-node",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-pages-artifact",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "commander",
+      "version": "2.20.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "commander",
+      "version": "7.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "concat-map",
+      "version": "0.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-array",
+      "version": "3.2.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-axis",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-brush",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-chord",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-color",
+      "version": "3.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-contour",
+      "version": "4.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-delaunay",
+      "version": "6.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-dispatch",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-drag",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-dsv",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-ease",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-fetch",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-force",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-format",
+      "version": "3.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-geo",
+      "version": "3.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-hierarchy",
+      "version": "3.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-interpolate",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-path",
+      "version": "3.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-polygon",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-quadtree",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-random",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-scale",
+      "version": "4.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-scale-chromatic",
+      "version": "3.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-selection",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-shape",
+      "version": "3.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-time",
+      "version": "3.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-time-format",
+      "version": "4.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-timer",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-transition",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-zoom",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "delaunator",
+      "version": "5.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "iconv-lite",
+      "version": "0.6.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "internmap",
+      "version": "2.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "robust-predicates",
+      "version": "3.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rw",
+      "version": "1.3.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "safer-buffer",
+      "version": "2.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "actions/configure-pages"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "actions/deploy-pages"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "actions/setup-node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "actions/upload-pages-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "commander"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "commander"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "concat-map"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "d3-array"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "d3-axis"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "d3-brush"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "d3-chord"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "d3-color"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "d3-contour"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "d3-delaunay"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "d3-dispatch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "d3-drag"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "d3-dsv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "d3-ease"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "d3-fetch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "d3-force"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "d3-format"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "d3-geo"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "d3-hierarchy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "d3-interpolate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "d3-path"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "d3-polygon"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "d3-quadtree"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "d3-random"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "d3-scale"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "d3-scale-chromatic"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "d3-selection"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "d3-shape"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "d3-time"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "d3-time-format"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "d3-timer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "d3-transition"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "d3-zoom"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "delaunator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "iconv-lite"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "internmap"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "robust-predicates"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "rw"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d3-d3",
+      "child": "safer-buffer"
+    }
+  ]
+}

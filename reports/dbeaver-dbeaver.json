@@ -1,0 +1,2958 @@
+{
+  "scan_id": "dbeaver-dbeaver",
+  "timestamp": "2026-03-20T05:10:27.512100",
+  "target": "https://github.com/dbeaver/dbeaver",
+  "summary": {
+    "total_packages": 196,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "appstore",
+      "version": "26.0.2-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "awt.injector",
+      "version": "1.0.0",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ce.aggregate",
+      "version": "1.0.0-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dbeaver",
+      "version": "1.0.0-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dbeaver/dbeaver-common/.github/workflows/java-checkstyle.yml",
+      "version": "devel",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dbeaver/dbeaver-common/.github/workflows/mvn-package.yml",
+      "version": "devel",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "features",
+      "version": "1.0.0-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/analyze",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/init",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jkiss_wmi",
+      "version": "UNKNOWN",
+      "type": "binary",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.app.base.feature",
+      "version": "26.0.2-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.app.local.feature",
+      "version": "26.0.2-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.appstore.feature",
+      "version": "26.0.2-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ce.debug.updateSite",
+      "version": "1.0.0-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ce.feature",
+      "version": "26.0.2-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ce.git.updateSite",
+      "version": "1.0.0-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ce.office.updateSite",
+      "version": "1.0.0-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ce.product.updateSite",
+      "version": "1.0.0-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.cmp.simple",
+      "version": "6.0.172-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.cmp.simple.ui",
+      "version": "6.0.172-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.core",
+      "version": "26.0.2-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.data.gis",
+      "version": "1.0.200-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.data.gis.view",
+      "version": "1.0.171-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.data.office",
+      "version": "1.1.214-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.data.office.ui",
+      "version": "1.0.101-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.data.transfer",
+      "version": "2.0.160-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.data.transfer.test",
+      "version": "1.0.0-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.data.transfer.ui",
+      "version": "1.0.160-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.db.feature",
+      "version": "1.0.167-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.db.ui.feature",
+      "version": "1.0.167-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.debug.core",
+      "version": "1.0.205-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.debug.feature",
+      "version": "6.1.166-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.debug.ui",
+      "version": "1.0.205-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.altibase",
+      "version": "1.0.37-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.altibase.test",
+      "version": "1.0.37-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.altibase.ui",
+      "version": "1.0.37-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.athena",
+      "version": "1.0.182-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.athena.ui",
+      "version": "1.0.146-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.bigquery",
+      "version": "1.0.182-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.bigquery.ui",
+      "version": "1.0.146-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.clickhouse",
+      "version": "1.0.181-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.clickhouse.test",
+      "version": "1.0.37-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.clickhouse.ui",
+      "version": "1.0.180-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.cubrid",
+      "version": "1.0.52-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.cubrid.ui",
+      "version": "1.0.36-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.dameng",
+      "version": "1.0.60-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.dameng.ui",
+      "version": "1.0.60-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.databend",
+      "version": "1.0.31-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.databend.ui",
+      "version": "1.0.31-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.databricks",
+      "version": "1.0.98-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.db2",
+      "version": "2.1.261-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.db2.i",
+      "version": "1.0.164-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.db2.ui",
+      "version": "1.0.101-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.db2.zos",
+      "version": "1.0.179-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.denodo",
+      "version": "1.0.122-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.derby",
+      "version": "1.1.261-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.duckdb",
+      "version": "1.0.68-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.duckdb.ui",
+      "version": "1.0.5-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.exasol",
+      "version": "1.0.234-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.exasol.ui",
+      "version": "1.0.145-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.firebird",
+      "version": "1.0.277-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.gaussdb",
+      "version": "1.0.37-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.gaussdb.ui",
+      "version": "1.0.37-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.gbase8s",
+      "version": "1.0.25-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.generic",
+      "version": "2.3.262-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.generic.test",
+      "version": "1.0.67-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.generic.ui",
+      "version": "1.0.152-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.greenplum",
+      "version": "1.0.177-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.greenplum.test",
+      "version": "1.0.133-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.h2",
+      "version": "1.0.231-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.hana",
+      "version": "1.2.154-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.hana.test",
+      "version": "1.0.58-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.hana.ui",
+      "version": "1.0.129-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.hive",
+      "version": "1.0.182-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.hsqldb",
+      "version": "1.0.223-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.informix",
+      "version": "1.0.267-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.iotdb",
+      "version": "1.0.14-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.iotdb.ui",
+      "version": "1.0.14-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.kingbase",
+      "version": "1.0.21-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.kingbase.ui",
+      "version": "1.0.21-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.mssql",
+      "version": "1.0.270-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.mssql.ui",
+      "version": "1.0.175-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.mysql",
+      "version": "2.1.261-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.mysql.test",
+      "version": "1.0.37-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.mysql.ui",
+      "version": "1.0.168-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.netezza",
+      "version": "1.0.241-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.oceanbase",
+      "version": "1.0.114-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.oceanbase.ui",
+      "version": "1.0.114-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.ocient",
+      "version": "1.0.147-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.office.feature",
+      "version": "1.1.213-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.oracle",
+      "version": "2.1.261-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.oracle.test",
+      "version": "1.0.103-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.oracle.ui",
+      "version": "1.0.163-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.phoenix",
+      "version": "1.0.245-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.postgresql",
+      "version": "2.1.249-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.postgresql.debug.core",
+      "version": "1.0.205-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.postgresql.debug.ui",
+      "version": "1.0.205-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.postgresql.test",
+      "version": "1.0.133-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.postgresql.ui",
+      "version": "1.0.152-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.snowflake",
+      "version": "1.0.196-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.snowflake.test",
+      "version": "1.0.67-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.snowflake.ui",
+      "version": "1.0.196-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.spanner",
+      "version": "1.0.163-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.spanner.ui",
+      "version": "1.0.146-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.sqlite",
+      "version": "1.0.225-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.sqlite.test",
+      "version": "1.0.59-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.sqlite.ui",
+      "version": "1.0.146-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.teradata",
+      "version": "1.0.244-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.tidb",
+      "version": "1.0.56-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.tidb.ui",
+      "version": "1.0.56-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.trino",
+      "version": "1.0.69-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.vertica",
+      "version": "2.0.206-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.vertica.ui",
+      "version": "1.0.167-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ext.wmi",
+      "version": "2.0.278-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.git.feature",
+      "version": "1.0.164-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.headless",
+      "version": "1.0.109-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ide.feature",
+      "version": "26.0.2-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.launcher",
+      "version": "1.0.50-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.model",
+      "version": "2.0.36-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.model.ai",
+      "version": "2.0.19-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.model.ai.test",
+      "version": "1.0.0-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.model.cli",
+      "version": "1.0.21-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.model.dashboard",
+      "version": "1.0.49-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.model.erd",
+      "version": "1.1.17-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.model.event",
+      "version": "1.0.80-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.model.jdbc",
+      "version": "1.0.69-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.model.lsm",
+      "version": "1.0.71-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.model.lsm.test",
+      "version": "1.0.37-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.model.lsp",
+      "version": "0.0.6-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.model.navigator.test",
+      "version": "1.0.0-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.model.nio",
+      "version": "1.0.60-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.model.rcp",
+      "version": "1.0.37-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.model.sm",
+      "version": "1.0.83-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.model.sql",
+      "version": "1.0.166-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.model.sql.jdbc",
+      "version": "1.0.40-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.model.sql.test",
+      "version": "1.0.0-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.net.ssh",
+      "version": "1.0.197-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.net.ssh.jsch",
+      "version": "1.1.186-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.net.ssh.sshj",
+      "version": "1.0.197-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.net.ssh.ui",
+      "version": "1.0.197-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.osgi.test.runner",
+      "version": "1.0.132-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.rcp.feature",
+      "version": "3.0.55-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.registry",
+      "version": "1.0.170-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.runtime.feature",
+      "version": "26.0.2-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.slf4j",
+      "version": "2.0.146-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.standalone.feature",
+      "version": "26.0.2-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.tasks.native",
+      "version": "1.0.154-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.tasks.native.ui",
+      "version": "1.0.154-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.tasks.sql.ui",
+      "version": "1.0.142-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.tasks.ui",
+      "version": "1.0.154-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.tasks.ui.view",
+      "version": "1.0.125-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.team.git.ui",
+      "version": "1.0.164-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.test.base.feature",
+      "version": "26.0.2-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.test.feature",
+      "version": "26.0.2-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.test.platform",
+      "version": "1.0.133-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui",
+      "version": "5.1.191-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.ai",
+      "version": "1.0.78-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.app.devtools",
+      "version": "2.0.0-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.app.eclipse",
+      "version": "26.0.2-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.app.standalone",
+      "version": "26.0.2-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.app.winstore",
+      "version": "1.0.101-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.charts",
+      "version": "1.0.173-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.config.migration",
+      "version": "2.1.239-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.config.sample",
+      "version": "1.0.213-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.dashboard",
+      "version": "1.0.173-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.editors.acl",
+      "version": "1.0.172-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.editors.base",
+      "version": "1.0.176-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.editors.connection",
+      "version": "1.0.167-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.editors.data",
+      "version": "1.0.176-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.editors.entity",
+      "version": "1.0.176-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.editors.erd",
+      "version": "3.1.17-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.editors.hex",
+      "version": "1.0.176-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.editors.image",
+      "version": "1.0.176-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.editors.json",
+      "version": "1.0.160-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.editors.locks",
+      "version": "1.0.221-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.editors.session",
+      "version": "1.0.154-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.editors.sql",
+      "version": "1.0.176-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.editors.sql.terminal",
+      "version": "1.0.152-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.editors.xml",
+      "version": "1.0.176-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.extra.feature",
+      "version": "26.0.2-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.feature",
+      "version": "26.0.2-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.forms",
+      "version": "1.0.4-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.navigator",
+      "version": "1.0.176-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.search",
+      "version": "1.0.167-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.statistics",
+      "version": "1.0.72-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.swt.linux",
+      "version": "1.0.36-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.swt.macos",
+      "version": "1.0.41-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.swt.windows",
+      "version": "1.0.36-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.jkiss.dbeaver.ui.test.feature",
+      "version": "1.0.239-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "plugins",
+      "version": "1.0.0-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "product",
+      "version": "1.0.0-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "repositories",
+      "version": "1.0.0-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "standalone",
+      "version": "24.3.1-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "standalone",
+      "version": "26.0.2-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tests",
+      "version": "1.0.0-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "appstore"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "awt.injector"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "ce.aggregate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "dbeaver"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "dbeaver/dbeaver-common/.github/workflows/java-checkstyle.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "dbeaver/dbeaver-common/.github/workflows/mvn-package.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "features"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "github/codeql-action/analyze"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "github/codeql-action/init"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "jkiss_wmi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.app.base.feature"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.app.local.feature"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.appstore.feature"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ce.debug.updateSite"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ce.feature"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ce.git.updateSite"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ce.office.updateSite"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ce.product.updateSite"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.cmp.simple"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.cmp.simple.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.data.gis"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.data.gis.view"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.data.office"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.data.office.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.data.transfer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.data.transfer.test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.data.transfer.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.db.feature"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.db.ui.feature"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.debug.core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.debug.feature"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.debug.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.altibase"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.altibase.test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.altibase.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.athena"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.athena.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.bigquery"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.bigquery.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.clickhouse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.clickhouse.test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.clickhouse.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.cubrid"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.cubrid.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.dameng"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.dameng.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.databend"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.databend.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.databricks"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.db2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.db2.i"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.db2.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.db2.zos"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.denodo"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.derby"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.duckdb"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.duckdb.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.exasol"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.exasol.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.firebird"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.gaussdb"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.gaussdb.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.gbase8s"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.generic"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.generic.test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.generic.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.greenplum"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.greenplum.test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.h2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.hana"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.hana.test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.hana.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.hive"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.hsqldb"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.informix"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.iotdb"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.iotdb.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.kingbase"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.kingbase.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.mssql"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.mssql.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.mysql"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.mysql.test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.mysql.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.netezza"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.oceanbase"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.oceanbase.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.ocient"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.office.feature"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.oracle"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.oracle.test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.oracle.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.phoenix"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.postgresql"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.postgresql.debug.core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.postgresql.debug.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.postgresql.test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.postgresql.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.snowflake"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.snowflake.test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.snowflake.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.spanner"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.spanner.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.sqlite"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.sqlite.test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.sqlite.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.teradata"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.tidb"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.tidb.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.trino"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.vertica"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.vertica.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ext.wmi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.git.feature"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.headless"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ide.feature"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.launcher"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.model"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.model.ai"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.model.ai.test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.model.cli"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.model.dashboard"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.model.erd"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.model.event"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.model.jdbc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.model.lsm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.model.lsm.test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.model.lsp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.model.navigator.test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.model.nio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.model.rcp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.model.sm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.model.sql"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.model.sql.jdbc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.model.sql.test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.net.ssh"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.net.ssh.jsch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.net.ssh.sshj"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.net.ssh.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.osgi.test.runner"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.rcp.feature"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.registry"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.runtime.feature"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.slf4j"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.standalone.feature"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.tasks.native"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.tasks.native.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.tasks.sql.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.tasks.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.tasks.ui.view"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.team.git.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.test.base.feature"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.test.feature"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.test.platform"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.ai"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.app.devtools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.app.eclipse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.app.standalone"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.app.winstore"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.charts"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.config.migration"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.config.sample"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.dashboard"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.editors.acl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.editors.base"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.editors.connection"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.editors.data"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.editors.entity"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.editors.erd"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.editors.hex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.editors.image"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.editors.json"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.editors.locks"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.editors.session"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.editors.sql"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.editors.sql.terminal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.editors.xml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.extra.feature"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.feature"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.forms"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.navigator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.search"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.statistics"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.swt.linux"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.swt.macos"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.swt.windows"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "org.jkiss.dbeaver.ui.test.feature"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "plugins"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "product"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "repositories"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "standalone"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "standalone"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dbeaver-dbeaver",
+      "child": "tests"
+    }
+  ]
+}

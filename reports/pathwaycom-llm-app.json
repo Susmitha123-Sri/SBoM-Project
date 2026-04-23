@@ -1,0 +1,168 @@
+{
+  "scan_id": "pathwaycom-llm-app",
+  "timestamp": "2026-03-20T03:39:25.996768",
+  "target": "https://github.com/pathwaycom/llm-app",
+  "summary": {
+    "total_packages": 10,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "abatilo/actions-poetry",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-python",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aiohttp",
+      "version": "3.9.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.13.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "beautifulsoup4",
+      "version": "4.12.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.14.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "load-dotenv",
+      "version": "0.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.1.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "nest-asyncio",
+      "version": "1.6.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.6.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "openai",
+      "version": "1.35.10",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.29.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "streamlit",
+      "version": "1.35.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.55.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "streamlit",
+      "version": "1.37.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.55.0",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pathwaycom-llm-app",
+      "child": "abatilo/actions-poetry"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pathwaycom-llm-app",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pathwaycom-llm-app",
+      "child": "actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pathwaycom-llm-app",
+      "child": "aiohttp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pathwaycom-llm-app",
+      "child": "beautifulsoup4"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pathwaycom-llm-app",
+      "child": "load-dotenv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pathwaycom-llm-app",
+      "child": "nest-asyncio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pathwaycom-llm-app",
+      "child": "openai"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pathwaycom-llm-app",
+      "child": "streamlit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pathwaycom-llm-app",
+      "child": "streamlit"
+    }
+  ]
+}

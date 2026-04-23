@@ -1,0 +1,4758 @@
+{
+  "scan_id": "facebook-react-native",
+  "timestamp": "2026-03-20T00:51:13.404887",
+  "target": "https://github.com/facebook/react-native",
+  "summary": {
+    "total_packages": 316,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "./.github/actions/build-android",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/build-fantom-runner",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/build-npm-package",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/create-release",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/diff-js-api-changes",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/maestro-android",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/maestro-ios",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/post-pr-comment",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/prepare-hermes-v1-app",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/prepare-ios-tests",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/run-fantom-tests",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/setup-gradle",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/setup-node",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/setup-xcode",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/test-ios-helloworld",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/test-ios-rntester",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/test-js",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/yarn-install",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/bump-podfile-lock.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/create-draft-release.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/generate-changelog.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/prebuild-ios-core.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/prebuild-ios-dependencies.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/test-hermes-v1-android.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/test-hermes-v1-ios.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-proposal-export-default-from",
+      "version": "7.25.9",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-syntax-dynamic-import",
+      "version": "7.8.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-syntax-export-default-from",
+      "version": "7.25.9",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-transform-react-display-name",
+      "version": "7.25.9",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-transform-react-jsx",
+      "version": "7.25.9",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-transform-react-jsx-self",
+      "version": "7.25.9",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-transform-react-jsx-source",
+      "version": "7.25.9",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-transform-runtime",
+      "version": "7.26.9",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@hapi/hoek",
+      "version": "9.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@hapi/topo",
+      "version": "5.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@isaacs/ttlcache",
+      "version": "1.4.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@jridgewell/source-map",
+      "version": "0.3.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@noble/hashes",
+      "version": "1.4.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@peculiar/asn1-cms",
+      "version": "2.6.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@peculiar/asn1-csr",
+      "version": "2.6.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@peculiar/asn1-ecc",
+      "version": "2.6.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@peculiar/asn1-pfx",
+      "version": "2.6.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@peculiar/asn1-pkcs8",
+      "version": "2.6.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@peculiar/asn1-pkcs9",
+      "version": "2.6.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@peculiar/asn1-rsa",
+      "version": "2.6.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@peculiar/asn1-schema",
+      "version": "2.6.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@peculiar/asn1-x509",
+      "version": "2.6.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@peculiar/asn1-x509-attr",
+      "version": "2.6.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@peculiar/x509",
+      "version": "1.14.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@react-native-community/cli",
+      "version": "20.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@react-native-community/cli-clean",
+      "version": "20.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@react-native-community/cli-config",
+      "version": "20.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@react-native-community/cli-config-android",
+      "version": "20.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@react-native-community/cli-config-apple",
+      "version": "20.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@react-native-community/cli-doctor",
+      "version": "20.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@react-native-community/cli-platform-android",
+      "version": "20.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@react-native-community/cli-platform-apple",
+      "version": "20.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@react-native-community/cli-platform-ios",
+      "version": "20.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@react-native-community/cli-server-api",
+      "version": "20.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@react-native-community/cli-tools",
+      "version": "20.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@react-native-community/cli-types",
+      "version": "20.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@react-native-community/rxjs",
+      "version": "6.5.4-custom",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@sideway/address",
+      "version": "4.1.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@sideway/formula",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@sideway/pinpoint",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@sindresorhus/merge-streams",
+      "version": "2.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/jest",
+      "version": "29.5.14",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/json-schema",
+      "version": "7.0.15",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/semver",
+      "version": "7.5.8",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@typescript-eslint/eslint-plugin",
+      "version": "8.36.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@typescript-eslint/type-utils",
+      "version": "8.36.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@vscode/sudo-prompt",
+      "version": "9.3.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "CFPropertyList",
+      "version": "3.0.6",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "CFPropertyList",
+      "version": "3.0.7",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "abort-controller",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "accepts",
+      "version": "1.3.8",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "accepts",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/cache/restore",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/cache/save",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/download-artifact",
+      "version": "7",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/github-script",
+      "version": "8",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-java",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-node",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/stale",
+      "version": "10",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "activesupport",
+      "version": "7.0.8",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "activesupport",
+      "version": "7.0.8.4",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "addressable",
+      "version": "2.8.5",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "addressable",
+      "version": "2.8.7",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "agent-base",
+      "version": "7.1.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "algoliasearch",
+      "version": "1.27.5",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "anser",
+      "version": "1.4.10",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ansi-fragments",
+      "version": "0.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "appdirsjs",
+      "version": "1.2.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "apple-actions/import-codesign-certs",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "asap",
+      "version": "2.0.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "asn1js",
+      "version": "3.0.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "astral-regex",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "async-limiter",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "atomos",
+      "version": "0.1.3",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "base64",
+      "version": "0.2.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "benchmark",
+      "version": "0.4.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bigdecimal",
+      "version": "3.1.9",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bl",
+      "version": "4.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "body-parser",
+      "version": "1.20.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "buffer",
+      "version": "5.7.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bytes",
+      "version": "3.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bytestreamjs",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "chrome-launcher",
+      "version": "0.15.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "chromium-edge-launcher",
+      "version": "0.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cirrus-actions/rebase",
+      "version": "1.8",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "claide",
+      "version": "1.1.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cli-spinners",
+      "version": "2.9.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cli-truncate",
+      "version": "3.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cli-truncate",
+      "version": "4.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "clone",
+      "version": "1.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cocoapods",
+      "version": "1.14.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cocoapods",
+      "version": "1.15.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cocoapods-core",
+      "version": "1.14.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cocoapods-core",
+      "version": "1.15.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cocoapods-deintegrate",
+      "version": "1.0.5",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cocoapods-downloader",
+      "version": "2.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cocoapods-downloader",
+      "version": "2.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cocoapods-plugins",
+      "version": "1.0.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cocoapods-search",
+      "version": "1.0.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cocoapods-trunk",
+      "version": "1.6.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cocoapods-try",
+      "version": "1.2.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "color-convert",
+      "version": "1.9.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "color-convert",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "color-name",
+      "version": "1.1.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "color-name",
+      "version": "1.1.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "colored2",
+      "version": "3.1.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "colorette",
+      "version": "1.4.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "colorette",
+      "version": "2.0.20",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "command-exists",
+      "version": "1.2.9",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "compressible",
+      "version": "2.0.18",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "compression",
+      "version": "1.8.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "concat-map",
+      "version": "0.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "concurrent-ruby",
+      "version": "1.2.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "concurrent-ruby",
+      "version": "1.3.4",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "content-type",
+      "version": "1.0.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cosmiconfig",
+      "version": "9.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dayjs",
+      "version": "1.11.13",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "decamelize",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "defaults",
+      "version": "1.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "depd",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "destroy",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dorny/paths-filter",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "eastasianwidth",
+      "version": "0.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "electron",
+      "version": "39.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "end-of-stream",
+      "version": "1.4.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "envinfo",
+      "version": "7.13.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "error-stack-parser",
+      "version": "2.1.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "errorhandler",
+      "version": "1.5.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "escape",
+      "version": "0.0.4",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "eslint-plugin-react-hooks",
+      "version": "7.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "etag",
+      "version": "1.8.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ethon",
+      "version": "0.16.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "event-target-shim",
+      "version": "5.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "eventemitter3",
+      "version": "5.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "exponential-backoff",
+      "version": "3.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fast-uri",
+      "version": "3.0.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fast-xml-parser",
+      "version": "4.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ffi",
+      "version": "1.16.3",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ffi",
+      "version": "1.17.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flow-remove-types",
+      "version": "2.259.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fourflusher",
+      "version": "2.3.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fresh",
+      "version": "0.5.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fuzzy_match",
+      "version": "2.0.4",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gh_inspector",
+      "version": "1.1.3",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gradle-wrapper",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gradle/actions/setup-gradle",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hermes-compiler",
+      "version": "0.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "http-errors",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "httpclient",
+      "version": "2.8.3",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "https-proxy-agent",
+      "version": "7.0.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "i18n",
+      "version": "1.14.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "i18n",
+      "version": "1.14.5",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ieee754",
+      "version": "1.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "image-size",
+      "version": "1.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "invariant",
+      "version": "2.2.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-docker",
+      "version": "2.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-fullwidth-code-point",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-fullwidth-code-point",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-fullwidth-code-point",
+      "version": "4.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-fullwidth-code-point",
+      "version": "5.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-interactive",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-unicode-supported",
+      "version": "0.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-wsl",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-wsl",
+      "version": "2.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "joi",
+      "version": "17.13.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jsc-safe-url",
+      "version": "0.2.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "json",
+      "version": "2.6.3",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "json",
+      "version": "2.7.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jsonc-eslint-parser",
+      "version": "2.4.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "launch-editor",
+      "version": "2.10.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lighthouse-logger",
+      "version": "1.4.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "listr2",
+      "version": "6.6.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "listr2",
+      "version": "8.2.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lodash.throttle",
+      "version": "4.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "log-symbols",
+      "version": "4.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "log-update",
+      "version": "5.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "log-update",
+      "version": "6.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "logger",
+      "version": "1.6.5",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "logkitty",
+      "version": "0.7.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "marky",
+      "version": "1.2.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "maxim-lobanov/setup-xcode",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "maxim-lobanov/setup-xcode",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "media-typer",
+      "version": "0.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "memoize-one",
+      "version": "5.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "metro",
+      "version": "0.84.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "metro-babel-transformer",
+      "version": "0.84.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "metro-cache",
+      "version": "0.84.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "metro-cache-key",
+      "version": "0.84.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "metro-config",
+      "version": "0.84.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "metro-core",
+      "version": "0.84.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "metro-file-map",
+      "version": "0.84.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "metro-minify-terser",
+      "version": "0.84.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "metro-resolver",
+      "version": "0.84.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "metro-runtime",
+      "version": "0.84.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "metro-source-map",
+      "version": "0.84.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "metro-symbolicate",
+      "version": "0.84.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "metro-transform-worker",
+      "version": "0.84.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mime",
+      "version": "1.6.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mime",
+      "version": "2.6.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mime-db",
+      "version": "1.52.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mime-db",
+      "version": "1.53.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mime-db",
+      "version": "1.54.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mime-types",
+      "version": "2.1.35",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mime-types",
+      "version": "3.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mimic-fn",
+      "version": "2.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "minitest",
+      "version": "5.20.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "minitest",
+      "version": "5.25.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "molinillo",
+      "version": "0.8.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mutex_m",
+      "version": "0.3.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nanaimo",
+      "version": "0.3.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nap",
+      "version": "1.1.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "negotiator",
+      "version": "0.6.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "negotiator",
+      "version": "0.6.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "negotiator",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "netrc",
+      "version": "0.11.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nick-fields/retry",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nkf",
+      "version": "0.2.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nocache",
+      "version": "3.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "node-modules-regexp",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "node-stream-zip",
+      "version": "1.15.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ob1",
+      "version": "0.84.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "on-headers",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "open",
+      "version": "6.4.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "open",
+      "version": "7.4.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ora",
+      "version": "5.4.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "p-try",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "p-try",
+      "version": "2.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pkijs",
+      "version": "3.3.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "promise",
+      "version": "8.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "public_suffix",
+      "version": "4.0.7",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pump",
+      "version": "3.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pvtsutils",
+      "version": "1.3.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pvutils",
+      "version": "1.1.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "qs",
+      "version": "6.13.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "queue",
+      "version": "6.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "range-parser",
+      "version": "1.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "raw-body",
+      "version": "2.5.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "react-devtools-core",
+      "version": "6.1.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "react-native-community/needs-attention",
+      "version": "2.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "react-native-community/repo-monitor",
+      "version": "1.0.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "react-refresh",
+      "version": "0.14.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "reactivecircus/android-emulator-runner",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "readable-stream",
+      "version": "3.6.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "reflect-metadata",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "require-main-filename",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rexml",
+      "version": "3.2.6",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rexml",
+      "version": "3.4.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rfdc",
+      "version": "1.4.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ruby-macho",
+      "version": "2.5.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ruby/setup-ruby",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "safe-buffer",
+      "version": "5.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "selfsigned",
+      "version": "5.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "send",
+      "version": "0.19.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "serve-static",
+      "version": "1.16.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "set-blocking",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "setprototypeof",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "shell-quote",
+      "version": "1.8.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "slice-ansi",
+      "version": "2.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "slice-ansi",
+      "version": "5.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "slice-ansi",
+      "version": "7.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "stackframe",
+      "version": "1.3.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "stacktrace-parser",
+      "version": "0.1.10",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "string_decoder",
+      "version": "1.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "strnum",
+      "version": "1.0.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "terser",
+      "version": "5.31.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "throat",
+      "version": "5.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "toidentifier",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tsutils",
+      "version": "3.21.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tsyringe",
+      "version": "4.10.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "type-is",
+      "version": "1.6.18",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typhoeus",
+      "version": "1.4.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typhoeus",
+      "version": "1.4.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tzinfo",
+      "version": "2.0.6",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "undici",
+      "version": "6.23.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unicorn-magic",
+      "version": "0.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "util-deprecate",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vary",
+      "version": "1.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vlq",
+      "version": "0.2.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vlq",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wait-for-expect",
+      "version": "3.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wcwidth",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "whatwg-fetch",
+      "version": "3.6.20",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "which-module",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "xcodeproj",
+      "version": "1.23.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "xcodeproj",
+      "version": "1.25.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "yaml",
+      "version": "2.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "yaml",
+      "version": "2.8.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zod",
+      "version": "4.1.12",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zod-validation-error",
+      "version": "4.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "./.github/actions/build-android"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "./.github/actions/build-fantom-runner"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "./.github/actions/build-npm-package"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "./.github/actions/create-release"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "./.github/actions/diff-js-api-changes"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "./.github/actions/maestro-android"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "./.github/actions/maestro-ios"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "./.github/actions/post-pr-comment"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "./.github/actions/prepare-hermes-v1-app"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "./.github/actions/prepare-ios-tests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "./.github/actions/run-fantom-tests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "./.github/actions/setup-gradle"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "./.github/actions/setup-node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "./.github/actions/setup-xcode"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "./.github/actions/test-ios-helloworld"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "./.github/actions/test-ios-rntester"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "./.github/actions/test-js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "./.github/actions/yarn-install"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "./.github/workflows/bump-podfile-lock.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "./.github/workflows/create-draft-release.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "./.github/workflows/generate-changelog.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "./.github/workflows/prebuild-ios-core.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "./.github/workflows/prebuild-ios-dependencies.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "./.github/workflows/test-hermes-v1-android.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "./.github/workflows/test-hermes-v1-ios.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@babel/plugin-proposal-export-default-from"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@babel/plugin-syntax-dynamic-import"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@babel/plugin-syntax-export-default-from"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@babel/plugin-transform-react-display-name"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@babel/plugin-transform-react-jsx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@babel/plugin-transform-react-jsx-self"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@babel/plugin-transform-react-jsx-source"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@babel/plugin-transform-runtime"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@hapi/hoek"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@hapi/topo"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@isaacs/ttlcache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@jridgewell/source-map"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@noble/hashes"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@peculiar/asn1-cms"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@peculiar/asn1-csr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@peculiar/asn1-ecc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@peculiar/asn1-pfx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@peculiar/asn1-pkcs8"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@peculiar/asn1-pkcs9"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@peculiar/asn1-rsa"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@peculiar/asn1-schema"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@peculiar/asn1-x509"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@peculiar/asn1-x509-attr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@peculiar/x509"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@react-native-community/cli"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@react-native-community/cli-clean"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@react-native-community/cli-config"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@react-native-community/cli-config-android"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@react-native-community/cli-config-apple"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@react-native-community/cli-doctor"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@react-native-community/cli-platform-android"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@react-native-community/cli-platform-apple"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@react-native-community/cli-platform-ios"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@react-native-community/cli-server-api"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@react-native-community/cli-tools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@react-native-community/cli-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@react-native-community/rxjs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@sideway/address"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@sideway/formula"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@sideway/pinpoint"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@sindresorhus/merge-streams"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@types/jest"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@types/json-schema"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@types/semver"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@typescript-eslint/eslint-plugin"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@typescript-eslint/type-utils"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "@vscode/sudo-prompt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "CFPropertyList"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "CFPropertyList"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "abort-controller"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "accepts"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "accepts"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "actions/cache/restore"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "actions/cache/save"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "actions/download-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "actions/github-script"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "actions/setup-java"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "actions/setup-node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "actions/stale"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "activesupport"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "activesupport"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "addressable"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "addressable"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "agent-base"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "algoliasearch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "anser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "ansi-fragments"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "appdirsjs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "apple-actions/import-codesign-certs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "asap"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "asn1js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "astral-regex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "async-limiter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "atomos"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "base64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "benchmark"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "bigdecimal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "bl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "body-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "buffer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "bytes"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "bytestreamjs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "chrome-launcher"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "chromium-edge-launcher"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "cirrus-actions/rebase"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "claide"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "cli-spinners"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "cli-truncate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "cli-truncate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "clone"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "cocoapods"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "cocoapods"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "cocoapods-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "cocoapods-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "cocoapods-deintegrate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "cocoapods-downloader"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "cocoapods-downloader"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "cocoapods-plugins"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "cocoapods-search"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "cocoapods-trunk"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "cocoapods-try"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "color-convert"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "color-convert"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "color-name"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "color-name"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "colored2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "colorette"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "colorette"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "command-exists"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "compressible"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "compression"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "concat-map"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "concurrent-ruby"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "concurrent-ruby"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "content-type"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "cosmiconfig"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "dayjs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "decamelize"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "defaults"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "depd"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "destroy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "dorny/paths-filter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "eastasianwidth"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "electron"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "end-of-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "envinfo"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "error-stack-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "errorhandler"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "escape"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "eslint-plugin-react-hooks"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "etag"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "ethon"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "event-target-shim"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "eventemitter3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "exponential-backoff"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "fast-uri"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "fast-xml-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "ffi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "ffi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "flow-remove-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "fourflusher"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "fresh"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "fuzzy_match"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "gh_inspector"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "gradle-wrapper"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "gradle/actions/setup-gradle"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "hermes-compiler"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "http-errors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "httpclient"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "https-proxy-agent"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "i18n"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "i18n"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "ieee754"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "image-size"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "invariant"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "is-docker"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "is-fullwidth-code-point"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "is-fullwidth-code-point"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "is-fullwidth-code-point"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "is-fullwidth-code-point"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "is-interactive"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "is-unicode-supported"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "is-wsl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "is-wsl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "joi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "jsc-safe-url"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "json"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "json"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "jsonc-eslint-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "launch-editor"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "lighthouse-logger"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "listr2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "listr2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "lodash.throttle"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "log-symbols"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "log-update"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "log-update"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "logger"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "logkitty"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "marky"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "maxim-lobanov/setup-xcode"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "maxim-lobanov/setup-xcode"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "media-typer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "memoize-one"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "metro"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "metro-babel-transformer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "metro-cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "metro-cache-key"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "metro-config"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "metro-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "metro-file-map"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "metro-minify-terser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "metro-resolver"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "metro-runtime"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "metro-source-map"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "metro-symbolicate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "metro-transform-worker"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "mime"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "mime"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "mime-db"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "mime-db"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "mime-db"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "mime-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "mime-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "mimic-fn"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "minitest"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "minitest"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "molinillo"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "mutex_m"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "nanaimo"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "nap"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "negotiator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "negotiator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "negotiator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "netrc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "nick-fields/retry"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "nkf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "nocache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "node-modules-regexp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "node-stream-zip"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "ob1"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "on-headers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "open"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "open"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "ora"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "p-try"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "p-try"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "pkijs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "promise"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "public_suffix"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "pump"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "pvtsutils"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "pvutils"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "qs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "queue"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "range-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "raw-body"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "react-devtools-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "react-native-community/needs-attention"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "react-native-community/repo-monitor"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "react-refresh"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "reactivecircus/android-emulator-runner"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "readable-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "reflect-metadata"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "require-main-filename"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "rexml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "rexml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "rfdc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "ruby-macho"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "ruby/setup-ruby"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "safe-buffer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "selfsigned"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "send"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "serve-static"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "set-blocking"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "setprototypeof"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "shell-quote"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "slice-ansi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "slice-ansi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "slice-ansi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "stackframe"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "stacktrace-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "string_decoder"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "strnum"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "terser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "throat"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "toidentifier"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "tsutils"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "tsyringe"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "type-is"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "typhoeus"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "typhoeus"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "tzinfo"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "undici"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "unicorn-magic"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "util-deprecate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "vary"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "vlq"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "vlq"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "wait-for-expect"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "wcwidth"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "whatwg-fetch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "which-module"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "xcodeproj"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "xcodeproj"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "zod"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "facebook-react-native",
+      "child": "zod-validation-error"
+    }
+  ]
+}

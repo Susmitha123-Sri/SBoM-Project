@@ -1,0 +1,48 @@
+{
+  "scan_id": "obra-superpowers",
+  "timestamp": "2026-03-20T01:07:05.156377",
+  "target": "https://github.com/obra/superpowers",
+  "summary": {
+    "total_packages": 2,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "brainstorm-server-tests",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ws",
+      "version": "8.19.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obra-superpowers",
+      "child": "brainstorm-server-tests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obra-superpowers",
+      "child": "ws"
+    }
+  ]
+}

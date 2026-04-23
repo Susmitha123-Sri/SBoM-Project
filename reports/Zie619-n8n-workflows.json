@@ -1,0 +1,378 @@
+{
+  "scan_id": "Zie619-n8n-workflows",
+  "timestamp": "2026-03-20T04:11:28.513991",
+  "target": "https://github.com/Zie619/n8n-workflows",
+  "summary": {
+    "total_packages": 24,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/cache",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/configure-pages",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/deploy-pages",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-python",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-pages-artifact",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aquasecurity/trivy-action",
+      "version": "master",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/build-push-action",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/login-action",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/metadata-action",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/setup-buildx-action",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/setup-qemu-action",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "email-validator",
+      "version": "2.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fastapi",
+      "version": "0.109.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.135.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/upload-sarif",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gunicorn",
+      "version": "21.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "25.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "httpx",
+      "version": "0.26.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.28.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "passlib",
+      "version": "1.7.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.7.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "psutil",
+      "version": "5.9.8",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.2.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pydantic",
+      "version": "2.5.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.12.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pyjwt",
+      "version": "2.8.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.12.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "python-multipart",
+      "version": "0.0.9",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.0.22",
+      "version_status": "outdated"
+    },
+    {
+      "package": "requests",
+      "version": "2.31.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.32.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "uvicorn",
+      "version": "0.27.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.42.0",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Zie619-n8n-workflows",
+      "child": "actions/cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Zie619-n8n-workflows",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Zie619-n8n-workflows",
+      "child": "actions/configure-pages"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Zie619-n8n-workflows",
+      "child": "actions/deploy-pages"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Zie619-n8n-workflows",
+      "child": "actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Zie619-n8n-workflows",
+      "child": "actions/upload-pages-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Zie619-n8n-workflows",
+      "child": "aquasecurity/trivy-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Zie619-n8n-workflows",
+      "child": "docker/build-push-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Zie619-n8n-workflows",
+      "child": "docker/login-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Zie619-n8n-workflows",
+      "child": "docker/metadata-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Zie619-n8n-workflows",
+      "child": "docker/setup-buildx-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Zie619-n8n-workflows",
+      "child": "docker/setup-qemu-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Zie619-n8n-workflows",
+      "child": "email-validator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Zie619-n8n-workflows",
+      "child": "fastapi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Zie619-n8n-workflows",
+      "child": "github/codeql-action/upload-sarif"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Zie619-n8n-workflows",
+      "child": "gunicorn"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Zie619-n8n-workflows",
+      "child": "httpx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Zie619-n8n-workflows",
+      "child": "passlib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Zie619-n8n-workflows",
+      "child": "psutil"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Zie619-n8n-workflows",
+      "child": "pydantic"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Zie619-n8n-workflows",
+      "child": "pyjwt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Zie619-n8n-workflows",
+      "child": "python-multipart"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Zie619-n8n-workflows",
+      "child": "requests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Zie619-n8n-workflows",
+      "child": "uvicorn"
+    }
+  ]
+}

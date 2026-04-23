@@ -1,0 +1,468 @@
+{
+  "scan_id": "1c7-chinese-independent-developer",
+  "timestamp": "2026-03-20T06:02:49.933958",
+  "target": "https://github.com/1c7/chinese-independent-developer",
+  "summary": {
+    "total_packages": 30,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "6.0.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-python",
+      "version": "6.1.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "annotated-types",
+      "version": "0.7.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "anyio",
+      "version": "4.12.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.12.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "certifi",
+      "version": "2025.11.12",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2026.2.25",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cffi",
+      "version": "2.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "charset-normalizer",
+      "version": "3.4.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.4.6",
+      "version_status": "outdated"
+    },
+    {
+      "package": "chinese-independent-developer",
+      "version": "0.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "colorama",
+      "version": "0.4.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.6",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "cryptography",
+      "version": "46.0.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "46.0.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "distro",
+      "version": "1.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.9.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "h11",
+      "version": "0.16.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.16.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "httpcore",
+      "version": "1.0.9",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.9",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "httpx",
+      "version": "0.28.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.28.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "idna",
+      "version": "3.11",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.11",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jiter",
+      "version": "0.12.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.13.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "openai",
+      "version": "2.14.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.29.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pycparser",
+      "version": "2.23",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pydantic",
+      "version": "2.12.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.12.5",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pydantic-core",
+      "version": "2.41.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.42.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pygithub",
+      "version": "2.8.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.8.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyjwt",
+      "version": "2.10.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.12.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pynacl",
+      "version": "1.6.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.6.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "requests",
+      "version": "2.32.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.32.5",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "sniffio",
+      "version": "1.3.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "socksio",
+      "version": "1.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tqdm",
+      "version": "4.67.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.67.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typing-extensions",
+      "version": "4.15.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.15.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "typing-inspection",
+      "version": "0.4.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "urllib3",
+      "version": "2.6.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.6.3",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "1c7-chinese-independent-developer",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "1c7-chinese-independent-developer",
+      "child": "actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "1c7-chinese-independent-developer",
+      "child": "annotated-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "1c7-chinese-independent-developer",
+      "child": "anyio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "1c7-chinese-independent-developer",
+      "child": "certifi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "1c7-chinese-independent-developer",
+      "child": "cffi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "1c7-chinese-independent-developer",
+      "child": "charset-normalizer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "1c7-chinese-independent-developer",
+      "child": "chinese-independent-developer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "1c7-chinese-independent-developer",
+      "child": "colorama"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "1c7-chinese-independent-developer",
+      "child": "cryptography"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "1c7-chinese-independent-developer",
+      "child": "distro"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "1c7-chinese-independent-developer",
+      "child": "h11"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "1c7-chinese-independent-developer",
+      "child": "httpcore"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "1c7-chinese-independent-developer",
+      "child": "httpx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "1c7-chinese-independent-developer",
+      "child": "idna"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "1c7-chinese-independent-developer",
+      "child": "jiter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "1c7-chinese-independent-developer",
+      "child": "openai"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "1c7-chinese-independent-developer",
+      "child": "pycparser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "1c7-chinese-independent-developer",
+      "child": "pydantic"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "1c7-chinese-independent-developer",
+      "child": "pydantic-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "1c7-chinese-independent-developer",
+      "child": "pygithub"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "1c7-chinese-independent-developer",
+      "child": "pyjwt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "1c7-chinese-independent-developer",
+      "child": "pynacl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "1c7-chinese-independent-developer",
+      "child": "requests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "1c7-chinese-independent-developer",
+      "child": "sniffio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "1c7-chinese-independent-developer",
+      "child": "socksio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "1c7-chinese-independent-developer",
+      "child": "tqdm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "1c7-chinese-independent-developer",
+      "child": "typing-extensions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "1c7-chinese-independent-developer",
+      "child": "typing-inspection"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "1c7-chinese-independent-developer",
+      "child": "urllib3"
+    }
+  ]
+}

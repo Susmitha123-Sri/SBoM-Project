@@ -1,0 +1,138 @@
+{
+  "scan_id": "jakevdp-PythonDataScienceHandbook",
+  "timestamp": "2026-03-20T06:04:11.463074",
+  "target": "https://github.com/jakevdp/PythonDataScienceHandbook",
+  "summary": {
+    "total_packages": 8,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "matplotlib",
+      "version": "1.5.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.10.8",
+      "version_status": "outdated"
+    },
+    {
+      "package": "numpy",
+      "version": "1.11.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pandas",
+      "version": "0.18.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pillow",
+      "version": "3.4.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.1.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "scikit-image",
+      "version": "0.12.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.26.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "scikit-learn",
+      "version": "0.17.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.8.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "scipy",
+      "version": "0.17.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.17.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "seaborn",
+      "version": "0.7.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.13.2",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jakevdp-PythonDataScienceHandbook",
+      "child": "matplotlib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jakevdp-PythonDataScienceHandbook",
+      "child": "numpy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jakevdp-PythonDataScienceHandbook",
+      "child": "pandas"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jakevdp-PythonDataScienceHandbook",
+      "child": "pillow"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jakevdp-PythonDataScienceHandbook",
+      "child": "scikit-image"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jakevdp-PythonDataScienceHandbook",
+      "child": "scikit-learn"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jakevdp-PythonDataScienceHandbook",
+      "child": "scipy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jakevdp-PythonDataScienceHandbook",
+      "child": "seaborn"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "scan_id": "FiloSottile-mkcert",
+  "timestamp": "2026-03-20T03:37:59.403934",
+  "target": "https://github.com/FiloSottile/mkcert",
+  "summary": {
+    "total_packages": 8,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/github-script",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-go",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/crypto",
+      "version": "0.0.0-20220331220935-ae2d96664a29",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/net",
+      "version": "0.0.0-20220421235706-1d1ef9303861",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/text",
+      "version": "0.3.7",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "howett.net/plist",
+      "version": "1.0.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "software.sslmate.com/src/go-pkcs12",
+      "version": "0.2.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FiloSottile-mkcert",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FiloSottile-mkcert",
+      "child": "actions/github-script"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FiloSottile-mkcert",
+      "child": "actions/setup-go"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FiloSottile-mkcert",
+      "child": "golang.org/x/crypto"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FiloSottile-mkcert",
+      "child": "golang.org/x/net"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FiloSottile-mkcert",
+      "child": "golang.org/x/text"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FiloSottile-mkcert",
+      "child": "howett.net/plist"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FiloSottile-mkcert",
+      "child": "software.sslmate.com/src/go-pkcs12"
+    }
+  ]
+}

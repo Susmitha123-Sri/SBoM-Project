@@ -1,0 +1,1098 @@
+{
+  "scan_id": "golang-go",
+  "timestamp": "2026-03-20T00:41:39.237396",
+  "target": "https://github.com/golang/go",
+  "summary": {
+    "total_packages": 72,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "@observablehq/plot",
+      "version": "0.6.9",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "binary-search-bounds",
+      "version": "2.0.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "commander",
+      "version": "7.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3",
+      "version": "7.8.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-array",
+      "version": "3.2.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-axis",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-brush",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-chord",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-color",
+      "version": "3.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-contour",
+      "version": "4.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-delaunay",
+      "version": "6.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-dispatch",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-drag",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-dsv",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-ease",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-fetch",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-force",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-format",
+      "version": "3.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-geo",
+      "version": "3.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-hierarchy",
+      "version": "3.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-interpolate",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-path",
+      "version": "3.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-polygon",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-quadtree",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-random",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-scale",
+      "version": "4.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-scale-chromatic",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-selection",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-shape",
+      "version": "3.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-time",
+      "version": "3.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-time-format",
+      "version": "4.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-timer",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-transition",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-zoom",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "delaunator",
+      "version": "5.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/google/pprof",
+      "version": "0.0.0-20260115054156-294ebfa9ad83",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/ianlancetaylor/demangle",
+      "version": "0.0.0-20250417193237-f615e6bd150b",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/mmcloughlin/avo",
+      "version": "0.6.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/arch",
+      "version": "0.20.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/arch",
+      "version": "0.23.1-0.20260109160903-657d90bd6695",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/build",
+      "version": "0.0.0-20260122183339-3ba88df37c64",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/crypto",
+      "version": "0.47.1-0.20260113154411-7d0074ccc6f1",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/mod",
+      "version": "0.14.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/mod",
+      "version": "0.19.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/mod",
+      "version": "0.20.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/mod",
+      "version": "0.29.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/mod",
+      "version": "0.32.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/net",
+      "version": "0.49.1-0.20260122225915-f2078620ee33",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/sync",
+      "version": "0.17.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/sync",
+      "version": "0.19.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/sync",
+      "version": "0.7.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/sync",
+      "version": "0.8.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/sys",
+      "version": "0.40.1-0.20260116220947-d25a7aaff8c2",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/telemetry",
+      "version": "0.0.0-20260116145544-c6413dc483f5",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/term",
+      "version": "0.39.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/text",
+      "version": "0.33.1-0.20260122225119-3264de9174be",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/tools",
+      "version": "0.16.1",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/tools",
+      "version": "0.23.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/tools",
+      "version": "0.24.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/tools",
+      "version": "0.27.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/tools",
+      "version": "0.33.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/tools",
+      "version": "0.38.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/tools",
+      "version": "0.41.1-0.20260122210857-a60613f0795e",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gopkg.in/yaml.v3",
+      "version": "3.0.1",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "iconv-lite",
+      "version": "0.6.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "internmap",
+      "version": "2.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "interval-tree-1d",
+      "version": "1.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "isoformat",
+      "version": "0.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "robust-predicates",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rsc.io/markdown",
+      "version": "0.0.0-20240306144322-0bf8f97ee8ef",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rw",
+      "version": "1.3.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "safer-buffer",
+      "version": "2.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "@observablehq/plot"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "binary-search-bounds"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "commander"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "d3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "d3-array"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "d3-axis"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "d3-brush"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "d3-chord"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "d3-color"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "d3-contour"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "d3-delaunay"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "d3-dispatch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "d3-drag"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "d3-dsv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "d3-ease"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "d3-fetch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "d3-force"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "d3-format"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "d3-geo"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "d3-hierarchy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "d3-interpolate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "d3-path"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "d3-polygon"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "d3-quadtree"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "d3-random"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "d3-scale"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "d3-scale-chromatic"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "d3-selection"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "d3-shape"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "d3-time"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "d3-time-format"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "d3-timer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "d3-transition"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "d3-zoom"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "delaunator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "github.com/google/pprof"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "github.com/ianlancetaylor/demangle"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "github.com/mmcloughlin/avo"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "golang.org/x/arch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "golang.org/x/arch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "golang.org/x/build"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "golang.org/x/crypto"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "golang.org/x/mod"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "golang.org/x/mod"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "golang.org/x/mod"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "golang.org/x/mod"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "golang.org/x/mod"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "golang.org/x/net"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "golang.org/x/sync"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "golang.org/x/sync"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "golang.org/x/sync"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "golang.org/x/sync"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "golang.org/x/sys"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "golang.org/x/telemetry"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "golang.org/x/term"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "golang.org/x/text"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "golang.org/x/tools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "golang.org/x/tools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "golang.org/x/tools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "golang.org/x/tools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "golang.org/x/tools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "golang.org/x/tools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "golang.org/x/tools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "gopkg.in/yaml.v3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "iconv-lite"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "internmap"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "interval-tree-1d"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "isoformat"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "robust-predicates"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "rsc.io/markdown"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "rw"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "golang-go",
+      "child": "safer-buffer"
+    }
+  ]
+}

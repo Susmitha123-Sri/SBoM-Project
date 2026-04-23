@@ -1,0 +1,93 @@
+{
+  "scan_id": "pyenv-pyenv",
+  "timestamp": "2026-03-20T07:02:03.785083",
+  "target": "https://github.com/pyenv/pyenv",
+  "summary": {
+    "total_packages": 5,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/create-github-app-token",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-python",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lee-dohm/no-response",
+      "version": "0.5.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "peter-evans/create-pull-request",
+      "version": "8",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pyenv-pyenv",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pyenv-pyenv",
+      "child": "actions/create-github-app-token"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pyenv-pyenv",
+      "child": "actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pyenv-pyenv",
+      "child": "lee-dohm/no-response"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pyenv-pyenv",
+      "child": "peter-evans/create-pull-request"
+    }
+  ]
+}

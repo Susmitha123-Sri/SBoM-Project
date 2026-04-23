@@ -1,0 +1,10 @@
+scan_id,target,timestamp,package,version,type,vulnerability_id,severity,fixed_version,latest_version,version_status
+expressjs-express,https://github.com/expressjs/express,2026-03-20T02:52:39.800542,actions/checkout,6.0.2,github-action,None,None,N/A,6.0.2,up_to_date
+expressjs-express,https://github.com/expressjs/express,2026-03-20T02:52:39.800542,actions/download-artifact,8.0.0,github-action,None,None,N/A,8.0.1,outdated
+expressjs-express,https://github.com/expressjs/express,2026-03-20T02:52:39.800542,actions/setup-node,6.2.0,github-action,None,None,N/A,6.3.0,outdated
+expressjs-express,https://github.com/expressjs/express,2026-03-20T02:52:39.800542,actions/upload-artifact,7.0.0,github-action,None,None,N/A,7.0.0,up_to_date
+expressjs-express,https://github.com/expressjs/express,2026-03-20T02:52:39.800542,coverallsapp/github-action,2.3.7,github-action,None,None,N/A,2.3.6,outdated
+expressjs-express,https://github.com/expressjs/express,2026-03-20T02:52:39.800542,github/codeql-action/analyze,4.32.4,github-action,None,None,N/A,unknown,outdated
+expressjs-express,https://github.com/expressjs/express,2026-03-20T02:52:39.800542,github/codeql-action/init,4.32.4,github-action,None,None,N/A,unknown,outdated
+expressjs-express,https://github.com/expressjs/express,2026-03-20T02:52:39.800542,github/codeql-action/upload-sarif,4.32.4,github-action,None,None,N/A,unknown,outdated
+expressjs-express,https://github.com/expressjs/express,2026-03-20T02:52:39.800542,ossf/scorecard-action,2.4.3,github-action,None,None,N/A,2.4.3,up_to_date

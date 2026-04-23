@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SBOM Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+    <style>
+    body {
+        margin: 0;
+        font-family: "Inter", sans-serif;
+        background: #0f172a;
+    }
+
+    .app {
+        display: flex;
+    }
+
+    /* ========================= */
+    /* SIDEBAR (LIGHT THEME) */
+    /* ========================= */
+    .sidebar {
+        width: 240px;
+        height: 100vh;
+        background: #ffffff;
+        padding: 20px;
+        box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+    }
+
+    /* TITLE */
+    .sidebar h2 {
+        margin-bottom: 30px;
+        color: #1e293b;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    /* LINKS */
+    .sidebar a {
+        display: block;
+        padding: 10px 12px;
+        margin-bottom: 8px;
+        text-decoration: none;
+        color: #475569;
+        border-radius: 8px;
+        transition: 0.3s;
+        font-size: 14px;
+    }
+
+    /* HOVER */
+    .sidebar a:hover {
+        background: #eef2ff;
+        color: #4f46e5;
+    }
+
+    /* ACTIVE */
+    .sidebar a.active {
+        background: #6366f1;
+        color: white;
+    }
+
+    /* ========================= */
+    /* MAIN CONTENT */
+    /* ========================= */
+    .main {
+        flex: 1;
+        padding: 0;
+    }
+
+    </style>
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+
+        <h2>🚀 SBOM System</h2>
+
+        <a href="/dashboard">📊 Dashboard</a>
+        <a href="/repos">📦 Repositories</a>
+        <a href="/monitor">🔍 Monitor</a>
+        <a href="/packages">📁 Packages</a>
+        <a href="/analytics">📈 Analytics</a>
+
+        <!-- ✅ UPDATED -->
+        <a href="/run-scan">🚀 Run Scan</a>
+
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="main">
+        {% block content %}{% endblock %}
+    </div>
+
+</div>
+
+</body>
+</html>

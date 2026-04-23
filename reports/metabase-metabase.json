@@ -1,0 +1,2223 @@
+{
+  "scan_id": "metabase-metabase",
+  "timestamp": "2026-03-20T06:17:43.646636",
+  "target": "https://github.com/metabase/metabase",
+  "summary": {
+    "total_packages": 147,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "./.github/actions/await-port",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/cleanup-python-runner",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/create-backport",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/cross-branch-migration-test",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/e2e-download-uberjar",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/e2e-prepare-containers",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/fetch-artifact",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/find-squashed-commit",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/get-cache-keys",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/get-docker-info",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/maximize-disk-space",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/notify-pull-request",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/prepare-backend",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/prepare-cypress",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/prepare-frontend",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/prepare-node-bun",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/prepare-release-scripts",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/prepare-shoppy-e2e",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/prepare-uberjar-artifact",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/sdk-bundle-size-check",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/setup-python-runner",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/test-driver",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/update-cache",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/upgrade-backend-deps",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/upload-test-results",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/app-db.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/backend.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/containerize-jar.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/containerize-uberjar.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/docs-generate-base.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/drivers.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/e2e-matrix-builder.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/e2e-test.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/e2e-tests.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/embedding-sdk-component-tests.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/embedding-sdk-host-sample-apps-tests.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/embedding-sdk-package-build.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/embedding-sdk.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/frontend.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/perf-test.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/pr-env-destroy.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/pr-env.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/pre-release.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/release-tag.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/release.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/semantic-search.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/uberjar.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@angular/common",
+      "version": "20.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@angular/compiler",
+      "version": "20.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@angular/core",
+      "version": "20.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@angular/platform-browser",
+      "version": "20.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@angular/router",
+      "version": "20.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@img/colour",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@img/sharp-darwin-arm64",
+      "version": "0.34.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@img/sharp-libvips-darwin-arm64",
+      "version": "1.2.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@metabase/embedding-sdk-react",
+      "version": "0.58.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@next/env",
+      "version": "15.5.9",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@next/swc-darwin-arm64",
+      "version": "15.5.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@next/swc-darwin-x64",
+      "version": "15.5.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@next/swc-linux-arm64-gnu",
+      "version": "15.5.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@next/swc-linux-arm64-musl",
+      "version": "15.5.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@next/swc-linux-x64-gnu",
+      "version": "15.5.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@next/swc-linux-x64-musl",
+      "version": "15.5.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@next/swc-win32-arm64-msvc",
+      "version": "15.5.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@next/swc-win32-x64-msvc",
+      "version": "15.5.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@swc/helpers",
+      "version": "0.5.15",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/cache",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/cache/restore",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/cache/save",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/create-github-app-token",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/create-github-app-token",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/download-artifact",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/github-script",
+      "version": "7",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-java",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-node",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/stale",
+      "version": "9",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "7",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "angular-20-host-app",
+      "version": "0.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "anthropics/claude-code-action",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aquasecurity/trivy-action",
+      "version": "0.29.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "astral-sh/setup-uv",
+      "version": "7",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aws-actions/amazon-ecr-login",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aws-actions/configure-aws-credentials",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "azure/k8s-set-context",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "azure/setup-helm",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "browser-actions/setup-chrome",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "caniuse-lite",
+      "version": "1.0.30001760",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "chromaui/action",
+      "version": "10.2.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "client-only",
+      "version": "0.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "codecov/codecov-action",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "crowdin/github-action",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "detect-libc",
+      "version": "2.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/build-push-action",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/login-action",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/setup-buildx-action",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/setup-compose-action",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/setup-qemu-action",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dorny/paths-filter",
+      "version": "3.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dorny/test-reporter",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/analyze",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/init",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/upload-sarif",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hoverkraft-tech/compose-action",
+      "version": "2.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jesusvasquez333/verify-pr-label-action",
+      "version": "1.4.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "js-tokens",
+      "version": "4.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "juliangruber/approve-pull-request-action",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "loose-envify",
+      "version": "1.4.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lycheeverse/lychee-action",
+      "version": "2.3.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "marocchino/sticky-pull-request-comment",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "metabase-python-deps",
+      "version": "0.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mitt",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nanoid",
+      "version": "3.3.11",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "next",
+      "version": "15.5.9",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "next-15-app-router-host-app",
+      "version": "0.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "next-15-pages-router-host-app",
+      "version": "0.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nowactions/envsubst",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "oven-sh/setup-bun",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "peter-evans/create-pull-request",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "peter-evans/enable-pull-request-automerge",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "picocolors",
+      "version": "1.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "postcss",
+      "version": "8.4.31",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "react",
+      "version": "18.3.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "react-dom",
+      "version": "18.3.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "regexparam",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rxjs",
+      "version": "7.8.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "scheduler",
+      "version": "0.23.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "semver",
+      "version": "7.7.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sharp",
+      "version": "0.34.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "slackapi/slack-github-action",
+      "version": "1.23.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "slackapi/slack-github-action",
+      "version": "1.26.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "snyk/actions/setup",
+      "version": "0.4.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "source-map-js",
+      "version": "1.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sqlglot",
+      "version": "28.6.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "30.0.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "styled-jsx",
+      "version": "5.1.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tailscale/github-action",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tibdex/github-app-token",
+      "version": "2.1.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tj-actions/changed-files",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "trunk-io/analytics-uploader",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tslib",
+      "version": "2.8.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "turtlequeue/setup-babashka",
+      "version": "1.7.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "use-sync-external-store",
+      "version": "1.4.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vite-6-host-app",
+      "version": "0.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wouter",
+      "version": "3.7.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/actions/await-port"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/actions/cleanup-python-runner"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/actions/create-backport"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/actions/cross-branch-migration-test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/actions/e2e-download-uberjar"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/actions/e2e-prepare-containers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/actions/fetch-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/actions/find-squashed-commit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/actions/get-cache-keys"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/actions/get-docker-info"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/actions/maximize-disk-space"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/actions/notify-pull-request"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/actions/prepare-backend"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/actions/prepare-cypress"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/actions/prepare-frontend"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/actions/prepare-node-bun"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/actions/prepare-release-scripts"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/actions/prepare-shoppy-e2e"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/actions/prepare-uberjar-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/actions/sdk-bundle-size-check"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/actions/setup-python-runner"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/actions/test-driver"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/actions/update-cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/actions/upgrade-backend-deps"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/actions/upload-test-results"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/workflows/app-db.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/workflows/backend.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/workflows/containerize-jar.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/workflows/containerize-uberjar.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/workflows/docs-generate-base.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/workflows/drivers.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/workflows/e2e-matrix-builder.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/workflows/e2e-test.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/workflows/e2e-tests.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/workflows/embedding-sdk-component-tests.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/workflows/embedding-sdk-host-sample-apps-tests.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/workflows/embedding-sdk-package-build.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/workflows/embedding-sdk.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/workflows/frontend.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/workflows/perf-test.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/workflows/pr-env-destroy.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/workflows/pr-env.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/workflows/pre-release.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/workflows/release-tag.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/workflows/release.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/workflows/semantic-search.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "./.github/workflows/uberjar.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "@angular/common"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "@angular/compiler"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "@angular/core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "@angular/platform-browser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "@angular/router"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "@img/colour"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "@img/sharp-darwin-arm64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "@img/sharp-libvips-darwin-arm64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "@metabase/embedding-sdk-react"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "@next/env"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "@next/swc-darwin-arm64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "@next/swc-darwin-x64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "@next/swc-linux-arm64-gnu"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "@next/swc-linux-arm64-musl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "@next/swc-linux-x64-gnu"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "@next/swc-linux-x64-musl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "@next/swc-win32-arm64-msvc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "@next/swc-win32-x64-msvc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "@swc/helpers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "actions/cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "actions/cache/restore"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "actions/cache/save"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "actions/create-github-app-token"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "actions/create-github-app-token"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "actions/download-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "actions/github-script"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "actions/setup-java"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "actions/setup-node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "actions/stale"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "angular-20-host-app"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "anthropics/claude-code-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "aquasecurity/trivy-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "astral-sh/setup-uv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "aws-actions/amazon-ecr-login"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "aws-actions/configure-aws-credentials"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "azure/k8s-set-context"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "azure/setup-helm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "browser-actions/setup-chrome"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "caniuse-lite"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "chromaui/action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "client-only"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "codecov/codecov-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "crowdin/github-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "detect-libc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "docker/build-push-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "docker/login-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "docker/setup-buildx-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "docker/setup-compose-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "docker/setup-qemu-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "dorny/paths-filter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "dorny/test-reporter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "github/codeql-action/analyze"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "github/codeql-action/init"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "github/codeql-action/upload-sarif"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "hoverkraft-tech/compose-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "jesusvasquez333/verify-pr-label-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "js-tokens"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "juliangruber/approve-pull-request-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "loose-envify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "lycheeverse/lychee-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "marocchino/sticky-pull-request-comment"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "metabase-python-deps"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "mitt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "nanoid"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "next"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "next-15-app-router-host-app"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "next-15-pages-router-host-app"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "nowactions/envsubst"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "oven-sh/setup-bun"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "peter-evans/create-pull-request"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "peter-evans/enable-pull-request-automerge"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "picocolors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "postcss"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "react"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "react-dom"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "regexparam"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "rxjs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "scheduler"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "semver"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "sharp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "slackapi/slack-github-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "slackapi/slack-github-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "snyk/actions/setup"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "source-map-js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "sqlglot"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "styled-jsx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "tailscale/github-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "tibdex/github-app-token"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "tj-actions/changed-files"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "trunk-io/analytics-uploader"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "tslib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "turtlequeue/setup-babashka"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "use-sync-external-store"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "vite-6-host-app"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "metabase-metabase",
+      "child": "wouter"
+    }
+  ]
+}

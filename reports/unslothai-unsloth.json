@@ -1,0 +1,33 @@
+{
+  "scan_id": "unslothai-unsloth",
+  "timestamp": "2026-03-20T03:45:29.297216",
+  "target": "https://github.com/unslothai/unsloth",
+  "summary": {
+    "total_packages": 1,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/stale",
+      "version": "10",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "unslothai-unsloth",
+      "child": "actions/stale"
+    }
+  ]
+}

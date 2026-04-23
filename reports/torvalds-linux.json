@@ -1,0 +1,123 @@
+{
+  "scan_id": "torvalds-linux",
+  "timestamp": "2026-03-20T00:09:54.702799",
+  "target": "https://github.com/torvalds/linux",
+  "summary": {
+    "total_packages": 7,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "pe-file",
+      "version": "UNKNOWN",
+      "type": "binary",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sphinx",
+      "version": "3.4.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sphinxcontrib-applehelp",
+      "version": "1.0.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sphinxcontrib-devhelp",
+      "version": "1.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sphinxcontrib-htmlhelp",
+      "version": "1.0.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sphinxcontrib-qthelp",
+      "version": "1.0.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sphinxcontrib-serializinghtml",
+      "version": "1.1.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.0",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "torvalds-linux",
+      "child": "pe-file"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "torvalds-linux",
+      "child": "sphinx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "torvalds-linux",
+      "child": "sphinxcontrib-applehelp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "torvalds-linux",
+      "child": "sphinxcontrib-devhelp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "torvalds-linux",
+      "child": "sphinxcontrib-htmlhelp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "torvalds-linux",
+      "child": "sphinxcontrib-qthelp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "torvalds-linux",
+      "child": "sphinxcontrib-serializinghtml"
+    }
+  ]
+}

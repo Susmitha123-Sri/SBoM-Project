@@ -1,0 +1,1803 @@
+{
+  "scan_id": "Leaflet-Leaflet",
+  "timestamp": "2026-03-20T06:59:41.969322",
+  "target": "https://github.com/Leaflet/Leaflet",
+  "summary": {
+    "total_packages": 119,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/cache",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.0.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-node",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "activesupport",
+      "version": "8.1.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "addressable",
+      "version": "2.8.8",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "base64",
+      "version": "0.3.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bigdecimal",
+      "version": "3.3.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "browser-actions/setup-chrome",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.1.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "browser-actions/setup-firefox",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.7.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "coffee-script",
+      "version": "2.4.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "coffee-script-source",
+      "version": "1.12.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "colorator",
+      "version": "1.1.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "commonmarker",
+      "version": "0.23.12",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "concurrent-ruby",
+      "version": "1.3.5",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "connection_pool",
+      "version": "2.5.5",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "csv",
+      "version": "3.3.5",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "denoland/setup-deno",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dnsruby",
+      "version": "1.73.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "drb",
+      "version": "2.2.3",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "em-websocket",
+      "version": "0.5.3",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ethon",
+      "version": "0.15.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "eventmachine",
+      "version": "1.2.7",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "execjs",
+      "version": "2.10.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "faraday",
+      "version": "2.14.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "faraday-net_http",
+      "version": "3.4.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ffi",
+      "version": "1.17.2-aarch64-linux-gnu",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ffi",
+      "version": "1.17.2-aarch64-linux-musl",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ffi",
+      "version": "1.17.2-arm-linux-gnu",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ffi",
+      "version": "1.17.2-arm-linux-musl",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ffi",
+      "version": "1.17.2-arm64-darwin",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ffi",
+      "version": "1.17.2-x86_64-darwin",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ffi",
+      "version": "1.17.2-x86_64-linux-gnu",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ffi",
+      "version": "1.17.2-x86_64-linux-musl",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "forwardable-extended",
+      "version": "2.6.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gemoji",
+      "version": "4.1.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github-pages",
+      "version": "232",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github-pages-health-check",
+      "version": "1.18.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "html-pipeline",
+      "version": "2.14.3",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "http_parser.rb",
+      "version": "0.8.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "i18n",
+      "version": "1.14.7",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll",
+      "version": "3.10.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-avatar",
+      "version": "0.8.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-coffeescript",
+      "version": "1.2.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-commonmark",
+      "version": "1.4.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-commonmark-ghpages",
+      "version": "0.5.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-default-layout",
+      "version": "0.1.5",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-feed",
+      "version": "0.17.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-gist",
+      "version": "1.5.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-github-metadata",
+      "version": "2.16.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-include-cache",
+      "version": "0.2.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-mentions",
+      "version": "1.6.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-optional-front-matter",
+      "version": "0.3.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-paginate",
+      "version": "1.1.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-readme-index",
+      "version": "0.3.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-redirect-from",
+      "version": "0.16.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-relative-links",
+      "version": "0.6.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-remote-theme",
+      "version": "0.4.3",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-sass-converter",
+      "version": "1.5.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-seo-tag",
+      "version": "2.8.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-sitemap",
+      "version": "1.4.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-swiss",
+      "version": "1.0.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-theme-architect",
+      "version": "0.2.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-theme-cayman",
+      "version": "0.2.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-theme-dinky",
+      "version": "0.2.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-theme-hacker",
+      "version": "0.2.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-theme-leap-day",
+      "version": "0.2.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-theme-merlot",
+      "version": "0.2.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-theme-midnight",
+      "version": "0.2.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-theme-minimal",
+      "version": "0.2.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-theme-modernist",
+      "version": "0.2.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-theme-primer",
+      "version": "0.6.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-theme-slate",
+      "version": "0.2.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-theme-tactile",
+      "version": "0.2.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-theme-time-machine",
+      "version": "0.2.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-titles-from-headings",
+      "version": "0.5.3",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll-watch",
+      "version": "2.2.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jemoji",
+      "version": "0.13.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "json",
+      "version": "2.19.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "kramdown",
+      "version": "2.4.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "kramdown-parser-gfm",
+      "version": "1.1.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "leaflet",
+      "version": "2.0.0-alpha.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "liquid",
+      "version": "4.0.4",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "listen",
+      "version": "3.9.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "logger",
+      "version": "1.7.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mercenary",
+      "version": "0.3.6",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "minima",
+      "version": "2.5.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "minitest",
+      "version": "5.26.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "net-http",
+      "version": "0.9.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nokogiri",
+      "version": "1.19.1-aarch64-linux-gnu",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nokogiri",
+      "version": "1.19.1-aarch64-linux-musl",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nokogiri",
+      "version": "1.19.1-arm-linux-gnu",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nokogiri",
+      "version": "1.19.1-arm-linux-musl",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nokogiri",
+      "version": "1.19.1-arm64-darwin",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nokogiri",
+      "version": "1.19.1-x86_64-darwin",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nokogiri",
+      "version": "1.19.1-x86_64-linux-gnu",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nokogiri",
+      "version": "1.19.1-x86_64-linux-musl",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "octokit",
+      "version": "4.25.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pathutil",
+      "version": "0.16.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "public_suffix",
+      "version": "5.1.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "racc",
+      "version": "1.8.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rb-fsevent",
+      "version": "0.11.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rb-inotify",
+      "version": "0.11.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rexml",
+      "version": "3.4.4",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rouge",
+      "version": "3.30.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ruby/setup-ruby",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.295.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rubyzip",
+      "version": "2.4.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "safe_yaml",
+      "version": "1.0.5",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sass",
+      "version": "3.7.4",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sass-listen",
+      "version": "4.0.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sawyer",
+      "version": "0.9.3",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "securerandom",
+      "version": "0.4.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "simpleidn",
+      "version": "0.2.3",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "softprops/action-gh-release",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.6.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "terminal-table",
+      "version": "1.8.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typhoeus",
+      "version": "1.5.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tzinfo",
+      "version": "2.0.6",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unicode-display_width",
+      "version": "1.8.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "uri",
+      "version": "1.1.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "webrick",
+      "version": "1.9.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "actions/cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "actions/setup-node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "activesupport"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "addressable"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "base64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "bigdecimal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "browser-actions/setup-chrome"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "browser-actions/setup-firefox"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "coffee-script"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "coffee-script-source"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "colorator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "commonmarker"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "concurrent-ruby"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "connection_pool"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "csv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "denoland/setup-deno"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "dnsruby"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "drb"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "em-websocket"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "ethon"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "eventmachine"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "execjs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "faraday"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "faraday-net_http"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "ffi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "ffi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "ffi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "ffi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "ffi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "ffi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "ffi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "ffi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "forwardable-extended"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "gemoji"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "github-pages"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "github-pages-health-check"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "html-pipeline"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "http_parser.rb"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "i18n"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-avatar"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-coffeescript"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-commonmark"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-commonmark-ghpages"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-default-layout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-feed"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-gist"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-github-metadata"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-include-cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-mentions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-optional-front-matter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-paginate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-readme-index"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-redirect-from"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-relative-links"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-remote-theme"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-sass-converter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-seo-tag"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-sitemap"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-swiss"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-theme-architect"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-theme-cayman"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-theme-dinky"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-theme-hacker"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-theme-leap-day"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-theme-merlot"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-theme-midnight"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-theme-minimal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-theme-modernist"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-theme-primer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-theme-slate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-theme-tactile"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-theme-time-machine"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-titles-from-headings"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jekyll-watch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "jemoji"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "json"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "kramdown"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "kramdown-parser-gfm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "leaflet"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "liquid"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "listen"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "logger"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "mercenary"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "minima"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "minitest"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "net-http"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "nokogiri"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "nokogiri"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "nokogiri"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "nokogiri"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "nokogiri"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "nokogiri"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "nokogiri"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "nokogiri"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "octokit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "pathutil"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "public_suffix"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "racc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "rb-fsevent"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "rb-inotify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "rexml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "rouge"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "ruby/setup-ruby"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "rubyzip"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "safe_yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "sass"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "sass-listen"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "sawyer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "securerandom"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "simpleidn"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "softprops/action-gh-release"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "terminal-table"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "typhoeus"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "tzinfo"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "unicode-display_width"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "uri"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Leaflet-Leaflet",
+      "child": "webrick"
+    }
+  ]
+}

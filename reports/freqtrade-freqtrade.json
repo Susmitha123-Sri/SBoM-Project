@@ -1,0 +1,1563 @@
+{
+  "scan_id": "freqtrade-freqtrade",
+  "timestamp": "2026-03-20T05:20:31.692624",
+  "target": "https://github.com/freqtrade/freqtrade",
+  "summary": {
+    "total_packages": 103,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "./.github/actions/docker-tags",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/docker-build.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/packages-cleanup.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "6.0.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/delete-package-versions",
+      "version": "5.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/download-artifact",
+      "version": "8.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-python",
+      "version": "6.2.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "7.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aiofiles",
+      "version": "25.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "25.1.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "aiohttp",
+      "version": "3.13.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.13.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "ast-comments",
+      "version": "1.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "astral-sh/setup-uv",
+      "version": "7.3.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bottleneck",
+      "version": "1.6.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.6.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "cachetools",
+      "version": "7.0.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.0.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ccxt",
+      "version": "4.5.43",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.5.44",
+      "version_status": "outdated"
+    },
+    {
+      "package": "certifi",
+      "version": "2026.2.25",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2026.2.25",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "cmaes",
+      "version": "0.12.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.12.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "codecov/codecov-action",
+      "version": "5.5.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cryptography",
+      "version": "46.0.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "46.0.5",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "datasieve",
+      "version": "0.1.9",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.1.9",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "devcontainers/ci",
+      "version": "0.3.19",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/login-action",
+      "version": "4.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/setup-buildx-action",
+      "version": "4.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/setup-qemu-action",
+      "version": "4.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fastapi",
+      "version": "0.135.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.135.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "filelock",
+      "version": "3.25.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.25.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ft-pandas-ta",
+      "version": "0.3.16",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.3.16",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "gymnasium",
+      "version": "1.2.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "humanize",
+      "version": "4.15.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.15.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "janus",
+      "version": "2.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jinja2",
+      "version": "3.1.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.1.6",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "joblib",
+      "version": "1.5.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.5.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jsonschema",
+      "version": "4.26.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.26.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "lightgbm",
+      "version": "4.6.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.6.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "markdown",
+      "version": "3.10.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.10.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mdx-truly-sane-lists",
+      "version": "1.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mike",
+      "version": "2.1.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.1.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mkdocs",
+      "version": "1.6.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.6.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mkdocs-material",
+      "version": "9.7.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.7.6",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mypy",
+      "version": "1.19.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.19.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "nbconvert",
+      "version": "7.17.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.17.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "numexpr",
+      "version": "2.14.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.14.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "numpy",
+      "version": "2.4.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "optuna",
+      "version": "4.7.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.8.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "orjson",
+      "version": "3.11.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.11.7",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "packaging",
+      "version": "26.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "26.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pandas",
+      "version": "2.3.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "peter-evans/create-pull-request",
+      "version": "8.1.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "peter-evans/dockerhub-description",
+      "version": "5.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pip-audit",
+      "version": "2.10.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.10.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "plotly",
+      "version": "6.6.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.6.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pre-commit",
+      "version": "4.5.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.5.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pre-commit/action",
+      "version": "3.0.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "prince-chrismc/check-actor-permissions-action",
+      "version": "3.0.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "prompt-toolkit",
+      "version": "3.0.52",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.52",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "psutil",
+      "version": "7.2.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.2.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyarrow",
+      "version": "23.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "23.0.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pycoingecko",
+      "version": "3.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.2.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pydantic",
+      "version": "2.12.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.12.5",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyjwt",
+      "version": "2.12.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.12.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pymdown-extensions",
+      "version": "10.21",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "10.21",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pypa/gh-action-pypi-publish",
+      "version": "1.13.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytest",
+      "version": "9.0.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.0.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pytest-asyncio",
+      "version": "1.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pytest-cov",
+      "version": "7.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pytest-mock",
+      "version": "3.15.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.15.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pytest-random-order",
+      "version": "1.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pytest-timeout",
+      "version": "2.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pytest-xdist",
+      "version": "3.8.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.8.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "python-dateutil",
+      "version": "2.9.0.post0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.9.0.post0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "python-rapidjson",
+      "version": "1.23",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.23",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "python-telegram-bot",
+      "version": "22.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "22.7",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytz",
+      "version": "2026.1.post1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2026.1.post1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "questionary",
+      "version": "2.1.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.1.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "re-actors/alls-green",
+      "version": "1.2.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "requests",
+      "version": "2.32.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.32.5",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "rich",
+      "version": "14.3.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "14.3.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "rjstone/discord-webhook-notify",
+      "version": "2.2.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ruff",
+      "version": "0.15.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.15.7",
+      "version_status": "outdated"
+    },
+    {
+      "package": "schedule",
+      "version": "1.2.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "scikit-learn",
+      "version": "1.8.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.8.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "scipy",
+      "version": "1.17.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.17.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "scipy-stubs",
+      "version": "1.17.1.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.17.1.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sdnotify",
+      "version": "0.3.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.3.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "sqlalchemy",
+      "version": "2.0.48",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.48",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "stable-baselines3",
+      "version": "2.7.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.7.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "ta-lib",
+      "version": "0.6.8",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.8",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tabulate",
+      "version": "0.10.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.10.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "technical",
+      "version": "1.5.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.5.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tensorboard",
+      "version": "2.20.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.20.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "time-machine",
+      "version": "3.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.2.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "torch",
+      "version": "2.10.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.10.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tqdm",
+      "version": "4.67.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.67.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "types-cachetools",
+      "version": "6.2.0.20251022",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.2.0.20260317",
+      "version_status": "outdated"
+    },
+    {
+      "package": "types-filelock",
+      "version": "3.2.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.2.7",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "types-python-dateutil",
+      "version": "2.9.0.20260305",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.9.0.20260305",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "types-requests",
+      "version": "2.32.4.20260107",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.32.4.20260107",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "types-tabulate",
+      "version": "0.10.0.20260308",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.10.0.20260308",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "urllib3",
+      "version": "2.6.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.6.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "uvicorn",
+      "version": "0.41.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.42.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "websockets",
+      "version": "16.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "16.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "xgboost",
+      "version": "3.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.2.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "zizmorcore/zizmor-action",
+      "version": "0.5.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "./.github/actions/docker-tags"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "./.github/workflows/docker-build.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "./.github/workflows/packages-cleanup.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "actions/delete-package-versions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "actions/download-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "aiofiles"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "aiohttp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "ast-comments"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "astral-sh/setup-uv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "bottleneck"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "cachetools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "ccxt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "certifi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "cmaes"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "codecov/codecov-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "cryptography"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "datasieve"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "devcontainers/ci"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "docker/login-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "docker/setup-buildx-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "docker/setup-qemu-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "fastapi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "filelock"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "ft-pandas-ta"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "gymnasium"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "humanize"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "janus"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "jinja2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "joblib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "jsonschema"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "lightgbm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "markdown"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "mdx-truly-sane-lists"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "mike"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "mkdocs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "mkdocs-material"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "mypy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "nbconvert"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "numexpr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "numpy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "optuna"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "orjson"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "packaging"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "pandas"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "peter-evans/create-pull-request"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "peter-evans/dockerhub-description"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "pip-audit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "plotly"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "pre-commit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "pre-commit/action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "prince-chrismc/check-actor-permissions-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "prompt-toolkit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "psutil"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "pyarrow"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "pycoingecko"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "pydantic"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "pyjwt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "pymdown-extensions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "pypa/gh-action-pypi-publish"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "pytest"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "pytest-asyncio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "pytest-cov"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "pytest-mock"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "pytest-random-order"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "pytest-timeout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "pytest-xdist"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "python-dateutil"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "python-rapidjson"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "python-telegram-bot"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "pytz"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "questionary"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "re-actors/alls-green"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "requests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "rich"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "rjstone/discord-webhook-notify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "ruff"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "schedule"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "scikit-learn"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "scipy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "scipy-stubs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "sdnotify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "sqlalchemy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "stable-baselines3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "ta-lib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "tabulate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "technical"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "tensorboard"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "time-machine"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "torch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "tqdm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "types-cachetools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "types-filelock"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "types-python-dateutil"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "types-requests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "types-tabulate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "urllib3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "uvicorn"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "websockets"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "xgboost"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "freqtrade-freqtrade",
+      "child": "zizmorcore/zizmor-action"
+    }
+  ]
+}

@@ -1,0 +1,1308 @@
+{
+  "scan_id": "python-cpython",
+  "timestamp": "2026-03-20T02:04:29.996708",
+  "target": "https://github.com/python/cpython",
+  "summary": {
+    "total_packages": 86,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "./.github/workflows/reusable-check-c-api-docs.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/reusable-cifuzz.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/reusable-context.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/reusable-docs.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/reusable-macos.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/reusable-san.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/reusable-ubuntu.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/reusable-wasi.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/reusable-windows-msi.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/reusable-windows.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@playwright/test",
+      "version": "1.54.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/node",
+      "version": "24.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/cache",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/github-script",
+      "version": "8",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-node",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-python",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/stale",
+      "version": "10",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "7",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ansi-styles",
+      "version": "4.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "async",
+      "version": "3.2.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "basic-auth",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "browser_test",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bytecodealliance/actions/wasmtime/setup",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bytecodealliance/setup-wasi-sdk-action",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "call-bind-apply-helpers",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "call-bound",
+      "version": "1.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "chalk",
+      "version": "4.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "color-convert",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "color-name",
+      "version": "1.1.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "corser",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "debug",
+      "version": "4.4.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dunder-proto",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "egor-tensin/setup-gcc",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "es-define-property",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "es-errors",
+      "version": "1.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "es-object-atoms",
+      "version": "1.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "eventemitter3",
+      "version": "4.0.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "follow-redirects",
+      "version": "1.15.9",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fsevents",
+      "version": "2.3.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "function-bind",
+      "version": "1.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "get-intrinsic",
+      "version": "1.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "get-proto",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/upload-sarif",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers",
+      "version": "master",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers",
+      "version": "master",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gopd",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "has-flag",
+      "version": "4.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "has-symbols",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hasown",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "he",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "html-encoding-sniffer",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "http-proxy",
+      "version": "1.18.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "http-server",
+      "version": "14.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hypothesis",
+      "version": "6.151.9",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.151.9",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "iconv-lite",
+      "version": "0.6.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "j178/prek-action",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "math-intrinsics",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mheap/github-action-required-labels",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mime",
+      "version": "1.6.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "minimist",
+      "version": "1.2.8",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ms",
+      "version": "2.1.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mypy",
+      "version": "1.19.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.19.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "object-inspect",
+      "version": "1.13.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opener",
+      "version": "1.5.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "playwright",
+      "version": "1.54.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "playwright-core",
+      "version": "1.54.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "portfinder",
+      "version": "1.0.37",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "qs",
+      "version": "6.14.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "re-actors/alls-green",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "readthedocs/actions/preview",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "requires-port",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "safe-buffer",
+      "version": "5.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "safer-buffer",
+      "version": "2.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "secure-compare",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "side-channel",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "side-channel-list",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "side-channel-map",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "side-channel-weakmap",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "supports-color",
+      "version": "7.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "types-psutil",
+      "version": "7.2.2.20260130",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.2.2.20260130",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "types-setuptools",
+      "version": "82.0.0.20260210",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "82.0.0.20260210",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "undici-types",
+      "version": "7.8.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "union",
+      "version": "0.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "url-join",
+      "version": "4.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "whatwg-encoding",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "./.github/workflows/reusable-check-c-api-docs.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "./.github/workflows/reusable-cifuzz.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "./.github/workflows/reusable-context.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "./.github/workflows/reusable-docs.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "./.github/workflows/reusable-macos.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "./.github/workflows/reusable-san.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "./.github/workflows/reusable-ubuntu.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "./.github/workflows/reusable-wasi.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "./.github/workflows/reusable-windows-msi.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "./.github/workflows/reusable-windows.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "@playwright/test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "@types/node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "actions/cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "actions/github-script"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "actions/setup-node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "actions/stale"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "ansi-styles"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "async"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "basic-auth"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "browser_test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "bytecodealliance/actions/wasmtime/setup"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "bytecodealliance/setup-wasi-sdk-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "call-bind-apply-helpers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "call-bound"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "chalk"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "color-convert"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "color-name"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "corser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "debug"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "dunder-proto"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "egor-tensin/setup-gcc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "es-define-property"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "es-errors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "es-object-atoms"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "eventemitter3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "follow-redirects"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "fsevents"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "function-bind"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "get-intrinsic"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "get-proto"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "github/codeql-action/upload-sarif"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "gopd"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "has-flag"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "has-symbols"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "hasown"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "he"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "html-encoding-sniffer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "http-proxy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "http-server"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "hypothesis"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "iconv-lite"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "j178/prek-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "math-intrinsics"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "mheap/github-action-required-labels"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "mime"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "minimist"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "ms"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "mypy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "object-inspect"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "opener"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "playwright"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "playwright-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "portfinder"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "qs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "re-actors/alls-green"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "readthedocs/actions/preview"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "requires-port"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "safe-buffer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "safer-buffer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "secure-compare"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "side-channel"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "side-channel-list"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "side-channel-map"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "side-channel-weakmap"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "supports-color"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "types-psutil"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "types-setuptools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "undici-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "union"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "url-join"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "python-cpython",
+      "child": "whatwg-encoding"
+    }
+  ]
+}

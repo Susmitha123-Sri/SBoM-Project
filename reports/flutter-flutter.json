@@ -1,0 +1,4323 @@
+{
+  "scan_id": "flutter-flutter",
+  "timestamp": "2026-03-20T00:21:13.891868",
+  "target": "https://github.com/flutter/flutter",
+  "summary": {
+    "total_packages": 287,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "./.github/actions/composite-flutter-setup",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "Flutter",
+      "version": "1.0.0",
+      "type": "pod",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "FlutterMacOS",
+      "version": "1.0.0",
+      "type": "pod",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "_discoveryapis_commons",
+      "version": "1.0.7",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "_engine_workspace",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "_fe_analyzer_shared",
+      "version": "95.0.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "_flutter_packages",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "_snapshot_but_this_package_name_is_not_used",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "a11y_assessments",
+      "version": "5.0.0+5",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/cache",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "6.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/github-script",
+      "version": "8.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/labeler",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/setup-java",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/setup-python",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "adaptive_breakpoints",
+      "version": "0.1.7",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "analyzer",
+      "version": "10.1.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "android-actions/setup-android",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "android_driver_extensions",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "android_engine_test",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "android_lint",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "android_semantics_testing",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "android_verified_input",
+      "version": "1.0.0+1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "animated_icons_private_test",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "animations",
+      "version": "2.1.1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "apicheck",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "archive",
+      "version": "3.6.1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "args",
+      "version": "2.7.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "assets_for_android_views",
+      "version": "0.2.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "async",
+      "version": "2.13.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "boolean_selector",
+      "version": "2.1.2",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build_bucket_golden_scraper",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "channels",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "characters",
+      "version": "1.4.1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "checked_yaml",
+      "version": "2.0.4",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "child_view2",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ci_scripts",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "clang_tidy",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "clangd_check",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cli_config",
+      "version": "0.2.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cli_util",
+      "version": "0.4.2",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "clock",
+      "version": "1.1.2",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "code_assets",
+      "version": "1.0.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "codecov/codecov-action",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "collection",
+      "version": "1.19.1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "compare_goldens",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "complex_layout",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "const_finder",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "convert",
+      "version": "3.1.2",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "coverage",
+      "version": "1.15.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "crypto",
+      "version": "3.0.7",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "csslib",
+      "version": "1.0.2",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cupertino_icons",
+      "version": "1.0.8",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "customer_testing",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dart_style",
+      "version": "3.1.7",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "deferred_components_test",
+      "version": "1.0.0+1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dessant/lock-threads",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "dev_tools",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "device_info",
+      "version": "2.0.3",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "device_info_platform_interface",
+      "version": "2.0.1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "display_cutout_rotation",
+      "version": "1.0.0+1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dummy",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "embedding-flutter-view",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "engine_build_configs",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "engine_mcp",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "engine_repo_tools",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "engine_tests",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "engine_tool",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "external_textures",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fake_async",
+      "version": "1.3.3",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ffi",
+      "version": "2.2.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ffigen",
+      "version": "20.1.1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "file",
+      "version": "7.0.1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "file_testing",
+      "version": "3.0.2",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fixnum",
+      "version": "1.1.1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flavors",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flutter",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flutter_api_samples",
+      "version": "1.0.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flutter_automated_tests",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flutter_devicelab",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flutter_driver",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flutter_engine_benchmark",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flutter_examples_layers",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flutter_frontend_server",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flutter_gallery",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flutter_gallery_assets",
+      "version": "1.0.2",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flutter_goldens",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flutter_gpu",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flutter_lints",
+      "version": "6.0.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flutter_localizations",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flutter_localized_locales",
+      "version": "2.0.5",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flutter_staggered_grid_view",
+      "version": "0.7.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flutter_test",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flutter_test_private",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flutter_tools",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flutter_view",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flutter_web_plugins",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "forbidden_from_release_tests",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "frontend_server_client",
+      "version": "4.0.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fuchsia_remote_debug_protocol",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gallery",
+      "version": "2.10.2+021002",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gcloud",
+      "version": "0.8.19",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gen_defaults",
+      "version": "1.0.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gen_keycodes",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gen_web_keyboard_keymap",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "git_repo_tools",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "githooks",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "glob",
+      "version": "2.1.3",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "godofredoc/no-response",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "golden_tests_harvester",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google/mirror-branch-action",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "google/osv-scanner-action/.github/workflows/osv-scanner-reusable.yml",
+      "version": "1.9.0",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google_fonts",
+      "version": "6.3.3",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google_identity_services_web",
+      "version": "0.3.3+1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google_mobile_ads",
+      "version": "5.1.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "googleapis",
+      "version": "14.0.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "googleapis_auth",
+      "version": "2.0.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "header_guard_check",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hello_world",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hello_world_flutter",
+      "version": "1.0.0+1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hook_user_defines",
+      "version": "0.0.1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hooks",
+      "version": "1.0.2",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "html",
+      "version": "0.15.6",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "http",
+      "version": "1.6.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "http_multi_server",
+      "version": "3.2.2",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "http_parser",
+      "version": "4.1.2",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hybrid_platform_views",
+      "version": "1.0.0+1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "image_list",
+      "version": "1.0.0+1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "integration_test",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "integration_test_example",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "integration_test_macos",
+      "version": "0.0.1+1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "integration_ui",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "intl",
+      "version": "0.20.2",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "io",
+      "version": "1.0.5",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ios_add2app_life_cycle_flutter",
+      "version": "1.0.0+1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ios_app_with_extensions",
+      "version": "1.0.0+1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ios_platform_view_tests",
+      "version": "1.0.0+1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ios_scenario_app",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "isolate",
+      "version": "2.1.1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "js",
+      "version": "0.7.2",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "json_annotation",
+      "version": "4.11.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "keyboard_hot_restart",
+      "version": "1.0.0+1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "leak_tracker",
+      "version": "11.0.2",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "leak_tracker_flutter_testing",
+      "version": "3.0.10",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "leak_tracker_testing",
+      "version": "3.0.2",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "link_hook",
+      "version": "0.0.1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lints",
+      "version": "6.1.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "logging",
+      "version": "1.3.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "macrobenchmarks",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "manual_tests",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "matcher",
+      "version": "0.12.19",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "material_color_utilities",
+      "version": "0.13.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "meta",
+      "version": "1.18.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "metrics_center",
+      "version": "1.0.14",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "microbenchmarks",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mime",
+      "version": "2.0.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "missing_dependency_tests",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mouse-input-view",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "multiple_flutters_module",
+      "version": "1.0.0+1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "multiple_windows",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "native_toolchain_c",
+      "version": "0.17.6",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nested",
+      "version": "1.0.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "node_preamble",
+      "version": "2.0.2",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "objective_c",
+      "version": "9.2.3",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "package_config",
+      "version": "2.2.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "packages_autoroller",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "parent-view2",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "path",
+      "version": "1.9.1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "path_ops",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "path_provider",
+      "version": "2.1.5",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "path_provider_android",
+      "version": "2.2.22",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "path_provider_foundation",
+      "version": "2.6.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "path_provider_linux",
+      "version": "2.2.1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "path_provider_platform_interface",
+      "version": "2.1.2",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "path_provider_windows",
+      "version": "2.3.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pedantic",
+      "version": "1.11.1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "petitparser",
+      "version": "7.0.2",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "platform",
+      "version": "3.1.6",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "platform_channel",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "platform_channel_swift",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "platform_channels_benchmarks",
+      "version": "1.0.0+1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "platform_integration",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "platform_interaction",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "platform_view",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "platform_views",
+      "version": "1.0.0+1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "platform_views_layout",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "platform_views_layout_hybrid_composition",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "plugin_platform_interface",
+      "version": "2.1.8",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pool",
+      "version": "1.5.2",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "process",
+      "version": "5.0.5",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "process_fakes",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "process_runner",
+      "version": "4.2.4",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "profiler_symbols",
+      "version": "0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "provider",
+      "version": "6.1.5+1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pub_semver",
+      "version": "2.2.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pubspec_parse",
+      "version": "1.5.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "quiver",
+      "version": "3.2.2",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rally_assets",
+      "version": "3.0.1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "release_smoke_test",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "renderers",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "retry",
+      "version": "3.1.2",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "scoped_model",
+      "version": "2.0.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "shelf",
+      "version": "1.4.2",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "shelf_packages_handler",
+      "version": "3.0.2",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "shelf_static",
+      "version": "1.1.3",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "shelf_web_socket",
+      "version": "3.0.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "shrine_images",
+      "version": "2.0.2",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "skia_gold_client",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sky_engine",
+      "version": "3.38.4",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sky_engine",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "smoke_test_failure",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "snippets",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "source_map_stack_trace",
+      "version": "2.1.2",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "source_maps",
+      "version": "0.10.13",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "source_span",
+      "version": "1.10.2",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "spell_check",
+      "version": "1.0.0+1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "splash",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "stack_trace",
+      "version": "1.12.1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "standard_message_codec",
+      "version": "0.0.1+4",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "stocks",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "stream_channel",
+      "version": "2.1.4",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "string_scanner",
+      "version": "1.4.1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sync_http",
+      "version": "0.3.1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "term_glyph",
+      "version": "1.2.2",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tessellator",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "test",
+      "version": "1.30.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "test_api",
+      "version": "0.7.10",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "test_core",
+      "version": "0.6.16",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tests_on_bots",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "text-input-view",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "texture",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "touch-input-view",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tracing_tests",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typed_data",
+      "version": "1.4.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ui",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "url_launcher",
+      "version": "6.3.2",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "url_launcher_android",
+      "version": "6.3.28",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "url_launcher_ios",
+      "version": "6.4.1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "url_launcher_linux",
+      "version": "3.2.2",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "url_launcher_macos",
+      "version": "0.0.1",
+      "type": "pod",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "url_launcher_macos",
+      "version": "3.2.5",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "url_launcher_platform_interface",
+      "version": "2.3.2",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "url_launcher_web",
+      "version": "2.4.2",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "url_launcher_windows",
+      "version": "3.1.5",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vector_math",
+      "version": "2.2.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "verify_exported",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "video_player",
+      "version": "2.11.1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "video_player_android",
+      "version": "2.9.4",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "video_player_avfoundation",
+      "version": "0.0.1",
+      "type": "pod",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "video_player_avfoundation",
+      "version": "2.9.4",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "video_player_platform_interface",
+      "version": "6.6.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "video_player_web",
+      "version": "2.4.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vitool",
+      "version": "0.0.1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vm_service",
+      "version": "15.0.2",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vm_snapshot_analysis",
+      "version": "0.7.6",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vmservice_snapshot",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "watcher",
+      "version": "1.2.1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "web",
+      "version": "1.1.1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "web_compile_tests",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "web_e2e_tests",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "web_engine_tester",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "web_integration",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "web_locale_keymap",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "web_sdk_tests",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "web_socket",
+      "version": "1.0.1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "web_socket_channel",
+      "version": "3.0.3",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "web_test_fonts",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "web_test_utils",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "webdriver",
+      "version": "3.1.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "webkit_inspection_protocol",
+      "version": "1.2.1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "webview_flutter",
+      "version": "4.9.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "webview_flutter_android",
+      "version": "3.16.9",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "webview_flutter_platform_interface",
+      "version": "2.14.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "webview_flutter_wkwebview",
+      "version": "3.24.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wide_gamut_test",
+      "version": "1.0.0+1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "widget_preview_scaffold",
+      "version": "0.0.1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "windowing_test",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "windows_startup_test",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "xdg_directories",
+      "version": "1.1.0",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "xml",
+      "version": "6.6.1",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "yaml",
+      "version": "3.1.3",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "yaml_edit",
+      "version": "2.2.4",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zircon",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zircon_ffi",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "./.github/actions/composite-flutter-setup"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "Flutter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "FlutterMacOS"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "_discoveryapis_commons"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "_engine_workspace"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "_fe_analyzer_shared"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "_flutter_packages"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "_snapshot_but_this_package_name_is_not_used"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "a11y_assessments"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "actions/cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "actions/github-script"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "actions/labeler"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "actions/setup-java"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "adaptive_breakpoints"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "analyzer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "android-actions/setup-android"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "android_driver_extensions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "android_engine_test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "android_lint"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "android_semantics_testing"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "android_verified_input"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "animated_icons_private_test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "animations"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "apicheck"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "archive"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "args"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "assets_for_android_views"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "async"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "boolean_selector"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "build_bucket_golden_scraper"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "channels"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "characters"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "checked_yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "child_view2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "ci_scripts"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "clang_tidy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "clangd_check"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "cli_config"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "cli_util"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "clock"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "code_assets"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "codecov/codecov-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "collection"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "compare_goldens"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "complex_layout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "const_finder"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "convert"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "coverage"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "crypto"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "csslib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "cupertino_icons"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "customer_testing"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "dart_style"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "deferred_components_test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "dessant/lock-threads"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "dev_tools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "device_info"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "device_info_platform_interface"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "display_cutout_rotation"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "dummy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "embedding-flutter-view"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "engine_build_configs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "engine_mcp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "engine_repo_tools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "engine_tests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "engine_tool"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "external_textures"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "fake_async"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "ffi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "ffigen"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "file"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "file_testing"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "fixnum"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "flavors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "flutter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "flutter_api_samples"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "flutter_automated_tests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "flutter_devicelab"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "flutter_driver"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "flutter_engine_benchmark"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "flutter_examples_layers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "flutter_frontend_server"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "flutter_gallery"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "flutter_gallery_assets"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "flutter_goldens"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "flutter_gpu"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "flutter_lints"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "flutter_localizations"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "flutter_localized_locales"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "flutter_staggered_grid_view"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "flutter_test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "flutter_test_private"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "flutter_tools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "flutter_view"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "flutter_web_plugins"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "forbidden_from_release_tests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "frontend_server_client"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "fuchsia_remote_debug_protocol"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "gallery"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "gcloud"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "gen_defaults"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "gen_keycodes"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "gen_web_keyboard_keymap"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "git_repo_tools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "githooks"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "glob"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "godofredoc/no-response"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "golden_tests_harvester"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "google/mirror-branch-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "google/osv-scanner-action/.github/workflows/osv-scanner-reusable.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "google_fonts"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "google_identity_services_web"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "google_mobile_ads"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "googleapis"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "googleapis_auth"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "header_guard_check"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "hello_world"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "hello_world_flutter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "hook_user_defines"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "hooks"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "html"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "http"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "http_multi_server"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "http_parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "hybrid_platform_views"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "image_list"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "integration_test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "integration_test_example"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "integration_test_macos"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "integration_ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "intl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "io"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "ios_add2app_life_cycle_flutter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "ios_app_with_extensions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "ios_platform_view_tests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "ios_scenario_app"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "isolate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "json_annotation"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "keyboard_hot_restart"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "leak_tracker"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "leak_tracker_flutter_testing"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "leak_tracker_testing"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "link_hook"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "lints"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "logging"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "macrobenchmarks"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "manual_tests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "matcher"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "material_color_utilities"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "meta"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "metrics_center"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "microbenchmarks"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "mime"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "missing_dependency_tests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "mouse-input-view"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "multiple_flutters_module"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "multiple_windows"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "native_toolchain_c"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "nested"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "node_preamble"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "objective_c"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "package_config"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "packages_autoroller"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "parent-view2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "path"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "path_ops"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "path_provider"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "path_provider_android"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "path_provider_foundation"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "path_provider_linux"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "path_provider_platform_interface"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "path_provider_windows"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "pedantic"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "petitparser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "platform"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "platform_channel"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "platform_channel_swift"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "platform_channels_benchmarks"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "platform_integration"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "platform_interaction"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "platform_view"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "platform_views"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "platform_views_layout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "platform_views_layout_hybrid_composition"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "plugin_platform_interface"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "pool"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "process"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "process_fakes"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "process_runner"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "profiler_symbols"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "provider"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "pub_semver"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "pubspec_parse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "quiver"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "rally_assets"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "release_smoke_test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "renderers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "retry"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "scoped_model"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "shelf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "shelf_packages_handler"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "shelf_static"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "shelf_web_socket"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "shrine_images"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "skia_gold_client"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "sky_engine"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "sky_engine"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "smoke_test_failure"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "snippets"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "source_map_stack_trace"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "source_maps"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "source_span"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "spell_check"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "splash"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "stack_trace"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "standard_message_codec"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "stocks"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "stream_channel"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "string_scanner"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "sync_http"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "term_glyph"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "tessellator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "test_api"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "test_core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "tests_on_bots"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "text-input-view"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "texture"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "touch-input-view"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "tracing_tests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "typed_data"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "ui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "url_launcher"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "url_launcher_android"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "url_launcher_ios"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "url_launcher_linux"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "url_launcher_macos"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "url_launcher_macos"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "url_launcher_platform_interface"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "url_launcher_web"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "url_launcher_windows"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "vector_math"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "verify_exported"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "video_player"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "video_player_android"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "video_player_avfoundation"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "video_player_avfoundation"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "video_player_platform_interface"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "video_player_web"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "vitool"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "vm_service"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "vm_snapshot_analysis"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "vmservice_snapshot"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "watcher"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "web"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "web_compile_tests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "web_e2e_tests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "web_engine_tester"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "web_integration"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "web_locale_keymap"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "web_sdk_tests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "web_socket"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "web_socket_channel"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "web_test_fonts"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "web_test_utils"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "webdriver"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "webkit_inspection_protocol"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "webview_flutter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "webview_flutter_android"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "webview_flutter_platform_interface"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "webview_flutter_wkwebview"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "wide_gamut_test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "widget_preview_scaffold"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "windowing_test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "windows_startup_test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "xdg_directories"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "xml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "yaml_edit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "zircon"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "flutter-flutter",
+      "child": "zircon_ffi"
+    }
+  ]
+}

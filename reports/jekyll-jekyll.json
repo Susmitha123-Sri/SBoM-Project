@@ -1,0 +1,213 @@
+{
+  "scan_id": "jekyll-jekyll",
+  "timestamp": "2026-03-20T04:47:34.016507",
+  "target": "https://github.com/jekyll/jekyll",
+  "summary": {
+    "total_packages": 13,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ashmaroli/release-gem",
+      "version": "dist",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "check-spelling/check-spelling",
+      "version": "0.0.24",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/analyze",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/autobuild",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/init",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jekyll",
+      "version": "UNKNOWN",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ruby/setup-ruby",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "test-dependency-theme",
+      "version": "0.1.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "test-theme",
+      "version": "0.1.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "test-theme-skinny",
+      "version": "0.1.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "test-theme-symlink",
+      "version": "0.1.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "test-theme-w-empty-data",
+      "version": "0.1.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jekyll-jekyll",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jekyll-jekyll",
+      "child": "ashmaroli/release-gem"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jekyll-jekyll",
+      "child": "check-spelling/check-spelling"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jekyll-jekyll",
+      "child": "github/codeql-action/analyze"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jekyll-jekyll",
+      "child": "github/codeql-action/autobuild"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jekyll-jekyll",
+      "child": "github/codeql-action/init"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jekyll-jekyll",
+      "child": "jekyll"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jekyll-jekyll",
+      "child": "ruby/setup-ruby"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jekyll-jekyll",
+      "child": "test-dependency-theme"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jekyll-jekyll",
+      "child": "test-theme"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jekyll-jekyll",
+      "child": "test-theme-skinny"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jekyll-jekyll",
+      "child": "test-theme-symlink"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jekyll-jekyll",
+      "child": "test-theme-w-empty-data"
+    }
+  ]
+}

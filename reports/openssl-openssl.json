@@ -1,0 +1,478 @@
+{
+  "scan_id": "openssl-openssl",
+  "timestamp": "2026-03-01T21:52:42.903133",
+  "target": "https://github.com/openssl/openssl",
+  "summary": {
+    "total_packages": 54,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "v6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "v6",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/download-artifact",
+      "version": "v6.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "v6.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/github-script",
+      "version": "v8",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "v8",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/setup-python",
+      "version": "v6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "v6",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/setup-python",
+      "version": "v6.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "v6.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "v4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "v4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "v5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "v5",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "coverallsapp/github-action",
+      "version": "v2.3.6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "v2.3.6",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "cross-platform-actions/action",
+      "version": "v0.30.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "v0.30.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "cygwin/cygwin-install-action",
+      "version": "f2009323764960f80959895c7bc3bb30210afe4d",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "f2009323764960f80959895c7bc3bb30210afe4d",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "docker/setup-compose-action",
+      "version": "364cc21a5de5b1ee4a7f5f9d3fa374ce0ccde746",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "364cc21a5de5b1ee4a7f5f9d3fa374ce0ccde746",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "docker/setup-compose-action",
+      "version": "v1.2.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "v1.2.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "docker/setup-docker-action",
+      "version": "efe9e3891a4f7307e689f2100b33a155b900a608",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "efe9e3891a4f7307e689f2100b33a155b900a608",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "docker/setup-docker-action",
+      "version": "v4.5.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "v4.5.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "dtolnay/rust-toolchain",
+      "version": "0f44b27771c32bda9f458f75a1e241b09791b331",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0f44b27771c32bda9f458f75a1e241b09791b331",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers",
+      "version": "master",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "master",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers",
+      "version": "master",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "master",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "perl-actions/install-with-cpanm",
+      "version": "10d60f00b4073f484fc29d45bfbe2f776397ab3d",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "10d60f00b4073f484fc29d45bfbe2f776397ab3d",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pre-commit/action",
+      "version": "v3.0.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "v3.0.1",
+      "version_status": "up_to_date"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/download-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/download-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/github-script"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "coverallsapp/github-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "cross-platform-actions/action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "cross-platform-actions/action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "cygwin/cygwin-install-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "docker/setup-compose-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "docker/setup-compose-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "docker/setup-docker-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "docker/setup-docker-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "dtolnay/rust-toolchain"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "perl-actions/install-with-cpanm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "perl-actions/install-with-cpanm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "openssl-openssl",
+      "child": "pre-commit/action"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "scan_id": "fffaraz-awesome-cpp",
+  "timestamp": "2026-03-20T02:22:27.677936",
+  "target": "https://github.com/fffaraz/awesome-cpp",
+  "summary": {
+    "total_packages": 2,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ruby/setup-ruby",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.295.0",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "fffaraz-awesome-cpp",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "fffaraz-awesome-cpp",
+      "child": "ruby/setup-ruby"
+    }
+  ]
+}

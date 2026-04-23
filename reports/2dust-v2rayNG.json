@@ -1,0 +1,183 @@
+{
+  "scan_id": "2dust-v2rayNG",
+  "timestamp": "2026-03-20T04:41:44.955552",
+  "target": "https://github.com/2dust/v2rayNG",
+  "summary": {
+    "total_packages": 11,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/cache/restore",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/cache/save",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-java",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "7",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "android-actions/setup-android",
+      "version": "3.2.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.2.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ashutoshgngwr/validate-fastlane-supply-metadata",
+      "version": "2.1.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.1.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "gradle-wrapper",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "robinraju/release-downloader",
+      "version": "1.12",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.12",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "svenstaro/upload-release-action",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.11.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "timheuer/base64-to-file",
+      "version": "1.2.4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.4",
+      "version_status": "up_to_date"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "2dust-v2rayNG",
+      "child": "actions/cache/restore"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "2dust-v2rayNG",
+      "child": "actions/cache/save"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "2dust-v2rayNG",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "2dust-v2rayNG",
+      "child": "actions/setup-java"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "2dust-v2rayNG",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "2dust-v2rayNG",
+      "child": "android-actions/setup-android"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "2dust-v2rayNG",
+      "child": "ashutoshgngwr/validate-fastlane-supply-metadata"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "2dust-v2rayNG",
+      "child": "gradle-wrapper"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "2dust-v2rayNG",
+      "child": "robinraju/release-downloader"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "2dust-v2rayNG",
+      "child": "svenstaro/upload-release-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "2dust-v2rayNG",
+      "child": "timheuer/base64-to-file"
+    }
+  ]
+}

@@ -1,0 +1,588 @@
+{
+  "scan_id": "numpy-numpy",
+  "timestamp": "2026-04-23T11:59:28.882427",
+  "target": "https://github.com/numpy/numpy",
+  "summary": {
+    "total_packages": 38,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "./.github/check-warnings",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/meson_actions",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/cache",
+      "version": "5.0.5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.0.5",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "3.1.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "6.0.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/dependency-review-action",
+      "version": "4.9.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.9.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/github-script",
+      "version": "9.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/setup-python",
+      "version": "6.2.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.2.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "7.0.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.0.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/upload-artifact/merge",
+      "version": "7.0.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "astral-sh/setup-uv",
+      "version": "8.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bus1/cabuild/action/msdevshell",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "conda-incubator/setup-miniconda",
+      "version": "3.3.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "deadsnakes/action",
+      "version": "3.2.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.2.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "delvewheel",
+      "version": "1.12.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.12.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "egor-tensin/cleanup-path",
+      "version": "5.0.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.0.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "egor-tensin/setup-cygwin",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/analyze",
+      "version": "4.35.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/autobuild",
+      "version": "4.35.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/init",
+      "version": "4.35.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/upload-sarif",
+      "version": "2.1.27",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hypothesis",
+      "version": "6.152.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.152.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "int128/hide-comment-action",
+      "version": "1.55.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.56.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jupyterlite-pyodide-kernel",
+      "version": "0.5.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "larsoner/circleci-artifacts-redirector-action",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mypy",
+      "version": "1.20.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.20.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "numpydoc",
+      "version": "1.10.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.10.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "ossf/scorecard-action",
+      "version": "2.4.3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pkgconf",
+      "version": "2.5.1.post1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.5.1.post2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "prefix-dev/setup-pixi",
+      "version": "0.9.5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.9.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pypa/cibuildwheel",
+      "version": "3.4.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.4.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyrefly",
+      "version": "0.61.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.62.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytest",
+      "version": "9.0.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.0.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pytest-cov",
+      "version": "7.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.1.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "ruff",
+      "version": "0.15.10",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.15.11",
+      "version_status": "outdated"
+    },
+    {
+      "package": "scipy-openblas32",
+      "version": "0.3.31.188.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.3.31.188.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "scipy-openblas64",
+      "version": "0.3.31.188.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.3.31.188.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "sphinx",
+      "version": "7.2.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.1.0",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "./.github/check-warnings"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "./.github/meson_actions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "actions/cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "actions/dependency-review-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "actions/github-script"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "actions/upload-artifact/merge"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "astral-sh/setup-uv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "bus1/cabuild/action/msdevshell"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "conda-incubator/setup-miniconda"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "deadsnakes/action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "delvewheel"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "egor-tensin/cleanup-path"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "egor-tensin/setup-cygwin"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "github/codeql-action/analyze"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "github/codeql-action/autobuild"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "github/codeql-action/init"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "github/codeql-action/upload-sarif"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "hypothesis"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "int128/hide-comment-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "jupyterlite-pyodide-kernel"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "larsoner/circleci-artifacts-redirector-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "mypy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "numpydoc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "ossf/scorecard-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "pkgconf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "prefix-dev/setup-pixi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "pypa/cibuildwheel"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "pyrefly"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "pytest"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "pytest-cov"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "ruff"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "scipy-openblas32"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "scipy-openblas64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "numpy-numpy",
+      "child": "sphinx"
+    }
+  ]
+}

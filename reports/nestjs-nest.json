@@ -1,0 +1,2958 @@
+{
+  "scan_id": "nestjs-nest",
+  "timestamp": "2026-03-20T01:57:12.892698",
+  "target": "https://github.com/nestjs/nest",
+  "summary": {
+    "total_packages": 196,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "@borewit/text-codec",
+      "version": "0.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@borewit/text-codec",
+      "version": "0.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@fastify/ajv-compiler",
+      "version": "4.0.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@fastify/cors",
+      "version": "11.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@fastify/error",
+      "version": "4.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@fastify/fast-json-stringify-compiler",
+      "version": "5.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@fastify/formbody",
+      "version": "8.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@fastify/forwarded",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@fastify/merge-json-schemas",
+      "version": "0.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@fastify/proxy-addr",
+      "version": "5.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@lukeed/csprng",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@nestjs/benchmarks",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@nestjs/common",
+      "version": "11.1.17",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@nestjs/core",
+      "version": "11.1.10",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@nestjs/core",
+      "version": "11.1.17",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@nestjs/platform-express",
+      "version": "11.1.17",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@nestjs/platform-fastify",
+      "version": "11.1.17",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@nuxt/opencollective",
+      "version": "0.4.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@pinojs/redact",
+      "version": "0.4.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@socket.io/component-emitter",
+      "version": "3.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@tokenizer/inflate",
+      "version": "0.4.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@tokenizer/token",
+      "version": "0.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/cookie",
+      "version": "0.4.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/cors",
+      "version": "2.8.19",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/node",
+      "version": "25.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/validator",
+      "version": "13.15.10",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "abstract-logging",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "accepts",
+      "version": "1.3.8",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "accepts",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ajv",
+      "version": "8.18.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ajv-formats",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ansis",
+      "version": "4.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "append-field",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "atomic-sleep",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "avvio",
+      "version": "9.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "base64id",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "body-parser",
+      "version": "2.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "buffer-from",
+      "version": "1.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "busboy",
+      "version": "1.6.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bytes",
+      "version": "3.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "call-bind-apply-helpers",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "call-bound",
+      "version": "1.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "class-transformer",
+      "version": "0.5.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "class-validator",
+      "version": "0.15.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "concat-stream",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "consola",
+      "version": "3.3.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "consola",
+      "version": "3.4.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "content-disposition",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "content-type",
+      "version": "1.0.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cookie",
+      "version": "0.7.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cookie",
+      "version": "1.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cookie-signature",
+      "version": "1.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cors",
+      "version": "2.8.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "debug",
+      "version": "4.3.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "debug",
+      "version": "4.4.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "debug",
+      "version": "4.4.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "depd",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dequal",
+      "version": "2.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dunder-proto",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ee-first",
+      "version": "1.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "encodeurl",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "engine.io",
+      "version": "6.6.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "engine.io-parser",
+      "version": "5.2.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "es-define-property",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "es-errors",
+      "version": "1.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "es-object-atoms",
+      "version": "1.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "escape-html",
+      "version": "1.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "etag",
+      "version": "1.8.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "express",
+      "version": "5.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fast-decode-uri-component",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fast-deep-equal",
+      "version": "3.1.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fast-json-stringify",
+      "version": "6.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fast-json-stringify",
+      "version": "6.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fast-querystring",
+      "version": "1.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fast-safe-stringify",
+      "version": "2.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fast-uri",
+      "version": "3.0.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fast-uri",
+      "version": "3.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fastify",
+      "version": "5.8.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fastify-plugin",
+      "version": "5.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fastq",
+      "version": "1.20.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "file-type",
+      "version": "21.3.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "file-type",
+      "version": "21.3.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "finalhandler",
+      "version": "2.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "finalhandler",
+      "version": "2.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "find-my-way",
+      "version": "9.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "forwarded",
+      "version": "0.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fresh",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "function-bind",
+      "version": "1.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "get-intrinsic",
+      "version": "1.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "get-proto",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/analyze",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/autobuild",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/init",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gopd",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "has-symbols",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hasown",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "http-errors",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "iconv-lite",
+      "version": "0.7.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ieee754",
+      "version": "1.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "inherits",
+      "version": "2.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ipaddr.js",
+      "version": "1.9.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ipaddr.js",
+      "version": "2.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-promise",
+      "version": "4.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "iterare",
+      "version": "1.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "json-schema-ref-resolver",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "json-schema-traverse",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "libphonenumber-js",
+      "version": "1.11.15",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "light-my-request",
+      "version": "6.6.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "load-esm",
+      "version": "1.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "math-intrinsics",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "media-typer",
+      "version": "0.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "media-typer",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "merge-descriptors",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mime-db",
+      "version": "1.52.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mime-db",
+      "version": "1.54.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mime-types",
+      "version": "2.1.35",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mime-types",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mime-types",
+      "version": "3.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ms",
+      "version": "2.1.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "multer",
+      "version": "2.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "negotiator",
+      "version": "0.6.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "negotiator",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "object-assign",
+      "version": "4.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "object-hash",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "object-inspect",
+      "version": "1.13.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "on-exit-leak-free",
+      "version": "2.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "on-finished",
+      "version": "2.4.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "once",
+      "version": "1.4.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "parseurl",
+      "version": "1.3.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "path-to-regexp",
+      "version": "8.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pino",
+      "version": "10.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pino-abstract-transport",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pino-std-serializers",
+      "version": "7.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "process-warning",
+      "version": "4.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "process-warning",
+      "version": "5.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "proxy-addr",
+      "version": "2.0.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "qs",
+      "version": "6.14.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "qs",
+      "version": "6.14.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "quick-format-unescaped",
+      "version": "4.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "range-parser",
+      "version": "1.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "raw-body",
+      "version": "3.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "readable-stream",
+      "version": "3.6.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "real-require",
+      "version": "0.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "reflect-metadata",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "require-from-string",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ret",
+      "version": "0.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "reusify",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rfdc",
+      "version": "1.4.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "router",
+      "version": "2.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rxjs",
+      "version": "7.8.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "safe-buffer",
+      "version": "5.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "safe-regex2",
+      "version": "5.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "safe-stable-stringify",
+      "version": "2.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "safer-buffer",
+      "version": "2.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "secure-json-parse",
+      "version": "4.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "semver",
+      "version": "7.7.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "send",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "send",
+      "version": "1.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "serve-static",
+      "version": "2.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "serve-static",
+      "version": "2.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "set-cookie-parser",
+      "version": "2.7.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "setprototypeof",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "side-channel",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "side-channel-list",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "side-channel-map",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "side-channel-weakmap",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "socket.io",
+      "version": "4.8.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "socket.io-adapter",
+      "version": "2.5.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "socket.io-parser",
+      "version": "4.2.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sonic-boom",
+      "version": "4.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "split2",
+      "version": "4.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "statuses",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "streamsearch",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "string_decoder",
+      "version": "1.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "strtok3",
+      "version": "10.3.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "thread-stream",
+      "version": "4.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "toad-cache",
+      "version": "3.7.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "toidentifier",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "token-types",
+      "version": "6.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "token-types",
+      "version": "6.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tslib",
+      "version": "2.8.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "type-is",
+      "version": "1.6.18",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "type-is",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typedarray",
+      "version": "0.0.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "uid",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "uint8array-extras",
+      "version": "1.4.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "uint8array-extras",
+      "version": "1.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "undici-types",
+      "version": "7.18.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unpipe",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "util-deprecate",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "uuid",
+      "version": "13.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "validator",
+      "version": "13.15.26",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vary",
+      "version": "1.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wrappy",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ws",
+      "version": "8.17.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "@borewit/text-codec"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "@borewit/text-codec"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "@fastify/ajv-compiler"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "@fastify/cors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "@fastify/error"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "@fastify/fast-json-stringify-compiler"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "@fastify/formbody"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "@fastify/forwarded"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "@fastify/merge-json-schemas"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "@fastify/proxy-addr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "@lukeed/csprng"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "@nestjs/benchmarks"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "@nestjs/common"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "@nestjs/core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "@nestjs/core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "@nestjs/platform-express"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "@nestjs/platform-fastify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "@nuxt/opencollective"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "@pinojs/redact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "@socket.io/component-emitter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "@tokenizer/inflate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "@tokenizer/token"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "@types/cookie"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "@types/cors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "@types/node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "@types/validator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "abstract-logging"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "accepts"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "accepts"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "ajv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "ajv-formats"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "ansis"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "append-field"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "atomic-sleep"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "avvio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "base64id"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "body-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "buffer-from"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "busboy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "bytes"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "call-bind-apply-helpers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "call-bound"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "class-transformer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "class-validator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "concat-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "consola"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "consola"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "content-disposition"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "content-type"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "cookie"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "cookie"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "cookie-signature"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "cors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "debug"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "debug"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "debug"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "depd"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "dequal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "dunder-proto"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "ee-first"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "encodeurl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "engine.io"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "engine.io-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "es-define-property"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "es-errors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "es-object-atoms"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "escape-html"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "etag"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "express"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "fast-decode-uri-component"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "fast-deep-equal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "fast-json-stringify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "fast-json-stringify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "fast-querystring"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "fast-safe-stringify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "fast-uri"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "fast-uri"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "fastify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "fastify-plugin"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "fastq"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "file-type"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "file-type"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "finalhandler"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "finalhandler"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "find-my-way"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "forwarded"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "fresh"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "function-bind"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "get-intrinsic"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "get-proto"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "github/codeql-action/analyze"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "github/codeql-action/autobuild"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "github/codeql-action/init"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "gopd"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "has-symbols"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "hasown"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "http-errors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "iconv-lite"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "ieee754"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "inherits"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "ipaddr.js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "ipaddr.js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "is-promise"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "iterare"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "json-schema-ref-resolver"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "json-schema-traverse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "libphonenumber-js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "light-my-request"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "load-esm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "math-intrinsics"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "media-typer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "media-typer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "merge-descriptors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "mime-db"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "mime-db"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "mime-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "mime-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "mime-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "ms"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "multer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "negotiator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "negotiator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "object-assign"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "object-hash"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "object-inspect"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "on-exit-leak-free"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "on-finished"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "once"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "parseurl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "path-to-regexp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "pino"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "pino-abstract-transport"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "pino-std-serializers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "process-warning"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "process-warning"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "proxy-addr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "qs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "qs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "quick-format-unescaped"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "range-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "raw-body"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "readable-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "real-require"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "reflect-metadata"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "require-from-string"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "ret"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "reusify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "rfdc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "router"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "rxjs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "safe-buffer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "safe-regex2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "safe-stable-stringify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "safer-buffer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "secure-json-parse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "semver"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "send"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "send"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "serve-static"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "serve-static"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "set-cookie-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "setprototypeof"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "side-channel"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "side-channel-list"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "side-channel-map"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "side-channel-weakmap"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "socket.io"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "socket.io-adapter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "socket.io-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "sonic-boom"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "split2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "statuses"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "streamsearch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "string_decoder"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "strtok3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "thread-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "toad-cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "toidentifier"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "token-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "token-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "tslib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "type-is"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "type-is"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "typedarray"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "uid"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "uint8array-extras"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "uint8array-extras"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "undici-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "unpipe"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "util-deprecate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "uuid"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "validator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "vary"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "wrappy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nestjs-nest",
+      "child": "ws"
+    }
+  ]
+}

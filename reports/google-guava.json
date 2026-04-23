@@ -1,0 +1,513 @@
+{
+  "scan_id": "google-guava",
+  "timestamp": "2026-03-20T04:47:21.290652",
+  "target": "https://github.com/google/guava",
+  "summary": {
+    "total_packages": 33,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "6.0.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-java",
+      "version": "5.2.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "7.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "caliper",
+      "version": "1.0-beta-3",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "error_prone_annotations",
+      "version": "2.47.0",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "failureaccess",
+      "version": "1.0.3",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/upload-sarif",
+      "version": "4.32.4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gradle-wrapper",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gradle/actions/setup-gradle",
+      "version": "5.0.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "guava",
+      "version": "999.0.0-HEAD-android-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "guava",
+      "version": "999.0.0-HEAD-jre-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "guava-bom",
+      "version": "999.0.0-HEAD-android-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "guava-bom",
+      "version": "999.0.0-HEAD-jre-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "guava-gwt",
+      "version": "999.0.0-HEAD-jre-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "guava-parent",
+      "version": "999.0.0-HEAD-android-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "guava-parent",
+      "version": "999.0.0-HEAD-jre-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "guava-testlib",
+      "version": "999.0.0-HEAD-android-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "guava-testlib",
+      "version": "999.0.0-HEAD-jre-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "guava-tests",
+      "version": "999.0.0-HEAD-android-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "guava-tests",
+      "version": "999.0.0-HEAD-jre-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gwt-dev",
+      "version": "2.13.0",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gwt-user",
+      "version": "2.13.0",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "j2objc-annotations",
+      "version": "3.1",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jimfs",
+      "version": "1.3.1",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jspecify",
+      "version": "1.0.0",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jsr305",
+      "version": "3.0.2",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "junit",
+      "version": "4.13.2",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "listenablefuture",
+      "version": "1.0",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "listenablefuture",
+      "version": "9999.0-empty-to-avoid-conflict-with-guava",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mockito-core",
+      "version": "4.11.0",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ossf/scorecard-action",
+      "version": "2.4.3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "styfle/cancel-workflow-action",
+      "version": "0.13.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "truth",
+      "version": "1.4.5",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "actions/setup-java"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "caliper"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "error_prone_annotations"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "failureaccess"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "github/codeql-action/upload-sarif"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "gradle-wrapper"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "gradle/actions/setup-gradle"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "guava"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "guava"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "guava-bom"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "guava-bom"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "guava-gwt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "guava-parent"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "guava-parent"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "guava-testlib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "guava-testlib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "guava-tests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "guava-tests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "gwt-dev"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "gwt-user"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "j2objc-annotations"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "jimfs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "jspecify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "jsr305"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "junit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "listenablefuture"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "listenablefuture"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "mockito-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "ossf/scorecard-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "styfle/cancel-workflow-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "google-guava",
+      "child": "truth"
+    }
+  ]
+}

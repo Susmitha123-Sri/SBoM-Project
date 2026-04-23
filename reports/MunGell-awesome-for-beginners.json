@@ -1,0 +1,48 @@
+{
+  "scan_id": "MunGell-awesome-for-beginners",
+  "timestamp": "2026-03-20T01:35:43.995053",
+  "target": "https://github.com/MunGell/awesome-for-beginners",
+  "summary": {
+    "total_packages": 2,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/github-script",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "MunGell-awesome-for-beginners",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "MunGell-awesome-for-beginners",
+      "child": "actions/github-script"
+    }
+  ]
+}

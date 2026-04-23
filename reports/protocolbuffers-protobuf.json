@@ -1,0 +1,1113 @@
+{
+  "scan_id": "protocolbuffers-protobuf",
+  "timestamp": "2026-03-20T02:10:21.558954",
+  "target": "https://github.com/protocolbuffers/protobuf",
+  "summary": {
+    "total_packages": 73,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "./.github/workflows/publish_to_bcr.yaml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/staleness_check.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/test_bazel.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/test_cpp.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/test_csharp.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/test_hpb.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/test_java.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/test_objectivec.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/test_php.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/test_php_ext.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/test_python.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/test_ruby.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/test_rust.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/test_upb.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/test_yaml.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions-ecosystem/action-remove-labels",
+      "version": "1.3.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/cache",
+      "version": "5.0.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "6.0.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/download-artifact",
+      "version": "7.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-dotnet",
+      "version": "5.1.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-java",
+      "version": "5.2.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-python",
+      "version": "6.2.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/stale",
+      "version": "10.1.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "6.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "addressbook",
+      "version": "UNKNOWN",
+      "type": "dart-pub",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bazel-contrib/.github/.github/workflows/release_ruleset.yaml",
+      "version": "7.3.0",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml",
+      "version": "1.0.0",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bigdecimal",
+      "version": "4.0.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bigdecimal",
+      "version": "4.0.1-java",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ffi",
+      "version": "1.17.3",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ffi-compiler",
+      "version": "1.3.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/upload-sarif",
+      "version": "2.2.4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google-protobuf",
+      "version": "4.35.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google.golang.org/protobuf",
+      "version": "1.36.9",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "googleapis-common-protos",
+      "version": "1.56.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.73.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "guava",
+      "version": "32.0.1-android",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "guava-testlib",
+      "version": "32.0.1-android",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ilammy/msvc-dev-cmd",
+      "version": "1.12.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jinja2",
+      "version": "3.1.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.1.6",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jruby-complete",
+      "version": "9.2.20.1",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "junit",
+      "version": "4.13.2",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "kotlin-stdlib",
+      "version": "1.6.0",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "kotlin-test",
+      "version": "1.6.0",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "linkage-monitor-check-bom",
+      "version": "0.0.1-SNAPSHOT",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mockito-core",
+      "version": "4.3.1",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ossf/scorecard-action",
+      "version": "2.3.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "power_assert",
+      "version": "3.0.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "protobuf-bom",
+      "version": "4.35.0",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "protobuf-java",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "protobuf-java-util",
+      "version": "4.35.0",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "protobuf-jruby",
+      "version": "4.35.0",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "protobuf-kotlin",
+      "version": "4.35.0",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "protobuf-parent",
+      "version": "4.35.0",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "protoc",
+      "version": "4.35.0",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "protocolbuffers/protobuf-ci/bash",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "protocolbuffers/protobuf-ci/bazel",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "protocolbuffers/protobuf-ci/bazel-docker",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "protocolbuffers/protobuf-ci/ccache",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "protocolbuffers/protobuf-ci/checkout",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "protocolbuffers/protobuf-ci/composer-setup",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "protocolbuffers/protobuf-ci/cross-compile-protoc",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "protocolbuffers/protobuf-ci/docker",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "protocolbuffers/protobuf-ci/sccache",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rake",
+      "version": "13.3.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rake-compiler",
+      "version": "1.3.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rake-compiler-dock",
+      "version": "1.11.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ruby/setup-ruby",
+      "version": "1.276.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "shivammathur/setup-php",
+      "version": "2.35.5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sphinx",
+      "version": "3.0.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sphinx-rtd-theme",
+      "version": "0.4.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sphinxcontrib-napoleon",
+      "version": "0.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "test-unit",
+      "version": "3.7.7",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "truth",
+      "version": "1.1.2",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "./.github/workflows/publish_to_bcr.yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "./.github/workflows/staleness_check.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "./.github/workflows/test_bazel.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "./.github/workflows/test_cpp.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "./.github/workflows/test_csharp.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "./.github/workflows/test_hpb.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "./.github/workflows/test_java.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "./.github/workflows/test_objectivec.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "./.github/workflows/test_php.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "./.github/workflows/test_php_ext.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "./.github/workflows/test_python.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "./.github/workflows/test_ruby.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "./.github/workflows/test_rust.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "./.github/workflows/test_upb.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "./.github/workflows/test_yaml.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "actions-ecosystem/action-remove-labels"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "actions/cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "actions/download-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "actions/setup-dotnet"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "actions/setup-java"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "actions/stale"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "addressbook"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "bazel-contrib/.github/.github/workflows/release_ruleset.yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "bigdecimal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "bigdecimal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "ffi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "ffi-compiler"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "github/codeql-action/upload-sarif"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "google-protobuf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "google.golang.org/protobuf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "googleapis-common-protos"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "guava"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "guava-testlib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "ilammy/msvc-dev-cmd"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "jinja2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "jruby-complete"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "junit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "kotlin-stdlib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "kotlin-test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "linkage-monitor-check-bom"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "mockito-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "ossf/scorecard-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "power_assert"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "protobuf-bom"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "protobuf-java"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "protobuf-java-util"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "protobuf-jruby"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "protobuf-kotlin"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "protobuf-parent"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "protoc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "protocolbuffers/protobuf-ci/bash"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "protocolbuffers/protobuf-ci/bazel"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "protocolbuffers/protobuf-ci/bazel-docker"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "protocolbuffers/protobuf-ci/ccache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "protocolbuffers/protobuf-ci/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "protocolbuffers/protobuf-ci/composer-setup"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "protocolbuffers/protobuf-ci/cross-compile-protoc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "protocolbuffers/protobuf-ci/docker"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "protocolbuffers/protobuf-ci/sccache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "rake"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "rake-compiler"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "rake-compiler-dock"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "ruby/setup-ruby"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "shivammathur/setup-php"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "sphinx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "sphinx-rtd-theme"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "sphinxcontrib-napoleon"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "test-unit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "protocolbuffers-protobuf",
+      "child": "truth"
+    }
+  ]
+}

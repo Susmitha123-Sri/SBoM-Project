@@ -1,0 +1,693 @@
+{
+  "scan_id": "obsproject-obs-studio",
+  "timestamp": "2026-03-20T02:08:46.881623",
+  "target": "https://github.com/obsproject/obs-studio",
+  "summary": {
+    "total_packages": 45,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "./.github/actions/build-obs",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/check-changes",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/compatibility-validator",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/flatpak-builder-lint",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/flatpak-manifest-validator",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/generate-docs",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/package-obs",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/qt-xml-validator",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/run-clang-format",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/run-gersemi",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/run-swift-format",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/services-validator",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/setup-macos-codesigning",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/sparkle-appcast",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/steam-upload",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/windows-analysis",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/windows-patches",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/analyze-project.yaml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/build-project.yaml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/check-format.yaml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./repo/.github/actions/windows-signing",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "CyberAndrii/setup-steamcmd",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "CyberAndrii/steam-totp",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "Homebrew/actions/setup-homebrew",
+      "version": "master",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/attest-build-provenance",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/cache",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/cache/restore",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/cache/save",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/download-artifact",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact/merge",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cloudflare/wrangler-action",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "flatpak/flatpak-github-actions/flat-manager",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "flatpak/flatpak-github-actions/flatpak-builder",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "github/codeql-action/upload-sarif",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google-github-actions/auth",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "korelstar/xmllint-problem-matcher",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "obsproject/obs-crowdin-sync/download",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "obsproject/obs-crowdin-sync/upload",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "obsproject/obs-studio/.github/workflows/sign-windows.yaml",
+      "version": "unknown",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "peter-evans/create-pull-request",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "softprops/action-gh-release",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "totaldebug/sphinx-publish-action",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "yuzutech/annotations-action",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "./.github/actions/build-obs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "./.github/actions/check-changes"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "./.github/actions/compatibility-validator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "./.github/actions/flatpak-builder-lint"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "./.github/actions/flatpak-manifest-validator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "./.github/actions/generate-docs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "./.github/actions/package-obs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "./.github/actions/qt-xml-validator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "./.github/actions/run-clang-format"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "./.github/actions/run-gersemi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "./.github/actions/run-swift-format"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "./.github/actions/services-validator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "./.github/actions/setup-macos-codesigning"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "./.github/actions/sparkle-appcast"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "./.github/actions/steam-upload"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "./.github/actions/windows-analysis"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "./.github/actions/windows-patches"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "./.github/workflows/analyze-project.yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "./.github/workflows/build-project.yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "./.github/workflows/check-format.yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "./repo/.github/actions/windows-signing"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "CyberAndrii/setup-steamcmd"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "CyberAndrii/steam-totp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "Homebrew/actions/setup-homebrew"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "actions/attest-build-provenance"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "actions/cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "actions/cache/restore"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "actions/cache/save"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "actions/download-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "actions/upload-artifact/merge"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "cloudflare/wrangler-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "flatpak/flatpak-github-actions/flat-manager"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "flatpak/flatpak-github-actions/flatpak-builder"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "github/codeql-action/upload-sarif"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "google-github-actions/auth"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "korelstar/xmllint-problem-matcher"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "obsproject/obs-crowdin-sync/download"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "obsproject/obs-crowdin-sync/upload"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "obsproject/obs-studio/.github/workflows/sign-windows.yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "peter-evans/create-pull-request"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "softprops/action-gh-release"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "totaldebug/sphinx-publish-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "obsproject-obs-studio",
+      "child": "yuzutech/annotations-action"
+    }
+  ]
+}

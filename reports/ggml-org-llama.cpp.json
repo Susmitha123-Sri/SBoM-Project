@@ -1,0 +1,5073 @@
+{
+  "scan_id": "ggml-org-llama.cpp",
+  "timestamp": "2026-03-20T01:07:51.016981",
+  "target": "https://github.com/ggml-org/llama.cpp",
+  "summary": {
+    "total_packages": 337,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "./.github/actions/get-tag-name",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/install-exe",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/linux-setup-openvino",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/linux-setup-spacemit",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/linux-setup-vulkan",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/linux-setup-vulkan-llvmpipe",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/unarchive-tar",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/windows-setup-cuda",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/windows-setup-rocm",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/build-cmake-pkg.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@hono/node-server",
+      "version": "1.19.9",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@jridgewell/gen-mapping",
+      "version": "0.3.12",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@jridgewell/remapping",
+      "version": "2.3.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@jridgewell/resolve-uri",
+      "version": "3.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@jridgewell/sourcemap-codec",
+      "version": "1.5.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@jridgewell/trace-mapping",
+      "version": "0.3.31",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@modelcontextprotocol/sdk",
+      "version": "1.26.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@napi-rs/canvas",
+      "version": "0.1.76",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@napi-rs/canvas-android-arm64",
+      "version": "0.1.76",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@napi-rs/canvas-darwin-arm64",
+      "version": "0.1.76",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@napi-rs/canvas-darwin-x64",
+      "version": "0.1.76",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@napi-rs/canvas-linux-arm-gnueabihf",
+      "version": "0.1.76",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@napi-rs/canvas-linux-arm64-gnu",
+      "version": "0.1.76",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@napi-rs/canvas-linux-arm64-musl",
+      "version": "0.1.76",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@napi-rs/canvas-linux-riscv64-gnu",
+      "version": "0.1.76",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@napi-rs/canvas-linux-x64-gnu",
+      "version": "0.1.76",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@napi-rs/canvas-linux-x64-musl",
+      "version": "0.1.76",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@napi-rs/canvas-win32-x64-msvc",
+      "version": "0.1.76",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@sveltejs/acorn-typescript",
+      "version": "1.0.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/debug",
+      "version": "4.1.12",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/estree",
+      "version": "1.0.8",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/hast",
+      "version": "3.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/mdast",
+      "version": "4.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/ms",
+      "version": "2.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/unist",
+      "version": "2.0.11",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/unist",
+      "version": "3.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@ungap/structured-clone",
+      "version": "1.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "Baichuan-7B",
+      "version": "UNKNOWN",
+      "type": "model",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "D:\\Diverses\\models",
+      "version": "UNKNOWN",
+      "type": "model",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "Falcon",
+      "version": "UNKNOWN",
+      "type": "model",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "Nomic Xlm 2048",
+      "version": "2048",
+      "type": "model",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "Phi3",
+      "version": "UNKNOWN",
+      "type": "model",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "Refact",
+      "version": "UNKNOWN",
+      "type": "model",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "accepts",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "acorn",
+      "version": "8.15.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/cache",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/download-artifact",
+      "version": "7",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/github-script",
+      "version": "8",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/labeler",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-java",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-node",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-python",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/stale",
+      "version": "10",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ajv",
+      "version": "8.17.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ajv-formats",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "android-actions/setup-android",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "appium-python-client",
+      "version": "5.2.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.2.7",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aria-query",
+      "version": "5.3.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "atomicwrites",
+      "version": "1.4.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "attrs",
+      "version": "23.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "26.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "attrs",
+      "version": "25.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "26.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "axobject-query",
+      "version": "4.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bail",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bert-bge",
+      "version": "UNKNOWN",
+      "type": "model",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "body-parser",
+      "version": "2.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bytes",
+      "version": "3.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "call-bind-apply-helpers",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "call-bound",
+      "version": "1.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cargo-bins/cargo-binstall",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "ccount",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "certifi",
+      "version": "2024.2.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2026.2.25",
+      "version_status": "outdated"
+    },
+    {
+      "package": "certifi",
+      "version": "2025.10.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2026.2.25",
+      "version_status": "outdated"
+    },
+    {
+      "package": "character-entities",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "character-entities-html4",
+      "version": "2.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "character-entities-legacy",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "charset-normalizer",
+      "version": "3.3.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.4.6",
+      "version_status": "outdated"
+    },
+    {
+      "package": "clsx",
+      "version": "2.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "colorama",
+      "version": "0.4.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.6",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "comma-separated-tokens",
+      "version": "2.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "command-r",
+      "version": "UNKNOWN",
+      "type": "model",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "content-disposition",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "content-type",
+      "version": "1.0.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cookie",
+      "version": "0.7.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cookie-signature",
+      "version": "1.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cors",
+      "version": "2.8.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cross-spawn",
+      "version": "7.0.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "debug",
+      "version": "4.4.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "decode-named-character-reference",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "deepseek-coder",
+      "version": "UNKNOWN",
+      "type": "model",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "deepseek-llm",
+      "version": "UNKNOWN",
+      "type": "model",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "depd",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dequal",
+      "version": "2.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "devalue",
+      "version": "5.6.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "devlop",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/build-push-action",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/login-action",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/setup-buildx-action",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/setup-qemu-action",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dunder-proto",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "editorconfig-checker/action-editorconfig-checker",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ee-first",
+      "version": "1.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "encodeurl",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "es-define-property",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "es-errors",
+      "version": "1.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "es-object-atoms",
+      "version": "1.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "escape-html",
+      "version": "1.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "escape-string-regexp",
+      "version": "5.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "esm-env",
+      "version": "1.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "esrap",
+      "version": "2.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "etag",
+      "version": "1.8.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "eventsource",
+      "version": "3.0.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "eventsource-parser",
+      "version": "3.0.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "exceptiongroup",
+      "version": "1.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "express",
+      "version": "5.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "express-rate-limit",
+      "version": "8.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "extend",
+      "version": "3.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fast-deep-equal",
+      "version": "3.1.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fast-uri",
+      "version": "3.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "filelock",
+      "version": "3.13.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.25.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "finalhandler",
+      "version": "2.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "forwarded",
+      "version": "0.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fresh",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fsspec",
+      "version": "2024.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2026.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "function-bind",
+      "version": "1.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "get-intrinsic",
+      "version": "1.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "get-proto",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ggml-org/action-create-release",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ggml-org/ccache-action",
+      "version": "1.2.21",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ggml-org/free-disk-space",
+      "version": "1.3.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ggml-org/setup-xcode",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gguf",
+      "version": "0.7.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.18.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gopd",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gpt-2",
+      "version": "UNKNOWN",
+      "type": "model",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gpt-neox-20b",
+      "version": "UNKNOWN",
+      "type": "model",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gradle-wrapper",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "h11",
+      "version": "0.16.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.16.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "has-symbols",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hasown",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hast-util-is-element",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hast-util-sanitize",
+      "version": "5.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hast-util-to-html",
+      "version": "9.0.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hast-util-to-text",
+      "version": "4.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hast-util-whitespace",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "highlight.js",
+      "version": "11.11.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hono",
+      "version": "4.11.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "html-void-elements",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "http-errors",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "huggingface-hub",
+      "version": "0.20.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.7.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "iconv-lite",
+      "version": "0.7.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "idna",
+      "version": "3.11",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.11",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "idna",
+      "version": "3.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.11",
+      "version_status": "outdated"
+    },
+    {
+      "package": "inherits",
+      "version": "2.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "iniconfig",
+      "version": "2.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "inline-style-parser",
+      "version": "0.2.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ip-address",
+      "version": "10.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ipaddr.js",
+      "version": "1.9.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-plain-obj",
+      "version": "4.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-promise",
+      "version": "4.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-reference",
+      "version": "3.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "isexe",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jakebailey/pyright-action",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jinja2",
+      "version": "3.1.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.1.6",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jose",
+      "version": "6.1.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "json-schema-traverse",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "json-schema-typed",
+      "version": "8.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llama-bpe",
+      "version": "UNKNOWN",
+      "type": "model",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llama-spm",
+      "version": "UNKNOWN",
+      "type": "model",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "locate-character",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "longest-streak",
+      "version": "3.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lowlight",
+      "version": "3.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "magic-string",
+      "version": "0.30.17",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "markdown-table",
+      "version": "3.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "markupsafe",
+      "version": "2.1.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "math-intrinsics",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mdast-util-find-and-replace",
+      "version": "3.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mdast-util-from-markdown",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mdast-util-gfm",
+      "version": "3.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mdast-util-gfm-autolink-literal",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mdast-util-gfm-footnote",
+      "version": "2.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mdast-util-gfm-strikethrough",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mdast-util-gfm-table",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mdast-util-gfm-task-list-item",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mdast-util-newline-to-break",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mdast-util-phrasing",
+      "version": "4.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mdast-util-to-hast",
+      "version": "13.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mdast-util-to-markdown",
+      "version": "2.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mdast-util-to-string",
+      "version": "4.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "media-typer",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "merge-descriptors",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark",
+      "version": "4.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-core-commonmark",
+      "version": "2.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-extension-gfm",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-extension-gfm-autolink-literal",
+      "version": "2.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-extension-gfm-footnote",
+      "version": "2.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-extension-gfm-strikethrough",
+      "version": "2.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-extension-gfm-table",
+      "version": "2.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-extension-gfm-tagfilter",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-extension-gfm-task-list-item",
+      "version": "2.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-factory-destination",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-factory-label",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-factory-space",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-factory-title",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-factory-whitespace",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-util-character",
+      "version": "2.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-util-chunked",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-util-classify-character",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-util-combine-extensions",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-util-decode-numeric-character-reference",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-util-decode-string",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-util-encode",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-util-html-tag-name",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-util-normalize-identifier",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-util-resolve-all",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-util-sanitize-uri",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-util-subtokenize",
+      "version": "2.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-util-symbol",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-util-types",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mime-db",
+      "version": "1.54.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mime-types",
+      "version": "3.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mode-watcher",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "more-itertools",
+      "version": "10.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "10.8.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mpmath",
+      "version": "1.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mpt",
+      "version": "UNKNOWN",
+      "type": "model",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ms",
+      "version": "2.1.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "msys2/setup-msys2",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "negotiator",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "networkx",
+      "version": "3.2.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.6.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "numpy",
+      "version": "1.26.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "object-assign",
+      "version": "4.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "object-inspect",
+      "version": "1.13.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "on-finished",
+      "version": "2.4.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "once",
+      "version": "1.4.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "outcome",
+      "version": "1.3.0.post0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.0.post0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "packaging",
+      "version": "23.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "26.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "packaging",
+      "version": "25.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "26.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "parseurl",
+      "version": "1.3.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "path-key",
+      "version": "3.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "path-to-regexp",
+      "version": "8.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pdfjs-dist",
+      "version": "5.4.54",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pkce-challenge",
+      "version": "5.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pluggy",
+      "version": "0.13.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.6.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pluggy",
+      "version": "1.6.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.6.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "property-information",
+      "version": "7.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "protobuf",
+      "version": "4.25.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.34.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "proxy-addr",
+      "version": "2.0.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "py",
+      "version": "1.11.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.11.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "py-actions/flake8",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pygments",
+      "version": "2.19.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.19.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pypa/gh-action-pypi-publish",
+      "version": "release/v1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pysocks",
+      "version": "1.7.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.7.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pytest",
+      "version": "5.4.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytest",
+      "version": "8.4.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytest-dependency",
+      "version": "0.6.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pyyaml",
+      "version": "6.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "qs",
+      "version": "6.14.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "qwen2",
+      "version": "UNKNOWN",
+      "type": "model",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "range-parser",
+      "version": "1.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "raw-body",
+      "version": "3.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "regex",
+      "version": "2023.12.25",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2026.2.28",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rehype-highlight",
+      "version": "7.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rehype-stringify",
+      "version": "10.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "remark",
+      "version": "15.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "remark-breaks",
+      "version": "4.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "remark-gfm",
+      "version": "4.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "remark-html",
+      "version": "16.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "remark-parse",
+      "version": "11.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "remark-rehype",
+      "version": "11.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "remark-stringify",
+      "version": "11.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "requests",
+      "version": "2.31.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.32.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "require-from-string",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "router",
+      "version": "2.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "runed",
+      "version": "0.23.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "runed",
+      "version": "0.25.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "runed",
+      "version": "0.28.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "safer-buffer",
+      "version": "2.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "safetensors",
+      "version": "0.4.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "selenium",
+      "version": "4.36.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.41.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "send",
+      "version": "1.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sentencepiece",
+      "version": "0.1.99",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.2.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "serve-static",
+      "version": "2.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "setprototypeof",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "setuptools",
+      "version": "80.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "82.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "shebang-command",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "shebang-regex",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "side-channel",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "side-channel-list",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "side-channel-map",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "side-channel-weakmap",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sniffio",
+      "version": "1.3.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "sortedcontainers",
+      "version": "2.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "space-separated-tokens",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "starcoder",
+      "version": "UNKNOWN",
+      "type": "model",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "statuses",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "stringify-entities",
+      "version": "4.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "style-to-object",
+      "version": "1.0.9",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "svelte",
+      "version": "5.48.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "svelte-sonner",
+      "version": "1.0.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "svelte-toolbelt",
+      "version": "0.7.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sympy",
+      "version": "1.12",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.14.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "toidentifier",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tokenizers",
+      "version": "0.15.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.22.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tomli",
+      "version": "2.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "torch",
+      "version": "2.2.1+cpu",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.10.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tqdm",
+      "version": "4.66.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.67.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "transformers",
+      "version": "4.38.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "trim-lines",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "trio",
+      "version": "0.31.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.33.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "trio-websocket",
+      "version": "0.12.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.12.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "trough",
+      "version": "2.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "type-is",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typing-extensions",
+      "version": "4.15.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.15.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "typing-extensions",
+      "version": "4.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.15.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unified",
+      "version": "11.0.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unist-util-find-after",
+      "version": "5.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unist-util-is",
+      "version": "6.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unist-util-position",
+      "version": "5.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unist-util-stringify-position",
+      "version": "4.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unist-util-visit",
+      "version": "5.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unist-util-visit-parents",
+      "version": "6.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unpipe",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "urllib3",
+      "version": "2.2.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.6.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "urllib3",
+      "version": "2.5.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.6.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vary",
+      "version": "1.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vfile",
+      "version": "6.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vfile-message",
+      "version": "4.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wcwidth",
+      "version": "0.2.13",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "websocket-client",
+      "version": "1.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.9.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "webui",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "which",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wrappy",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wsproto",
+      "version": "1.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zimmerframe",
+      "version": "1.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zod",
+      "version": "4.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zod-to-json-schema",
+      "version": "3.25.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zwitch",
+      "version": "2.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "./.github/actions/get-tag-name"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "./.github/actions/install-exe"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "./.github/actions/linux-setup-openvino"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "./.github/actions/linux-setup-spacemit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "./.github/actions/linux-setup-vulkan"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "./.github/actions/linux-setup-vulkan-llvmpipe"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "./.github/actions/unarchive-tar"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "./.github/actions/windows-setup-cuda"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "./.github/actions/windows-setup-rocm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "./.github/workflows/build-cmake-pkg.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "@hono/node-server"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "@jridgewell/gen-mapping"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "@jridgewell/remapping"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "@jridgewell/resolve-uri"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "@jridgewell/sourcemap-codec"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "@jridgewell/trace-mapping"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "@modelcontextprotocol/sdk"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "@napi-rs/canvas"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "@napi-rs/canvas-android-arm64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "@napi-rs/canvas-darwin-arm64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "@napi-rs/canvas-darwin-x64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "@napi-rs/canvas-linux-arm-gnueabihf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "@napi-rs/canvas-linux-arm64-gnu"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "@napi-rs/canvas-linux-arm64-musl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "@napi-rs/canvas-linux-riscv64-gnu"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "@napi-rs/canvas-linux-x64-gnu"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "@napi-rs/canvas-linux-x64-musl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "@napi-rs/canvas-win32-x64-msvc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "@sveltejs/acorn-typescript"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "@types/debug"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "@types/estree"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "@types/hast"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "@types/mdast"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "@types/ms"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "@types/unist"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "@types/unist"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "@ungap/structured-clone"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "Baichuan-7B"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "D:\\Diverses\\models"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "Falcon"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "Nomic Xlm 2048"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "Phi3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "Refact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "accepts"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "acorn"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "actions/cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "actions/download-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "actions/github-script"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "actions/labeler"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "actions/setup-java"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "actions/setup-node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "actions/stale"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "ajv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "ajv-formats"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "android-actions/setup-android"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "appium-python-client"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "aria-query"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "atomicwrites"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "attrs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "attrs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "axobject-query"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "bail"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "bert-bge"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "body-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "bytes"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "call-bind-apply-helpers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "call-bound"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "cargo-bins/cargo-binstall"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "ccount"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "certifi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "certifi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "character-entities"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "character-entities-html4"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "character-entities-legacy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "charset-normalizer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "clsx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "colorama"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "comma-separated-tokens"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "command-r"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "content-disposition"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "content-type"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "cookie"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "cookie-signature"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "cors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "cross-spawn"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "debug"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "decode-named-character-reference"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "deepseek-coder"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "deepseek-llm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "depd"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "dequal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "devalue"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "devlop"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "docker/build-push-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "docker/login-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "docker/setup-buildx-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "docker/setup-qemu-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "dunder-proto"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "editorconfig-checker/action-editorconfig-checker"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "ee-first"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "encodeurl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "es-define-property"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "es-errors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "es-object-atoms"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "escape-html"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "escape-string-regexp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "esm-env"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "esrap"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "etag"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "eventsource"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "eventsource-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "exceptiongroup"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "express"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "express-rate-limit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "extend"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "fast-deep-equal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "fast-uri"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "filelock"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "finalhandler"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "forwarded"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "fresh"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "fsspec"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "function-bind"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "get-intrinsic"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "get-proto"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "ggml-org/action-create-release"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "ggml-org/ccache-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "ggml-org/free-disk-space"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "ggml-org/setup-xcode"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "gguf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "gopd"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "gpt-2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "gpt-neox-20b"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "gradle-wrapper"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "h11"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "has-symbols"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "hasown"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "hast-util-is-element"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "hast-util-sanitize"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "hast-util-to-html"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "hast-util-to-text"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "hast-util-whitespace"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "highlight.js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "hono"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "html-void-elements"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "http-errors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "huggingface-hub"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "iconv-lite"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "idna"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "idna"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "inherits"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "iniconfig"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "inline-style-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "ip-address"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "ipaddr.js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "is-plain-obj"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "is-promise"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "is-reference"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "isexe"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "jakebailey/pyright-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "jinja2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "jose"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "json-schema-traverse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "json-schema-typed"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "llama-bpe"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "llama-spm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "locate-character"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "longest-streak"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "lowlight"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "magic-string"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "markdown-table"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "markupsafe"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "math-intrinsics"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "mdast-util-find-and-replace"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "mdast-util-from-markdown"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "mdast-util-gfm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "mdast-util-gfm-autolink-literal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "mdast-util-gfm-footnote"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "mdast-util-gfm-strikethrough"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "mdast-util-gfm-table"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "mdast-util-gfm-task-list-item"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "mdast-util-newline-to-break"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "mdast-util-phrasing"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "mdast-util-to-hast"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "mdast-util-to-markdown"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "mdast-util-to-string"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "media-typer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "merge-descriptors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "micromark"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "micromark-core-commonmark"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "micromark-extension-gfm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "micromark-extension-gfm-autolink-literal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "micromark-extension-gfm-footnote"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "micromark-extension-gfm-strikethrough"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "micromark-extension-gfm-table"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "micromark-extension-gfm-tagfilter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "micromark-extension-gfm-task-list-item"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "micromark-factory-destination"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "micromark-factory-label"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "micromark-factory-space"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "micromark-factory-title"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "micromark-factory-whitespace"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "micromark-util-character"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "micromark-util-chunked"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "micromark-util-classify-character"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "micromark-util-combine-extensions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "micromark-util-decode-numeric-character-reference"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "micromark-util-decode-string"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "micromark-util-encode"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "micromark-util-html-tag-name"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "micromark-util-normalize-identifier"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "micromark-util-resolve-all"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "micromark-util-sanitize-uri"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "micromark-util-subtokenize"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "micromark-util-symbol"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "micromark-util-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "mime-db"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "mime-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "mode-watcher"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "more-itertools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "mpmath"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "mpt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "ms"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "msys2/setup-msys2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "negotiator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "networkx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "numpy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "object-assign"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "object-inspect"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "on-finished"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "once"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "outcome"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "packaging"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "packaging"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "parseurl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "path-key"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "path-to-regexp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "pdfjs-dist"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "pkce-challenge"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "pluggy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "pluggy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "property-information"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "protobuf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "proxy-addr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "py"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "py-actions/flake8"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "pygments"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "pypa/gh-action-pypi-publish"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "pysocks"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "pytest"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "pytest"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "pytest-dependency"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "pyyaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "qs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "qwen2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "range-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "raw-body"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "regex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "rehype-highlight"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "rehype-stringify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "remark"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "remark-breaks"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "remark-gfm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "remark-html"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "remark-parse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "remark-rehype"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "remark-stringify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "requests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "require-from-string"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "router"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "runed"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "runed"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "runed"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "safer-buffer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "safetensors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "selenium"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "send"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "sentencepiece"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "serve-static"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "setprototypeof"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "setuptools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "shebang-command"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "shebang-regex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "side-channel"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "side-channel-list"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "side-channel-map"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "side-channel-weakmap"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "sniffio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "sortedcontainers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "space-separated-tokens"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "starcoder"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "statuses"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "stringify-entities"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "style-to-object"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "svelte"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "svelte-sonner"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "svelte-toolbelt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "sympy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "toidentifier"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "tokenizers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "tomli"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "torch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "tqdm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "transformers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "trim-lines"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "trio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "trio-websocket"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "trough"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "type-is"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "typing-extensions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "typing-extensions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "unified"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "unist-util-find-after"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "unist-util-is"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "unist-util-position"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "unist-util-stringify-position"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "unist-util-visit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "unist-util-visit-parents"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "unpipe"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "urllib3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "urllib3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "vary"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "vfile"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "vfile-message"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "wcwidth"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "websocket-client"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "webui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "which"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "wrappy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "wsproto"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "zimmerframe"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "zod"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "zod-to-json-schema"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ggml-org-llama.cpp",
+      "child": "zwitch"
+    }
+  ]
+}

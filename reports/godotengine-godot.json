@@ -1,0 +1,528 @@
+{
+  "scan_id": "godotengine-godot",
+  "timestamp": "2026-03-20T00:57:08.454441",
+  "target": "https://github.com/godotengine/godot",
+  "summary": {
+    "total_packages": 34,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "./.github/actions/godot-build",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/godot-cache-restore",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/godot-cache-save",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/godot-compat-test",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/godot-converter-test",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/godot-cpp-build",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/godot-deps",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/godot-project-export",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/godot-project-test",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/upload-artifact",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/android_builds.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/ios_builds.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/linux_builds.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/macos_builds.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/static_checks.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/web_builds.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/windows_builds.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "Android",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/cache/restore",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/cache/save",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/download-artifact",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-dotnet",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-java",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-python",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "7",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dsaltares/fetch-gh-release-asset",
+      "version": "1.1.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "godot",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gradle-wrapper",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mymindstorm/setup-emsdk",
+      "version": "14",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pre-commit/action",
+      "version": "3.0.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rui314/setup-mold",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tj-actions/changed-files",
+      "version": "47",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "./.github/actions/godot-build"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "./.github/actions/godot-cache-restore"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "./.github/actions/godot-cache-save"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "./.github/actions/godot-compat-test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "./.github/actions/godot-converter-test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "./.github/actions/godot-cpp-build"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "./.github/actions/godot-deps"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "./.github/actions/godot-project-export"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "./.github/actions/godot-project-test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "./.github/actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "./.github/workflows/android_builds.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "./.github/workflows/ios_builds.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "./.github/workflows/linux_builds.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "./.github/workflows/macos_builds.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "./.github/workflows/static_checks.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "./.github/workflows/web_builds.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "./.github/workflows/windows_builds.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "Android"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "actions/cache/restore"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "actions/cache/save"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "actions/download-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "actions/setup-dotnet"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "actions/setup-java"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "dsaltares/fetch-gh-release-asset"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "godot"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "gradle-wrapper"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "mymindstorm/setup-emsdk"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "pre-commit/action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "rui314/setup-mold"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "godotengine-godot",
+      "child": "tj-actions/changed-files"
+    }
+  ]
+}

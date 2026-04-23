@@ -1,0 +1,468 @@
+{
+  "scan_id": "lllyasviel-Fooocus",
+  "timestamp": "2026-03-20T05:19:25.537033",
+  "target": "https://github.com/lllyasviel/Fooocus",
+  "summary": {
+    "total_packages": 30,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "accelerate",
+      "version": "0.32.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.13.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/build-push-action",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/login-action",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/metadata-action",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "einops",
+      "version": "0.8.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.8.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gradio",
+      "version": "3.41.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.9.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "groundingdino-py",
+      "version": "0.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "httpx",
+      "version": "0.27.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.28.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "numpy",
+      "version": "1.26.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "omegaconf",
+      "version": "2.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.3.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "onnxruntime",
+      "version": "1.18.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.24.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opencv-contrib-python-headless",
+      "version": "4.10.0.84",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.13.0.92",
+      "version_status": "outdated"
+    },
+    {
+      "package": "packaging",
+      "version": "24.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "26.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pillow",
+      "version": "10.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.1.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "psutil",
+      "version": "6.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.2.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pygit2",
+      "version": "1.15.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.19.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytorch-lightning",
+      "version": "2.3.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.6.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pyyaml",
+      "version": "6.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rembg",
+      "version": "2.0.57",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.73",
+      "version_status": "outdated"
+    },
+    {
+      "package": "safetensors",
+      "version": "0.4.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "scipy",
+      "version": "1.14.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.17.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "segment-anything",
+      "version": "1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "timm",
+      "version": "1.0.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.25",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tokenizers",
+      "version": "0.19.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.22.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "torch",
+      "version": "2.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.10.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "torchsde",
+      "version": "0.2.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.2.6",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "torchvision",
+      "version": "0.16.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.25.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tqdm",
+      "version": "4.66.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.67.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "transformers",
+      "version": "4.42.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.3.0",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "lllyasviel-Fooocus",
+      "child": "accelerate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "lllyasviel-Fooocus",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "lllyasviel-Fooocus",
+      "child": "docker/build-push-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "lllyasviel-Fooocus",
+      "child": "docker/login-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "lllyasviel-Fooocus",
+      "child": "docker/metadata-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "lllyasviel-Fooocus",
+      "child": "einops"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "lllyasviel-Fooocus",
+      "child": "gradio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "lllyasviel-Fooocus",
+      "child": "groundingdino-py"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "lllyasviel-Fooocus",
+      "child": "httpx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "lllyasviel-Fooocus",
+      "child": "numpy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "lllyasviel-Fooocus",
+      "child": "omegaconf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "lllyasviel-Fooocus",
+      "child": "onnxruntime"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "lllyasviel-Fooocus",
+      "child": "opencv-contrib-python-headless"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "lllyasviel-Fooocus",
+      "child": "packaging"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "lllyasviel-Fooocus",
+      "child": "pillow"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "lllyasviel-Fooocus",
+      "child": "psutil"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "lllyasviel-Fooocus",
+      "child": "pygit2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "lllyasviel-Fooocus",
+      "child": "pytorch-lightning"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "lllyasviel-Fooocus",
+      "child": "pyyaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "lllyasviel-Fooocus",
+      "child": "rembg"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "lllyasviel-Fooocus",
+      "child": "safetensors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "lllyasviel-Fooocus",
+      "child": "scipy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "lllyasviel-Fooocus",
+      "child": "segment-anything"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "lllyasviel-Fooocus",
+      "child": "timm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "lllyasviel-Fooocus",
+      "child": "tokenizers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "lllyasviel-Fooocus",
+      "child": "torch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "lllyasviel-Fooocus",
+      "child": "torchsde"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "lllyasviel-Fooocus",
+      "child": "torchvision"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "lllyasviel-Fooocus",
+      "child": "tqdm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "lllyasviel-Fooocus",
+      "child": "transformers"
+    }
+  ]
+}

@@ -1,0 +1,348 @@
+{
+  "scan_id": "tensorflow-models",
+  "timestamp": "2026-03-20T01:42:58.127108",
+  "target": "https://github.com/tensorflow/models",
+  "summary": {
+    "total_packages": 22,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "absl-py",
+      "version": "2.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-python",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/stale",
+      "version": "7",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ffmpeg-python",
+      "version": "0.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.2.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "google-auth",
+      "version": "2.48.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.49.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google-cloud-bigquery",
+      "version": "3.40.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.40.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "google-cloud-storage",
+      "version": "3.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.10.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hugo-theme-techdoc",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "natsort",
+      "version": "8.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8.4.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "opencv-python",
+      "version": "4.13.0.92",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.13.0.92",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "opencv-python",
+      "version": "4.2.0.32",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.13.0.92",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pandas",
+      "version": "2.3.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pandas-gbq",
+      "version": "0.33.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.34.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pillow",
+      "version": "12.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.1.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pyparsing",
+      "version": "2.4.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.3.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "scikit-image",
+      "version": "0.25.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.26.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "scikit-learn",
+      "version": "1.7.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.8.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "supervision",
+      "version": "0.26.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.27.0.post2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "trackpy",
+      "version": "0.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tritonclient",
+      "version": "2.65.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.66.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "webcolors",
+      "version": "1.13",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "25.10.0",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tensorflow-models",
+      "child": "absl-py"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tensorflow-models",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tensorflow-models",
+      "child": "actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tensorflow-models",
+      "child": "actions/stale"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tensorflow-models",
+      "child": "ffmpeg-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tensorflow-models",
+      "child": "google-auth"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tensorflow-models",
+      "child": "google-cloud-bigquery"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tensorflow-models",
+      "child": "google-cloud-storage"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tensorflow-models",
+      "child": "hugo-theme-techdoc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tensorflow-models",
+      "child": "natsort"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tensorflow-models",
+      "child": "opencv-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tensorflow-models",
+      "child": "opencv-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tensorflow-models",
+      "child": "pandas"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tensorflow-models",
+      "child": "pandas-gbq"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tensorflow-models",
+      "child": "pillow"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tensorflow-models",
+      "child": "pyparsing"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tensorflow-models",
+      "child": "scikit-image"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tensorflow-models",
+      "child": "scikit-learn"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tensorflow-models",
+      "child": "supervision"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tensorflow-models",
+      "child": "trackpy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tensorflow-models",
+      "child": "tritonclient"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tensorflow-models",
+      "child": "webcolors"
+    }
+  ]
+}

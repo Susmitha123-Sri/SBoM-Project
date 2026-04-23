@@ -1,0 +1,408 @@
+{
+  "scan_id": "oobabooga-text-generation-webui",
+  "timestamp": "2026-03-20T06:23:44.853416",
+  "target": "https://github.com/oobabooga/text-generation-webui",
+  "summary": {
+    "total_packages": 26,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "./.github/workflows/build-portable-release-cuda.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/build-portable-release-rocm.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/build-portable-release-vulkan.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/build-portable-release.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-python",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "beautifulsoup4",
+      "version": "4.12.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.14.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "beautifulsoup4",
+      "version": "4.13.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.14.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "chromadb",
+      "version": "0.4.24",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.5.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "chromadb",
+      "version": "0.6.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.5.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "deep-translator",
+      "version": "1.9.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.11.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fastapi",
+      "version": "0.112.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.135.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flask-cloudflared",
+      "version": "0.0.15",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.0.15",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jinja2",
+      "version": "3.1.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.1.6",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pandas",
+      "version": "2.0.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "posthog",
+      "version": "2.4.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.9.12",
+      "version_status": "outdated"
+    },
+    {
+      "package": "posthog",
+      "version": "3.13.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.9.12",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pydantic",
+      "version": "2.11.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.12.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pymupdf",
+      "version": "1.27.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.27.2.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "python-docx",
+      "version": "1.1.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sentence-transformers",
+      "version": "3.3.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "speechrecognition",
+      "version": "3.10.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.15.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sse-starlette",
+      "version": "1.6.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.3.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "svenstaro/upload-release-action",
+      "version": "2.7.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "trafilatura",
+      "version": "2.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "triton-windows",
+      "version": "3.5.1.post24",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.6.0.post26",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "oobabooga-text-generation-webui",
+      "child": "./.github/workflows/build-portable-release-cuda.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "oobabooga-text-generation-webui",
+      "child": "./.github/workflows/build-portable-release-rocm.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "oobabooga-text-generation-webui",
+      "child": "./.github/workflows/build-portable-release-vulkan.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "oobabooga-text-generation-webui",
+      "child": "./.github/workflows/build-portable-release.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "oobabooga-text-generation-webui",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "oobabooga-text-generation-webui",
+      "child": "actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "oobabooga-text-generation-webui",
+      "child": "beautifulsoup4"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "oobabooga-text-generation-webui",
+      "child": "beautifulsoup4"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "oobabooga-text-generation-webui",
+      "child": "chromadb"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "oobabooga-text-generation-webui",
+      "child": "chromadb"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "oobabooga-text-generation-webui",
+      "child": "deep-translator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "oobabooga-text-generation-webui",
+      "child": "fastapi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "oobabooga-text-generation-webui",
+      "child": "flask-cloudflared"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "oobabooga-text-generation-webui",
+      "child": "jinja2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "oobabooga-text-generation-webui",
+      "child": "pandas"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "oobabooga-text-generation-webui",
+      "child": "posthog"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "oobabooga-text-generation-webui",
+      "child": "posthog"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "oobabooga-text-generation-webui",
+      "child": "pydantic"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "oobabooga-text-generation-webui",
+      "child": "pymupdf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "oobabooga-text-generation-webui",
+      "child": "python-docx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "oobabooga-text-generation-webui",
+      "child": "sentence-transformers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "oobabooga-text-generation-webui",
+      "child": "speechrecognition"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "oobabooga-text-generation-webui",
+      "child": "sse-starlette"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "oobabooga-text-generation-webui",
+      "child": "svenstaro/upload-release-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "oobabooga-text-generation-webui",
+      "child": "trafilatura"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "oobabooga-text-generation-webui",
+      "child": "triton-windows"
+    }
+  ]
+}

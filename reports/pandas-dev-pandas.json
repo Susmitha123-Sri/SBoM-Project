@@ -1,0 +1,438 @@
+{
+  "scan_id": "pandas-dev-pandas",
+  "timestamp": "2026-04-23T12:00:22.899149",
+  "target": "https://github.com/pandas-dev/pandas",
+  "summary": {
+    "total_packages": 28,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "./.github/actions/build_pandas",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/run-tests",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/setup-conda",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/setup-pixi",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/download-artifact",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/github-script",
+      "version": "9.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/setup-node",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.4.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-python",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/stale",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "10.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "codecov/codecov-action",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/analyze",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "github/codeql-action/autobuild",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "github/codeql-action/init",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "ilammy/msvc-dev-cmd",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.13.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mamba-org/setup-micromamba",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mamba-org/setup-micromamba",
+      "version": "3.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mymindstorm/setup-emsdk",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "16",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mypy",
+      "version": "1.17.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.20.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pandas-dev/github-doc-previewer",
+      "version": "0.3.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.3.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "peter-evans/create-pull-request",
+      "version": "8.1.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8.1.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pre-commit/action",
+      "version": "3.0.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "prefix-dev/setup-pixi",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.9.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "prefix-dev/setup-pixi",
+      "version": "0.9.5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.9.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pypa/cibuildwheel",
+      "version": "3.4.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.4.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pypa/gh-action-pypi-publish",
+      "version": "1.14.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.14.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "scientific-python/upload-nightly-action",
+      "version": "0.6.3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.4",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pandas-dev-pandas",
+      "child": "./.github/actions/build_pandas"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pandas-dev-pandas",
+      "child": "./.github/actions/run-tests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pandas-dev-pandas",
+      "child": "./.github/actions/setup-conda"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pandas-dev-pandas",
+      "child": "./.github/actions/setup-pixi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pandas-dev-pandas",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pandas-dev-pandas",
+      "child": "actions/download-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pandas-dev-pandas",
+      "child": "actions/github-script"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pandas-dev-pandas",
+      "child": "actions/setup-node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pandas-dev-pandas",
+      "child": "actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pandas-dev-pandas",
+      "child": "actions/stale"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pandas-dev-pandas",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pandas-dev-pandas",
+      "child": "codecov/codecov-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pandas-dev-pandas",
+      "child": "github/codeql-action/analyze"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pandas-dev-pandas",
+      "child": "github/codeql-action/autobuild"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pandas-dev-pandas",
+      "child": "github/codeql-action/init"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pandas-dev-pandas",
+      "child": "ilammy/msvc-dev-cmd"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pandas-dev-pandas",
+      "child": "mamba-org/setup-micromamba"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pandas-dev-pandas",
+      "child": "mamba-org/setup-micromamba"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pandas-dev-pandas",
+      "child": "mymindstorm/setup-emsdk"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pandas-dev-pandas",
+      "child": "mypy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pandas-dev-pandas",
+      "child": "pandas-dev/github-doc-previewer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pandas-dev-pandas",
+      "child": "peter-evans/create-pull-request"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pandas-dev-pandas",
+      "child": "pre-commit/action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pandas-dev-pandas",
+      "child": "prefix-dev/setup-pixi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pandas-dev-pandas",
+      "child": "prefix-dev/setup-pixi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pandas-dev-pandas",
+      "child": "pypa/cibuildwheel"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pandas-dev-pandas",
+      "child": "pypa/gh-action-pypi-publish"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pandas-dev-pandas",
+      "child": "scientific-python/upload-nightly-action"
+    }
+  ]
+}

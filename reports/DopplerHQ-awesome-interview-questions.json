@@ -1,0 +1,48 @@
+{
+  "scan_id": "DopplerHQ-awesome-interview-questions",
+  "timestamp": "2026-03-20T01:37:31.505455",
+  "target": "https://github.com/DopplerHQ/awesome-interview-questions",
+  "summary": {
+    "total_packages": 2,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "master",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gaurav-nelson/github-action-markdown-link-check",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "DopplerHQ-awesome-interview-questions",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "DopplerHQ-awesome-interview-questions",
+      "child": "gaurav-nelson/github-action-markdown-link-check"
+    }
+  ]
+}

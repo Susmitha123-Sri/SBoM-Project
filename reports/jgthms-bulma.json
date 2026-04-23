@@ -1,0 +1,573 @@
+{
+  "scan_id": "jgthms-bulma",
+  "timestamp": "2026-03-20T05:00:11.209890",
+  "target": "https://github.com/jgthms/bulma",
+  "summary": {
+    "total_packages": 37,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "@babel/runtime",
+      "version": "7.24.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/hast",
+      "version": "2.3.10",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/unist",
+      "version": "2.0.10",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bulma",
+      "version": "1.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bulma-customizer",
+      "version": "0.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bulma-docs",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "character-entities",
+      "version": "1.2.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "character-entities-legacy",
+      "version": "1.1.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "character-reference-invalid",
+      "version": "1.1.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "classnames",
+      "version": "2.5.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "comma-separated-tokens",
+      "version": "1.0.8",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fault",
+      "version": "1.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "format",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hast-util-parse-selector",
+      "version": "2.2.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hastscript",
+      "version": "6.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "highlight.js",
+      "version": "10.7.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-alphabetical",
+      "version": "1.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-alphanumerical",
+      "version": "1.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-decimal",
+      "version": "1.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-hexadecimal",
+      "version": "1.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "js-tokens",
+      "version": "4.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "loose-envify",
+      "version": "1.4.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lowlight",
+      "version": "1.20.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "parse-entities",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "prismjs",
+      "version": "1.27.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "prismjs",
+      "version": "1.29.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "property-information",
+      "version": "5.6.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "react",
+      "version": "18.3.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "react-dom",
+      "version": "18.3.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "react-syntax-highlighter",
+      "version": "15.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "refractor",
+      "version": "3.6.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "regenerator-runtime",
+      "version": "0.14.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ruby/setup-ruby",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "scheduler",
+      "version": "0.23.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "space-separated-tokens",
+      "version": "1.1.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "xtend",
+      "version": "4.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "@babel/runtime"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "@types/hast"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "@types/unist"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "bulma"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "bulma-customizer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "bulma-docs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "character-entities"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "character-entities-legacy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "character-reference-invalid"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "classnames"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "comma-separated-tokens"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "fault"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "format"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "hast-util-parse-selector"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "hastscript"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "highlight.js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "is-alphabetical"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "is-alphanumerical"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "is-decimal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "is-hexadecimal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "js-tokens"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "loose-envify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "lowlight"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "parse-entities"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "prismjs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "prismjs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "property-information"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "react"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "react-dom"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "react-syntax-highlighter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "refractor"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "regenerator-runtime"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "ruby/setup-ruby"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "scheduler"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "space-separated-tokens"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jgthms-bulma",
+      "child": "xtend"
+    }
+  ]
+}

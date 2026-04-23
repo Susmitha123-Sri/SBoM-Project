@@ -1,0 +1,33 @@
+{
+  "scan_id": "sindresorhus-awesome",
+  "timestamp": "2026-03-20T00:05:05.988956",
+  "target": "https://github.com/sindresorhus/awesome",
+  "summary": {
+    "total_packages": 1,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.2",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "sindresorhus-awesome",
+      "child": "actions/checkout"
+    }
+  ]
+}

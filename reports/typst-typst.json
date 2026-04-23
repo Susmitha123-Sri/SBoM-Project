@@ -1,0 +1,6453 @@
+{
+  "scan_id": "typst-typst",
+  "timestamp": "2026-03-20T04:42:23.921572",
+  "target": "https://github.com/typst/typst",
+  "summary": {
+    "total_packages": 429,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "Swatinem/rust-cache",
+      "version": "2.8.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.9.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "6.0.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/download-artifact",
+      "version": "7.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "6.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "adler2",
+      "version": "2.0.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aho-corasick",
+      "version": "1.1.3",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "android-tzdata",
+      "version": "0.1.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "android_system_properties",
+      "version": "0.1.5",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "anstream",
+      "version": "0.6.18",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "anstyle",
+      "version": "1.0.10",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "anstyle-parse",
+      "version": "0.2.6",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "anstyle-query",
+      "version": "1.1.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "anstyle-wincon",
+      "version": "3.0.7",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "approx",
+      "version": "0.5.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "arbitrary",
+      "version": "1.4.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "arrayref",
+      "version": "0.3.9",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "arrayvec",
+      "version": "0.7.6",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ascii",
+      "version": "1.1.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "autocfg",
+      "version": "1.4.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "az",
+      "version": "1.2.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "base64",
+      "version": "0.22.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "biblatex",
+      "version": "0.11.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bincode",
+      "version": "1.3.3",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bit-set",
+      "version": "0.8.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bit-vec",
+      "version": "0.8.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bitflags",
+      "version": "1.3.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bitflags",
+      "version": "2.9.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bitvec",
+      "version": "1.0.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bstr",
+      "version": "1.12.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bumpalo",
+      "version": "3.17.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "by_address",
+      "version": "1.2.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bytemuck",
+      "version": "1.23.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bytemuck_derive",
+      "version": "1.8.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "byteorder",
+      "version": "1.5.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "byteorder-lite",
+      "version": "0.1.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cc",
+      "version": "1.2.11",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cfg-if",
+      "version": "1.0.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "chinese-number",
+      "version": "0.7.7",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "chinese-variant",
+      "version": "1.1.3",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "chrono",
+      "version": "0.4.39",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "chunked_transfer",
+      "version": "1.5.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ciborium",
+      "version": "0.2.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ciborium-io",
+      "version": "0.2.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ciborium-ll",
+      "version": "0.2.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "citationberg",
+      "version": "0.6.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "clap",
+      "version": "4.5.28",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "clap_builder",
+      "version": "4.5.27",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "clap_complete",
+      "version": "4.5.44",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "clap_derive",
+      "version": "4.5.28",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "clap_lex",
+      "version": "0.7.4",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "clap_mangen",
+      "version": "0.2.26",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cobs",
+      "version": "0.2.3",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "codespan-reporting",
+      "version": "0.11.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "codex",
+      "version": "0.2.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "color-print",
+      "version": "0.3.7",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "color-print-proc-macro",
+      "version": "0.3.7",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "color_quant",
+      "version": "1.1.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "colorchoice",
+      "version": "1.0.3",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "comemo",
+      "version": "0.5.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "comemo-macros",
+      "version": "0.5.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "core-foundation",
+      "version": "0.9.4",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "core-foundation-sys",
+      "version": "0.8.7",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "core_maths",
+      "version": "0.1.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "crc32fast",
+      "version": "1.4.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "crossbeam-channel",
+      "version": "0.5.15",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "crossbeam-deque",
+      "version": "0.8.6",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "crossbeam-epoch",
+      "version": "0.9.18",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "crossbeam-utils",
+      "version": "0.8.21",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "crunchy",
+      "version": "0.2.3",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "csv",
+      "version": "1.3.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "csv-core",
+      "version": "0.1.11",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "data-url",
+      "version": "0.3.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "deranged",
+      "version": "0.3.11",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "derive_arbitrary",
+      "version": "1.4.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dirs",
+      "version": "6.0.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dirs-sys",
+      "version": "0.5.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "displaydoc",
+      "version": "0.2.5",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/build-push-action",
+      "version": "263435318d21b8e681c14492fe198d362a7d2c83",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/login-action",
+      "version": "3.6.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/metadata-action",
+      "version": "5.10.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/setup-buildx-action",
+      "version": "3.7.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dtolnay/rust-toolchain",
+      "version": "1.89.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dtolnay/rust-toolchain",
+      "version": "1.91.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dtolnay/rust-toolchain",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ecow",
+      "version": "0.2.6",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "either",
+      "version": "1.13.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "embedded-io",
+      "version": "0.4.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "embedded-io",
+      "version": "0.6.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "enum-ordinalize",
+      "version": "4.3.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "enum-ordinalize-derive",
+      "version": "4.3.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "env_proxy",
+      "version": "0.4.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "equivalent",
+      "version": "1.0.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "errno",
+      "version": "0.3.10",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "euclid",
+      "version": "0.22.11",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fancy-regex",
+      "version": "0.16.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fast-srgb8",
+      "version": "1.0.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fastrand",
+      "version": "2.3.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fdeflate",
+      "version": "0.3.7",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "filetime",
+      "version": "0.2.25",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flate2",
+      "version": "1.1.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "float-cmp",
+      "version": "0.10.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "float-cmp",
+      "version": "0.9.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fnv",
+      "version": "1.0.7",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "font-types",
+      "version": "0.10.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fontconfig-parser",
+      "version": "0.5.7",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fontdb",
+      "version": "0.23.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "foreign-types",
+      "version": "0.3.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "foreign-types-shared",
+      "version": "0.1.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "form_urlencoded",
+      "version": "1.2.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fs_extra",
+      "version": "1.3.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fsevent-sys",
+      "version": "4.1.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "funty",
+      "version": "2.0.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "getopts",
+      "version": "0.2.21",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "getrandom",
+      "version": "0.2.15",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "getrandom",
+      "version": "0.3.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gif",
+      "version": "0.13.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "glidesort",
+      "version": "0.1.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "half",
+      "version": "2.4.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hashbrown",
+      "version": "0.16.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hayagriva",
+      "version": "0.9.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hayro",
+      "version": "0.4.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hayro-font",
+      "version": "0.3.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hayro-interpret",
+      "version": "0.4.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hayro-svg",
+      "version": "0.2.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hayro-syntax",
+      "version": "0.4.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hayro-write",
+      "version": "0.3.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "heck",
+      "version": "0.5.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "httpdate",
+      "version": "1.0.3",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hypher",
+      "version": "0.1.5",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "iana-time-zone",
+      "version": "0.1.61",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "iana-time-zone-haiku",
+      "version": "0.1.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "icu_collections",
+      "version": "1.5.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "icu_locid",
+      "version": "1.5.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "icu_locid_transform",
+      "version": "1.5.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "icu_locid_transform_data",
+      "version": "1.5.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "icu_normalizer",
+      "version": "1.5.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "icu_normalizer_data",
+      "version": "1.5.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "icu_properties",
+      "version": "1.5.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "icu_properties_data",
+      "version": "1.5.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "icu_provider",
+      "version": "1.5.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "icu_provider_adapters",
+      "version": "1.5.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "icu_provider_blob",
+      "version": "1.5.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "icu_provider_macros",
+      "version": "1.5.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "icu_segmenter",
+      "version": "1.5.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "icu_segmenter_data",
+      "version": "1.5.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "idna",
+      "version": "1.0.3",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "idna_adapter",
+      "version": "1.2.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "image",
+      "version": "0.25.6",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "image-webp",
+      "version": "0.2.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "imagesize",
+      "version": "0.13.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "imagesize",
+      "version": "0.14.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "indexmap",
+      "version": "2.12.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "infer",
+      "version": "0.19.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "inotify",
+      "version": "0.11.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "inotify-sys",
+      "version": "0.1.5",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-docker",
+      "version": "0.2.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-wsl",
+      "version": "0.4.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is_terminal_polyfill",
+      "version": "1.70.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "itoa",
+      "version": "1.0.14",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jobserver",
+      "version": "0.1.32",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "js-sys",
+      "version": "0.3.77",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "kamadak-exif",
+      "version": "0.6.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "kqueue",
+      "version": "1.0.8",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "kqueue-sys",
+      "version": "1.0.4",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "krilla",
+      "version": "0.6.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "krilla-svg",
+      "version": "0.3.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "kurbo",
+      "version": "0.11.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "kurbo",
+      "version": "0.12.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "libc",
+      "version": "0.2.169",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "libdeflate-sys",
+      "version": "1.23.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "libdeflater",
+      "version": "1.23.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "libfuzzer-sys",
+      "version": "0.4.9",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "libm",
+      "version": "0.2.11",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "libredox",
+      "version": "0.1.3",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "libz-rs-sys",
+      "version": "0.5.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "linked-hash-map",
+      "version": "0.5.6",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "linux-raw-sys",
+      "version": "0.4.15",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lipsum",
+      "version": "0.9.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "litemap",
+      "version": "0.7.4",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lock_api",
+      "version": "0.4.12",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lockfree-object-pool",
+      "version": "0.1.6",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "log",
+      "version": "0.4.25",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lzma-sys",
+      "version": "0.1.20",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "memchr",
+      "version": "2.7.4",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "memmap2",
+      "version": "0.9.5",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "minimal-lexical",
+      "version": "0.2.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "miniz_oxide",
+      "version": "0.8.5",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mio",
+      "version": "1.0.4",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "moxcms",
+      "version": "0.7.5",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mutate_once",
+      "version": "0.1.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "native-tls",
+      "version": "0.2.13",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ncipollo/release-action",
+      "version": "1.14.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.21.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nom",
+      "version": "7.1.3",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "notify",
+      "version": "8.0.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "notify-types",
+      "version": "2.0.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "num-bigint",
+      "version": "0.4.6",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "num-conv",
+      "version": "0.1.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "num-integer",
+      "version": "0.1.46",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "num-traits",
+      "version": "0.2.19",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "once_cell",
+      "version": "1.20.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "open",
+      "version": "5.3.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "openssl",
+      "version": "0.10.72",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "openssl-macros",
+      "version": "0.1.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "openssl-probe",
+      "version": "0.1.6",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "openssl-src",
+      "version": "300.4.1+3.4.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "openssl-sys",
+      "version": "0.9.107",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "option-ext",
+      "version": "0.2.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "oxipng",
+      "version": "9.1.3",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "palette",
+      "version": "0.7.6",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "palette_derive",
+      "version": "0.7.6",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "parking_lot",
+      "version": "0.12.3",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "parking_lot_core",
+      "version": "0.9.10",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "paste",
+      "version": "1.0.15",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pathdiff",
+      "version": "0.2.3",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pdf-writer",
+      "version": "0.14.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "percent-encoding",
+      "version": "2.3.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "phf",
+      "version": "0.13.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "phf_generator",
+      "version": "0.13.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "phf_macros",
+      "version": "0.13.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "phf_shared",
+      "version": "0.13.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pico-args",
+      "version": "0.5.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pixglyph",
+      "version": "0.6.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pkg-config",
+      "version": "0.3.31",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "plist",
+      "version": "1.7.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "png",
+      "version": "0.17.16",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "portable-atomic",
+      "version": "1.10.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "postcard",
+      "version": "1.1.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "powerfmt",
+      "version": "0.2.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ppv-lite86",
+      "version": "0.2.20",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "proc-macro-hack",
+      "version": "0.5.20+deprecated",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "proc-macro2",
+      "version": "1.0.101",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "psm",
+      "version": "0.1.24",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pulldown-cmark",
+      "version": "0.9.6",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pxfm",
+      "version": "0.1.24",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "qcms",
+      "version": "0.3.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "quick-error",
+      "version": "2.0.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "quick-xml",
+      "version": "0.32.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "quick-xml",
+      "version": "0.38.3",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "quote",
+      "version": "1.0.38",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "radium",
+      "version": "0.7.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rand",
+      "version": "0.8.5",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rand_chacha",
+      "version": "0.3.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rand_core",
+      "version": "0.6.4",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rayon",
+      "version": "1.10.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rayon-core",
+      "version": "1.12.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "read-fonts",
+      "version": "0.35.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "redox_syscall",
+      "version": "0.5.8",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "redox_users",
+      "version": "0.5.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "regex",
+      "version": "1.11.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "regex-automata",
+      "version": "0.4.9",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "regex-syntax",
+      "version": "0.8.5",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "resvg",
+      "version": "0.45.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rgb",
+      "version": "0.8.50",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "roff",
+      "version": "0.2.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "roman-numerals-rs",
+      "version": "3.1.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "roxmltree",
+      "version": "0.20.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rust_decimal",
+      "version": "1.36.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rustc-hash",
+      "version": "2.1.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rustix",
+      "version": "0.38.44",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rustversion",
+      "version": "1.0.19",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rustybuzz",
+      "version": "0.20.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ryu",
+      "version": "1.0.19",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "same-file",
+      "version": "1.0.6",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "schannel",
+      "version": "0.1.27",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "scopeguard",
+      "version": "1.2.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "security-framework",
+      "version": "2.11.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "security-framework-sys",
+      "version": "2.14.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "self-replace",
+      "version": "1.5.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "semver",
+      "version": "1.0.25",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "serde",
+      "version": "1.0.228",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "serde_core",
+      "version": "1.0.228",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "serde_derive",
+      "version": "1.0.228",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "serde_json",
+      "version": "1.0.138",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "serde_spanned",
+      "version": "0.6.8",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "serde_yaml",
+      "version": "0.9.34+deprecated",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "shell-escape",
+      "version": "0.1.5",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "shlex",
+      "version": "1.3.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sigpipe",
+      "version": "0.1.3",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "simd-adler32",
+      "version": "0.3.7",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "similar",
+      "version": "2.7.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "simplecss",
+      "version": "0.2.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "siphasher",
+      "version": "1.0.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "skrifa",
+      "version": "0.37.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "slab",
+      "version": "0.4.11",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "slotmap",
+      "version": "1.0.7",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "smallvec",
+      "version": "1.15.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "spin",
+      "version": "0.9.8",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "stable_deref_trait",
+      "version": "1.2.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "stacker",
+      "version": "0.1.21",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "strict-num",
+      "version": "0.1.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "strsim",
+      "version": "0.11.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "strum",
+      "version": "0.27.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "strum_macros",
+      "version": "0.27.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "subsetter",
+      "version": "0.2.3",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "svgtypes",
+      "version": "0.15.3",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "syn",
+      "version": "2.0.98",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "synstructure",
+      "version": "0.13.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "syntect",
+      "version": "5.3.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tap",
+      "version": "1.0.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tar",
+      "version": "0.4.43",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tempfile",
+      "version": "3.16.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "termcolor",
+      "version": "1.4.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "terminal_size",
+      "version": "0.4.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "test-wrapper",
+      "version": "0.14.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "thin-vec",
+      "version": "0.2.13",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "thiserror",
+      "version": "2.0.16",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "thiserror-impl",
+      "version": "2.0.16",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "time",
+      "version": "0.3.37",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "time-core",
+      "version": "0.1.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "time-macros",
+      "version": "0.2.19",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tiny-skia",
+      "version": "0.11.4",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tiny-skia-path",
+      "version": "0.11.4",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tiny_http",
+      "version": "0.12.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tinystr",
+      "version": "0.7.6",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tinystr",
+      "version": "0.8.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tinyvec",
+      "version": "1.8.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tinyvec_macros",
+      "version": "0.1.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "toml",
+      "version": "0.8.19",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "toml_datetime",
+      "version": "0.6.8",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "toml_edit",
+      "version": "0.22.23",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ttf-parser",
+      "version": "0.25.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "two-face",
+      "version": "0.4.3",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typed-arena",
+      "version": "2.0.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typst",
+      "version": "0.14.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typst-assets",
+      "version": "0.14.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typst-bundle",
+      "version": "0.14.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typst-cli",
+      "version": "0.14.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typst-dev-assets",
+      "version": "0.14.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typst-docs",
+      "version": "0.14.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typst-eval",
+      "version": "0.14.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typst-fuzz",
+      "version": "0.14.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typst-html",
+      "version": "0.14.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typst-ide",
+      "version": "0.14.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typst-kit",
+      "version": "0.14.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typst-layout",
+      "version": "0.14.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typst-library",
+      "version": "0.14.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typst-macros",
+      "version": "0.14.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typst-pdf",
+      "version": "0.14.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typst-realize",
+      "version": "0.14.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typst-render",
+      "version": "0.14.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typst-svg",
+      "version": "0.14.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typst-syntax",
+      "version": "0.14.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typst-tests",
+      "version": "0.14.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typst-timing",
+      "version": "0.14.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typst-utils",
+      "version": "0.14.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unic-langid",
+      "version": "0.9.6",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unic-langid-impl",
+      "version": "0.9.6",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unic-langid-macros",
+      "version": "0.9.6",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unic-langid-macros-impl",
+      "version": "0.9.6",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unicase",
+      "version": "2.8.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unicode-bidi",
+      "version": "0.3.18",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unicode-bidi-mirroring",
+      "version": "0.4.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unicode-ccc",
+      "version": "0.4.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unicode-ident",
+      "version": "1.0.16",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unicode-math-class",
+      "version": "0.1.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unicode-normalization",
+      "version": "0.1.24",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unicode-properties",
+      "version": "0.1.3",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unicode-script",
+      "version": "0.5.7",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unicode-segmentation",
+      "version": "1.12.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unicode-vo",
+      "version": "0.1.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unicode-width",
+      "version": "0.1.14",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unsafe-libyaml",
+      "version": "0.2.11",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unscanny",
+      "version": "0.1.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ureq",
+      "version": "2.12.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "url",
+      "version": "2.5.4",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "usvg",
+      "version": "0.45.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utf16_iter",
+      "version": "1.0.5",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utf8_iter",
+      "version": "1.0.4",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utf8parse",
+      "version": "0.2.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vcpkg",
+      "version": "0.2.15",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "version_check",
+      "version": "0.9.5",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "walkdir",
+      "version": "2.5.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wasi",
+      "version": "0.11.0+wasi-snapshot-preview1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wasi",
+      "version": "0.13.3+wasi-0.2.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wasm-bindgen",
+      "version": "0.2.100",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wasm-bindgen-backend",
+      "version": "0.2.100",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wasm-bindgen-macro",
+      "version": "0.2.100",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wasm-bindgen-macro-support",
+      "version": "0.2.100",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wasm-bindgen-shared",
+      "version": "0.2.100",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wasmi",
+      "version": "0.51.5",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wasmi_collections",
+      "version": "0.51.5",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wasmi_core",
+      "version": "0.51.5",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wasmi_ir",
+      "version": "0.51.5",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wasmparser",
+      "version": "0.228.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "web-sys",
+      "version": "0.3.77",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "weezl",
+      "version": "0.1.8",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "winapi-util",
+      "version": "0.1.9",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "windows-core",
+      "version": "0.52.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "windows-sys",
+      "version": "0.52.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "windows-sys",
+      "version": "0.59.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "windows-targets",
+      "version": "0.52.6",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "windows_aarch64_gnullvm",
+      "version": "0.52.6",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "windows_aarch64_msvc",
+      "version": "0.52.6",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "windows_i686_gnu",
+      "version": "0.52.6",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "windows_i686_gnullvm",
+      "version": "0.52.6",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "windows_i686_msvc",
+      "version": "0.52.6",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "windows_x86_64_gnu",
+      "version": "0.52.6",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "windows_x86_64_gnullvm",
+      "version": "0.52.6",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "windows_x86_64_msvc",
+      "version": "0.52.6",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "winnow",
+      "version": "0.7.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wit-bindgen-rt",
+      "version": "0.33.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "write-fonts",
+      "version": "0.43.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "write16",
+      "version": "1.0.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "writeable",
+      "version": "0.5.5",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wyz",
+      "version": "0.5.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "xattr",
+      "version": "1.4.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "xmlwriter",
+      "version": "0.1.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "xmp-writer",
+      "version": "0.3.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "xz2",
+      "version": "0.1.7",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "yaml-rust",
+      "version": "0.4.5",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "yoke",
+      "version": "0.7.5",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "yoke",
+      "version": "0.8.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "yoke-derive",
+      "version": "0.7.5",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "yoke-derive",
+      "version": "0.8.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zerocopy",
+      "version": "0.7.35",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zerocopy-derive",
+      "version": "0.7.35",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zerofrom",
+      "version": "0.1.5",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zerofrom-derive",
+      "version": "0.1.5",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zerotrie",
+      "version": "0.1.3",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zerovec",
+      "version": "0.10.4",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zerovec",
+      "version": "0.11.4",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zerovec-derive",
+      "version": "0.10.3",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zip",
+      "version": "5.1.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zlib-rs",
+      "version": "0.5.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zopfli",
+      "version": "0.8.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zune-core",
+      "version": "0.4.12",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zune-core",
+      "version": "0.5.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zune-jpeg",
+      "version": "0.4.14",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zune-jpeg",
+      "version": "0.5.5",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "Swatinem/rust-cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "actions/download-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "adler2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "aho-corasick"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "android-tzdata"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "android_system_properties"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "anstream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "anstyle"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "anstyle-parse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "anstyle-query"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "anstyle-wincon"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "approx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "arbitrary"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "arrayref"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "arrayvec"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "ascii"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "autocfg"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "az"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "base64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "biblatex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "bincode"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "bit-set"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "bit-vec"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "bitflags"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "bitflags"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "bitvec"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "bstr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "bumpalo"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "by_address"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "bytemuck"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "bytemuck_derive"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "byteorder"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "byteorder-lite"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "cc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "cfg-if"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "chinese-number"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "chinese-variant"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "chrono"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "chunked_transfer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "ciborium"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "ciborium-io"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "ciborium-ll"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "citationberg"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "clap"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "clap_builder"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "clap_complete"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "clap_derive"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "clap_lex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "clap_mangen"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "cobs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "codespan-reporting"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "codex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "color-print"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "color-print-proc-macro"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "color_quant"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "colorchoice"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "comemo"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "comemo-macros"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "core-foundation"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "core-foundation-sys"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "core_maths"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "crc32fast"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "crossbeam-channel"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "crossbeam-deque"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "crossbeam-epoch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "crossbeam-utils"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "crunchy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "csv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "csv-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "data-url"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "deranged"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "derive_arbitrary"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "dirs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "dirs-sys"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "displaydoc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "docker/build-push-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "docker/login-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "docker/metadata-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "docker/setup-buildx-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "dtolnay/rust-toolchain"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "dtolnay/rust-toolchain"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "dtolnay/rust-toolchain"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "ecow"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "either"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "embedded-io"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "embedded-io"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "enum-ordinalize"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "enum-ordinalize-derive"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "env_proxy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "equivalent"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "errno"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "euclid"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "fancy-regex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "fast-srgb8"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "fastrand"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "fdeflate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "filetime"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "flate2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "float-cmp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "float-cmp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "fnv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "font-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "fontconfig-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "fontdb"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "foreign-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "foreign-types-shared"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "form_urlencoded"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "fs_extra"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "fsevent-sys"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "funty"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "getopts"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "getrandom"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "getrandom"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "gif"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "glidesort"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "half"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "hashbrown"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "hayagriva"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "hayro"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "hayro-font"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "hayro-interpret"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "hayro-svg"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "hayro-syntax"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "hayro-write"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "heck"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "httpdate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "hypher"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "iana-time-zone"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "iana-time-zone-haiku"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "icu_collections"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "icu_locid"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "icu_locid_transform"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "icu_locid_transform_data"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "icu_normalizer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "icu_normalizer_data"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "icu_properties"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "icu_properties_data"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "icu_provider"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "icu_provider_adapters"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "icu_provider_blob"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "icu_provider_macros"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "icu_segmenter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "icu_segmenter_data"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "idna"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "idna_adapter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "image"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "image-webp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "imagesize"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "imagesize"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "indexmap"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "infer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "inotify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "inotify-sys"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "is-docker"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "is-wsl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "is_terminal_polyfill"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "itoa"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "jobserver"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "js-sys"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "kamadak-exif"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "kqueue"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "kqueue-sys"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "krilla"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "krilla-svg"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "kurbo"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "kurbo"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "libc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "libdeflate-sys"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "libdeflater"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "libfuzzer-sys"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "libm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "libredox"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "libz-rs-sys"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "linked-hash-map"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "linux-raw-sys"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "lipsum"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "litemap"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "lock_api"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "lockfree-object-pool"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "log"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "lzma-sys"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "memchr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "memmap2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "minimal-lexical"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "miniz_oxide"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "mio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "moxcms"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "mutate_once"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "native-tls"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "ncipollo/release-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "nom"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "notify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "notify-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "num-bigint"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "num-conv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "num-integer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "num-traits"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "once_cell"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "open"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "openssl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "openssl-macros"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "openssl-probe"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "openssl-src"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "openssl-sys"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "option-ext"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "oxipng"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "palette"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "palette_derive"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "parking_lot"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "parking_lot_core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "paste"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "pathdiff"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "pdf-writer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "percent-encoding"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "phf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "phf_generator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "phf_macros"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "phf_shared"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "pico-args"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "pixglyph"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "pkg-config"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "plist"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "png"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "portable-atomic"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "postcard"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "powerfmt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "ppv-lite86"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "proc-macro-hack"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "proc-macro2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "psm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "pulldown-cmark"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "pxfm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "qcms"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "quick-error"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "quick-xml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "quick-xml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "quote"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "radium"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "rand"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "rand_chacha"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "rand_core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "rayon"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "rayon-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "read-fonts"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "redox_syscall"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "redox_users"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "regex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "regex-automata"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "regex-syntax"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "resvg"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "rgb"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "roff"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "roman-numerals-rs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "roxmltree"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "rust_decimal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "rustc-hash"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "rustix"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "rustversion"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "rustybuzz"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "ryu"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "same-file"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "schannel"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "scopeguard"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "security-framework"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "security-framework-sys"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "self-replace"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "semver"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "serde"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "serde_core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "serde_derive"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "serde_json"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "serde_spanned"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "serde_yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "shell-escape"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "shlex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "sigpipe"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "simd-adler32"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "similar"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "simplecss"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "siphasher"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "skrifa"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "slab"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "slotmap"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "smallvec"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "spin"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "stable_deref_trait"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "stacker"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "strict-num"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "strsim"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "strum"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "strum_macros"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "subsetter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "svgtypes"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "syn"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "synstructure"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "syntect"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "tap"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "tar"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "tempfile"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "termcolor"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "terminal_size"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "test-wrapper"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "thin-vec"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "thiserror"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "thiserror-impl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "time"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "time-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "time-macros"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "tiny-skia"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "tiny-skia-path"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "tiny_http"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "tinystr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "tinystr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "tinyvec"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "tinyvec_macros"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "toml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "toml_datetime"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "toml_edit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "ttf-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "two-face"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "typed-arena"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "typst"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "typst-assets"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "typst-bundle"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "typst-cli"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "typst-dev-assets"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "typst-docs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "typst-eval"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "typst-fuzz"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "typst-html"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "typst-ide"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "typst-kit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "typst-layout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "typst-library"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "typst-macros"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "typst-pdf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "typst-realize"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "typst-render"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "typst-svg"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "typst-syntax"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "typst-tests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "typst-timing"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "typst-utils"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "unic-langid"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "unic-langid-impl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "unic-langid-macros"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "unic-langid-macros-impl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "unicase"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "unicode-bidi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "unicode-bidi-mirroring"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "unicode-ccc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "unicode-ident"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "unicode-math-class"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "unicode-normalization"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "unicode-properties"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "unicode-script"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "unicode-segmentation"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "unicode-vo"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "unicode-width"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "unsafe-libyaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "unscanny"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "ureq"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "url"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "usvg"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "utf16_iter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "utf8_iter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "utf8parse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "vcpkg"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "version_check"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "walkdir"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "wasi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "wasi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "wasm-bindgen"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "wasm-bindgen-backend"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "wasm-bindgen-macro"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "wasm-bindgen-macro-support"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "wasm-bindgen-shared"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "wasmi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "wasmi_collections"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "wasmi_core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "wasmi_ir"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "wasmparser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "web-sys"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "weezl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "winapi-util"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "windows-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "windows-sys"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "windows-sys"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "windows-targets"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "windows_aarch64_gnullvm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "windows_aarch64_msvc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "windows_i686_gnu"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "windows_i686_gnullvm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "windows_i686_msvc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "windows_x86_64_gnu"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "windows_x86_64_gnullvm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "windows_x86_64_msvc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "winnow"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "wit-bindgen-rt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "write-fonts"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "write16"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "writeable"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "wyz"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "xattr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "xmlwriter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "xmp-writer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "xz2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "yaml-rust"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "yoke"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "yoke"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "yoke-derive"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "yoke-derive"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "zerocopy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "zerocopy-derive"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "zerofrom"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "zerofrom-derive"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "zerotrie"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "zerovec"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "zerovec"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "zerovec-derive"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "zip"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "zlib-rs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "zopfli"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "zune-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "zune-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "zune-jpeg"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "typst-typst",
+      "child": "zune-jpeg"
+    }
+  ]
+}

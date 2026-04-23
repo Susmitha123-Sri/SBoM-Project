@@ -1,0 +1,2073 @@
+{
+  "scan_id": "webpack-webpack",
+  "timestamp": "2026-03-20T03:05:25.699613",
+  "target": "https://github.com/webpack/webpack",
+  "summary": {
+    "total_packages": 137,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "./.github/workflows/release-announcement.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@isaacs/balanced-match",
+      "version": "4.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@isaacs/brace-expansion",
+      "version": "5.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@isaacs/cliui",
+      "version": "8.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@jridgewell/gen-mapping",
+      "version": "0.3.12",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@jridgewell/resolve-uri",
+      "version": "3.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@jridgewell/source-map",
+      "version": "0.3.10",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@jridgewell/sourcemap-codec",
+      "version": "1.5.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@jridgewell/trace-mapping",
+      "version": "0.3.29",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@pkgjs/parseargs",
+      "version": "0.11.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/eslint",
+      "version": "9.6.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/eslint-scope",
+      "version": "3.7.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/estree",
+      "version": "1.0.8",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/json-schema",
+      "version": "7.0.15",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/node",
+      "version": "12.20.55",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/node",
+      "version": "25.3.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/ast",
+      "version": "1.14.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/floating-point-hex-parser",
+      "version": "1.13.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/helper-api-error",
+      "version": "1.13.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/helper-buffer",
+      "version": "1.14.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/helper-numbers",
+      "version": "1.13.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/helper-wasm-bytecode",
+      "version": "1.13.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/helper-wasm-section",
+      "version": "1.14.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/ieee754",
+      "version": "1.13.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/leb128",
+      "version": "1.13.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/utf8",
+      "version": "1.13.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/wasm-edit",
+      "version": "1.14.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/wasm-gen",
+      "version": "1.14.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/wasm-opt",
+      "version": "1.14.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/wasm-parser",
+      "version": "1.14.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/wast-printer",
+      "version": "1.14.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@xtuc/ieee754",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@xtuc/long",
+      "version": "4.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "CodSpeedHQ/action",
+      "version": "4.11.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "Nef10/lcov-reporter-action",
+      "version": "0.3.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "acorn",
+      "version": "7.4.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "acorn",
+      "version": "8.15.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "acorn",
+      "version": "8.16.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "acorn-import-phases",
+      "version": "1.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/cache",
+      "version": "5.0.3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "6.0.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/create-github-app-token",
+      "version": "3.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/dependency-review-action",
+      "version": "4.9.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/github-script",
+      "version": "8.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-node",
+      "version": "6.3.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aggregate-error",
+      "version": "3.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ajv",
+      "version": "6.12.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ajv",
+      "version": "8.17.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ajv-formats",
+      "version": "2.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ajv-keywords",
+      "version": "3.5.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ajv-keywords",
+      "version": "5.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "amdefine",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "baseline-browser-mapping",
+      "version": "2.9.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "browserslist",
+      "version": "4.28.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "buffer-from",
+      "version": "1.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "caniuse-lite",
+      "version": "1.0.30001760",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "changesets/action",
+      "version": "1.7.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "chrome-trace-event",
+      "version": "1.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "clean-stack",
+      "version": "2.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "codecov/codecov-action",
+      "version": "5.5.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "color-convert",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "color-name",
+      "version": "1.1.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "commander",
+      "version": "10.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "commander",
+      "version": "12.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "commander",
+      "version": "14.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "commander",
+      "version": "2.20.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "concat-map",
+      "version": "0.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dependabot/fetch-metadata",
+      "version": "2.5.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "eastasianwidth",
+      "version": "0.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "electron-to-chromium",
+      "version": "1.5.267",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "emoji-regex",
+      "version": "10.4.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "emoji-regex",
+      "version": "8.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "emoji-regex",
+      "version": "9.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "enhanced-resolve",
+      "version": "5.19.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "enhanced-resolve",
+      "version": "5.20.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "es-module-lexer",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "escalade",
+      "version": "3.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "eslint-scope",
+      "version": "5.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "eslint-scope",
+      "version": "8.4.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "esrecurse",
+      "version": "4.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "estraverse",
+      "version": "1.9.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "estraverse",
+      "version": "4.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "estraverse",
+      "version": "5.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "events",
+      "version": "3.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fast-deep-equal",
+      "version": "3.1.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fast-uri",
+      "version": "3.0.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fs-monkey",
+      "version": "1.0.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "glob-to-regexp",
+      "version": "0.4.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "graceful-fs",
+      "version": "4.2.11",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "has-flag",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "has-flag",
+      "version": "4.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-typedarray",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jackspeak",
+      "version": "3.4.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jackspeak",
+      "version": "4.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jest-worker",
+      "version": "27.5.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jest-worker",
+      "version": "30.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "json-parse-even-better-errors",
+      "version": "2.3.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "json-schema-traverse",
+      "version": "0.4.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "json-schema-traverse",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jwalton/gh-find-current-pr",
+      "version": "1.3.5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "loader-runner",
+      "version": "4.3.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "merge-stream",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mime-db",
+      "version": "1.52.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mime-types",
+      "version": "2.1.35",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mimic-fn",
+      "version": "2.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "neo-async",
+      "version": "2.6.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "node-releases",
+      "version": "2.0.27",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "p-try",
+      "version": "2.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "path-scurry",
+      "version": "1.11.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "path-scurry",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "path-scurry",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "peter-evans/create-pull-request",
+      "version": "8.1.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "picocolors",
+      "version": "1.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "punycode",
+      "version": "2.3.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "require-from-string",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "require-main-filename",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "schema-utils",
+      "version": "3.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "schema-utils",
+      "version": "4.3.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "set-blocking",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "source-map",
+      "version": "0.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "source-map",
+      "version": "0.6.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "source-map",
+      "version": "0.7.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "source-map-support",
+      "version": "0.5.13",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "source-map-support",
+      "version": "0.5.21",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "supports-color",
+      "version": "3.2.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "supports-color",
+      "version": "7.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "supports-color",
+      "version": "8.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tapable",
+      "version": "2.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "terser",
+      "version": "5.46.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "terser-webpack-plugin",
+      "version": "5.3.17",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typedarray-to-buffer",
+      "version": "3.1.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "undici-types",
+      "version": "7.18.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "update-browserslist-db",
+      "version": "1.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "uri-js",
+      "version": "4.4.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "watchpack",
+      "version": "2.5.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "webpack-sources",
+      "version": "3.3.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "which-module",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "./.github/workflows/release-announcement.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "@isaacs/balanced-match"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "@isaacs/brace-expansion"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "@isaacs/cliui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "@jridgewell/gen-mapping"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "@jridgewell/resolve-uri"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "@jridgewell/source-map"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "@jridgewell/sourcemap-codec"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "@jridgewell/trace-mapping"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "@pkgjs/parseargs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "@types/eslint"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "@types/eslint-scope"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "@types/estree"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "@types/json-schema"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "@types/node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "@types/node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "@webassemblyjs/ast"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "@webassemblyjs/floating-point-hex-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "@webassemblyjs/helper-api-error"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "@webassemblyjs/helper-buffer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "@webassemblyjs/helper-numbers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "@webassemblyjs/helper-wasm-bytecode"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "@webassemblyjs/helper-wasm-section"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "@webassemblyjs/ieee754"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "@webassemblyjs/leb128"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "@webassemblyjs/utf8"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "@webassemblyjs/wasm-edit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "@webassemblyjs/wasm-gen"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "@webassemblyjs/wasm-opt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "@webassemblyjs/wasm-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "@webassemblyjs/wast-printer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "@xtuc/ieee754"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "@xtuc/long"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "CodSpeedHQ/action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "Nef10/lcov-reporter-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "acorn"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "acorn"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "acorn"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "acorn-import-phases"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "actions/cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "actions/create-github-app-token"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "actions/dependency-review-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "actions/github-script"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "actions/setup-node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "aggregate-error"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "ajv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "ajv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "ajv-formats"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "ajv-keywords"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "ajv-keywords"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "amdefine"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "baseline-browser-mapping"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "browserslist"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "buffer-from"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "caniuse-lite"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "changesets/action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "chrome-trace-event"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "clean-stack"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "codecov/codecov-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "color-convert"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "color-name"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "commander"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "commander"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "commander"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "commander"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "concat-map"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "dependabot/fetch-metadata"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "eastasianwidth"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "electron-to-chromium"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "emoji-regex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "emoji-regex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "emoji-regex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "enhanced-resolve"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "enhanced-resolve"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "es-module-lexer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "escalade"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "eslint-scope"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "eslint-scope"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "esrecurse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "estraverse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "estraverse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "estraverse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "events"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "fast-deep-equal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "fast-uri"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "fs-monkey"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "glob-to-regexp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "graceful-fs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "has-flag"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "has-flag"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "is-typedarray"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "jackspeak"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "jackspeak"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "jest-worker"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "jest-worker"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "json-parse-even-better-errors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "json-schema-traverse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "json-schema-traverse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "jwalton/gh-find-current-pr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "loader-runner"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "merge-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "mime-db"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "mime-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "mimic-fn"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "neo-async"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "node-releases"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "p-try"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "path-scurry"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "path-scurry"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "path-scurry"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "peter-evans/create-pull-request"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "picocolors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "punycode"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "require-from-string"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "require-main-filename"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "schema-utils"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "schema-utils"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "set-blocking"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "source-map"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "source-map"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "source-map"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "source-map-support"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "source-map-support"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "supports-color"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "supports-color"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "supports-color"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "tapable"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "terser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "terser-webpack-plugin"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "typedarray-to-buffer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "undici-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "update-browserslist-db"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "uri-js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "watchpack"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "webpack-sources"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "webpack-webpack",
+      "child": "which-module"
+    }
+  ]
+}

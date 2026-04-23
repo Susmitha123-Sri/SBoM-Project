@@ -1,0 +1,333 @@
+{
+  "scan_id": "dockur-windows",
+  "timestamp": "2026-03-20T04:52:52.686211",
+  "target": "https://github.com/dockur/windows",
+  "summary": {
+    "total_packages": 21,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "./.github/workflows/check.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "GrantBirki/json-yaml-validate",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "action-pack/bump",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.14",
+      "version_status": "outdated"
+    },
+    {
+      "package": "action-pack/github-release",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.06",
+      "version_status": "outdated"
+    },
+    {
+      "package": "action-pack/gitlab-sync",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.03",
+      "version_status": "outdated"
+    },
+    {
+      "package": "action-pack/send-mail",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.12",
+      "version_status": "outdated"
+    },
+    {
+      "package": "action-pack/valid-xml",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.09",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/build-push-action",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/login-action",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/metadata-action",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/setup-buildx-action",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hadolint/hadolint-action",
+      "version": "3.3.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.3.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "ludeeus/action-shellcheck",
+      "version": "master",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "peter-evans/dockerhub-description",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "reviewdog/action-actionlint",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.71.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "reviewdog/action-hadolint",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.50.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "reviewdog/action-misspell",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.27.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "reviewdog/action-shellcheck",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.32.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "reviewdog/action-shfmt",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "reviewdog/action-yamllint",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.21.0",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dockur-windows",
+      "child": "./.github/workflows/check.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dockur-windows",
+      "child": "GrantBirki/json-yaml-validate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dockur-windows",
+      "child": "action-pack/bump"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dockur-windows",
+      "child": "action-pack/github-release"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dockur-windows",
+      "child": "action-pack/gitlab-sync"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dockur-windows",
+      "child": "action-pack/send-mail"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dockur-windows",
+      "child": "action-pack/valid-xml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dockur-windows",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dockur-windows",
+      "child": "docker/build-push-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dockur-windows",
+      "child": "docker/login-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dockur-windows",
+      "child": "docker/metadata-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dockur-windows",
+      "child": "docker/setup-buildx-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dockur-windows",
+      "child": "hadolint/hadolint-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dockur-windows",
+      "child": "ludeeus/action-shellcheck"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dockur-windows",
+      "child": "peter-evans/dockerhub-description"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dockur-windows",
+      "child": "reviewdog/action-actionlint"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dockur-windows",
+      "child": "reviewdog/action-hadolint"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dockur-windows",
+      "child": "reviewdog/action-misspell"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dockur-windows",
+      "child": "reviewdog/action-shellcheck"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dockur-windows",
+      "child": "reviewdog/action-shfmt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "dockur-windows",
+      "child": "reviewdog/action-yamllint"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "scan_id": "swiftlang-swift",
+  "timestamp": "2026-03-19T20:57:15.483566",
+  "target": "https://github.com/swiftlang/swift",
+  "summary": {
+    "total_packages": 11,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "swift-argument-parser",
+      "version": "1.5.0",
+      "type": "swift",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "swift-cmark",
+      "version": "0.7.1",
+      "type": "swift",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "swift-driver",
+      "version": "UNKNOWN",
+      "type": "swift",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "swift-format",
+      "version": "UNKNOWN",
+      "type": "swift",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "swift-llbuild",
+      "version": "UNKNOWN",
+      "type": "swift",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "swift-markdown",
+      "version": "0.7.3",
+      "type": "swift",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "swift-subprocess",
+      "version": "UNKNOWN",
+      "type": "swift",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "swift-syntax",
+      "version": "UNKNOWN",
+      "type": "swift",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "swift-system",
+      "version": "1.6.4",
+      "type": "swift",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "swift-toolchain-sqlite",
+      "version": "1.0.7",
+      "type": "swift",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "swift-tools-support-core",
+      "version": "UNKNOWN",
+      "type": "swift",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "swiftlang-swift",
+      "child": "swift-argument-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "swiftlang-swift",
+      "child": "swift-cmark"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "swiftlang-swift",
+      "child": "swift-driver"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "swiftlang-swift",
+      "child": "swift-format"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "swiftlang-swift",
+      "child": "swift-llbuild"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "swiftlang-swift",
+      "child": "swift-markdown"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "swiftlang-swift",
+      "child": "swift-subprocess"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "swiftlang-swift",
+      "child": "swift-syntax"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "swiftlang-swift",
+      "child": "swift-system"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "swiftlang-swift",
+      "child": "swift-toolchain-sqlite"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "swiftlang-swift",
+      "child": "swift-tools-support-core"
+    }
+  ]
+}

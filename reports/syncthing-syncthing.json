@@ -1,0 +1,1833 @@
+{
+  "scan_id": "syncthing-syncthing",
+  "timestamp": "2026-03-20T01:39:53.528849",
+  "target": "https://github.com/syncthing/syncthing",
+  "summary": {
+    "total_packages": 121,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "./.github/workflows/build-syncthing.yaml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/attest-build-provenance",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/cache",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/download-artifact",
+      "version": "7",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-go",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "azure/trusted-signing-action",
+      "version": "0.5.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "benc-uk/workflow-dispatch",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/build-push-action",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/build-push-action",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/login-action",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/setup-buildx-action",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/setup-qemu-action",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker://docker.io/rclone/rclone:latest",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker://docker.io/regclient/regsync:latest",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker://ghcr.io/calmh/github-org-members:latest",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker://ghcr.io/kastelo/ezapt:latest",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/AudriusButkevicius/recli",
+      "version": "0.0.7",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/Azure/go-ntlmssp",
+      "version": "0.0.0-20221128193559-754e69321358",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/alecthomas/kong",
+      "version": "1.14.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/aws/aws-sdk-go",
+      "version": "1.55.8",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/beorn7/perks",
+      "version": "1.0.1",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/calmh/glob",
+      "version": "0.0.0-20220615080505-1d823af5017b",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/calmh/go-sqlite3",
+      "version": "1.14.35-0.20260303222015-6a03636c4bc9",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/calmh/incontainer",
+      "version": "1.0.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/calmh/xdr",
+      "version": "1.2.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/ccding/go-stun",
+      "version": "0.1.5",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/cenkalti/backoff/v4",
+      "version": "4.3.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/certifi/gocertifi",
+      "version": "0.0.0-20210507211836-431795d63e8d",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/cespare/xxhash/v2",
+      "version": "2.3.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/coreos/go-semver",
+      "version": "0.3.1",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/cpuguy83/go-md2man/v2",
+      "version": "2.0.7",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/d4l3k/messagediff",
+      "version": "1.2.1",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/davecgh/go-spew",
+      "version": "1.1.1",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/dustin/go-humanize",
+      "version": "1.0.1",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/ebitengine/purego",
+      "version": "0.10.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/fsnotify/fsnotify",
+      "version": "1.7.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/getsentry/raven-go",
+      "version": "0.2.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/go-asn1-ber/asn1-ber",
+      "version": "1.5.8-0.20250403174932-29230038a667",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/go-ldap/ldap/v3",
+      "version": "3.4.12",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/go-ole/go-ole",
+      "version": "1.3.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/gofrs/flock",
+      "version": "0.13.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/golang/snappy",
+      "version": "0.0.4",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/google/pprof",
+      "version": "0.0.0-20250423184734-337e5dd93bb4",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/google/uuid",
+      "version": "1.6.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/hashicorp/errwrap",
+      "version": "1.1.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/hashicorp/go-multierror",
+      "version": "1.1.1",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/hashicorp/golang-lru/v2",
+      "version": "2.0.7",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/jackpal/gateway",
+      "version": "1.1.1",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/jackpal/go-nat-pmp",
+      "version": "1.0.2",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/jmespath/go-jmespath",
+      "version": "0.4.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/jmoiron/sqlx",
+      "version": "1.4.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/julienschmidt/httprouter",
+      "version": "1.3.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/kballard/go-shellquote",
+      "version": "0.0.0-20180428030007-95032a82bc51",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/lufia/plan9stats",
+      "version": "0.0.0-20240909124753-873cd0166683",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/maruel/panicparse/v2",
+      "version": "2.5.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/mattn/go-isatty",
+      "version": "0.0.20",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/maxbrunsfeld/counterfeiter/v6",
+      "version": "6.12.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/maxmind/geoipupdate/v6",
+      "version": "6.1.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/miscreant/miscreant.go",
+      "version": "0.0.0-20200214223636-26d376326b75",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/munnerz/goautoneg",
+      "version": "0.0.0-20191010083416-a7dc8b61c822",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/ncruces/go-strftime",
+      "version": "1.0.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/nxadm/tail",
+      "version": "1.4.11",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/oschwald/geoip2-golang",
+      "version": "1.13.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/oschwald/maxminddb-golang",
+      "version": "1.13.1",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/pierrec/lz4/v4",
+      "version": "4.1.25",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/pkg/errors",
+      "version": "0.9.1",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/pmezard/go-difflib",
+      "version": "1.0.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/posener/complete",
+      "version": "1.2.3",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/power-devops/perfstat",
+      "version": "0.0.0-20240221224432-82ca36839d55",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/prometheus/client_golang",
+      "version": "1.23.2",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/prometheus/client_model",
+      "version": "0.6.2",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/prometheus/common",
+      "version": "0.66.1",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/prometheus/procfs",
+      "version": "0.16.1",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/puzpuzpuz/xsync/v3",
+      "version": "3.5.1",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/quic-go/quic-go",
+      "version": "0.59.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/rabbitmq/amqp091-go",
+      "version": "1.10.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/rcrowley/go-metrics",
+      "version": "0.0.0-20250401214520-65e299d6c5c9",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/remyoudompheng/bigfft",
+      "version": "0.0.0-20230129092748-24d4a6f8daec",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/riywo/loginshell",
+      "version": "0.0.0-20200815045211-7d26008be1ab",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/rogpeppe/go-internal",
+      "version": "1.12.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/russross/blackfriday/v2",
+      "version": "2.1.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/shirou/gopsutil/v4",
+      "version": "4.26.2",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/stretchr/objx",
+      "version": "0.5.2",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/stretchr/testify",
+      "version": "1.11.1",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/syncthing/notify",
+      "version": "0.0.0-20250528144937-c7027d4f7465",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/syndtr/goleveldb",
+      "version": "1.0.1-0.20220721030215-126854af5e6d",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/thejerf/suture/v4",
+      "version": "4.0.6",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/tklauser/go-sysconf",
+      "version": "0.3.16",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/tklauser/numcpus",
+      "version": "0.11.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/urfave/cli",
+      "version": "1.22.17",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/vitrun/qart",
+      "version": "0.0.0-20160531060029-bf64b92db6b0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/willabides/kongplete",
+      "version": "0.4.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/wlynxg/anet",
+      "version": "0.0.5",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/yusufpapurcu/wmi",
+      "version": "1.2.4",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "go.yaml.in/yaml/v2",
+      "version": "2.4.2",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/crypto",
+      "version": "0.48.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/exp",
+      "version": "0.0.0-20260218203240-3dfff04db8fa",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/mod",
+      "version": "0.33.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/net",
+      "version": "0.51.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/sync",
+      "version": "0.19.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/sys",
+      "version": "0.41.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/telemetry",
+      "version": "0.0.0-20260209163413-e7419c687ee4",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/text",
+      "version": "0.34.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/time",
+      "version": "0.14.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/tools",
+      "version": "0.42.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golangci/golangci-lint-action",
+      "version": "8",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google.golang.org/protobuf",
+      "version": "1.36.11",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gopkg.in/yaml.v3",
+      "version": "3.0.1",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mlugg/setup-zig",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "modernc.org/libc",
+      "version": "1.67.6",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "modernc.org/mathutil",
+      "version": "1.7.1",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "modernc.org/memory",
+      "version": "1.11.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "modernc.org/sqlite",
+      "version": "1.46.1",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ruby/setup-ruby",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sigs.k8s.io/yaml",
+      "version": "1.6.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "srvaroa/labeler",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vmactions/omnios-vm",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "yesolutions/mirror-action",
+      "version": "master",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "./.github/workflows/build-syncthing.yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "actions/attest-build-provenance"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "actions/cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "actions/download-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "actions/setup-go"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "azure/trusted-signing-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "benc-uk/workflow-dispatch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "docker/build-push-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "docker/build-push-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "docker/login-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "docker/setup-buildx-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "docker/setup-qemu-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "docker://docker.io/rclone/rclone:latest"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "docker://docker.io/regclient/regsync:latest"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "docker://ghcr.io/calmh/github-org-members:latest"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "docker://ghcr.io/kastelo/ezapt:latest"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/AudriusButkevicius/recli"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/Azure/go-ntlmssp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/alecthomas/kong"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/aws/aws-sdk-go"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/beorn7/perks"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/calmh/glob"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/calmh/go-sqlite3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/calmh/incontainer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/calmh/xdr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/ccding/go-stun"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/cenkalti/backoff/v4"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/certifi/gocertifi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/cespare/xxhash/v2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/coreos/go-semver"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/cpuguy83/go-md2man/v2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/d4l3k/messagediff"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/davecgh/go-spew"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/dustin/go-humanize"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/ebitengine/purego"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/fsnotify/fsnotify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/getsentry/raven-go"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/go-asn1-ber/asn1-ber"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/go-ldap/ldap/v3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/go-ole/go-ole"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/gofrs/flock"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/golang/snappy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/google/pprof"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/google/uuid"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/hashicorp/errwrap"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/hashicorp/go-multierror"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/hashicorp/golang-lru/v2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/jackpal/gateway"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/jackpal/go-nat-pmp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/jmespath/go-jmespath"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/jmoiron/sqlx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/julienschmidt/httprouter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/kballard/go-shellquote"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/lufia/plan9stats"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/maruel/panicparse/v2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/mattn/go-isatty"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/maxbrunsfeld/counterfeiter/v6"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/maxmind/geoipupdate/v6"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/miscreant/miscreant.go"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/munnerz/goautoneg"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/ncruces/go-strftime"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/nxadm/tail"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/oschwald/geoip2-golang"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/oschwald/maxminddb-golang"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/pierrec/lz4/v4"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/pkg/errors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/pmezard/go-difflib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/posener/complete"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/power-devops/perfstat"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/prometheus/client_golang"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/prometheus/client_model"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/prometheus/common"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/prometheus/procfs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/puzpuzpuz/xsync/v3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/quic-go/quic-go"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/rabbitmq/amqp091-go"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/rcrowley/go-metrics"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/remyoudompheng/bigfft"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/riywo/loginshell"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/rogpeppe/go-internal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/russross/blackfriday/v2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/shirou/gopsutil/v4"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/stretchr/objx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/stretchr/testify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/syncthing/notify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/syndtr/goleveldb"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/thejerf/suture/v4"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/tklauser/go-sysconf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/tklauser/numcpus"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/urfave/cli"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/vitrun/qart"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/willabides/kongplete"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/wlynxg/anet"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "github.com/yusufpapurcu/wmi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "go.yaml.in/yaml/v2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "golang.org/x/crypto"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "golang.org/x/exp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "golang.org/x/mod"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "golang.org/x/net"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "golang.org/x/sync"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "golang.org/x/sys"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "golang.org/x/telemetry"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "golang.org/x/text"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "golang.org/x/time"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "golang.org/x/tools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "golangci/golangci-lint-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "google.golang.org/protobuf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "gopkg.in/yaml.v3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "mlugg/setup-zig"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "modernc.org/libc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "modernc.org/mathutil"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "modernc.org/memory"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "modernc.org/sqlite"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "ruby/setup-ruby"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "sigs.k8s.io/yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "srvaroa/labeler"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "vmactions/omnios-vm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "syncthing-syncthing",
+      "child": "yesolutions/mirror-action"
+    }
+  ]
+}

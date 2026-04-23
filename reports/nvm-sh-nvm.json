@@ -1,0 +1,213 @@
+{
+  "scan_id": "nvm-sh-nvm",
+  "timestamp": "2026-03-20T01:20:29.497209",
+  "target": "https://github.com/nvm-sh/nvm",
+  "summary": {
+    "total_packages": 13,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "Homebrew/actions/setup-homebrew",
+      "version": "master",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "Vampire/setup-wsl",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-node",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/analyze",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/autobuild",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/init",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ljharb/actions-js-build/commit",
+      "version": "3+amendpush",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ljharb/actions/node/install",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ljharb/actions/node/matrix",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ljharb/rebase",
+      "version": "master",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ljharb/require-allow-edits",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "step-security/harden-runner",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nvm-sh-nvm",
+      "child": "Homebrew/actions/setup-homebrew"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nvm-sh-nvm",
+      "child": "Vampire/setup-wsl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nvm-sh-nvm",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nvm-sh-nvm",
+      "child": "actions/setup-node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nvm-sh-nvm",
+      "child": "github/codeql-action/analyze"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nvm-sh-nvm",
+      "child": "github/codeql-action/autobuild"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nvm-sh-nvm",
+      "child": "github/codeql-action/init"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nvm-sh-nvm",
+      "child": "ljharb/actions-js-build/commit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nvm-sh-nvm",
+      "child": "ljharb/actions/node/install"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nvm-sh-nvm",
+      "child": "ljharb/actions/node/matrix"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nvm-sh-nvm",
+      "child": "ljharb/rebase"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nvm-sh-nvm",
+      "child": "ljharb/require-allow-edits"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nvm-sh-nvm",
+      "child": "step-security/harden-runner"
+    }
+  ]
+}

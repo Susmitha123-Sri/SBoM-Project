@@ -1,0 +1,5163 @@
+{
+  "scan_id": "huginn-huginn",
+  "timestamp": "2026-03-20T05:11:36.835767",
+  "target": "https://github.com/huginn/huginn",
+  "summary": {
+    "total_packages": 343,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "@fortawesome/fontawesome-free",
+      "version": "7.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "Ascii85",
+      "version": "2.0.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ace-rails-ap",
+      "version": "4.5",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "action_text-trix",
+      "version": "2.1.17",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actioncable",
+      "version": "8.1.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actionmailbox",
+      "version": "8.1.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actionmailer",
+      "version": "8.1.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actionpack",
+      "version": "8.1.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/download-artifact",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actiontext",
+      "version": "8.1.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actionview",
+      "version": "8.1.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "activejob",
+      "version": "8.1.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "activemodel",
+      "version": "8.1.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "activerecord",
+      "version": "8.1.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "activestorage",
+      "version": "8.1.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "activesupport",
+      "version": "8.1.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "addressable",
+      "version": "2.8.9",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "afm",
+      "version": "1.0.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "airbrussh",
+      "version": "1.4.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ast",
+      "version": "2.4.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aws-eventstream",
+      "version": "1.4.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aws-partitions",
+      "version": "1.1200.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aws-sdk-core",
+      "version": "3.240.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aws-sdk-kms",
+      "version": "1.118.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aws-sdk-s3",
+      "version": "1.209.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aws-sigv4",
+      "version": "1.12.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "base64",
+      "version": "0.3.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bcrypt",
+      "version": "3.1.21",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "benchmark",
+      "version": "0.5.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "better_errors",
+      "version": "2.10.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bigdecimal",
+      "version": "3.3.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bindex",
+      "version": "0.8.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "binding_of_caller",
+      "version": "1.0.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bootsnap",
+      "version": "1.16.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bootstrap-kaminari-views",
+      "version": "0.0.5",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "buftok",
+      "version": "0.3.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "builder",
+      "version": "3.3.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "capistrano",
+      "version": "3.17.3",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "capistrano-bundler",
+      "version": "2.1.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "capistrano-rails",
+      "version": "1.6.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "capybara",
+      "version": "3.40.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "capybara-select-2",
+      "version": "0.5.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "childprocess",
+      "version": "5.1.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "coderay",
+      "version": "1.1.3",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "coffee-rails",
+      "version": "5.0.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "coffee-script",
+      "version": "2.4.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "coffee-script-source",
+      "version": "1.12.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "concurrent-ruby",
+      "version": "1.3.6",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "connection_pool",
+      "version": "3.0.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cookiejar",
+      "version": "0.3.4",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "coverallsapp/github-action",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "crack",
+      "version": "1.0.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "crass",
+      "version": "1.0.6",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "csv",
+      "version": "3.3.5",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "daemons",
+      "version": "1.4.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "date",
+      "version": "3.5.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "debug",
+      "version": "1.9.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "debug_inspector",
+      "version": "1.1.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "declarative",
+      "version": "0.0.20",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "delayed_job",
+      "version": "4.2.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "delayed_job_active_record",
+      "version": "4.1.11",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "devise",
+      "version": "5.0.3",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "diff-lcs",
+      "version": "1.6.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docile",
+      "version": "1.4.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/build-push-action",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/login-action",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/setup-buildx-action",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "domain_name",
+      "version": "0.5.20190701",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dotenv",
+      "version": "3.1.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "drb",
+      "version": "2.2.3",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dropbox-api",
+      "version": "0.5.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "em-http-request",
+      "version": "1.1.7",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "em-socksify",
+      "version": "0.3.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "em-websocket",
+      "version": "0.5.3",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "equalizer",
+      "version": "0.0.11",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "erb",
+      "version": "6.0.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "erector",
+      "version": "0.10.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "erubi",
+      "version": "1.13.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "et-orbi",
+      "version": "1.2.11",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ethon",
+      "version": "0.16.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "eventmachine",
+      "version": "1.2.7",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "evernote-thrift",
+      "version": "1.25.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "evernote_oauth",
+      "version": "0.2.3",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "execjs",
+      "version": "2.9.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "faraday",
+      "version": "2.14.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "faraday-follow_redirects",
+      "version": "0.3.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "faraday-gzip",
+      "version": "3.0.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "faraday-multipart",
+      "version": "1.0.4",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "faraday-net_http",
+      "version": "3.4.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "faraday-typhoeus",
+      "version": "1.1.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "feedjira",
+      "version": "4.0.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ffi",
+      "version": "1.17.3-aarch64-linux-gnu",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ffi",
+      "version": "1.17.3-arm64-darwin",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ffi",
+      "version": "1.17.3-x86_64-darwin",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ffi",
+      "version": "1.17.3-x86_64-linux-gnu",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ffi-compiler",
+      "version": "1.0.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "foreman",
+      "version": "0.90.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "formatador",
+      "version": "1.1.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fugit",
+      "version": "1.11.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "geokit",
+      "version": "1.14.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "geokit-rails",
+      "version": "2.5.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "globalid",
+      "version": "1.3.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gmail_xoauth",
+      "version": "0.4.3",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google-apis-calendar_v3",
+      "version": "0.53.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google-apis-core",
+      "version": "0.18.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google-cloud-core",
+      "version": "1.7.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google-cloud-env",
+      "version": "2.2.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google-cloud-errors",
+      "version": "1.4.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google-cloud-translate-v2",
+      "version": "1.0.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google-protobuf",
+      "version": "4.32.0-aarch64-linux-gnu",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google-protobuf",
+      "version": "4.32.0-arm64-darwin",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google-protobuf",
+      "version": "4.32.0-x86_64-darwin",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google-protobuf",
+      "version": "4.32.0-x86_64-linux-gnu",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "googleapis-common-protos",
+      "version": "1.6.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "googleapis-common-protos-types",
+      "version": "1.21.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "googleauth",
+      "version": "1.11.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "grpc",
+      "version": "1.74.1-aarch64-linux-gnu",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "grpc",
+      "version": "1.74.1-arm64-darwin",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "grpc",
+      "version": "1.74.1-x86_64-darwin",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "grpc",
+      "version": "1.74.1-x86_64-linux-gnu",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "guard",
+      "version": "2.18.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "guard-compat",
+      "version": "1.2.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "guard-livereload",
+      "version": "2.5.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "guard-rspec",
+      "version": "4.7.3",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hashdiff",
+      "version": "1.2.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hashery",
+      "version": "2.1.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hashie",
+      "version": "3.5.7",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "haversine",
+      "version": "0.3.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hipchat",
+      "version": "1.6.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "httmultiparty",
+      "version": "0.3.16",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "http",
+      "version": "5.1.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "http-accept",
+      "version": "1.7.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "http-cookie",
+      "version": "1.0.5",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "http-form_data",
+      "version": "2.3.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "http_parser.rb",
+      "version": "0.6.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "httparty",
+      "version": "0.23.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "httpclient",
+      "version": "2.9.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "huginn_agent",
+      "version": "0.6.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "i18n",
+      "version": "1.14.8",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "io-console",
+      "version": "0.8.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "irb",
+      "version": "1.17.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jmespath",
+      "version": "1.6.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jquery-rails",
+      "version": "4.6.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "json",
+      "version": "2.19.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jsonpath",
+      "version": "1.1.5",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jwt",
+      "version": "2.10.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "kaminari",
+      "version": "1.2.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "kaminari-actionview",
+      "version": "1.2.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "kaminari-activerecord",
+      "version": "1.2.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "kaminari-core",
+      "version": "1.2.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "kramdown",
+      "version": "2.4.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "launchy",
+      "version": "3.0.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "letter_opener",
+      "version": "1.10.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "letter_opener_web",
+      "version": "3.0.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "libv8-node",
+      "version": "24.12.0.1-aarch64-linux",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "libv8-node",
+      "version": "24.12.0.1-arm64-darwin",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "libv8-node",
+      "version": "24.12.0.1-x86_64-darwin",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "libv8-node",
+      "version": "24.12.0.1-x86_64-linux",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "liquid",
+      "version": "5.12.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "listen",
+      "version": "3.9.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llhttp-ffi",
+      "version": "0.4.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "logger",
+      "version": "1.7.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "loofah",
+      "version": "2.25.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lumberjack",
+      "version": "1.2.8",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mail",
+      "version": "2.9.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "marcel",
+      "version": "1.1.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "matrix",
+      "version": "0.4.3",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "memoizable",
+      "version": "0.4.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "method_source",
+      "version": "1.1.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mime-types",
+      "version": "3.4.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mime-types-data",
+      "version": "3.2023.0218.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mimemagic",
+      "version": "0.4.3",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mini_magick",
+      "version": "5.3.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mini_mime",
+      "version": "1.1.5",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mini_racer",
+      "version": "0.20.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "minitest",
+      "version": "6.0.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mqtt",
+      "version": "0.7.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "msgpack",
+      "version": "1.7.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "multi_json",
+      "version": "1.15.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "multi_xml",
+      "version": "0.7.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "multipart-post",
+      "version": "2.4.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mutex_m",
+      "version": "0.3.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mysql2",
+      "version": "0.5.7",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "naught",
+      "version": "1.1.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nenv",
+      "version": "0.3.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "net-ftp",
+      "version": "0.3.9",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "net-ftp-list",
+      "version": "3.3.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "net-http",
+      "version": "0.9.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "net-imap",
+      "version": "0.6.3",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "net-pop",
+      "version": "0.1.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "net-protocol",
+      "version": "0.2.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "net-scp",
+      "version": "4.0.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "net-smtp",
+      "version": "0.5.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "net-ssh",
+      "version": "7.1.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "netrc",
+      "version": "0.11.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nio4r",
+      "version": "2.7.5",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nokogiri",
+      "version": "1.19.2-aarch64-linux-gnu",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nokogiri",
+      "version": "1.19.2-arm64-darwin",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nokogiri",
+      "version": "1.19.2-x86_64-darwin",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nokogiri",
+      "version": "1.19.2-x86_64-linux-gnu",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "notiffany",
+      "version": "0.1.3",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "oauth",
+      "version": "1.1.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "oauth-tty",
+      "version": "1.0.5",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "oauth2",
+      "version": "1.4.11",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "omniauth",
+      "version": "2.1.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "omniauth-dropbox-oauth2",
+      "version": "0.3.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "omniauth-evernote",
+      "version": "1.2.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "omniauth-google-oauth2",
+      "version": "1.0.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "omniauth-oauth",
+      "version": "1.2.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "omniauth-oauth2",
+      "version": "1.7.3",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "omniauth-tumblr",
+      "version": "1.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "omniauth-twitter",
+      "version": "1.4.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "orm_adapter",
+      "version": "0.5.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "os",
+      "version": "1.1.4",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ostruct",
+      "version": "0.6.3",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "parallel",
+      "version": "1.23.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "parser",
+      "version": "3.2.2.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pdf-reader",
+      "version": "2.15.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pg",
+      "version": "1.6.3-aarch64-linux",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pg",
+      "version": "1.6.3-arm64-darwin",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pg",
+      "version": "1.6.3-x86_64-darwin",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pg",
+      "version": "1.6.3-x86_64-linux",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pirate_weather_forecast_ruby",
+      "version": "0.1.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "polyglot",
+      "version": "0.3.5",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pp",
+      "version": "0.6.3",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "prettyprint",
+      "version": "0.2.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "prism",
+      "version": "1.9.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pry",
+      "version": "0.14.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "psych",
+      "version": "5.3.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "public_suffix",
+      "version": "7.0.5",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "puma",
+      "version": "7.2.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "raabro",
+      "version": "1.4.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "racc",
+      "version": "1.8.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rack",
+      "version": "3.2.5",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rack-livereload",
+      "version": "0.5.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rack-protection",
+      "version": "4.2.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rack-session",
+      "version": "2.1.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rack-test",
+      "version": "2.2.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rackup",
+      "version": "2.3.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rails",
+      "version": "8.1.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rails-controller-testing",
+      "version": "1.0.5",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rails-dom-testing",
+      "version": "2.3.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rails-html-sanitizer",
+      "version": "1.7.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "railties",
+      "version": "8.1.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rainbow",
+      "version": "3.1.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rake",
+      "version": "13.3.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rb-fsevent",
+      "version": "0.11.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rb-inotify",
+      "version": "0.11.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rb-kqueue",
+      "version": "0.2.8",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rdoc",
+      "version": "7.2.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "regexp_parser",
+      "version": "2.8.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "reline",
+      "version": "0.6.3",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "representable",
+      "version": "3.2.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "responders",
+      "version": "3.2.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rest-client",
+      "version": "2.1.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "retriable",
+      "version": "3.1.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rexml",
+      "version": "3.4.4",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rouge",
+      "version": "4.1.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rr",
+      "version": "3.1.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rspec",
+      "version": "3.13.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rspec-collection_matchers",
+      "version": "1.2.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rspec-core",
+      "version": "3.13.6",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rspec-expectations",
+      "version": "3.13.5",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rspec-html-matchers",
+      "version": "0.10.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rspec-mocks",
+      "version": "3.13.8",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rspec-rails",
+      "version": "8.0.3",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rspec-retry",
+      "version": "0.6.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rspec-support",
+      "version": "3.13.7",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rturk",
+      "version": "2.12.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rubocop",
+      "version": "1.51.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rubocop-ast",
+      "version": "1.28.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rubocop-capybara",
+      "version": "2.18.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rubocop-factory_bot",
+      "version": "2.23.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rubocop-performance",
+      "version": "1.18.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rubocop-rspec",
+      "version": "2.22.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ruby-progressbar",
+      "version": "1.13.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ruby-rc4",
+      "version": "0.1.5",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ruby/setup-ruby",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rubyzip",
+      "version": "2.3.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rufus-scheduler",
+      "version": "3.9.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sassc",
+      "version": "2.4.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sassc-rails",
+      "version": "2.1.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sax-machine",
+      "version": "1.3.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "securerandom",
+      "version": "0.4.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "select2-rails",
+      "version": "4.0.13",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "selenium-webdriver",
+      "version": "4.9.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "shellany",
+      "version": "0.0.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "shoulda-matchers",
+      "version": "5.3.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "signet",
+      "version": "0.17.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "simple_oauth",
+      "version": "0.3.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "simplecov",
+      "version": "0.22.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "simplecov-html",
+      "version": "0.12.3",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "simplecov-lcov",
+      "version": "0.9.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "simplecov_json_formatter",
+      "version": "0.1.4",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "slack-notifier",
+      "version": "2.4.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "snaky_hash",
+      "version": "2.0.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "spectrum-rails",
+      "version": "1.8.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "spring",
+      "version": "4.2.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "spring-commands-rspec",
+      "version": "1.0.4",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "spring-watcher-listen",
+      "version": "2.1.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sprockets",
+      "version": "4.2.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sprockets-rails",
+      "version": "3.5.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sshkit",
+      "version": "1.21.4",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "stringio",
+      "version": "3.2.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "strscan",
+      "version": "3.1.7",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "terser",
+      "version": "1.1.15",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "thor",
+      "version": "1.5.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "thread_safe",
+      "version": "0.3.6",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tilt",
+      "version": "2.1.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "time",
+      "version": "0.4.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "timeout",
+      "version": "0.6.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "trailblazer-option",
+      "version": "0.1.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "treetop",
+      "version": "1.6.12",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tsort",
+      "version": "0.2.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ttfunk",
+      "version": "1.8.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tumblr_client",
+      "version": "0.8.6",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "twilio-ruby",
+      "version": "7.8.5",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "twitter",
+      "version": "8.0.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "twitter-stream",
+      "version": "0.1.15",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typhoeus",
+      "version": "1.4.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tzinfo",
+      "version": "2.0.6",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "uber",
+      "version": "0.1.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "uglifier",
+      "version": "4.2.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unf",
+      "version": "0.1.4",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unf_ext",
+      "version": "0.0.8.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unicode-display_width",
+      "version": "2.4.2",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "uri",
+      "version": "1.1.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "useragent",
+      "version": "0.16.11",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vcr",
+      "version": "6.1.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "version_gem",
+      "version": "1.1.4",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "warden",
+      "version": "1.2.9",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "web-console",
+      "version": "4.2.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "webmock",
+      "version": "3.26.1",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "websocket",
+      "version": "1.2.9",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "websocket-driver",
+      "version": "0.8.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "websocket-extensions",
+      "version": "0.1.5",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "weibo_2",
+      "version": "0.1.7",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "xmpp4r",
+      "version": "0.5.6",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "xpath",
+      "version": "3.2.0",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zeitwerk",
+      "version": "2.7.5",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zlib",
+      "version": "3.2.3",
+      "type": "gem",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "@fortawesome/fontawesome-free"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "Ascii85"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "ace-rails-ap"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "action_text-trix"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "actioncable"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "actionmailbox"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "actionmailer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "actionpack"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "actions/download-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "actiontext"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "actionview"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "activejob"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "activemodel"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "activerecord"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "activestorage"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "activesupport"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "addressable"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "afm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "airbrussh"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "ast"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "aws-eventstream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "aws-partitions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "aws-sdk-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "aws-sdk-kms"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "aws-sdk-s3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "aws-sigv4"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "base64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "bcrypt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "benchmark"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "better_errors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "bigdecimal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "bindex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "binding_of_caller"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "bootsnap"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "bootstrap-kaminari-views"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "buftok"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "builder"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "capistrano"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "capistrano-bundler"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "capistrano-rails"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "capybara"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "capybara-select-2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "childprocess"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "coderay"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "coffee-rails"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "coffee-script"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "coffee-script-source"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "concurrent-ruby"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "connection_pool"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "cookiejar"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "coverallsapp/github-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "crack"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "crass"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "csv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "daemons"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "date"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "debug"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "debug_inspector"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "declarative"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "delayed_job"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "delayed_job_active_record"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "devise"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "diff-lcs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "docile"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "docker/build-push-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "docker/login-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "docker/setup-buildx-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "domain_name"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "dotenv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "drb"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "dropbox-api"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "em-http-request"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "em-socksify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "em-websocket"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "equalizer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "erb"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "erector"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "erubi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "et-orbi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "ethon"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "eventmachine"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "evernote-thrift"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "evernote_oauth"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "execjs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "faraday"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "faraday-follow_redirects"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "faraday-gzip"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "faraday-multipart"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "faraday-net_http"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "faraday-typhoeus"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "feedjira"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "ffi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "ffi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "ffi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "ffi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "ffi-compiler"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "foreman"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "formatador"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "fugit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "geokit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "geokit-rails"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "globalid"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "gmail_xoauth"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "google-apis-calendar_v3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "google-apis-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "google-cloud-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "google-cloud-env"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "google-cloud-errors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "google-cloud-translate-v2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "google-protobuf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "google-protobuf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "google-protobuf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "google-protobuf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "googleapis-common-protos"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "googleapis-common-protos-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "googleauth"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "grpc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "grpc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "grpc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "grpc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "guard"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "guard-compat"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "guard-livereload"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "guard-rspec"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "hashdiff"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "hashery"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "hashie"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "haversine"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "hipchat"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "httmultiparty"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "http"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "http-accept"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "http-cookie"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "http-form_data"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "http_parser.rb"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "httparty"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "httpclient"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "huginn_agent"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "i18n"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "io-console"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "irb"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "jmespath"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "jquery-rails"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "json"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "jsonpath"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "jwt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "kaminari"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "kaminari-actionview"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "kaminari-activerecord"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "kaminari-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "kramdown"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "launchy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "letter_opener"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "letter_opener_web"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "libv8-node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "libv8-node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "libv8-node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "libv8-node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "liquid"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "listen"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "llhttp-ffi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "logger"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "loofah"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "lumberjack"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "mail"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "marcel"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "matrix"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "memoizable"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "method_source"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "mime-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "mime-types-data"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "mimemagic"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "mini_magick"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "mini_mime"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "mini_racer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "minitest"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "mqtt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "msgpack"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "multi_json"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "multi_xml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "multipart-post"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "mutex_m"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "mysql2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "naught"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "nenv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "net-ftp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "net-ftp-list"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "net-http"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "net-imap"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "net-pop"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "net-protocol"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "net-scp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "net-smtp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "net-ssh"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "netrc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "nio4r"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "nokogiri"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "nokogiri"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "nokogiri"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "nokogiri"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "notiffany"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "oauth"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "oauth-tty"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "oauth2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "omniauth"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "omniauth-dropbox-oauth2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "omniauth-evernote"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "omniauth-google-oauth2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "omniauth-oauth"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "omniauth-oauth2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "omniauth-tumblr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "omniauth-twitter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "orm_adapter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "os"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "ostruct"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "parallel"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "pdf-reader"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "pg"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "pg"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "pg"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "pg"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "pirate_weather_forecast_ruby"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "polyglot"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "pp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "prettyprint"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "prism"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "pry"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "psych"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "public_suffix"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "puma"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "raabro"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "racc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rack"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rack-livereload"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rack-protection"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rack-session"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rack-test"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rackup"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rails"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rails-controller-testing"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rails-dom-testing"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rails-html-sanitizer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "railties"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rainbow"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rake"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rb-fsevent"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rb-inotify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rb-kqueue"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rdoc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "regexp_parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "reline"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "representable"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "responders"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rest-client"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "retriable"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rexml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rouge"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rspec"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rspec-collection_matchers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rspec-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rspec-expectations"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rspec-html-matchers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rspec-mocks"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rspec-rails"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rspec-retry"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rspec-support"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rturk"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rubocop"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rubocop-ast"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rubocop-capybara"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rubocop-factory_bot"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rubocop-performance"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rubocop-rspec"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "ruby-progressbar"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "ruby-rc4"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "ruby/setup-ruby"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rubyzip"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "rufus-scheduler"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "sassc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "sassc-rails"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "sax-machine"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "securerandom"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "select2-rails"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "selenium-webdriver"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "shellany"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "shoulda-matchers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "signet"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "simple_oauth"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "simplecov"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "simplecov-html"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "simplecov-lcov"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "simplecov_json_formatter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "slack-notifier"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "snaky_hash"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "spectrum-rails"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "spring"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "spring-commands-rspec"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "spring-watcher-listen"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "sprockets"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "sprockets-rails"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "sshkit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "stringio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "strscan"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "terser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "thor"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "thread_safe"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "tilt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "time"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "timeout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "trailblazer-option"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "treetop"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "tsort"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "ttfunk"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "tumblr_client"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "twilio-ruby"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "twitter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "twitter-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "typhoeus"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "tzinfo"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "uber"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "uglifier"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "unf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "unf_ext"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "unicode-display_width"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "uri"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "useragent"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "vcr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "version_gem"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "warden"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "web-console"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "webmock"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "websocket"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "websocket-driver"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "websocket-extensions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "weibo_2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "xmpp4r"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "xpath"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "zeitwerk"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "huginn-huginn",
+      "child": "zlib"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "scan_id": "jaywcjlove-awesome-mac",
+  "timestamp": "2026-03-20T01:04:34.056652",
+  "target": "https://github.com/jaywcjlove/awesome-mac",
+  "summary": {
+    "total_packages": 5,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-node",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jaywcjlove/changelog-generator",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jaywcjlove/create-tag-action",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "peaceiris/actions-gh-pages",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jaywcjlove-awesome-mac",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jaywcjlove-awesome-mac",
+      "child": "actions/setup-node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jaywcjlove-awesome-mac",
+      "child": "jaywcjlove/changelog-generator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jaywcjlove-awesome-mac",
+      "child": "jaywcjlove/create-tag-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jaywcjlove-awesome-mac",
+      "child": "peaceiris/actions-gh-pages"
+    }
+  ]
+}

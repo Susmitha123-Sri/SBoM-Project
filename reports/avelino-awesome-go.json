@@ -1,0 +1,273 @@
+{
+  "scan_id": "avelino-awesome-go",
+  "timestamp": "2026-03-20T00:21:55.886107",
+  "target": "https://github.com/avelino/awesome-go",
+  "summary": {
+    "total_packages": 17,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions-ecosystem/action-add-labels",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/cache",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-node",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "balevine/mark-as-spam",
+      "version": "1.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/PuerkitoBio/goquery",
+      "version": "1.8.1",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/andybalholm/cascadia",
+      "version": "1.3.1",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/avelino/slugify",
+      "version": "0.0.0-20180501145920-855f152bd774",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/otiai10/copy",
+      "version": "1.14.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/yuin/goldmark",
+      "version": "1.6.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/net",
+      "version": "0.38.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/oauth2",
+      "version": "0.27.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/sync",
+      "version": "0.12.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/sys",
+      "version": "0.31.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/text",
+      "version": "0.23.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "marocchino/sticky-pull-request-comment",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nwtgck/actions-netlify",
+      "version": "3.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "avelino-awesome-go",
+      "child": "actions-ecosystem/action-add-labels"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "avelino-awesome-go",
+      "child": "actions/cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "avelino-awesome-go",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "avelino-awesome-go",
+      "child": "actions/setup-node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "avelino-awesome-go",
+      "child": "balevine/mark-as-spam"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "avelino-awesome-go",
+      "child": "github.com/PuerkitoBio/goquery"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "avelino-awesome-go",
+      "child": "github.com/andybalholm/cascadia"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "avelino-awesome-go",
+      "child": "github.com/avelino/slugify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "avelino-awesome-go",
+      "child": "github.com/otiai10/copy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "avelino-awesome-go",
+      "child": "github.com/yuin/goldmark"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "avelino-awesome-go",
+      "child": "golang.org/x/net"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "avelino-awesome-go",
+      "child": "golang.org/x/oauth2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "avelino-awesome-go",
+      "child": "golang.org/x/sync"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "avelino-awesome-go",
+      "child": "golang.org/x/sys"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "avelino-awesome-go",
+      "child": "golang.org/x/text"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "avelino-awesome-go",
+      "child": "marocchino/sticky-pull-request-comment"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "avelino-awesome-go",
+      "child": "nwtgck/actions-netlify"
+    }
+  ]
+}

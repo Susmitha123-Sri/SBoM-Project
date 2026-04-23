@@ -1,0 +1,299 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="container">
+
+    <h1>📦 Package Analytics</h1>
+
+    <div class="card">
+
+        <!-- TOP BAR -->
+        <div class="top-bar">
+            <input id="searchInput" placeholder="Search package..." />
+
+            <div class="right-controls">
+                <label class="checkbox-container">
+                    <input type="checkbox" id="outdatedOnly">
+                    <span>Show only outdated</span>
+                </label>
+            </div>
+        </div>
+
+        <!-- TABLE -->
+        <div class="table-container">
+            <table id="pkgTable">
+                <thead>
+                    <tr>
+                        <th>Package</th>
+                        <th>Current Version</th>
+                        <th>Latest Version</th>
+                        <th>Date & Time</th>
+                        <th>Status</th>
+                        <th>Days Outdated</th>
+                        <th>Version Behind</th>
+                        <th>Severity</th>
+                        <th>Repository</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    {% for p in packages %}
+                    <tr>
+                        <td>{{ p.package_name }}</td>
+                        <td>{{ p.current_version }}</td>
+                        <td>{{ p.latest_version }}</td>
+                        <td>{{ p.scan_date }}</td>
+
+                        <td class="{{ 'green' if p.version_status == 'up_to_date' else 'red' }}">
+                            {{ p.version_status }}
+                        </td>
+
+                        <td>{{ p.days_outdated }}</td>
+                        <td>{{ p.versions_behind }}</td>
+
+                        <td class="{{ p.severity_level }}">
+                            {{ p.severity_level }}
+                        </td>
+
+                        <td>{{ p.repo }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <!-- PAGINATION -->
+        <div class="pagination">
+
+            {% if page > 1 %}
+            <a href="/packages?page={{ page-1 }}">
+                <button>⬅ Prev</button>
+            </a>
+            {% endif %}
+
+            <span>Page {{ page }} / {{ total_pages }}</span>
+
+            {% if page < total_pages %}
+            <a href="/packages?page={{ page+1 }}">
+                <button>Next ➡</button>
+            </a>
+            {% endif %}
+
+        </div>
+
+    </div>
+
+</div>
+
+<style>
+
+/* ===== GLOBAL LAYOUT FIX ===== */
+body {
+    margin: 0;
+}
+
+/* CENTERED CONTAINER (CONSISTENT ACROSS PAGES) */
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 14px;
+    margin-bottom: 30px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    width: 100%;
+}
+
+/* ===== TOP BAR ===== */
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background: #f9fafb;
+    padding: 12px 16px;
+    border-radius: 10px;
+}
+
+.top-bar input {
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    width: 260px;
+    outline: none;
+    transition: 0.2s;
+}
+
+.top-bar input:focus {
+    border-color: #6366f1;
+    box-shadow: 0 0 5px rgba(99,102,241,0.3);
+}
+
+/* RIGHT SIDE CONTROLS */
+.right-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* CHECKBOX */
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    color: #374151;
+    cursor: pointer;
+}
+
+.checkbox-container input {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+/* ===== TABLE ===== */
+.table-container {
+    border-radius: 12px;
+    overflow-x: auto;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 14px;
+}
+
+/* HEADER */
+thead th {
+    background: #1e3a8a;
+    color: #ffffff;
+    padding: 14px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid #1e40af;
+    white-space: nowrap;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+/* BODY */
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #e5e7eb;
+    color: #1f2937;
+}
+
+/* STRIPES */
+tbody tr:nth-child(even) {
+    background: #f8fafc;
+}
+
+/* HOVER */
+tbody tr:hover {
+    background: #e0ecff;
+    transition: 0.2s;
+}
+
+/* TEXT CONTROL */
+td, th {
+    max-width: 160px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* REPO COLUMN */
+td:last-child {
+    max-width: 250px;
+    word-break: break-word;
+}
+
+/* STATUS COLORS */
+.green {
+    color: #16a34a;
+    font-weight: 600;
+}
+
+.red {
+    color: #dc2626;
+    font-weight: 600;
+}
+
+/* SEVERITY */
+.low {
+    color: #16a34a;
+    font-weight: 600;
+}
+
+.medium {
+    color: #f59e0b;
+    font-weight: 600;
+}
+
+.high {
+    color: #dc2626;
+    font-weight: 600;
+}
+
+/* ===== PAGINATION ===== */
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination button {
+    padding: 8px 14px;
+    margin: 5px;
+    border-radius: 6px;
+    border: none;
+    background: #6366f1;
+    color: white;
+    cursor: pointer;
+}
+
+.pagination button:hover {
+    background: #4f46e5;
+}
+
+</style>
+
+<script>
+let searchInput = document.getElementById("searchInput");
+let checkbox = document.getElementById("outdatedOnly");
+
+searchInput.addEventListener("input", filterTable);
+checkbox.addEventListener("change", filterTable);
+
+function filterTable() {
+    let filter = searchInput.value.toLowerCase();
+    let rows = document.querySelectorAll("#pkgTable tbody tr");
+
+    rows.forEach(row => {
+        let text = row.innerText.toLowerCase();
+        let isOutdated = row.innerText.includes("outdated");
+
+        if (text.includes(filter) && (!checkbox.checked || isOutdated)) {
+            row.style.display = "";
+        } else {
+            row.style.display = "none";
+        }
+    });
+}
+</script>
+
+{% endblock %}

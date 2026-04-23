@@ -1,0 +1,258 @@
+{
+  "scan_id": "microsoft-terminal",
+  "timestamp": "2026-03-20T01:04:12.779564",
+  "target": "https://github.com/microsoft/terminal",
+  "summary": {
+    "total_packages": 16,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "A Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design",
+      "version": "2.8.0",
+      "type": "binary",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "Json.NET",
+      "version": "9.0.1.19813",
+      "type": "dotnet",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "Microsoft.Win32.Primitives",
+      "version": "4.6.23123.0",
+      "type": "dotnet",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "Microsoft.Win32.Registry",
+      "version": "1.0.24212.01.",
+      "type": "dotnet",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "MitaBroker.dll",
+      "version": "0.6.161028001-release",
+      "type": "dotnet",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "MitaLite.Foundation.dll",
+      "version": "1.0.161028001",
+      "type": "dotnet",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "MitaLite.Localization.dll",
+      "version": "1.0.161028001",
+      "type": "dotnet",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "MitaLite.UIAutomationAdapter.dll",
+      "version": "1.0.161028001",
+      "type": "dotnet",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "NuGet Command Line",
+      "version": "4.1.0.2450",
+      "type": "dotnet",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "System.Diagnostics.Process",
+      "version": "1.0.24212.01.",
+      "type": "dotnet",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "System.Threading.Thread",
+      "version": "1.0.24212.01.",
+      "type": "dotnet",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "UIAutomation Client layer of MitaLite framework",
+      "version": "1.0.0.0",
+      "type": "dotnet",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "WinAppDriver.exe",
+      "version": "0.6.161028001-release",
+      "type": "binary",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "WinAppDriverCore.dll",
+      "version": "0.6.161028001-release",
+      "type": "binary",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/add-to-project",
+      "version": "1.0.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "check-spelling/check-spelling",
+      "version": "0.0.25",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-terminal",
+      "child": "A Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-terminal",
+      "child": "Json.NET"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-terminal",
+      "child": "Microsoft.Win32.Primitives"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-terminal",
+      "child": "Microsoft.Win32.Registry"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-terminal",
+      "child": "MitaBroker.dll"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-terminal",
+      "child": "MitaLite.Foundation.dll"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-terminal",
+      "child": "MitaLite.Localization.dll"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-terminal",
+      "child": "MitaLite.UIAutomationAdapter.dll"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-terminal",
+      "child": "NuGet Command Line"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-terminal",
+      "child": "System.Diagnostics.Process"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-terminal",
+      "child": "System.Threading.Thread"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-terminal",
+      "child": "UIAutomation Client layer of MitaLite framework"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-terminal",
+      "child": "WinAppDriver.exe"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-terminal",
+      "child": "WinAppDriverCore.dll"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-terminal",
+      "child": "actions/add-to-project"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-terminal",
+      "child": "check-spelling/check-spelling"
+    }
+  ]
+}

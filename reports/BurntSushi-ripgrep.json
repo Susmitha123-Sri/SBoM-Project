@@ -1,0 +1,1278 @@
+{
+  "scan_id": "BurntSushi-ripgrep",
+  "timestamp": "2026-03-20T03:30:34.215814",
+  "target": "https://github.com/BurntSushi/ripgrep",
+  "summary": {
+    "total_packages": 84,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aho-corasick",
+      "version": "1.1.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aho-corasick",
+      "version": "1.1.3",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "anyhow",
+      "version": "1.0.100",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "arbitrary",
+      "version": "1.3.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "arbitrary",
+      "version": "1.4.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bstr",
+      "version": "1.12.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bstr",
+      "version": "1.9.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cc",
+      "version": "1.0.83",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cc",
+      "version": "1.2.41",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cfg-if",
+      "version": "1.0.4",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "crossbeam-channel",
+      "version": "0.5.15",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "crossbeam-deque",
+      "version": "0.8.6",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "crossbeam-epoch",
+      "version": "0.9.18",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "crossbeam-utils",
+      "version": "0.8.21",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "derive_arbitrary",
+      "version": "1.3.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "derive_arbitrary",
+      "version": "1.4.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dtolnay/rust-toolchain",
+      "version": "master",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "encoding_rs",
+      "version": "0.8.35",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "encoding_rs_io",
+      "version": "0.1.7",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "find-msvc-tools",
+      "version": "0.1.4",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fuzz",
+      "version": "0.0.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "getrandom",
+      "version": "0.3.4",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "glob",
+      "version": "0.3.3",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "globset",
+      "version": "0.4.16",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "globset",
+      "version": "0.4.18",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "grep",
+      "version": "0.4.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "grep-cli",
+      "version": "0.1.12",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "grep-matcher",
+      "version": "0.1.8",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "grep-pcre2",
+      "version": "0.1.9",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "grep-printer",
+      "version": "0.3.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "grep-regex",
+      "version": "0.1.14",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "grep-searcher",
+      "version": "0.1.16",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ignore",
+      "version": "0.4.25",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "itoa",
+      "version": "1.0.15",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jobserver",
+      "version": "0.1.27",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jobserver",
+      "version": "0.1.34",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lexopt",
+      "version": "0.3.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "libc",
+      "version": "0.2.152",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "libc",
+      "version": "0.2.177",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "libfuzzer-sys",
+      "version": "0.4.7",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "log",
+      "version": "0.4.20",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "log",
+      "version": "0.4.28",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "memchr",
+      "version": "2.7.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "memchr",
+      "version": "2.7.6",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "memmap2",
+      "version": "0.9.9",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "once_cell",
+      "version": "1.19.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pcre2",
+      "version": "0.2.11",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pcre2-sys",
+      "version": "0.2.10",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pkg-config",
+      "version": "0.3.32",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "proc-macro2",
+      "version": "1.0.101",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "proc-macro2",
+      "version": "1.0.78",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "quote",
+      "version": "1.0.35",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "quote",
+      "version": "1.0.41",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "r-efi",
+      "version": "5.3.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "regex",
+      "version": "1.12.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "regex-automata",
+      "version": "0.4.13",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "regex-automata",
+      "version": "0.4.4",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "regex-syntax",
+      "version": "0.8.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "regex-syntax",
+      "version": "0.8.8",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ripgrep",
+      "version": "15.1.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ryu",
+      "version": "1.0.20",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "same-file",
+      "version": "1.0.6",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "serde",
+      "version": "1.0.195",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "serde",
+      "version": "1.0.228",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "serde_core",
+      "version": "1.0.228",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "serde_derive",
+      "version": "1.0.195",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "serde_derive",
+      "version": "1.0.228",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "serde_json",
+      "version": "1.0.145",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "shlex",
+      "version": "1.3.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "syn",
+      "version": "2.0.107",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "syn",
+      "version": "2.0.48",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "termcolor",
+      "version": "1.4.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "textwrap",
+      "version": "0.16.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tikv-jemalloc-sys",
+      "version": "0.6.1+5.3.0-1-ge13ca993e8ccb9ba9847cc330696e02839f328f7",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tikv-jemallocator",
+      "version": "0.6.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unicode-ident",
+      "version": "1.0.12",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unicode-ident",
+      "version": "1.0.20",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "walkdir",
+      "version": "2.5.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wasip2",
+      "version": "1.0.1+wasi-0.2.4",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "winapi-util",
+      "version": "0.1.11",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "windows-link",
+      "version": "0.2.1",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "windows-sys",
+      "version": "0.61.2",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wit-bindgen",
+      "version": "0.46.0",
+      "type": "rust-crate",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "aho-corasick"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "aho-corasick"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "anyhow"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "arbitrary"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "arbitrary"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "bstr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "bstr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "cc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "cc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "cfg-if"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "crossbeam-channel"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "crossbeam-deque"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "crossbeam-epoch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "crossbeam-utils"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "derive_arbitrary"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "derive_arbitrary"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "dtolnay/rust-toolchain"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "encoding_rs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "encoding_rs_io"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "find-msvc-tools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "fuzz"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "getrandom"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "glob"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "globset"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "globset"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "grep"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "grep-cli"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "grep-matcher"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "grep-pcre2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "grep-printer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "grep-regex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "grep-searcher"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "ignore"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "itoa"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "jobserver"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "jobserver"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "lexopt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "libc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "libc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "libfuzzer-sys"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "log"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "log"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "memchr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "memchr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "memmap2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "once_cell"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "pcre2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "pcre2-sys"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "pkg-config"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "proc-macro2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "proc-macro2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "quote"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "quote"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "r-efi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "regex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "regex-automata"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "regex-automata"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "regex-syntax"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "regex-syntax"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "ripgrep"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "ryu"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "same-file"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "serde"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "serde"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "serde_core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "serde_derive"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "serde_derive"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "serde_json"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "shlex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "syn"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "syn"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "termcolor"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "textwrap"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "tikv-jemalloc-sys"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "tikv-jemallocator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "unicode-ident"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "unicode-ident"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "walkdir"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "wasip2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "winapi-util"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "windows-link"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "windows-sys"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "BurntSushi-ripgrep",
+      "child": "wit-bindgen"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "scan_id": "zhongyang219-TrafficMonitor",
+  "timestamp": "2026-04-23T14:49:51.920516",
+  "target": "https://github.com/zhongyang219/TrafficMonitor",
+  "summary": {
+    "total_packages": 5,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "LibreHardwareMonitorLib",
+      "version": "0.9.4.0",
+      "type": "dotnet",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "josStorer/get-current-time",
+      "version": "2.0.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.1.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "microsoft/setup-msbuild",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zhongyang219-TrafficMonitor",
+      "child": "LibreHardwareMonitorLib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zhongyang219-TrafficMonitor",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zhongyang219-TrafficMonitor",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zhongyang219-TrafficMonitor",
+      "child": "josStorer/get-current-time"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "zhongyang219-TrafficMonitor",
+      "child": "microsoft/setup-msbuild"
+    }
+  ]
+}

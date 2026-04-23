@@ -1,0 +1,573 @@
+{
+  "scan_id": "nlohmann-json",
+  "timestamp": "2026-03-20T05:11:15.617782",
+  "target": "https://github.com/nlohmann/json",
+  "summary": {
+    "total_packages": 37,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "6.0.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/dependency-review-action",
+      "version": "4.9.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/github-script",
+      "version": "8.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/stale",
+      "version": "10.2.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "7.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "astyle",
+      "version": "3.4.13",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.6.9",
+      "version_status": "outdated"
+    },
+    {
+      "package": "coverallsapp/github-action",
+      "version": "2.3.7",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cppcheck",
+      "version": "1.5.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.5.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cpplint",
+      "version": "2.0.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "david-a-wheeler/flawfinder",
+      "version": "2.0.19",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "egor-tensin/setup-mingw",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "github/codeql-action/analyze",
+      "version": "4.32.6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/autobuild",
+      "version": "4.32.6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/init",
+      "version": "4.32.6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/upload-sarif",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "github/codeql-action/upload-sarif",
+      "version": "4.32.6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers",
+      "version": "master",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers",
+      "version": "master",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jinja2",
+      "version": "3.1.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.1.6",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "lukka/get-cmake",
+      "version": "4.2.3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mkdocs",
+      "version": "1.6.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.6.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mkdocs-git-revision-date-localized-plugin",
+      "version": "1.5.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.5.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mkdocs-htmlproofer-plugin",
+      "version": "1.5.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.5.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mkdocs-material",
+      "version": "9.7.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.7.6",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mkdocs-material-extensions",
+      "version": "1.3.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mkdocs-minify-plugin",
+      "version": "0.8.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.8.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mkdocs-redirects",
+      "version": "1.2.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mymindstorm/setup-emsdk",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "ossf/scorecard-action",
+      "version": "2.4.3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "peaceiris/actions-gh-pages",
+      "version": "4.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pyyaml",
+      "version": "6.0.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "returntocorp/semgrep-action",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "reuse",
+      "version": "6.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.2.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "srvaroa/labeler",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "step-security/harden-runner",
+      "version": "2.15.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "watchdog",
+      "version": "6.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "wheel",
+      "version": "0.46.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.46.3",
+      "version_status": "up_to_date"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "actions/dependency-review-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "actions/github-script"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "actions/stale"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "astyle"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "coverallsapp/github-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "cppcheck"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "cpplint"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "david-a-wheeler/flawfinder"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "egor-tensin/setup-mingw"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "github/codeql-action/analyze"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "github/codeql-action/autobuild"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "github/codeql-action/init"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "github/codeql-action/upload-sarif"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "github/codeql-action/upload-sarif"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "jinja2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "lukka/get-cmake"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "mkdocs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "mkdocs-git-revision-date-localized-plugin"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "mkdocs-htmlproofer-plugin"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "mkdocs-material"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "mkdocs-material-extensions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "mkdocs-minify-plugin"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "mkdocs-redirects"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "mymindstorm/setup-emsdk"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "ossf/scorecard-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "peaceiris/actions-gh-pages"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "pyyaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "returntocorp/semgrep-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "reuse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "srvaroa/labeler"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "step-security/harden-runner"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "watchdog"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "nlohmann-json",
+      "child": "wheel"
+    }
+  ]
+}

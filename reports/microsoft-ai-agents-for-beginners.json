@@ -1,0 +1,48 @@
+{
+  "scan_id": "microsoft-ai-agents-for-beginners",
+  "timestamp": "2026-03-20T04:07:03.646205",
+  "target": "https://github.com/microsoft/ai-agents-for-beginners",
+  "summary": {
+    "total_packages": 2,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/github-script",
+      "version": "8",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pozil/auto-assign-issue",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-ai-agents-for-beginners",
+      "child": "actions/github-script"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-ai-agents-for-beginners",
+      "child": "pozil/auto-assign-issue"
+    }
+  ]
+}

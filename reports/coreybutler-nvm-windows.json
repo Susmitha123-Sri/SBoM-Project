@@ -1,0 +1,453 @@
+{
+  "scan_id": "coreybutler-nvm-windows",
+  "timestamp": "2026-03-20T06:34:17.745423",
+  "target": "https://github.com/coreybutler/nvm-windows",
+  "summary": {
+    "total_packages": 29,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "Inno Setup",
+      "version": "0.0.0.0",
+      "type": "binary",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "WoozyMasta/virustotal-action",
+      "version": "1.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/attest-build-provenance",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/cache",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/github-script",
+      "version": "7",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-go",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/stale",
+      "version": "9",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "azure/trusted-signing-action",
+      "version": "0.5.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "crazy-max/ghaction-import-gpg",
+      "version": "6.2.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/akavel/rsrc",
+      "version": "0.10.2",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/blang/semver",
+      "version": "3.5.1+incompatible",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/coreybutler/go-fsutil",
+      "version": "1.2.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/coreybutler/go-where",
+      "version": "1.0.2",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/dchest/jsmin",
+      "version": "0.0.0-20220218165748-59f39799265f",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/dustin/go-humanize",
+      "version": "1.0.1",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/go-toast/toast",
+      "version": "0.0.0-20190211030409-01e6764cf0a4",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/josephspurrier/goversioninfo",
+      "version": "1.4.1",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/mattn/go-runewidth",
+      "version": "0.0.9",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/ncruces/zenity",
+      "version": "0.10.14",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/nu7hatch/gouuid",
+      "version": "0.0.0-20131221200532-179d4d0c4d8d",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/olekukonko/tablewriter",
+      "version": "0.0.5",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/randall77/makefat",
+      "version": "0.0.0-20210315173500-7ddd0e42c844",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/saintfish/chardet",
+      "version": "0.0.0-20230101081208-5e3ef4b5456d",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/image",
+      "version": "0.20.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/sys",
+      "version": "0.25.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "islzma",
+      "version": "UNKNOWN",
+      "type": "binary",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "softprops/action-gh-release",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vedantmgoyal2009/winget-releaser",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coreybutler-nvm-windows",
+      "child": "Inno Setup"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coreybutler-nvm-windows",
+      "child": "WoozyMasta/virustotal-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coreybutler-nvm-windows",
+      "child": "actions/attest-build-provenance"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coreybutler-nvm-windows",
+      "child": "actions/cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coreybutler-nvm-windows",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coreybutler-nvm-windows",
+      "child": "actions/github-script"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coreybutler-nvm-windows",
+      "child": "actions/setup-go"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coreybutler-nvm-windows",
+      "child": "actions/stale"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coreybutler-nvm-windows",
+      "child": "azure/trusted-signing-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coreybutler-nvm-windows",
+      "child": "crazy-max/ghaction-import-gpg"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coreybutler-nvm-windows",
+      "child": "github.com/akavel/rsrc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coreybutler-nvm-windows",
+      "child": "github.com/blang/semver"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coreybutler-nvm-windows",
+      "child": "github.com/coreybutler/go-fsutil"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coreybutler-nvm-windows",
+      "child": "github.com/coreybutler/go-where"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coreybutler-nvm-windows",
+      "child": "github.com/dchest/jsmin"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coreybutler-nvm-windows",
+      "child": "github.com/dustin/go-humanize"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coreybutler-nvm-windows",
+      "child": "github.com/go-toast/toast"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coreybutler-nvm-windows",
+      "child": "github.com/josephspurrier/goversioninfo"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coreybutler-nvm-windows",
+      "child": "github.com/mattn/go-runewidth"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coreybutler-nvm-windows",
+      "child": "github.com/ncruces/zenity"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coreybutler-nvm-windows",
+      "child": "github.com/nu7hatch/gouuid"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coreybutler-nvm-windows",
+      "child": "github.com/olekukonko/tablewriter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coreybutler-nvm-windows",
+      "child": "github.com/randall77/makefat"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coreybutler-nvm-windows",
+      "child": "github.com/saintfish/chardet"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coreybutler-nvm-windows",
+      "child": "golang.org/x/image"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coreybutler-nvm-windows",
+      "child": "golang.org/x/sys"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coreybutler-nvm-windows",
+      "child": "islzma"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coreybutler-nvm-windows",
+      "child": "softprops/action-gh-release"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "coreybutler-nvm-windows",
+      "child": "vedantmgoyal2009/winget-releaser"
+    }
+  ]
+}

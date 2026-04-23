@@ -1,0 +1,1983 @@
+{
+  "scan_id": "commaai-openpilot",
+  "timestamp": "2026-03-20T03:32:49.061892",
+  "target": "https://github.com/commaai/openpilot",
+  "summary": {
+    "total_packages": 131,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "AnimMouse/setup-ffmpeg",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "Vankka/pr-target-branch-action",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/first-interaction",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/github-script",
+      "version": "8",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/labeler",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/stale",
+      "version": "10",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "10.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aiohappyeyeballs",
+      "version": "2.6.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.6.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "aiohttp",
+      "version": "3.13.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.13.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "aioice",
+      "version": "0.10.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.10.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "aiortc",
+      "version": "1.14.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.14.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "aiosignal",
+      "version": "1.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "attrs",
+      "version": "25.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "26.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "av",
+      "version": "16.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "17.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bzip2",
+      "version": "1.0.8",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "capnproto",
+      "version": "1.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.0rc1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "casadi",
+      "version": "3.7.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.7.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "certifi",
+      "version": "2026.2.25",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2026.2.25",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "cffi",
+      "version": "2.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "charset-normalizer",
+      "version": "3.4.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.4.6",
+      "version_status": "outdated"
+    },
+    {
+      "package": "click",
+      "version": "8.3.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8.3.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "codespell",
+      "version": "2.4.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "colorama",
+      "version": "0.4.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.6",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "commaai/timeout",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "contourpy",
+      "version": "1.3.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "coverage",
+      "version": "7.13.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.13.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "crcmod-plus",
+      "version": "2.3.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.3.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "cryptography",
+      "version": "46.0.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "46.0.5",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "cycler",
+      "version": "0.12.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.12.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "cython",
+      "version": "3.2.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.2.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "dawidd6/action-download-artifact",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dnspython",
+      "version": "2.8.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.8.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "eigen",
+      "version": "3.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.1.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "execnet",
+      "version": "2.1.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.1.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "ffmpeg",
+      "version": "7.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fonttools",
+      "version": "4.61.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.62.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "frozenlist",
+      "version": "1.8.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.8.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "gcc-arm-none-eabi",
+      "version": "13.2.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ghp-import",
+      "version": "2.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.1.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "git-lfs",
+      "version": "3.6.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.6",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google-crc32c",
+      "version": "1.8.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.8.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "hypothesis",
+      "version": "6.47.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.151.9",
+      "version_status": "outdated"
+    },
+    {
+      "package": "idna",
+      "version": "3.11",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.11",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "ifaddr",
+      "version": "0.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.2.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "iniconfig",
+      "version": "2.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.3.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "inputs",
+      "version": "0.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.5",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jeepney",
+      "version": "0.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.9.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jinja2",
+      "version": "3.1.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.1.6",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "json-rpc",
+      "version": "1.15.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.15.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "kiwisolver",
+      "version": "1.4.9",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.5.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lewagon/wait-on-check-action",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "lewagon/wait-on-check-action",
+      "version": "1.3.4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "libjpeg",
+      "version": "3.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "libusb",
+      "version": "1.0.29",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.29.post7",
+      "version_status": "outdated"
+    },
+    {
+      "package": "libusb1",
+      "version": "3.3.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.3.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libyuv",
+      "version": "1922.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "markdown",
+      "version": "3.10.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.10.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "markupsafe",
+      "version": "3.0.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "marocchino/sticky-pull-request-comment",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "matplotlib",
+      "version": "3.10.8",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.10.8",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mergedeep",
+      "version": "1.3.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "metadrive-simulator",
+      "version": "0.4.2.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mkdocs",
+      "version": "1.6.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.6.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mkdocs-get-deps",
+      "version": "0.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.2.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mpmath",
+      "version": "1.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "multidict",
+      "version": "6.7.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.7.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "ncurses",
+      "version": "6.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nick-fields/retry",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "numpy",
+      "version": "2.4.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opencv-python-headless",
+      "version": "4.13.0.92",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.13.0.92",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "openpilot",
+      "version": "0.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "packaging",
+      "version": "26.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "26.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "panda3d",
+      "version": "1.10.14",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.10.16",
+      "version_status": "outdated"
+    },
+    {
+      "package": "panda3d-gltf",
+      "version": "0.13",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "panda3d-simplepbr",
+      "version": "0.13.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.13.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pathspec",
+      "version": "1.0.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "peter-evans/create-pull-request",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pillow",
+      "version": "12.1.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.1.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "platformdirs",
+      "version": "4.9.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.9.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pluggy",
+      "version": "1.6.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.6.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pre-commit-hooks",
+      "version": "6.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "propcache",
+      "version": "0.4.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "psutil",
+      "version": "7.2.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.2.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pycapnp",
+      "version": "2.2.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.2.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pycparser",
+      "version": "3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pycryptodome",
+      "version": "3.23.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.23.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyee",
+      "version": "13.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "13.0.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pygments",
+      "version": "2.19.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.19.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyjwt",
+      "version": "2.11.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.12.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pylibsrtp",
+      "version": "1.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyopenssl",
+      "version": "25.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "26.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pyparsing",
+      "version": "3.3.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.3.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyserial",
+      "version": "3.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.5",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pytest",
+      "version": "9.0.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.0.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pytest-asyncio",
+      "version": "1.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pytest-cpp",
+      "version": "2.6.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.6.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pytest-mock",
+      "version": "3.15.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.15.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pytest-subtests",
+      "version": "0.15.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.15.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pytest-xdist",
+      "version": "3.7.1.dev24+g2b4372bd6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.8.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "python-dateutil",
+      "version": "2.9.0.post0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.9.0.post0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyyaml",
+      "version": "6.0.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyyaml-env-tag",
+      "version": "1.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyzmq",
+      "version": "27.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "27.1.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "qrcode",
+      "version": "8.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "raylib",
+      "version": "5.5.0.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.5.0.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "requests",
+      "version": "2.32.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.32.5",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "ruamel-yaml",
+      "version": "0.19.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.19.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "ruff",
+      "version": "0.15.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.15.7",
+      "version_status": "outdated"
+    },
+    {
+      "package": "scons",
+      "version": "4.10.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.10.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "sentry-sdk",
+      "version": "2.54.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.55.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "setproctitle",
+      "version": "1.3.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.7",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "setuptools",
+      "version": "82.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "82.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "six",
+      "version": "1.17.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.17.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "sortedcontainers",
+      "version": "2.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "sounddevice",
+      "version": "0.5.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.5.5",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "spidev",
+      "version": "3.8",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.8",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "sympy",
+      "version": "1.14.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.14.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "thollander/actions-comment-pull-request",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tqdm",
+      "version": "4.67.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.67.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "ty",
+      "version": "0.0.20",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.0.24",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typing-extensions",
+      "version": "4.15.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.15.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "urllib3",
+      "version": "2.6.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.6.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "watchdog",
+      "version": "6.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "websocket-client",
+      "version": "1.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.9.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "xattr",
+      "version": "1.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "yarl",
+      "version": "1.23.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.23.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "zeromq",
+      "version": "4.3.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zstandard",
+      "version": "0.25.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.25.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "zstd",
+      "version": "1.5.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.5.7.3",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "AnimMouse/setup-ffmpeg"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "Vankka/pr-target-branch-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "actions/first-interaction"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "actions/github-script"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "actions/labeler"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "actions/stale"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "aiohappyeyeballs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "aiohttp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "aioice"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "aiortc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "aiosignal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "attrs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "av"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "bzip2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "capnproto"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "casadi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "certifi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "cffi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "charset-normalizer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "click"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "codespell"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "colorama"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "commaai/timeout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "contourpy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "coverage"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "crcmod-plus"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "cryptography"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "cycler"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "cython"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "dawidd6/action-download-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "dnspython"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "eigen"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "execnet"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "ffmpeg"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "fonttools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "frozenlist"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "gcc-arm-none-eabi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "ghp-import"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "git-lfs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "google-crc32c"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "hypothesis"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "idna"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "ifaddr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "iniconfig"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "inputs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "jeepney"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "jinja2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "json-rpc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "kiwisolver"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "lewagon/wait-on-check-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "lewagon/wait-on-check-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "libjpeg"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "libusb"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "libusb1"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "libyuv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "markdown"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "markupsafe"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "marocchino/sticky-pull-request-comment"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "matplotlib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "mergedeep"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "metadrive-simulator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "mkdocs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "mkdocs-get-deps"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "mpmath"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "multidict"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "ncurses"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "nick-fields/retry"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "numpy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "opencv-python-headless"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "openpilot"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "packaging"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "panda3d"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "panda3d-gltf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "panda3d-simplepbr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "pathspec"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "peter-evans/create-pull-request"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "pillow"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "platformdirs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "pluggy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "pre-commit-hooks"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "propcache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "psutil"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "pycapnp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "pycparser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "pycryptodome"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "pyee"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "pygments"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "pyjwt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "pylibsrtp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "pyopenssl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "pyparsing"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "pyserial"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "pytest"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "pytest-asyncio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "pytest-cpp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "pytest-mock"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "pytest-subtests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "pytest-xdist"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "python-dateutil"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "pyyaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "pyyaml-env-tag"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "pyzmq"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "qrcode"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "raylib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "requests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "ruamel-yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "ruff"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "scons"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "sentry-sdk"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "setproctitle"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "setuptools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "six"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "sortedcontainers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "sounddevice"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "spidev"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "sympy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "thollander/actions-comment-pull-request"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "tqdm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "ty"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "typing-extensions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "urllib3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "watchdog"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "websocket-client"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "xattr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "yarl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "zeromq"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "zstandard"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "commaai-openpilot",
+      "child": "zstd"
+    }
+  ]
+}

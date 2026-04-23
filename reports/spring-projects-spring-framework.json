@@ -1,0 +1,333 @@
+{
+  "scan_id": "spring-projects-spring-framework",
+  "timestamp": "2026-03-20T03:34:58.324651",
+  "target": "https://github.com/spring-projects/spring-framework",
+  "summary": {
+    "total_packages": 21,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "./.github/actions/await-http-resource",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/build",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/create-github-release",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/prepare-gradle-build",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/print-jvm-thread-dumps",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/send-notification",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/sync-to-maven-central",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/verify.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./send-notification/.github/actions/send-notification",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-java",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gradle-wrapper",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gradle/actions/setup-gradle",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "gradle/actions/setup-gradle",
+      "version": "5.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jfrog/setup-jfrog-cli",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jfrog/setup-jfrog-cli",
+      "version": "4.8.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "spring-io/artifactory-deploy-action",
+      "version": "0.0.4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "spring-io/central-publish-action",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "spring-io/github-changelog-generator",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "spring-io/spring-doc-actions/update-antora-spring-ui",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-framework",
+      "child": "./.github/actions/await-http-resource"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-framework",
+      "child": "./.github/actions/build"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-framework",
+      "child": "./.github/actions/create-github-release"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-framework",
+      "child": "./.github/actions/prepare-gradle-build"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-framework",
+      "child": "./.github/actions/print-jvm-thread-dumps"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-framework",
+      "child": "./.github/actions/send-notification"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-framework",
+      "child": "./.github/actions/sync-to-maven-central"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-framework",
+      "child": "./.github/workflows/verify.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-framework",
+      "child": "./send-notification/.github/actions/send-notification"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-framework",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-framework",
+      "child": "actions/setup-java"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-framework",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-framework",
+      "child": "gradle-wrapper"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-framework",
+      "child": "gradle/actions/setup-gradle"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-framework",
+      "child": "gradle/actions/setup-gradle"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-framework",
+      "child": "jfrog/setup-jfrog-cli"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-framework",
+      "child": "jfrog/setup-jfrog-cli"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-framework",
+      "child": "spring-io/artifactory-deploy-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-framework",
+      "child": "spring-io/central-publish-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-framework",
+      "child": "spring-io/github-changelog-generator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "spring-projects-spring-framework",
+      "child": "spring-io/spring-doc-actions/update-antora-spring-ui"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "scan_id": "deepseek-ai-DeepSeek-V3",
+  "timestamp": "2026-03-20T01:04:21.082371",
+  "target": "https://github.com/deepseek-ai/DeepSeek-V3",
+  "summary": {
+    "total_packages": 5,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/stale",
+      "version": "9",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "safetensors",
+      "version": "0.4.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "torch",
+      "version": "2.4.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.10.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "transformers",
+      "version": "4.46.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "triton",
+      "version": "3.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.6.0",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "deepseek-ai-DeepSeek-V3",
+      "child": "actions/stale"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "deepseek-ai-DeepSeek-V3",
+      "child": "safetensors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "deepseek-ai-DeepSeek-V3",
+      "child": "torch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "deepseek-ai-DeepSeek-V3",
+      "child": "transformers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "deepseek-ai-DeepSeek-V3",
+      "child": "triton"
+    }
+  ]
+}

@@ -1,0 +1,453 @@
+{
+  "scan_id": "ant-design-ant-design",
+  "timestamp": "2026-03-20T01:12:16.000942",
+  "target": "https://github.com/ant-design/ant-design",
+  "summary": {
+    "total_packages": 29,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions-cool/check-pr-ci",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.5.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions-cool/check-user-permission",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions-cool/ci-notice",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.1.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions-cool/issues-helper",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.7.6",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions-cool/issues-helper",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.7.6",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions-cool/maintain-one-comment",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions-cool/maintain-one-comment",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions-cool/pr-check-fill",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions-cool/pr-welcome",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions-cool/release-helper",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.5.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions-cool/verify-files-modify",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.7.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions-cool/verify-package-version",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.1.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/cache",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.0.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/cache/restore",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/download-artifact",
+      "version": "8",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/github-script",
+      "version": "8",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ant-design/size-limit-action",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "codecov/codecov-action",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.5.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dawidd6/action-download-artifact",
+      "version": "14",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "19",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nearform-actions/github-action-notify-twitter",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "peaceiris/actions-gh-pages",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "peter-evans/commit-comment",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "peter-evans/create-pull-request",
+      "version": "8",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "softprops/action-gh-release",
+      "version": "2.6.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "utooland/setup-utoo",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "visiky/dingtalk-release-notify",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "wearerequired/git-mirror-action",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ant-design-ant-design",
+      "child": "actions-cool/check-pr-ci"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ant-design-ant-design",
+      "child": "actions-cool/check-user-permission"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ant-design-ant-design",
+      "child": "actions-cool/ci-notice"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ant-design-ant-design",
+      "child": "actions-cool/issues-helper"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ant-design-ant-design",
+      "child": "actions-cool/issues-helper"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ant-design-ant-design",
+      "child": "actions-cool/maintain-one-comment"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ant-design-ant-design",
+      "child": "actions-cool/maintain-one-comment"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ant-design-ant-design",
+      "child": "actions-cool/pr-check-fill"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ant-design-ant-design",
+      "child": "actions-cool/pr-welcome"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ant-design-ant-design",
+      "child": "actions-cool/release-helper"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ant-design-ant-design",
+      "child": "actions-cool/verify-files-modify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ant-design-ant-design",
+      "child": "actions-cool/verify-package-version"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ant-design-ant-design",
+      "child": "actions/cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ant-design-ant-design",
+      "child": "actions/cache/restore"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ant-design-ant-design",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ant-design-ant-design",
+      "child": "actions/download-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ant-design-ant-design",
+      "child": "actions/github-script"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ant-design-ant-design",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ant-design-ant-design",
+      "child": "ant-design/size-limit-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ant-design-ant-design",
+      "child": "codecov/codecov-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ant-design-ant-design",
+      "child": "dawidd6/action-download-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ant-design-ant-design",
+      "child": "nearform-actions/github-action-notify-twitter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ant-design-ant-design",
+      "child": "peaceiris/actions-gh-pages"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ant-design-ant-design",
+      "child": "peter-evans/commit-comment"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ant-design-ant-design",
+      "child": "peter-evans/create-pull-request"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ant-design-ant-design",
+      "child": "softprops/action-gh-release"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ant-design-ant-design",
+      "child": "utooland/setup-utoo"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ant-design-ant-design",
+      "child": "visiky/dingtalk-release-notify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ant-design-ant-design",
+      "child": "wearerequired/git-mirror-action"
+    }
+  ]
+}

@@ -1,0 +1,6483 @@
+{
+  "scan_id": "FoundationAgents-OpenManus",
+  "timestamp": "2026-03-20T04:00:51.836039",
+  "target": "https://github.com/FoundationAgents/OpenManus",
+  "summary": {
+    "total_packages": 431,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "@babel/code-frame",
+      "version": "7.27.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/helper-validator-identifier",
+      "version": "7.27.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@puppeteer/browsers",
+      "version": "2.10.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@resvg/resvg-js",
+      "version": "2.4.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@resvg/resvg-js-darwin-arm64",
+      "version": "2.4.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/array-base-filled",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/array-base-zeros",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/array-float32",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/array-float64",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/array-uint16",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/array-uint32",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/array-uint8",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/assert-has-float32array-support",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/assert-has-float64array-support",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/assert-has-generator-support",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/assert-has-own-property",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/assert-has-symbol-support",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/assert-has-tostringtag-support",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/assert-has-uint16array-support",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/assert-has-uint32array-support",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/assert-has-uint8array-support",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/assert-is-array",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/assert-is-big-endian",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/assert-is-boolean",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/assert-is-buffer",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/assert-is-float32array",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/assert-is-float64array",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/assert-is-function",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/assert-is-little-endian",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/assert-is-number",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/assert-is-object",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/assert-is-object-like",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/assert-is-plain-object",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/assert-is-regexp",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/assert-is-string",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/assert-is-uint16array",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/assert-is-uint32array",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/assert-is-uint8array",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/assert-tools-array-function",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/boolean-ctor",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/complex-float32",
+      "version": "0.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/complex-float32-ctor",
+      "version": "0.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/complex-float32-reim",
+      "version": "0.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/complex-float64",
+      "version": "0.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/complex-float64-ctor",
+      "version": "0.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/complex-float64-reim",
+      "version": "0.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/complex-reim",
+      "version": "0.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/complex-reimf",
+      "version": "0.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float32-max",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float32-smallest-normal",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float64-e",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float64-eps",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float64-eulergamma",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float64-exponent-bias",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float64-fourth-pi",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float64-gamma-lanczos-g",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float64-half-ln-two",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float64-half-pi",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float64-high-word-abs-mask",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float64-high-word-exponent-mask",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float64-high-word-sign-mask",
+      "version": "0.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float64-high-word-significand-mask",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float64-ln-sqrt-two-pi",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float64-ln-two",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float64-max",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float64-max-base2-exponent",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float64-max-base2-exponent-subnormal",
+      "version": "0.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float64-max-ln",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float64-max-safe-integer",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float64-max-safe-nth-factorial",
+      "version": "0.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float64-min-base2-exponent",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float64-min-base2-exponent-subnormal",
+      "version": "0.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float64-min-ln",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float64-ninf",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float64-pi",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float64-pinf",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float64-smallest-normal",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float64-smallest-subnormal",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float64-sqrt-eps",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float64-sqrt-two",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float64-sqrt-two-pi",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-float64-two-pi",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-int32-max",
+      "version": "0.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-int32-max",
+      "version": "0.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-uint16-max",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-uint32-max",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/constants-uint8-max",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/error-tools-fmtprodmsg",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/fs-exists",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/fs-resolve-parent-path",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/function-ctor",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-assert-is-even",
+      "version": "0.2.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-assert-is-infinite",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-assert-is-integer",
+      "version": "0.2.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-assert-is-nan",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-assert-is-negative-zero",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-assert-is-odd",
+      "version": "0.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-assert-is-odd",
+      "version": "0.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-assert-is-positive-zero",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-napi-binary",
+      "version": "0.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-napi-binary",
+      "version": "0.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-napi-unary",
+      "version": "0.2.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-abs",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-acos",
+      "version": "0.2.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-asin",
+      "version": "0.2.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-beta",
+      "version": "0.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-beta",
+      "version": "0.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-betainc",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-binomcoef",
+      "version": "0.2.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-ceil",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-copysign",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-cos",
+      "version": "0.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-erfc",
+      "version": "0.2.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-erfcinv",
+      "version": "0.2.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-exp",
+      "version": "0.2.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-expm1",
+      "version": "0.2.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-factorial",
+      "version": "0.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-factorial",
+      "version": "0.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-floor",
+      "version": "0.2.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-fmod",
+      "version": "0.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-gamma",
+      "version": "0.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-gamma",
+      "version": "0.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-gamma-delta-ratio",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-gamma-lanczos-sum",
+      "version": "0.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-gamma-lanczos-sum-expg-scaled",
+      "version": "0.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-gamma1pm1",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-gammainc",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-gammaincinv",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-gammaln",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-gcd",
+      "version": "0.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-kernel-betainc",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-kernel-betaincinv",
+      "version": "0.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-kernel-cos",
+      "version": "0.2.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-kernel-sin",
+      "version": "0.2.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-ldexp",
+      "version": "0.2.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-ln",
+      "version": "0.2.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-log1p",
+      "version": "0.2.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-log1pmx",
+      "version": "0.2.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-max",
+      "version": "0.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-max",
+      "version": "0.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-maxabs",
+      "version": "0.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-min",
+      "version": "0.2.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-minabs",
+      "version": "0.2.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-pow",
+      "version": "0.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-pow",
+      "version": "0.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-powm1",
+      "version": "0.3.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-rempio2",
+      "version": "0.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-round",
+      "version": "0.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-signum",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-sin",
+      "version": "0.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-sinpi",
+      "version": "0.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-sqrt",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-special-trunc",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-tools-continued-fraction",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-tools-evalpoly",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/math-base-tools-sum-series",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/number-ctor",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/number-float32-base-to-word",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/number-float64-base-exponent",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/number-float64-base-from-words",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/number-float64-base-get-high-word",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/number-float64-base-get-low-word",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/number-float64-base-normalize",
+      "version": "0.2.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/number-float64-base-set-high-word",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/number-float64-base-set-low-word",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/number-float64-base-to-float32",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/number-float64-base-to-words",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/number-uint32-base-to-int32",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/object-ctor",
+      "version": "0.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/os-byte-order",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/os-float-word-order",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/process-cwd",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/regexp-extended-length-path",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/regexp-function-name",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/stats-base-dists-t-quantile",
+      "version": "0.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/string-base-format-interpolate",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/string-base-format-tokenize",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/string-base-lowercase",
+      "version": "0.4.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/string-base-replace",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/string-format",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/string-replace",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/symbol-ctor",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/utils-constant-function",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/utils-constructor-name",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/utils-convert-path",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/utils-define-nonenumerable-read-only-property",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/utils-define-property",
+      "version": "0.2.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/utils-escape-regexp-string",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/utils-eval",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/utils-get-prototype-of",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/utils-global",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/utils-library-manifest",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/utils-native-class",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@stdlib/utils-type-of",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@tootallnate/quickjs-emscripten",
+      "version": "0.23.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@turf/boolean-clockwise",
+      "version": "6.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@turf/clone",
+      "version": "6.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@turf/flatten",
+      "version": "6.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@turf/helpers",
+      "version": "6.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@turf/invariant",
+      "version": "6.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@turf/meta",
+      "version": "3.14.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@turf/meta",
+      "version": "6.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@turf/rewind",
+      "version": "6.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/node",
+      "version": "22.13.17",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/yauzl",
+      "version": "2.10.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@visactor/calculator",
+      "version": "2.0.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@visactor/chart-advisor",
+      "version": "2.0.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@visactor/vchart",
+      "version": "1.13.8",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@visactor/vchart-theme",
+      "version": "1.12.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@visactor/vdataset",
+      "version": "0.19.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@visactor/vgrammar-coordinate",
+      "version": "0.16.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@visactor/vgrammar-core",
+      "version": "0.16.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@visactor/vgrammar-hierarchy",
+      "version": "0.16.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@visactor/vgrammar-projection",
+      "version": "0.16.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@visactor/vgrammar-sankey",
+      "version": "0.16.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@visactor/vgrammar-util",
+      "version": "0.16.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@visactor/vgrammar-venn",
+      "version": "0.16.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@visactor/vgrammar-wordcloud",
+      "version": "0.16.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@visactor/vgrammar-wordcloud-shape",
+      "version": "0.16.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@visactor/vmind",
+      "version": "2.0.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@visactor/vrender-components",
+      "version": "0.22.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@visactor/vrender-core",
+      "version": "0.22.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@visactor/vrender-kits",
+      "version": "0.22.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@visactor/vscale",
+      "version": "0.19.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@visactor/vutils",
+      "version": "0.19.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@visactor/vutils-extension",
+      "version": "1.13.8",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "abs-svg-path",
+      "version": "0.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-python",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/stale",
+      "version": "9",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "agent-base",
+      "version": "7.1.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "alasql",
+      "version": "4.3.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ansi-regex",
+      "version": "5.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ansi-styles",
+      "version": "4.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "argparse",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "array-bounds",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "array-normalize",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "array-source",
+      "version": "0.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ast-types",
+      "version": "0.13.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "asynckit",
+      "version": "0.4.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "axios",
+      "version": "1.8.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "b4a",
+      "version": "1.6.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bare-events",
+      "version": "2.5.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bare-fs",
+      "version": "4.1.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bare-os",
+      "version": "3.6.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bare-path",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bare-stream",
+      "version": "2.6.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "basic-ftp",
+      "version": "5.0.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bayesian-changepoint",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "big-integer",
+      "version": "1.6.52",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "buffer-crc32",
+      "version": "0.2.13",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "buffer-from",
+      "version": "1.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "call-bind-apply-helpers",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "callsites",
+      "version": "3.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "chart_visualization",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "chromium-bidi",
+      "version": "5.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cliui",
+      "version": "7.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cliui",
+      "version": "8.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "color-convert",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "color-name",
+      "version": "1.1.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "combined-stream",
+      "version": "1.0.8",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "commander",
+      "version": "2.20.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "concat-stream",
+      "version": "1.4.11",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "concat-stream",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "core-util-is",
+      "version": "1.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cosmiconfig",
+      "version": "9.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cross-fetch",
+      "version": "4.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-array",
+      "version": "1.2.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-dsv",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-geo",
+      "version": "1.12.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-hexbin",
+      "version": "0.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d3-hierarchy",
+      "version": "3.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "data-uri-to-buffer",
+      "version": "6.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dayjs",
+      "version": "1.11.13",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "debug",
+      "version": "2.6.9",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "debug",
+      "version": "4.4.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "degenerator",
+      "version": "5.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "delayed-stream",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "density-clustering",
+      "version": "1.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "devtools-protocol",
+      "version": "0.0.1439962",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dunder-proto",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "emoji-regex",
+      "version": "8.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "end-of-stream",
+      "version": "1.4.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "env-paths",
+      "version": "2.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "error-ex",
+      "version": "1.3.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "es-define-property",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "es-errors",
+      "version": "1.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "es-object-atoms",
+      "version": "1.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "es-set-tostringtag",
+      "version": "2.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "escalade",
+      "version": "3.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "escodegen",
+      "version": "2.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "esprima",
+      "version": "4.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "estraverse",
+      "version": "5.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "esutils",
+      "version": "2.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "euclidean-distance",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "eventemitter3",
+      "version": "4.0.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "extract-zip",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fast-fifo",
+      "version": "1.3.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fd-slicer",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "file-source",
+      "version": "0.6.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "follow-redirects",
+      "version": "1.15.9",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "form-data",
+      "version": "4.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "function-bind",
+      "version": "1.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "geobuf",
+      "version": "3.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "geojson-dissolve",
+      "version": "3.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "geojson-flatten",
+      "version": "0.2.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "geojson-linestring-dissolve",
+      "version": "0.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "get-caller-file",
+      "version": "2.0.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "get-intrinsic",
+      "version": "1.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "get-proto",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "get-stdin",
+      "version": "6.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "get-stdin",
+      "version": "9.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "get-stream",
+      "version": "5.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "get-uri",
+      "version": "6.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gifuct-js",
+      "version": "2.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gopd",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "has-symbols",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "has-tostringtag",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hasown",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "http-proxy-agent",
+      "version": "7.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "https-proxy-agent",
+      "version": "7.0.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "iconv-lite",
+      "version": "0.4.24",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ieee754",
+      "version": "1.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "import-fresh",
+      "version": "3.3.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "inherits",
+      "version": "2.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ip-address",
+      "version": "9.0.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-arrayish",
+      "version": "0.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-core-module",
+      "version": "2.16.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-fullwidth-code-point",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "isarray",
+      "version": "0.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "js-binary-schema-parser",
+      "version": "2.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "js-tokens",
+      "version": "4.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "js-yaml",
+      "version": "4.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jsbn",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "json-parse-even-better-errors",
+      "version": "2.3.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "json5",
+      "version": "2.2.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jsonrepair",
+      "version": "3.8.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jstat",
+      "version": "1.9.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lines-and-columns",
+      "version": "1.2.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lottie-web",
+      "version": "5.12.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lru-cache",
+      "version": "7.18.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "math-intrinsics",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mime-db",
+      "version": "1.52.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mime-types",
+      "version": "2.1.35",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "minimist",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "minimist",
+      "version": "1.2.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mitt",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ms",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ms",
+      "version": "2.1.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "netmask",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "node-fetch",
+      "version": "2.7.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "node-sql-parser",
+      "version": "4.17.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "once",
+      "version": "1.4.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pac-proxy-agent",
+      "version": "7.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pac-resolver",
+      "version": "7.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "parent-module",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "parse-json",
+      "version": "5.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "parse-svg-path",
+      "version": "0.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "path-browserify",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "path-data-parser",
+      "version": "0.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "path-parse",
+      "version": "1.0.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "path-source",
+      "version": "0.1.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pbf",
+      "version": "3.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pend",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "picocolors",
+      "version": "1.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "point-at-length",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "points-on-curve",
+      "version": "0.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "points-on-path",
+      "version": "0.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "progress",
+      "version": "2.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "protocol-buffers-schema",
+      "version": "3.6.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "proxy-agent",
+      "version": "6.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "proxy-from-env",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pump",
+      "version": "3.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "puppeteer",
+      "version": "24.9.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "puppeteer-core",
+      "version": "24.9.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "readable-stream",
+      "version": "1.1.14",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "readable-stream",
+      "version": "3.6.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "require-directory",
+      "version": "2.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "resolve",
+      "version": "1.22.10",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "resolve-from",
+      "version": "4.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "resolve-protobuf-schema",
+      "version": "2.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rickstaa/top-issues-action",
+      "version": "1.3.101",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "roughjs",
+      "version": "4.5.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rw",
+      "version": "1.3.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "safe-buffer",
+      "version": "5.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "safer-buffer",
+      "version": "2.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "semver",
+      "version": "7.7.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "shapefile",
+      "version": "0.6.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "simple-statistics",
+      "version": "7.8.8",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "simplify-geojson",
+      "version": "1.0.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "simplify-geometry",
+      "version": "0.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "slice-source",
+      "version": "0.4.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "smart-buffer",
+      "version": "4.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "socks",
+      "version": "2.8.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "socks-proxy-agent",
+      "version": "8.0.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "source-map",
+      "version": "0.6.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sprintf-js",
+      "version": "1.1.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "stream-source",
+      "version": "0.3.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "streamx",
+      "version": "2.22.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "string-similarity-js",
+      "version": "2.1.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "string-width",
+      "version": "4.2.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "string_decoder",
+      "version": "0.10.31",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "string_decoder",
+      "version": "1.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "strip-ansi",
+      "version": "6.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "supports-preserve-symlinks-flag",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tar-fs",
+      "version": "3.0.8",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tar-stream",
+      "version": "3.1.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "text-decoder",
+      "version": "1.2.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "text-encoding",
+      "version": "0.6.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "topojson-client",
+      "version": "3.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "topojson-server",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tr46",
+      "version": "0.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ts-pattern",
+      "version": "4.1.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tslib",
+      "version": "2.8.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typed-query-selector",
+      "version": "2.12.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typedarray",
+      "version": "0.0.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typescript",
+      "version": "5.8.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "undici-types",
+      "version": "6.20.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "util-deprecate",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "webidl-conversions",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "whatwg-url",
+      "version": "5.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wrap-ansi",
+      "version": "7.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wrappy",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ws",
+      "version": "8.18.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "y18n",
+      "version": "5.0.8",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "yargs",
+      "version": "16.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "yargs",
+      "version": "17.7.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "yargs-parser",
+      "version": "20.2.9",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "yargs-parser",
+      "version": "21.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "yauzl",
+      "version": "2.10.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zod",
+      "version": "3.25.20",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@babel/code-frame"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@babel/helper-validator-identifier"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@puppeteer/browsers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@resvg/resvg-js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@resvg/resvg-js-darwin-arm64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/array-base-filled"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/array-base-zeros"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/array-float32"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/array-float64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/array-uint16"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/array-uint32"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/array-uint8"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/assert-has-float32array-support"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/assert-has-float64array-support"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/assert-has-generator-support"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/assert-has-own-property"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/assert-has-symbol-support"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/assert-has-tostringtag-support"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/assert-has-uint16array-support"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/assert-has-uint32array-support"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/assert-has-uint8array-support"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/assert-is-array"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/assert-is-big-endian"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/assert-is-boolean"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/assert-is-buffer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/assert-is-float32array"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/assert-is-float64array"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/assert-is-function"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/assert-is-little-endian"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/assert-is-number"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/assert-is-object"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/assert-is-object-like"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/assert-is-plain-object"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/assert-is-regexp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/assert-is-string"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/assert-is-uint16array"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/assert-is-uint32array"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/assert-is-uint8array"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/assert-tools-array-function"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/boolean-ctor"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/complex-float32"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/complex-float32-ctor"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/complex-float32-reim"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/complex-float64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/complex-float64-ctor"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/complex-float64-reim"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/complex-reim"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/complex-reimf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float32-max"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float32-smallest-normal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float64-e"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float64-eps"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float64-eulergamma"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float64-exponent-bias"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float64-fourth-pi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float64-gamma-lanczos-g"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float64-half-ln-two"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float64-half-pi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float64-high-word-abs-mask"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float64-high-word-exponent-mask"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float64-high-word-sign-mask"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float64-high-word-significand-mask"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float64-ln-sqrt-two-pi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float64-ln-two"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float64-max"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float64-max-base2-exponent"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float64-max-base2-exponent-subnormal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float64-max-ln"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float64-max-safe-integer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float64-max-safe-nth-factorial"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float64-min-base2-exponent"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float64-min-base2-exponent-subnormal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float64-min-ln"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float64-ninf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float64-pi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float64-pinf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float64-smallest-normal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float64-smallest-subnormal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float64-sqrt-eps"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float64-sqrt-two"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float64-sqrt-two-pi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-float64-two-pi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-int32-max"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-int32-max"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-uint16-max"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-uint32-max"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/constants-uint8-max"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/error-tools-fmtprodmsg"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/fs-exists"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/fs-resolve-parent-path"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/function-ctor"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-assert-is-even"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-assert-is-infinite"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-assert-is-integer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-assert-is-nan"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-assert-is-negative-zero"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-assert-is-odd"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-assert-is-odd"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-assert-is-positive-zero"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-napi-binary"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-napi-binary"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-napi-unary"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-abs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-acos"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-asin"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-beta"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-beta"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-betainc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-binomcoef"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-ceil"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-copysign"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-cos"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-erfc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-erfcinv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-exp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-expm1"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-factorial"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-factorial"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-floor"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-fmod"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-gamma"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-gamma"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-gamma-delta-ratio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-gamma-lanczos-sum"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-gamma-lanczos-sum-expg-scaled"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-gamma1pm1"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-gammainc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-gammaincinv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-gammaln"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-gcd"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-kernel-betainc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-kernel-betaincinv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-kernel-cos"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-kernel-sin"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-ldexp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-ln"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-log1p"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-log1pmx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-max"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-max"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-maxabs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-min"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-minabs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-pow"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-pow"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-powm1"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-rempio2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-round"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-signum"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-sin"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-sinpi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-sqrt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-special-trunc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-tools-continued-fraction"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-tools-evalpoly"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/math-base-tools-sum-series"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/number-ctor"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/number-float32-base-to-word"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/number-float64-base-exponent"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/number-float64-base-from-words"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/number-float64-base-get-high-word"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/number-float64-base-get-low-word"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/number-float64-base-normalize"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/number-float64-base-set-high-word"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/number-float64-base-set-low-word"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/number-float64-base-to-float32"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/number-float64-base-to-words"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/number-uint32-base-to-int32"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/object-ctor"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/os-byte-order"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/os-float-word-order"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/process-cwd"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/regexp-extended-length-path"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/regexp-function-name"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/stats-base-dists-t-quantile"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/string-base-format-interpolate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/string-base-format-tokenize"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/string-base-lowercase"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/string-base-replace"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/string-format"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/string-replace"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/symbol-ctor"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/utils-constant-function"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/utils-constructor-name"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/utils-convert-path"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/utils-define-nonenumerable-read-only-property"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/utils-define-property"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/utils-escape-regexp-string"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/utils-eval"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/utils-get-prototype-of"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/utils-global"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/utils-library-manifest"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/utils-native-class"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@stdlib/utils-type-of"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@tootallnate/quickjs-emscripten"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@turf/boolean-clockwise"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@turf/clone"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@turf/flatten"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@turf/helpers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@turf/invariant"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@turf/meta"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@turf/meta"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@turf/rewind"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@types/node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@types/yauzl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@visactor/calculator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@visactor/chart-advisor"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@visactor/vchart"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@visactor/vchart-theme"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@visactor/vdataset"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@visactor/vgrammar-coordinate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@visactor/vgrammar-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@visactor/vgrammar-hierarchy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@visactor/vgrammar-projection"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@visactor/vgrammar-sankey"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@visactor/vgrammar-util"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@visactor/vgrammar-venn"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@visactor/vgrammar-wordcloud"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@visactor/vgrammar-wordcloud-shape"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@visactor/vmind"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@visactor/vrender-components"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@visactor/vrender-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@visactor/vrender-kits"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@visactor/vscale"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@visactor/vutils"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "@visactor/vutils-extension"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "abs-svg-path"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "actions/stale"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "agent-base"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "alasql"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "ansi-regex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "ansi-styles"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "argparse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "array-bounds"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "array-normalize"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "array-source"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "ast-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "asynckit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "axios"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "b4a"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "bare-events"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "bare-fs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "bare-os"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "bare-path"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "bare-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "basic-ftp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "bayesian-changepoint"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "big-integer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "buffer-crc32"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "buffer-from"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "call-bind-apply-helpers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "callsites"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "chart_visualization"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "chromium-bidi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "cliui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "cliui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "color-convert"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "color-name"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "combined-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "commander"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "concat-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "concat-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "core-util-is"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "cosmiconfig"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "cross-fetch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "d3-array"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "d3-dsv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "d3-geo"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "d3-hexbin"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "d3-hierarchy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "data-uri-to-buffer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "dayjs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "debug"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "debug"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "degenerator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "delayed-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "density-clustering"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "devtools-protocol"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "dunder-proto"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "emoji-regex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "end-of-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "env-paths"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "error-ex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "es-define-property"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "es-errors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "es-object-atoms"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "es-set-tostringtag"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "escalade"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "escodegen"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "esprima"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "estraverse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "esutils"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "euclidean-distance"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "eventemitter3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "extract-zip"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "fast-fifo"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "fd-slicer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "file-source"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "follow-redirects"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "form-data"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "function-bind"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "geobuf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "geojson-dissolve"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "geojson-flatten"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "geojson-linestring-dissolve"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "get-caller-file"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "get-intrinsic"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "get-proto"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "get-stdin"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "get-stdin"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "get-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "get-uri"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "gifuct-js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "gopd"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "has-symbols"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "has-tostringtag"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "hasown"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "http-proxy-agent"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "https-proxy-agent"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "iconv-lite"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "ieee754"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "import-fresh"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "inherits"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "ip-address"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "is-arrayish"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "is-core-module"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "is-fullwidth-code-point"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "isarray"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "js-binary-schema-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "js-tokens"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "js-yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "jsbn"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "json-parse-even-better-errors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "json5"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "jsonrepair"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "jstat"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "lines-and-columns"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "lottie-web"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "lru-cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "math-intrinsics"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "mime-db"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "mime-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "minimist"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "minimist"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "mitt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "ms"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "ms"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "netmask"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "node-fetch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "node-sql-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "once"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "pac-proxy-agent"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "pac-resolver"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "parent-module"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "parse-json"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "parse-svg-path"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "path-browserify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "path-data-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "path-parse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "path-source"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "pbf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "pend"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "picocolors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "point-at-length"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "points-on-curve"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "points-on-path"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "progress"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "protocol-buffers-schema"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "proxy-agent"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "proxy-from-env"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "pump"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "puppeteer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "puppeteer-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "readable-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "readable-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "require-directory"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "resolve"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "resolve-from"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "resolve-protobuf-schema"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "rickstaa/top-issues-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "roughjs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "rw"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "safe-buffer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "safer-buffer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "semver"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "shapefile"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "simple-statistics"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "simplify-geojson"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "simplify-geometry"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "slice-source"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "smart-buffer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "socks"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "socks-proxy-agent"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "source-map"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "sprintf-js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "stream-source"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "streamx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "string-similarity-js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "string-width"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "string_decoder"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "string_decoder"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "strip-ansi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "supports-preserve-symlinks-flag"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "tar-fs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "tar-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "text-decoder"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "text-encoding"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "topojson-client"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "topojson-server"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "tr46"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "ts-pattern"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "tslib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "typed-query-selector"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "typedarray"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "typescript"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "undici-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "util-deprecate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "webidl-conversions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "whatwg-url"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "wrap-ansi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "wrappy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "ws"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "y18n"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "yargs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "yargs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "yargs-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "yargs-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "yauzl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-OpenManus",
+      "child": "zod"
+    }
+  ]
+}

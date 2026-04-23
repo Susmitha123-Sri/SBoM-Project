@@ -1,0 +1,108 @@
+{
+  "scan_id": "airbnb-javascript",
+  "timestamp": "2026-03-20T00:24:18.777652",
+  "target": "https://github.com/airbnb/javascript",
+  "summary": {
+    "total_packages": 6,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "codecov/codecov-action",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ljharb/actions/node/install",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ljharb/actions/node/matrix",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ljharb/rebase",
+      "version": "master",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ljharb/require-allow-edits",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "airbnb-javascript",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "airbnb-javascript",
+      "child": "codecov/codecov-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "airbnb-javascript",
+      "child": "ljharb/actions/node/install"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "airbnb-javascript",
+      "child": "ljharb/actions/node/matrix"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "airbnb-javascript",
+      "child": "ljharb/rebase"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "airbnb-javascript",
+      "child": "ljharb/require-allow-edits"
+    }
+  ]
+}

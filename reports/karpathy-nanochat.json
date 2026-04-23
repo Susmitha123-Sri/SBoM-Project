@@ -1,0 +1,2013 @@
+{
+  "scan_id": "karpathy-nanochat",
+  "timestamp": "2026-03-20T05:06:39.481835",
+  "target": "https://github.com/karpathy/nanochat",
+  "summary": {
+    "total_packages": 133,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "aiohappyeyeballs",
+      "version": "2.6.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.6.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "aiohttp",
+      "version": "3.12.15",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.13.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aiosignal",
+      "version": "1.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "annotated-types",
+      "version": "0.7.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "anyio",
+      "version": "4.10.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.12.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "appnope",
+      "version": "0.1.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.1.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "asttokens",
+      "version": "3.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "async-timeout",
+      "version": "5.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.0.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "attrs",
+      "version": "25.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "26.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "certifi",
+      "version": "2025.8.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2026.2.25",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cffi",
+      "version": "2.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "charset-normalizer",
+      "version": "3.4.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.4.6",
+      "version_status": "outdated"
+    },
+    {
+      "package": "click",
+      "version": "8.2.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8.3.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "colorama",
+      "version": "0.4.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.6",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "comm",
+      "version": "0.2.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.2.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "contourpy",
+      "version": "1.3.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "contourpy",
+      "version": "1.3.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "cycler",
+      "version": "0.12.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.12.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "datasets",
+      "version": "4.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.8.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "debugpy",
+      "version": "1.8.19",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.8.20",
+      "version_status": "outdated"
+    },
+    {
+      "package": "decorator",
+      "version": "5.2.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.2.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "dill",
+      "version": "0.3.8",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "exceptiongroup",
+      "version": "1.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "executing",
+      "version": "2.2.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.2.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "fastapi",
+      "version": "0.117.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.135.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "filelock",
+      "version": "3.19.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.25.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fonttools",
+      "version": "4.61.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.62.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "frozenlist",
+      "version": "1.7.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.8.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fsspec",
+      "version": "2025.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2026.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gitdb",
+      "version": "4.0.12",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.12",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "gitpython",
+      "version": "3.1.45",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.1.46",
+      "version_status": "outdated"
+    },
+    {
+      "package": "h11",
+      "version": "0.16.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.16.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "hf-xet",
+      "version": "1.1.9",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "huggingface-hub",
+      "version": "0.34.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.7.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "idna",
+      "version": "3.10",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.11",
+      "version_status": "outdated"
+    },
+    {
+      "package": "iniconfig",
+      "version": "2.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ipykernel",
+      "version": "7.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ipython",
+      "version": "8.37.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.11.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ipython",
+      "version": "9.8.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.11.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ipython-pygments-lexers",
+      "version": "1.1.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.1.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jedi",
+      "version": "0.19.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.19.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jinja2",
+      "version": "3.1.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.1.6",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jupyter-client",
+      "version": "8.7.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8.8.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jupyter-core",
+      "version": "5.9.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.9.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "kernels",
+      "version": "0.11.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.12.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "kiwisolver",
+      "version": "1.4.9",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.5.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "markupsafe",
+      "version": "3.0.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "matplotlib",
+      "version": "3.10.8",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.10.8",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "matplotlib-inline",
+      "version": "0.2.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.2.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mpmath",
+      "version": "1.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "multidict",
+      "version": "6.6.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.7.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "multiprocess",
+      "version": "0.70.16",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.70.19",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nanochat",
+      "version": "0.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.1.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nest-asyncio",
+      "version": "1.6.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.6.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "networkx",
+      "version": "3.4.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.6.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "networkx",
+      "version": "3.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.6.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "numpy",
+      "version": "1.26.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cublas-cu12",
+      "version": "12.8.4.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.9.1.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cuda-cupti-cu12",
+      "version": "12.8.90",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.9.79",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cuda-nvrtc-cu12",
+      "version": "12.8.93",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.9.86",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cuda-runtime-cu12",
+      "version": "12.8.90",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.9.79",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cudnn-cu12",
+      "version": "9.10.2.21",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.20.0.48",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cufft-cu12",
+      "version": "11.3.3.83",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "11.4.1.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cufile-cu12",
+      "version": "1.13.1.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.14.1.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-curand-cu12",
+      "version": "10.3.9.90",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "10.3.10.19",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cusolver-cu12",
+      "version": "11.7.3.90",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "11.7.5.82",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cusparse-cu12",
+      "version": "12.5.8.93",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.5.10.65",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cusparselt-cu12",
+      "version": "0.7.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.8.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-nccl-cu12",
+      "version": "2.27.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.29.7",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-nvjitlink-cu12",
+      "version": "12.8.93",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.9.86",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-nvshmem-cu12",
+      "version": "3.3.20",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.5.21",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-nvtx-cu12",
+      "version": "12.8.90",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.9.79",
+      "version_status": "outdated"
+    },
+    {
+      "package": "packaging",
+      "version": "25.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "26.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pandas",
+      "version": "2.3.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "parso",
+      "version": "0.8.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.8.6",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pexpect",
+      "version": "4.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.9.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pillow",
+      "version": "12.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.1.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "platformdirs",
+      "version": "4.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.9.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pluggy",
+      "version": "1.6.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.6.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "prompt-toolkit",
+      "version": "3.0.52",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.52",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "propcache",
+      "version": "0.3.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "protobuf",
+      "version": "6.32.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.34.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "psutil",
+      "version": "7.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.2.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ptyprocess",
+      "version": "0.7.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pure-eval",
+      "version": "0.2.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.2.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyarrow",
+      "version": "21.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "23.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pycparser",
+      "version": "2.23",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pydantic",
+      "version": "2.11.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.12.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pydantic-core",
+      "version": "2.33.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.42.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pygments",
+      "version": "2.19.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.19.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyparsing",
+      "version": "3.3.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.3.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytest",
+      "version": "8.4.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "python-dateutil",
+      "version": "2.9.0.post0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.9.0.post0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "python-dotenv",
+      "version": "1.2.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytz",
+      "version": "2025.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2026.1.post1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pyyaml",
+      "version": "6.0.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pyzmq",
+      "version": "27.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "27.1.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "regex",
+      "version": "2025.9.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2026.2.28",
+      "version_status": "outdated"
+    },
+    {
+      "package": "requests",
+      "version": "2.32.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.32.5",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "rustbpe",
+      "version": "0.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.1.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "safetensors",
+      "version": "0.7.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "scipy",
+      "version": "1.15.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.17.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "scipy",
+      "version": "1.16.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.17.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sentry-sdk",
+      "version": "2.35.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.55.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "setuptools",
+      "version": "80.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "82.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "six",
+      "version": "1.17.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.17.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "smmap",
+      "version": "5.0.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.0.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sniffio",
+      "version": "1.3.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "stack-data",
+      "version": "0.6.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "starlette",
+      "version": "0.48.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.52.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sympy",
+      "version": "1.14.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.14.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tabulate",
+      "version": "0.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.10.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tiktoken",
+      "version": "0.11.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.12.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tokenizers",
+      "version": "0.22.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.22.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tomli",
+      "version": "2.2.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "torch",
+      "version": "2.9.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.10.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "torch",
+      "version": "2.9.1+cpu",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.10.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "torch",
+      "version": "2.9.1+cu128",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.10.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tornado",
+      "version": "6.5.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.5.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tqdm",
+      "version": "4.67.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.67.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "traitlets",
+      "version": "5.14.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.14.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "transformers",
+      "version": "4.57.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "triton",
+      "version": "3.5.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.6.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typing-extensions",
+      "version": "4.15.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.15.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "typing-inspection",
+      "version": "0.4.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tzdata",
+      "version": "2025.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2025.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "urllib3",
+      "version": "2.5.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.6.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "uvicorn",
+      "version": "0.36.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.42.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wandb",
+      "version": "0.21.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.25.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wcwidth",
+      "version": "0.2.14",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "xxhash",
+      "version": "3.5.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.6.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "yarl",
+      "version": "1.20.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.23.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zstandard",
+      "version": "0.25.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.25.0",
+      "version_status": "up_to_date"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "aiohappyeyeballs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "aiohttp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "aiosignal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "annotated-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "anyio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "appnope"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "asttokens"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "async-timeout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "attrs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "certifi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "cffi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "charset-normalizer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "click"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "colorama"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "comm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "contourpy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "contourpy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "cycler"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "datasets"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "debugpy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "decorator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "dill"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "exceptiongroup"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "executing"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "fastapi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "filelock"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "fonttools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "frozenlist"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "fsspec"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "gitdb"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "gitpython"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "h11"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "hf-xet"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "huggingface-hub"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "idna"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "iniconfig"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "ipykernel"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "ipython"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "ipython"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "ipython-pygments-lexers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "jedi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "jinja2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "jupyter-client"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "jupyter-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "kernels"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "kiwisolver"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "markupsafe"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "matplotlib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "matplotlib-inline"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "mpmath"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "multidict"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "multiprocess"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "nanochat"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "nest-asyncio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "networkx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "networkx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "numpy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "nvidia-cublas-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "nvidia-cuda-cupti-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "nvidia-cuda-nvrtc-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "nvidia-cuda-runtime-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "nvidia-cudnn-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "nvidia-cufft-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "nvidia-cufile-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "nvidia-curand-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "nvidia-cusolver-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "nvidia-cusparse-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "nvidia-cusparselt-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "nvidia-nccl-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "nvidia-nvjitlink-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "nvidia-nvshmem-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "nvidia-nvtx-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "packaging"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "pandas"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "parso"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "pexpect"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "pillow"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "platformdirs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "pluggy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "prompt-toolkit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "propcache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "protobuf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "psutil"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "ptyprocess"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "pure-eval"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "pyarrow"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "pycparser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "pydantic"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "pydantic-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "pygments"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "pyparsing"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "pytest"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "python-dateutil"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "python-dotenv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "pytz"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "pyyaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "pyzmq"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "regex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "requests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "rustbpe"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "safetensors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "scipy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "scipy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "sentry-sdk"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "setuptools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "six"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "smmap"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "sniffio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "stack-data"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "starlette"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "sympy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "tabulate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "tiktoken"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "tokenizers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "tomli"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "torch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "torch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "torch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "tornado"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "tqdm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "traitlets"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "transformers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "triton"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "typing-extensions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "typing-inspection"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "tzdata"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "urllib3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "uvicorn"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "wandb"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "wcwidth"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "xxhash"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "yarl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "karpathy-nanochat",
+      "child": "zstandard"
+    }
+  ]
+}

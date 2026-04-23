@@ -1,0 +1,948 @@
+{
+  "scan_id": "Textualize-rich",
+  "timestamp": "2026-03-20T03:58:58.602824",
+  "target": "https://github.com/Textualize/rich",
+  "summary": {
+    "total_packages": 62,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-python",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "alabaster",
+      "version": "1.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "appnope",
+      "version": "0.1.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.1.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "asttokens",
+      "version": "3.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "attrs",
+      "version": "21.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "26.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "backcall",
+      "version": "0.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.2.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "black",
+      "version": "22.12.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "26.3.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cfgv",
+      "version": "3.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.5.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "click",
+      "version": "8.1.8",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8.3.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "codecov/codecov-action",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "colorama",
+      "version": "0.4.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.6",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "comm",
+      "version": "0.2.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.2.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "coverage",
+      "version": "7.6.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.13.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "decorator",
+      "version": "5.2.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.2.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "distlib",
+      "version": "0.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "exceptiongroup",
+      "version": "1.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "executing",
+      "version": "2.2.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.2.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "filelock",
+      "version": "3.16.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.25.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/analyze",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/autobuild",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/init",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "identify",
+      "version": "2.6.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.6.18",
+      "version_status": "outdated"
+    },
+    {
+      "package": "iniconfig",
+      "version": "2.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ipython",
+      "version": "8.12.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.11.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ipywidgets",
+      "version": "8.1.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8.1.8",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jedi",
+      "version": "0.19.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.19.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "juliangruber/read-file-action",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jupyterlab-widgets",
+      "version": "3.0.15",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.16",
+      "version_status": "outdated"
+    },
+    {
+      "package": "markdown-it-py",
+      "version": "3.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "matplotlib-inline",
+      "version": "0.1.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.2.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mdurl",
+      "version": "0.1.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.1.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mypy",
+      "version": "1.14.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.19.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mypy-extensions",
+      "version": "1.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.1.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "nodeenv",
+      "version": "1.9.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.10.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "packaging",
+      "version": "25.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "26.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "parso",
+      "version": "0.8.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.8.6",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pathspec",
+      "version": "0.12.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "peter-evans/create-or-update-comment",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pexpect",
+      "version": "4.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.9.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pickleshare",
+      "version": "0.7.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.5",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "platformdirs",
+      "version": "4.3.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.9.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pluggy",
+      "version": "1.5.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.6.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pre-commit",
+      "version": "2.21.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.5.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "prompt-toolkit",
+      "version": "3.0.52",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.52",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "ptyprocess",
+      "version": "0.7.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pure-eval",
+      "version": "0.2.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.2.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pygments",
+      "version": "2.19.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.19.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pytest",
+      "version": "7.4.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytest-cov",
+      "version": "3.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pyyaml",
+      "version": "6.0.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "snok/install-poetry",
+      "version": "1.3.4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sphinx",
+      "version": "8.2.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sphinx-copybutton",
+      "version": "0.5.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.5.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "sphinx-rtd-theme",
+      "version": "3.0.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "stack-data",
+      "version": "0.6.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tomli",
+      "version": "2.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "traitlets",
+      "version": "5.14.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.14.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "typing-extensions",
+      "version": "4.13.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.15.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "virtualenv",
+      "version": "20.34.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "21.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wcwidth",
+      "version": "0.2.14",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "widgetsnbextension",
+      "version": "4.0.14",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.15",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "alabaster"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "appnope"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "asttokens"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "attrs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "backcall"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "black"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "cfgv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "click"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "codecov/codecov-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "colorama"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "comm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "coverage"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "decorator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "distlib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "exceptiongroup"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "executing"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "filelock"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "github/codeql-action/analyze"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "github/codeql-action/autobuild"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "github/codeql-action/init"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "identify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "iniconfig"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "ipython"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "ipywidgets"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "jedi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "juliangruber/read-file-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "jupyterlab-widgets"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "markdown-it-py"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "matplotlib-inline"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "mdurl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "mypy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "mypy-extensions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "nodeenv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "packaging"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "parso"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "pathspec"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "peter-evans/create-or-update-comment"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "pexpect"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "pickleshare"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "platformdirs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "pluggy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "pre-commit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "prompt-toolkit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "ptyprocess"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "pure-eval"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "pygments"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "pytest"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "pytest-cov"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "pyyaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "snok/install-poetry"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "sphinx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "sphinx-copybutton"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "sphinx-rtd-theme"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "stack-data"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "tomli"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "traitlets"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "typing-extensions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "virtualenv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "wcwidth"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "Textualize-rich",
+      "child": "widgetsnbextension"
+    }
+  ]
+}

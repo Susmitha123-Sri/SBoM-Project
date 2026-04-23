@@ -1,0 +1,153 @@
+{
+  "scan_id": "microsoft-PowerToys",
+  "timestamp": "2026-03-20T00:42:03.142134",
+  "target": "https://github.com/microsoft/PowerToys",
+  "summary": {
+    "total_packages": 9,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "Microsoft Edge Update Setup",
+      "version": "1.3.155.77",
+      "type": "binary",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/dependency-review-action",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-dotnet",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "azure/cli",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "azure/login",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "check-spelling/check-spelling",
+      "version": "0.0.25",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "microsoft/setup-msstore-cli",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pelikhan/action-genai-issue-dedup",
+      "version": "0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-PowerToys",
+      "child": "Microsoft Edge Update Setup"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-PowerToys",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-PowerToys",
+      "child": "actions/dependency-review-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-PowerToys",
+      "child": "actions/setup-dotnet"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-PowerToys",
+      "child": "azure/cli"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-PowerToys",
+      "child": "azure/login"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-PowerToys",
+      "child": "check-spelling/check-spelling"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-PowerToys",
+      "child": "microsoft/setup-msstore-cli"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "microsoft-PowerToys",
+      "child": "pelikhan/action-genai-issue-dedup"
+    }
+  ]
+}

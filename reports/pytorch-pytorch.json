@@ -1,0 +1,3378 @@
+{
+  "scan_id": "pytorch-pytorch",
+  "timestamp": "2026-03-20T01:09:36.073032",
+  "target": "https://github.com/pytorch/pytorch",
+  "summary": {
+    "total_packages": 224,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "./.github/actions/build-external-packages",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/check-tpu",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/chown-workspace",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/diskspace-cleanup",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/download-build-artifacts",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/download-td-artifacts",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/ecr-login",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/filter-test-configs",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/get-workflow-job-id",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/pytest-cache-download",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/pytest-cache-upload",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/reuse-old-whl",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/setup-linux",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/setup-rocm",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/setup-win",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/setup-xpu",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/teardown-rocm",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/teardown-win",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/teardown-xpu",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/test-pytorch-binary",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/upload-sccache-stats",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/upload-test-artifacts",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/upload-utilization-stats",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/_bazel-build-test.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/_binary-build-linux.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/_binary-test-linux.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/_binary-upload.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/_docs.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/_get-changed-files.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/_link_check.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/_link_check_osdc.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/_lint.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/_linux-build.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/_linux-test-stable-fa3.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/_linux-test.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/_mac-build.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/_mac-test.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/_rocm-test.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/_vllm-benchmark.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/_vllm-build.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/_win-build.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/_win-test.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/_xpu-test.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/inductor-unittest.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/job-filter.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/llm_td_retrieval.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/workflows/target_determination.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./pytorch/.github/actions/chown-workspace",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./pytorch/.github/actions/ecr-login",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./pytorch/.github/actions/filter-test-configs",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./pytorch/.github/actions/setup-linux",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./pytorch/.github/actions/test-pytorch-binary",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "4.2.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/download-artifact",
+      "version": "4.1.7",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/download-artifact",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/download-artifact",
+      "version": "4.2.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/github-script",
+      "version": "7.0.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-python",
+      "version": "5.6.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-python",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "4.4.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "4.6.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aiohttp",
+      "version": "3.13.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.13.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "anthropics/claude-code-action",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "aws-actions/amazon-ecr-login",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aws-actions/configure-aws-credentials",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aws-actions/configure-aws-credentials",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aws-actions/configure-aws-credentials",
+      "version": "4.1.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "boto3",
+      "version": "1.35.42",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.42.72",
+      "version_status": "outdated"
+    },
+    {
+      "package": "breathe",
+      "version": "4.36.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.36.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "bs4",
+      "version": "0.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build",
+      "version": "1.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "certifi",
+      "version": "2025.7.14",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2026.2.25",
+      "version_status": "outdated"
+    },
+    {
+      "package": "charset-normalizer",
+      "version": "3.4.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.4.6",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cmake",
+      "version": "3.31.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.2.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "coremltools",
+      "version": "5.0b5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "coremltools",
+      "version": "8.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dataclasses-json",
+      "version": "0.6.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.7",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "dill",
+      "version": "0.3.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/login-action",
+      "version": "3.4.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/setup-buildx-action",
+      "version": "3.10.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/setup-qemu-action",
+      "version": "3.6.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docutils",
+      "version": "0.20",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.22.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ethanis/nitpicker",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.7",
+      "version_status": "outdated"
+    },
+    {
+      "package": "exhale",
+      "version": "0.3.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.3.7",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "expecttest",
+      "version": "0.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.3.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "fbscribelogger",
+      "version": "0.1.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.1.7",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "filelock",
+      "version": "3.20.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.25.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flatbuffers",
+      "version": "24.12.23",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "25.12.19",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ghstack",
+      "version": "0.8.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.14.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/upload-sarif",
+      "version": "1.0.26",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gradle-wrapper",
+      "version": "4.10.3",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hypothesis",
+      "version": "6.56.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.151.9",
+      "version_status": "outdated"
+    },
+    {
+      "package": "idna",
+      "version": "3.10",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.11",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ilammy/msvc-dev-cmd",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.13.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ilammy/msvc-dev-cmd",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.13.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ipython",
+      "version": "8.12.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.11.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jax",
+      "version": "0.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.9.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jaxlib",
+      "version": "0.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.9.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jaxtyping",
+      "version": "0.3.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.3.9",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jinja2",
+      "version": "3.1.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.1.6",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "junitparser",
+      "version": "2.1.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lark",
+      "version": "0.12.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "librosa",
+      "version": "0.10.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.11.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "libtpu",
+      "version": "0.0.34",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.0.38",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lintrunner",
+      "version": "0.12.11",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.13.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lintrunner",
+      "version": "0.12.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.13.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lxml",
+      "version": "5.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lxml",
+      "version": "6.0.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "matplotlib",
+      "version": "3.5.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.10.8",
+      "version_status": "outdated"
+    },
+    {
+      "package": "matplotlib",
+      "version": "3.6.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.10.8",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mpmath",
+      "version": "1.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mypy",
+      "version": "1.16.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.19.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "myst-nb",
+      "version": "1.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "myst-parser",
+      "version": "4.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "necojackarc/auto-request-review",
+      "version": "0.7.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.13.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "networkx",
+      "version": "2.8.8",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.6.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nick-fields/retry",
+      "version": "3.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ninja",
+      "version": "1.10.0.post1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.13.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ninja",
+      "version": "1.11.1.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.13.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "numba",
+      "version": "0.57.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.64.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "numba",
+      "version": "0.60.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.64.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "numpy",
+      "version": "1.23.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "numpy",
+      "version": "1.26.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "numpy",
+      "version": "1.26.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "numpy",
+      "version": "2.1.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "numpy",
+      "version": "2.3.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cutlass-dsl",
+      "version": "4.1.0.dev0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.4.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-ml-py",
+      "version": "11.525.84",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "13.595.45",
+      "version_status": "outdated"
+    },
+    {
+      "package": "octokit/request-action",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "onnx",
+      "version": "1.20.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.20.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "onnx-ir",
+      "version": "0.1.16",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "onnxscript",
+      "version": "0.6.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "opt-einsum",
+      "version": "3.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.4.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "optree",
+      "version": "0.13.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.19.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "optree",
+      "version": "0.17.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.19.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ossf/scorecard-action",
+      "version": "2.0.3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "packaging",
+      "version": "24.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "26.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pandas",
+      "version": "2.0.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pandas",
+      "version": "2.2.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pandas",
+      "version": "2.3.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "parameterized",
+      "version": "0.8.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.9.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pillow",
+      "version": "12.1.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.1.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "protobuf",
+      "version": "6.33.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.34.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pulp",
+      "version": "2.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pwlf",
+      "version": "2.2.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.5.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pygithub",
+      "version": "2.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.8.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pygments",
+      "version": "2.15.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.19.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pyre-extensions",
+      "version": "0.0.32",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.0.32",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pytest",
+      "version": "7.3.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytest-cpp",
+      "version": "2.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.6.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytest-flakefinder",
+      "version": "1.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.1.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pytest-subtests",
+      "version": "0.13.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.15.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytest-xdist",
+      "version": "3.3.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.8.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "python-etcd",
+      "version": "0.4.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.5",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pytorch-sphinx-theme2",
+      "version": "0.4.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.6",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pytorch/pytorch/.github/actions/binary-docker-build",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytorch/pytorch/.github/actions/checkout-pytorch",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytorch/pytorch/.github/actions/diskspace-cleanup",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytorch/pytorch/.github/actions/ecr-login",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytorch/pytorch/.github/actions/setup-xpu",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytorch/pytorch/.github/workflows/_runner-determinator.yml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytorch/test-infra/.github/actions/bc-lint",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytorch/test-infra/.github/actions/calculate-docker-image",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytorch/test-infra/.github/actions/check-disk-space",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytorch/test-infra/.github/actions/checkout",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytorch/test-infra/.github/actions/pull-docker-image",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytorch/test-infra/.github/actions/setup-nvidia",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytorch/test-infra/.github/actions/setup-python",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytorch/test-infra/.github/actions/setup-ssh",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytorch/test-infra/.github/actions/setup-uv",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytorch/test-infra/.github/actions/teardown-linux",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytorch/test-infra/.github/actions/update-commit-hash",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytorch/test-infra/.github/actions/update-viablestrict",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytorch/test-infra/.github/actions/upload-benchmark-results",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytorch/test-infra/.github/actions/upload-claude-usage",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytorch/test-infra/.github/workflows/_claude-code.yml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytorch/test-infra/.github/workflows/linux_job_v2.yml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytorch/test-infra/.github/workflows/validate-docker-images.yml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pywavelets",
+      "version": "1.4.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.9.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pywavelets",
+      "version": "1.7.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.9.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pyyaml",
+      "version": "6.0.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pyyaml",
+      "version": "6.0.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "requests",
+      "version": "2.32.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.32.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rich",
+      "version": "14.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "14.3.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "scikit-build",
+      "version": "0.18.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.19.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "scikit-image",
+      "version": "0.22.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.26.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "scipy",
+      "version": "1.10.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.17.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "scipy",
+      "version": "1.14.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.17.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "scipy",
+      "version": "1.16.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.17.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "scons",
+      "version": "4.5.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.10.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "seemethere/download-artifact-s3",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "seemethere/download-artifact-s3",
+      "version": "4.2.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "seemethere/upload-artifact-s3",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "seemethere/upload-artifact-s3",
+      "version": "5.1.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "setuptools",
+      "version": "78.1.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "82.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "setuptools",
+      "version": "80.10.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "82.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "setuptools-git-versioning",
+      "version": "2.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "softprops/action-gh-release",
+      "version": "2.2.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.6.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "soxr",
+      "version": "0.5.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sphinx",
+      "version": "7.2.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sphinx-copybutton",
+      "version": "0.5.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.5.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sphinx-design",
+      "version": "0.6.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sphinx-reredirects",
+      "version": "0.1.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sphinx-sitemap",
+      "version": "2.6.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.9.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sphinxcontrib-katex",
+      "version": "0.8.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.9.11",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sphinxcontrib-mermaid",
+      "version": "1.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sphinxext-opengraph",
+      "version": "0.9.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.13.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "spin",
+      "version": "0.17",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.17",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "sympy",
+      "version": "1.12",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.14.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sympy",
+      "version": "1.13.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.14.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tabulate",
+      "version": "0.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.10.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tensorboard",
+      "version": "2.13.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.20.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tensorboard",
+      "version": "2.18.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.20.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tlparse",
+      "version": "0.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tpu-info",
+      "version": "0.7.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.10.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "transformers",
+      "version": "5.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typing-extensions",
+      "version": "4.11.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.15.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typing-extensions",
+      "version": "4.12.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.15.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typing-extensions",
+      "version": "4.15.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.15.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "urllib3",
+      "version": "2.5.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.6.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "xdoctest",
+      "version": "1.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "z3-solver",
+      "version": "4.15.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.16.0.0",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/actions/build-external-packages"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/actions/check-tpu"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/actions/chown-workspace"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/actions/diskspace-cleanup"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/actions/download-build-artifacts"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/actions/download-td-artifacts"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/actions/ecr-login"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/actions/filter-test-configs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/actions/get-workflow-job-id"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/actions/pytest-cache-download"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/actions/pytest-cache-upload"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/actions/reuse-old-whl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/actions/setup-linux"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/actions/setup-rocm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/actions/setup-win"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/actions/setup-xpu"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/actions/teardown-rocm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/actions/teardown-win"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/actions/teardown-xpu"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/actions/test-pytorch-binary"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/actions/upload-sccache-stats"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/actions/upload-test-artifacts"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/actions/upload-utilization-stats"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/workflows/_bazel-build-test.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/workflows/_binary-build-linux.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/workflows/_binary-test-linux.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/workflows/_binary-upload.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/workflows/_docs.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/workflows/_get-changed-files.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/workflows/_link_check.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/workflows/_link_check_osdc.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/workflows/_lint.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/workflows/_linux-build.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/workflows/_linux-test-stable-fa3.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/workflows/_linux-test.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/workflows/_mac-build.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/workflows/_mac-test.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/workflows/_rocm-test.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/workflows/_vllm-benchmark.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/workflows/_vllm-build.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/workflows/_win-build.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/workflows/_win-test.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/workflows/_xpu-test.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/workflows/inductor-unittest.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/workflows/job-filter.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/workflows/llm_td_retrieval.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./.github/workflows/target_determination.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./pytorch/.github/actions/chown-workspace"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./pytorch/.github/actions/ecr-login"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./pytorch/.github/actions/filter-test-configs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./pytorch/.github/actions/setup-linux"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "./pytorch/.github/actions/test-pytorch-binary"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "actions/download-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "actions/download-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "actions/download-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "actions/github-script"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "aiohttp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "anthropics/claude-code-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "aws-actions/amazon-ecr-login"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "aws-actions/configure-aws-credentials"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "aws-actions/configure-aws-credentials"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "aws-actions/configure-aws-credentials"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "boto3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "breathe"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "bs4"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "build"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "certifi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "charset-normalizer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "cmake"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "coremltools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "coremltools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "dataclasses-json"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "dill"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "docker/login-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "docker/setup-buildx-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "docker/setup-qemu-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "docutils"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "ethanis/nitpicker"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "exhale"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "expecttest"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "fbscribelogger"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "filelock"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "flatbuffers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "ghstack"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "github/codeql-action/upload-sarif"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "gradle-wrapper"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "hypothesis"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "idna"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "ilammy/msvc-dev-cmd"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "ilammy/msvc-dev-cmd"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "ipython"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "jax"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "jaxlib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "jaxtyping"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "jinja2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "junitparser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "lark"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "librosa"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "libtpu"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "lintrunner"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "lintrunner"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "lxml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "lxml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "matplotlib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "matplotlib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "mpmath"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "mypy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "myst-nb"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "myst-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "necojackarc/auto-request-review"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "networkx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "nick-fields/retry"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "ninja"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "ninja"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "numba"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "numba"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "numpy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "numpy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "numpy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "numpy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "numpy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "nvidia-cutlass-dsl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "nvidia-ml-py"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "octokit/request-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "onnx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "onnx-ir"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "onnxscript"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "opt-einsum"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "optree"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "optree"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "ossf/scorecard-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "packaging"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pandas"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pandas"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pandas"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "parameterized"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pillow"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "protobuf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pulp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pwlf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pygithub"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pygments"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pyre-extensions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pytest"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pytest-cpp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pytest-flakefinder"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pytest-subtests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pytest-xdist"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "python-etcd"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pytorch-sphinx-theme2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pytorch/pytorch/.github/actions/binary-docker-build"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pytorch/pytorch/.github/actions/checkout-pytorch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pytorch/pytorch/.github/actions/diskspace-cleanup"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pytorch/pytorch/.github/actions/ecr-login"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pytorch/pytorch/.github/actions/setup-xpu"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pytorch/pytorch/.github/workflows/_runner-determinator.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pytorch/test-infra/.github/actions/bc-lint"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pytorch/test-infra/.github/actions/calculate-docker-image"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pytorch/test-infra/.github/actions/check-disk-space"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pytorch/test-infra/.github/actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pytorch/test-infra/.github/actions/pull-docker-image"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pytorch/test-infra/.github/actions/setup-nvidia"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pytorch/test-infra/.github/actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pytorch/test-infra/.github/actions/setup-ssh"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pytorch/test-infra/.github/actions/setup-uv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pytorch/test-infra/.github/actions/teardown-linux"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pytorch/test-infra/.github/actions/update-commit-hash"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pytorch/test-infra/.github/actions/update-viablestrict"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pytorch/test-infra/.github/actions/upload-benchmark-results"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pytorch/test-infra/.github/actions/upload-claude-usage"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pytorch/test-infra/.github/workflows/_claude-code.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pytorch/test-infra/.github/workflows/linux_job_v2.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pytorch/test-infra/.github/workflows/validate-docker-images.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pywavelets"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pywavelets"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pyyaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "pyyaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "requests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "rich"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "scikit-build"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "scikit-image"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "scipy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "scipy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "scipy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "scons"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "seemethere/download-artifact-s3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "seemethere/download-artifact-s3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "seemethere/upload-artifact-s3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "seemethere/upload-artifact-s3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "setuptools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "setuptools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "setuptools-git-versioning"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "softprops/action-gh-release"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "soxr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "sphinx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "sphinx-copybutton"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "sphinx-design"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "sphinx-reredirects"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "sphinx-sitemap"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "sphinxcontrib-katex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "sphinxcontrib-mermaid"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "sphinxext-opengraph"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "spin"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "sympy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "sympy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "tabulate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "tensorboard"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "tensorboard"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "tlparse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "tpu-info"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "transformers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "typing-extensions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "typing-extensions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "typing-extensions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "urllib3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "xdoctest"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pytorch-pytorch",
+      "child": "z3-solver"
+    }
+  ]
+}

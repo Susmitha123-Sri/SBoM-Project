@@ -1,0 +1,453 @@
+{
+  "scan_id": "x64dbg-x64dbg",
+  "timestamp": "2026-03-20T05:18:47.203844",
+  "target": "https://github.com/x64dbg/x64dbg",
+  "summary": {
+    "total_packages": 29,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "AStyle",
+      "version": "UNKNOWN",
+      "type": "binary",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "AStyleHelper",
+      "version": "1.0.0.0",
+      "type": "dotnet",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/download-artifact",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "capstone",
+      "version": "5.0.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.0.7",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cmkr",
+      "version": "UNKNOWN",
+      "type": "binary",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "comtypes",
+      "version": "1.4.15",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.16",
+      "version_status": "outdated"
+    },
+    {
+      "package": "icicle-emu",
+      "version": "0.0.10",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.0.11",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ilammy/msvc-dev-cmd",
+      "version": "1.13.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jurplel/install-qt-action",
+      "version": "4.3.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lief",
+      "version": "0.16.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.17.6",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pefile",
+      "version": "2024.8.26",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2024.8.26",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyelftools",
+      "version": "0.32",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.32",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyside6",
+      "version": "6.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.10.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pyside6-addons",
+      "version": "6.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.10.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pyside6-essentials",
+      "version": "6.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.10.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "python-xlib",
+      "version": "0.33",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.33",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pywin32",
+      "version": "311",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "311",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pywinauto",
+      "version": "0.6.9",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.9",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "recommonmark",
+      "version": "0.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "remote-server",
+      "version": "0.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "shiboken6",
+      "version": "6.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.10.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "six",
+      "version": "1.17.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.17.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "sphinx",
+      "version": "1.5.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sphinx-rtd-theme",
+      "version": "0.2.5b2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "websockets",
+      "version": "15.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "16.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "x64dbg-screenreader-checks",
+      "version": "0.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "x64dbg-x64dbg",
+      "child": "AStyle"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "x64dbg-x64dbg",
+      "child": "AStyleHelper"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "x64dbg-x64dbg",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "x64dbg-x64dbg",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "x64dbg-x64dbg",
+      "child": "actions/download-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "x64dbg-x64dbg",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "x64dbg-x64dbg",
+      "child": "capstone"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "x64dbg-x64dbg",
+      "child": "cmkr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "x64dbg-x64dbg",
+      "child": "comtypes"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "x64dbg-x64dbg",
+      "child": "icicle-emu"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "x64dbg-x64dbg",
+      "child": "ilammy/msvc-dev-cmd"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "x64dbg-x64dbg",
+      "child": "jurplel/install-qt-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "x64dbg-x64dbg",
+      "child": "lief"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "x64dbg-x64dbg",
+      "child": "pefile"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "x64dbg-x64dbg",
+      "child": "pyelftools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "x64dbg-x64dbg",
+      "child": "pyside6"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "x64dbg-x64dbg",
+      "child": "pyside6-addons"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "x64dbg-x64dbg",
+      "child": "pyside6-essentials"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "x64dbg-x64dbg",
+      "child": "python-xlib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "x64dbg-x64dbg",
+      "child": "pywin32"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "x64dbg-x64dbg",
+      "child": "pywinauto"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "x64dbg-x64dbg",
+      "child": "recommonmark"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "x64dbg-x64dbg",
+      "child": "remote-server"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "x64dbg-x64dbg",
+      "child": "shiboken6"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "x64dbg-x64dbg",
+      "child": "six"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "x64dbg-x64dbg",
+      "child": "sphinx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "x64dbg-x64dbg",
+      "child": "sphinx-rtd-theme"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "x64dbg-x64dbg",
+      "child": "websockets"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "x64dbg-x64dbg",
+      "child": "x64dbg-screenreader-checks"
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<style>
+body {
+    background: #0f172a;
+    color: #e2e8f0;
+    font-family: "Inter", sans-serif;
+}
+
+.repo-wrapper {
+    padding: 35px 40px;
+}
+
+.repo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.repo-title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.repo-subtitle {
+    font-size: 14px;
+    color: #94a3b8;
+    margin-top: 5px;
+}
+
+.repo-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.search-box {
+    background: #ffffff;
+    color: #1e293b;
+    border: 1px solid #e2e8f0;
+}
+
+/* Card */
+.repo-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 20px;
+    color: #1e293b;
+}
+
+/* Table */
+.repo-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.repo-table thead {
+    background: #f1f5f9;
+}
+
+.repo-table th {
+    color: #475569;
+}
+
+.repo-table td {
+    border-top: 1px solid #e2e8f0;
+    color: #1e293b;
+}
+
+/* Hover */
+.repo-table tbody tr {
+    transition: 0.2s;
+}
+
+.repo-table tbody tr:hover {
+    background: #f8fafc;
+}
+
+/* Button */
+.monitor-btn {
+    padding: 6px 14px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #6366f1, #4f46e5);
+    border: none;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.monitor-btn:hover {
+    transform: scale(1.05);
+}
+
+/* Badge */
+.badge {
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.badge-repo {
+    background: rgba(34,197,94,0.2);
+    color: #22c55e;
+}
+
+.badge-file {
+    background: rgba(6,182,212,0.2);
+    color: #06b6d4;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+    .repo-wrapper {
+        padding: 20px;
+    }
+
+    .repo-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .search-box {
+        width: 100%;
+    }
+}
+/* Added */
+.repo-table {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+</style>
+
+<div class="repo-wrapper">
+
+    <!-- HEADER -->
+    <div class="repo-header">
+        <div>
+            <div class="repo-title">SBOM Scans</div>
+            <div class="repo-subtitle">
+                Uploaded files and scanned repositories with monitoring data
+            </div>
+        </div>
+
+        <!-- SEARCH -->
+        <div class="repo-actions">
+            <input 
+                type="text" 
+                id="searchInput"
+                class="search-box" 
+                placeholder="Search scans..."
+            >
+        </div>
+    </div>
+
+    <!-- TABLE -->
+    <div class="repo-card">
+        <table class="repo-table" id="repoTable">
+
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Scan Date</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                {% for repo in history_scans %}
+                <tr>
+                    <td>{{ loop.index }}</td>
+
+                    <td>
+                        {{ repo.target_name }}
+                    </td>
+
+                    <!-- TYPE BADGE -->
+                    <td>
+                        {% if "github.com" in repo.target_name %}
+                            <span class="badge badge-repo">🌐 Repo</span>
+                        {% else %}
+                            <span class="badge badge-file">📄 File</span>
+                        {% endif %}
+                    </td>
+
+                    <td>
+                        {{ repo.scan_timestamp }}
+                    </td>
+
+                    <td>
+                        <a href="/monitor/{{ repo.scan_id }}">
+                            <button class="monitor-btn">Monitor</button>
+                        </a>
+                    </td>
+                </tr>
+                {% endfor %}
+
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+<!-- SEARCH -->
+<script>
+const searchInput = document.getElementById("searchInput");
+const table = document.getElementById("repoTable").getElementsByTagName("tbody")[0];
+
+searchInput.addEventListener("keyup", function() {
+    let filter = this.value.toLowerCase();
+    let rows = table.getElementsByTagName("tr");
+
+    for (let i = 0; i < rows.length; i++) {
+        let name = rows[i].cells[1].innerText.toLowerCase();
+
+        if (name.includes(filter)) {
+            rows[i].style.display = "";
+        } else {
+            rows[i].style.display = "none";
+        }
+    }
+});
+</script>
+
+{% endblock %}

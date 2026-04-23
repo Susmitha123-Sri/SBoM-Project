@@ -1,0 +1,618 @@
+{
+  "scan_id": "vuejs-vue",
+  "timestamp": "2026-03-20T00:11:06.629144",
+  "target": "https://github.com/vuejs/vue",
+  "summary": {
+    "total_packages": 40,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "@babel/helper-string-parser",
+      "version": "7.23.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/helper-validator-identifier",
+      "version": "7.22.20",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/parser",
+      "version": "7.23.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/types",
+      "version": "7.23.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "master",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-node",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ansi-styles",
+      "version": "4.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "chalk",
+      "version": "4.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "color-convert",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "color-name",
+      "version": "1.1.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "csstype",
+      "version": "3.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "de-indent",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "function-bind",
+      "version": "1.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "has-flag",
+      "version": "4.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hash-sum",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hasown",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "he",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-core-module",
+      "version": "2.13.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lodash._reinterpolate",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lodash.template",
+      "version": "4.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lodash.templatesettings",
+      "version": "4.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lodash.uniq",
+      "version": "4.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nanoid",
+      "version": "3.3.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "path-parse",
+      "version": "1.0.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "picocolors",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pnpm/action-setup",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "postcss",
+      "version": "8.4.32",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "prettier",
+      "version": "2.8.8",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "randombytes",
+      "version": "2.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "resolve",
+      "version": "1.22.8",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "safe-buffer",
+      "version": "5.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "serialize-javascript",
+      "version": "6.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "source-map",
+      "version": "0.5.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "source-map",
+      "version": "0.6.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "source-map-js",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "supports-color",
+      "version": "7.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "supports-preserve-symlinks-flag",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "to-fast-properties",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "yyx990803/release-tag",
+      "version": "master",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "@babel/helper-string-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "@babel/helper-validator-identifier"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "@babel/parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "@babel/types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "actions/setup-node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "ansi-styles"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "chalk"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "color-convert"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "color-name"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "csstype"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "de-indent"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "function-bind"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "has-flag"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "hash-sum"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "hasown"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "he"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "is-core-module"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "lodash._reinterpolate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "lodash.template"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "lodash.templatesettings"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "lodash.uniq"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "nanoid"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "path-parse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "picocolors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "pnpm/action-setup"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "postcss"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "prettier"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "randombytes"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "resolve"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "safe-buffer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "serialize-javascript"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "source-map"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "source-map"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "source-map-js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "supports-color"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "supports-preserve-symlinks-flag"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "to-fast-properties"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vuejs-vue",
+      "child": "yyx990803/release-tag"
+    }
+  ]
+}

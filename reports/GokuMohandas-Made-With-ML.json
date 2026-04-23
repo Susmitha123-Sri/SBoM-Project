@@ -1,0 +1,573 @@
+{
+  "scan_id": "GokuMohandas-Made-With-ML",
+  "timestamp": "2026-03-20T06:07:34.760224",
+  "target": "https://github.com/GokuMohandas/Made-With-ML",
+  "summary": {
+    "total_packages": 37,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-python",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "anyscale",
+      "version": "0.5.131",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.26.91",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aws-actions/configure-aws-credentials",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "black",
+      "version": "23.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "26.3.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cleanlab",
+      "version": "2.3.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.9.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fastapi",
+      "version": "0.95.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.135.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flake8",
+      "version": "6.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flake8-pyproject",
+      "version": "1.2.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "great-expectations",
+      "version": "0.16.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.15.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hyperopt",
+      "version": "0.2.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.2.7",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "isort",
+      "version": "5.12.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jupyterlab",
+      "version": "3.6.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.5.6",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lime",
+      "version": "0.2.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.2.0.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "matplotlib",
+      "version": "3.7.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.10.8",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mkdocs",
+      "version": "1.4.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.6.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mkdocstrings",
+      "version": "0.21.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mlflow",
+      "version": "2.3.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.10.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nltk",
+      "version": "3.8.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.9.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "numpy",
+      "version": "1.24.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "numpyencoder",
+      "version": "0.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.3.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pandas",
+      "version": "2.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pre-commit",
+      "version": "3.2.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.5.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytest",
+      "version": "7.3.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytest-cov",
+      "version": "4.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "python-dotenv",
+      "version": "1.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pyupgrade",
+      "version": "3.3.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.21.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ray",
+      "version": "2.7.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.54.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "scikit-learn",
+      "version": "1.2.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.8.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "seaborn",
+      "version": "0.12.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.13.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "snorkel",
+      "version": "0.9.9",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.10.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sqlalchemy",
+      "version": "1.4.48",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.48",
+      "version_status": "outdated"
+    },
+    {
+      "package": "thollander/actions-comment-pull-request",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "torch",
+      "version": "2.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.10.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "transformers",
+      "version": "4.28.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typer",
+      "version": "0.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.24.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wordcloud",
+      "version": "1.9.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.9.6",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "anyscale"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "aws-actions/configure-aws-credentials"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "black"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "cleanlab"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "fastapi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "flake8"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "flake8-pyproject"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "great-expectations"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "hyperopt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "isort"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "jupyterlab"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "lime"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "matplotlib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "mkdocs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "mkdocstrings"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "mlflow"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "nltk"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "numpy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "numpyencoder"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "pandas"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "pre-commit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "pytest"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "pytest-cov"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "python-dotenv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "pyupgrade"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "ray"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "scikit-learn"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "seaborn"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "snorkel"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "sqlalchemy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "thollander/actions-comment-pull-request"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "torch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "transformers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "typer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "GokuMohandas-Made-With-ML",
+      "child": "wordcloud"
+    }
+  ]
+}

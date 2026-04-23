@@ -1,0 +1,888 @@
+{
+  "scan_id": "FoundationAgents-MetaGPT",
+  "timestamp": "2026-03-20T03:10:09.605269",
+  "target": "https://github.com/FoundationAgents/MetaGPT",
+  "summary": {
+    "total_packages": 58,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-python",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-python",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/stale",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aiofiles",
+      "version": "23.2.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "25.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aiohttp",
+      "version": "3.8.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.13.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "anthropic",
+      "version": "0.47.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.86.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "beautifulsoup4",
+      "version": "4.12.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.14.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "channels",
+      "version": "4.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.3.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "datasets",
+      "version": "2.18.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.8.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docx2txt",
+      "version": "0.8",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.9",
+      "version_status": "outdated"
+    },
+    {
+      "package": "faiss-cpu",
+      "version": "1.7.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.13.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fire",
+      "version": "0.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gitignore-parser",
+      "version": "0.1.9",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.1.13",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gitpython",
+      "version": "3.1.40",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.1.46",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google-generativeai",
+      "version": "0.4.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.8.6",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gradio",
+      "version": "3.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.9.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gymnasium",
+      "version": "0.29.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "httpx",
+      "version": "0.28.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.28.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "imap-tools",
+      "version": "1.5.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.11.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ipykernel",
+      "version": "6.27.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ipython",
+      "version": "8.17.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.11.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ipywidgets",
+      "version": "8.1.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8.1.8",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jieba",
+      "version": "0.42.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.42.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "keras",
+      "version": "2.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.13.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lancedb",
+      "version": "0.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.30.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "libcst",
+      "version": "1.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.8.6",
+      "version_status": "outdated"
+    },
+    {
+      "package": "loguru",
+      "version": "0.6.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "meilisearch",
+      "version": "0.21.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.40.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nbclient",
+      "version": "0.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.10.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nbformat",
+      "version": "5.9.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.10.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opencv-python",
+      "version": "4.6.0.66",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.13.0.92",
+      "version_status": "outdated"
+    },
+    {
+      "package": "openml",
+      "version": "0.14.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.15.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "paddlepaddle",
+      "version": "2.4.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pandas",
+      "version": "2.1.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pylint",
+      "version": "3.0.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pyshine",
+      "version": "0.0.9",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.0.9",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "python-docx",
+      "version": "0.8.11",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pyyaml",
+      "version": "6.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "qdrant-client",
+      "version": "1.7.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.17.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rank-bm25",
+      "version": "0.2.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.2.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "rich",
+      "version": "13.6.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "14.3.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "scikit-learn",
+      "version": "1.3.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.8.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "semantic-kernel",
+      "version": "0.4.3.dev0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.41.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ta",
+      "version": "0.10.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.11.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tabulate",
+      "version": "0.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.10.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tenacity",
+      "version": "8.2.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.1.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tensorflow",
+      "version": "2.9.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.21.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tiktoken",
+      "version": "0.7.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.12.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tqdm",
+      "version": "4.66.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.67.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typer",
+      "version": "0.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.24.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typing-extensions",
+      "version": "4.11.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.15.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typing-inspect",
+      "version": "0.8.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.9.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unidiff",
+      "version": "0.7.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.5",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "wrapt",
+      "version": "1.15.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.1.2",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "actions/stale"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "aiofiles"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "aiohttp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "anthropic"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "beautifulsoup4"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "channels"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "datasets"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "docx2txt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "faiss-cpu"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "fire"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "gitignore-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "gitpython"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "google-generativeai"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "gradio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "gymnasium"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "httpx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "imap-tools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "ipykernel"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "ipython"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "ipywidgets"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "jieba"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "keras"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "lancedb"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "libcst"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "loguru"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "meilisearch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "nbclient"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "nbformat"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "opencv-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "openml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "paddlepaddle"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "pandas"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "pylint"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "pyshine"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "python-docx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "pyyaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "qdrant-client"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "rank-bm25"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "rich"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "scikit-learn"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "semantic-kernel"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "ta"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "tabulate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "tenacity"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "tensorflow"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "tiktoken"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "tqdm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "typer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "typing-extensions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "typing-inspect"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "unidiff"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "FoundationAgents-MetaGPT",
+      "child": "wrapt"
+    }
+  ]
+}

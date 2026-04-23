@@ -1,0 +1,198 @@
+{
+  "scan_id": "elastic-elasticsearch",
+  "timestamp": "2026-03-20T01:45:30.151496",
+  "target": "https://github.com/elastic/elasticsearch",
+  "summary": {
+    "total_packages": 12,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "Apache Commons Daemon Service Manager",
+      "version": "1.3.1.0",
+      "type": "binary",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "Apache Commons Daemon Service Runner",
+      "version": "1.3.1.0",
+      "type": "binary",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/login-action",
+      "version": "3.2.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dummy-plugin",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "duplicate-classes",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "elastic/docs-builder/.github/workflows/preview-build.yml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "elastic/docs-builder/.github/workflows/preview-cleanup.yml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "elastic/oblt-actions/updatecli/run",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gradle-wrapper",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gradle/actions/wrapper-validation",
+      "version": "4.4.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "non-extensible-plugin",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "elastic-elasticsearch",
+      "child": "Apache Commons Daemon Service Manager"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "elastic-elasticsearch",
+      "child": "Apache Commons Daemon Service Runner"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "elastic-elasticsearch",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "elastic-elasticsearch",
+      "child": "docker/login-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "elastic-elasticsearch",
+      "child": "dummy-plugin"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "elastic-elasticsearch",
+      "child": "duplicate-classes"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "elastic-elasticsearch",
+      "child": "elastic/docs-builder/.github/workflows/preview-build.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "elastic-elasticsearch",
+      "child": "elastic/docs-builder/.github/workflows/preview-cleanup.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "elastic-elasticsearch",
+      "child": "elastic/oblt-actions/updatecli/run"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "elastic-elasticsearch",
+      "child": "gradle-wrapper"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "elastic-elasticsearch",
+      "child": "gradle/actions/wrapper-validation"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "elastic-elasticsearch",
+      "child": "non-extensible-plugin"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "scan_id": "JuliaLang-julia",
+  "timestamp": "2026-03-20T05:13:34.543325",
+  "target": "https://github.com/JuliaLang/julia",
+  "summary": {
+    "total_packages": 6,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "JuliaLang/backporter-github-actions-workflows/.github/workflows/audit.yml",
+      "version": "unknown",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "6.0.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/github-script",
+      "version": "8.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "citation-file-format/cffconvert-github-action",
+      "version": "2.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "julia-actions/setup-julia",
+      "version": "2.6.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "yogevbd/enforce-label-action",
+      "version": "2.2.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "JuliaLang-julia",
+      "child": "JuliaLang/backporter-github-actions-workflows/.github/workflows/audit.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "JuliaLang-julia",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "JuliaLang-julia",
+      "child": "actions/github-script"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "JuliaLang-julia",
+      "child": "citation-file-format/cffconvert-github-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "JuliaLang-julia",
+      "child": "julia-actions/setup-julia"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "JuliaLang-julia",
+      "child": "yogevbd/enforce-label-action"
+    }
+  ]
+}

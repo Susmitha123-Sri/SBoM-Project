@@ -1,0 +1,93 @@
+{
+  "scan_id": "jwasham-coding-interview-university",
+  "timestamp": "2026-03-20T00:07:56.455815",
+  "target": "https://github.com/jwasham/coding-interview-university",
+  "summary": {
+    "total_packages": 5,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lycheeverse/lychee-action",
+      "version": "1.4.1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.8.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micalevisk/last-issue-action",
+      "version": "1.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "peter-evans/close-issue",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "peter-evans/create-issue-from-file",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.0",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jwasham-coding-interview-university",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jwasham-coding-interview-university",
+      "child": "lycheeverse/lychee-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jwasham-coding-interview-university",
+      "child": "micalevisk/last-issue-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jwasham-coding-interview-university",
+      "child": "peter-evans/close-issue"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "jwasham-coding-interview-university",
+      "child": "peter-evans/create-issue-from-file"
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "scan_id": "opencv-opencv",
+  "timestamp": "2026-03-20T01:24:40.719711",
+  "target": "https://github.com/opencv/opencv",
+  "summary": {
+    "total_packages": 33,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "geronimo-atinject_1.0_spec",
+      "version": "1.0",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gradle-wrapper",
+      "version": "4.6",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gradle-wrapper",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "junit",
+      "version": "4.11",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "junit",
+      "version": "4.8.1",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opencv",
+      "version": "4.13.0",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opencv-it",
+      "version": "4.13.0",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opencv-parent",
+      "version": "4.13.0",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opencv/ci-gha-workflow/.github/workflows/OCV-4.x-Android-SDK.yaml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opencv/ci-gha-workflow/.github/workflows/OCV-CodeQL.yaml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-ARM64-Debug.yaml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-ARM64.yaml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-RISCV.yaml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-U20-Cuda.yaml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-U20-OpenVINO.yaml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-docs.yaml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-iOS.yaml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-macOS-ARM64-Vulkan.yaml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-macOS-ARM64.yaml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-macOS-x86_64.yaml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-Linux.yaml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-Windows.yaml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opencv/ci-gha-workflow/.github/workflows/OCV-timvx-backend-tests-4.x.yml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.apache.karaf.log.core",
+      "version": "4.0.6",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.osgi.compendium",
+      "version": "4.3.0",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "org.osgi.core",
+      "version": "4.3.1",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pax-exam-container-karaf",
+      "version": "4.8.0",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pax-exam-junit4",
+      "version": "4.8.0",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pax-logging-api",
+      "version": "1.8.0",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pax-url-aether",
+      "version": "1.6.0",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sbt-launch",
+      "version": "0.12.1",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "slf4j-api",
+      "version": "1.7.24",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "slf4j-simple",
+      "version": "1.7.24",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "geronimo-atinject_1.0_spec"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "gradle-wrapper"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "gradle-wrapper"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "junit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "junit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "opencv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "opencv-it"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "opencv-parent"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "opencv/ci-gha-workflow/.github/workflows/OCV-4.x-Android-SDK.yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "opencv/ci-gha-workflow/.github/workflows/OCV-CodeQL.yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-ARM64-Debug.yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-ARM64.yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-RISCV.yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-U20-Cuda.yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-U20-OpenVINO.yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-docs.yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-iOS.yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-macOS-ARM64-Vulkan.yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-macOS-ARM64.yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-macOS-x86_64.yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-Linux.yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-Windows.yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "opencv/ci-gha-workflow/.github/workflows/OCV-timvx-backend-tests-4.x.yml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "org.apache.karaf.log.core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "org.osgi.compendium"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "org.osgi.core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "pax-exam-container-karaf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "pax-exam-junit4"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "pax-logging-api"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "pax-url-aether"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "sbt-launch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "slf4j-api"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "opencv-opencv",
+      "child": "slf4j-simple"
+    }
+  ]
+}

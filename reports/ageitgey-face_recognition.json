@@ -1,0 +1,168 @@
+{
+  "scan_id": "ageitgey-face_recognition",
+  "timestamp": "2026-03-20T03:47:44.681388",
+  "target": "https://github.com/ageitgey/face_recognition",
+  "summary": {
+    "total_packages": 10,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-python",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bumpversion",
+      "version": "0.5.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "coverage",
+      "version": "4.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.13.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cryptography",
+      "version": "3.3.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "46.0.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pip",
+      "version": "21.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "26.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sphinx",
+      "version": "1.4.8",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tox",
+      "version": "2.3.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.50.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "watchdog",
+      "version": "0.8.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wheel",
+      "version": "0.29.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.46.3",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ageitgey-face_recognition",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ageitgey-face_recognition",
+      "child": "actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ageitgey-face_recognition",
+      "child": "bumpversion"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ageitgey-face_recognition",
+      "child": "coverage"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ageitgey-face_recognition",
+      "child": "cryptography"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ageitgey-face_recognition",
+      "child": "pip"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ageitgey-face_recognition",
+      "child": "sphinx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ageitgey-face_recognition",
+      "child": "tox"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ageitgey-face_recognition",
+      "child": "watchdog"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "ageitgey-face_recognition",
+      "child": "wheel"
+    }
+  ]
+}

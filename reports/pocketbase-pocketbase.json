@@ -1,0 +1,693 @@
+{
+  "scan_id": "pocketbase-pocketbase",
+  "timestamp": "2026-03-20T03:45:01.627264",
+  "target": "https://github.com/pocketbase/pocketbase",
+  "summary": {
+    "total_packages": 45,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-go",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-node",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/asaskevich/govalidator",
+      "version": "0.0.0-20230301143203-a9d515a09cc2",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/disintegration/imaging",
+      "version": "1.6.2",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/dlclark/regexp2",
+      "version": "1.11.5",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/domodwyer/mailyak/v3",
+      "version": "3.6.2",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/dop251/base64dec",
+      "version": "0.0.0-20231022112746-c6c9f9a96217",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/dop251/goja",
+      "version": "0.0.0-20260106131823-651366fbe6e3",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/dop251/goja_nodejs",
+      "version": "0.0.0-20260212111938-1f56ff5bcf14",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/dustin/go-humanize",
+      "version": "1.0.1",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/fatih/color",
+      "version": "1.18.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/fsnotify/fsnotify",
+      "version": "1.7.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/gabriel-vasile/mimetype",
+      "version": "1.4.13",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/ganigeorgiev/fexpr",
+      "version": "0.5.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/go-ozzo/ozzo-validation/v4",
+      "version": "4.3.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/go-sourcemap/sourcemap",
+      "version": "2.1.4+incompatible",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/golang-jwt/jwt/v5",
+      "version": "5.3.1",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/google/pprof",
+      "version": "0.0.0-20260115054156-294ebfa9ad83",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/google/uuid",
+      "version": "1.6.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/inconshreveable/mousetrap",
+      "version": "1.1.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/mattn/go-colorable",
+      "version": "0.1.14",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/mattn/go-isatty",
+      "version": "0.0.20",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/ncruces/go-strftime",
+      "version": "1.0.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/pocketbase/dbx",
+      "version": "1.12.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/pocketbase/tygoja",
+      "version": "0.0.0-20250812183945-97ffe055281f",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/remyoudompheng/bigfft",
+      "version": "0.0.0-20230129092748-24d4a6f8daec",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/spf13/cast",
+      "version": "1.10.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/spf13/cobra",
+      "version": "1.10.2",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github.com/spf13/pflag",
+      "version": "1.0.10",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/crypto",
+      "version": "0.49.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/image",
+      "version": "0.37.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/mod",
+      "version": "0.33.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/net",
+      "version": "0.52.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/oauth2",
+      "version": "0.36.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/sync",
+      "version": "0.20.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/sys",
+      "version": "0.42.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/text",
+      "version": "0.35.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "golang.org/x/tools",
+      "version": "0.42.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "goreleaser/goreleaser-action",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "modernc.org/libc",
+      "version": "1.70.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "modernc.org/mathutil",
+      "version": "1.7.1",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "modernc.org/memory",
+      "version": "1.11.0",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "modernc.org/sqlite",
+      "version": "1.46.2",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pocketbase-superuser-ui",
+      "version": "UNKNOWN",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "actions/setup-go"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "actions/setup-node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "github.com/asaskevich/govalidator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "github.com/disintegration/imaging"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "github.com/dlclark/regexp2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "github.com/domodwyer/mailyak/v3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "github.com/dop251/base64dec"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "github.com/dop251/goja"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "github.com/dop251/goja_nodejs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "github.com/dustin/go-humanize"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "github.com/fatih/color"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "github.com/fsnotify/fsnotify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "github.com/gabriel-vasile/mimetype"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "github.com/ganigeorgiev/fexpr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "github.com/go-ozzo/ozzo-validation/v4"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "github.com/go-sourcemap/sourcemap"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "github.com/golang-jwt/jwt/v5"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "github.com/google/pprof"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "github.com/google/uuid"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "github.com/inconshreveable/mousetrap"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "github.com/mattn/go-colorable"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "github.com/mattn/go-isatty"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "github.com/ncruces/go-strftime"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "github.com/pocketbase/dbx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "github.com/pocketbase/tygoja"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "github.com/remyoudompheng/bigfft"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "github.com/spf13/cast"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "github.com/spf13/cobra"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "github.com/spf13/pflag"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "golang.org/x/crypto"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "golang.org/x/image"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "golang.org/x/mod"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "golang.org/x/net"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "golang.org/x/oauth2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "golang.org/x/sync"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "golang.org/x/sys"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "golang.org/x/text"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "golang.org/x/tools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "goreleaser/goreleaser-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "modernc.org/libc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "modernc.org/mathutil"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "modernc.org/memory"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "modernc.org/sqlite"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "pocketbase-pocketbase",
+      "child": "pocketbase-superuser-ui"
+    }
+  ]
+}

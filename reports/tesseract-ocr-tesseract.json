@@ -1,0 +1,378 @@
+{
+  "scan_id": "tesseract-ocr-tesseract",
+  "timestamp": "2026-03-20T01:59:32.763230",
+  "target": "https://github.com/tesseract-ocr/tesseract",
+  "summary": {
+    "total_packages": 24,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "7",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "egorpugin/sw-action",
+      "version": "master",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/analyze",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/init",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers",
+      "version": "master",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers",
+      "version": "master",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ilammy/setup-nasm",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "libcairo2-dev",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libgomp1",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libicu-dev",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libjbig0",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libjpeg-dev",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libjpeg-turbo8",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libopenjp2-7",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libpango1.0-dev",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libpng-dev",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libtiff-dev",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libtiff5",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "microsoft/setup-msbuild",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mikepenz/action-junit-report",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "msys2/setup-msys2",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pkg-config",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "zlib1g-dev",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tesseract-ocr-tesseract",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tesseract-ocr-tesseract",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tesseract-ocr-tesseract",
+      "child": "egorpugin/sw-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tesseract-ocr-tesseract",
+      "child": "github/codeql-action/analyze"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tesseract-ocr-tesseract",
+      "child": "github/codeql-action/init"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tesseract-ocr-tesseract",
+      "child": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tesseract-ocr-tesseract",
+      "child": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tesseract-ocr-tesseract",
+      "child": "ilammy/setup-nasm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tesseract-ocr-tesseract",
+      "child": "libcairo2-dev"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tesseract-ocr-tesseract",
+      "child": "libgomp1"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tesseract-ocr-tesseract",
+      "child": "libicu-dev"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tesseract-ocr-tesseract",
+      "child": "libjbig0"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tesseract-ocr-tesseract",
+      "child": "libjpeg-dev"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tesseract-ocr-tesseract",
+      "child": "libjpeg-turbo8"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tesseract-ocr-tesseract",
+      "child": "libopenjp2-7"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tesseract-ocr-tesseract",
+      "child": "libpango1.0-dev"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tesseract-ocr-tesseract",
+      "child": "libpng-dev"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tesseract-ocr-tesseract",
+      "child": "libtiff-dev"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tesseract-ocr-tesseract",
+      "child": "libtiff5"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tesseract-ocr-tesseract",
+      "child": "microsoft/setup-msbuild"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tesseract-ocr-tesseract",
+      "child": "mikepenz/action-junit-report"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tesseract-ocr-tesseract",
+      "child": "msys2/setup-msys2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tesseract-ocr-tesseract",
+      "child": "pkg-config"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tesseract-ocr-tesseract",
+      "child": "zlib1g-dev"
+    }
+  ]
+}

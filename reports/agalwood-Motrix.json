@@ -1,0 +1,438 @@
+{
+  "scan_id": "agalwood-Motrix",
+  "timestamp": "2026-03-20T04:50:12.718473",
+  "target": "https://github.com/agalwood/Motrix",
+  "summary": {
+    "total_packages": 28,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-node",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aria2c",
+      "version": "UNKNOWN",
+      "type": "binary",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "array-union",
+      "version": "2.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "concat-map",
+      "version": "0.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "end-of-stream",
+      "version": "1.4.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "esprima",
+      "version": "4.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fast-json-stable-stringify",
+      "version": "2.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/analyze",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/autobuild",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/init",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-buffer",
+      "version": "1.1.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "isarray",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "memory-fs",
+      "version": "0.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "motrixapp/action-electron-builder",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "node-fetch",
+      "version": "2.6.9",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "path-is-absolute",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pify",
+      "version": "4.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "process-nextick-args",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pseudomap",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pump",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "samuelmeuli/action-snapcraft",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "toidentifier",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tr46",
+      "version": "0.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "webidl-conversions",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "whatwg-url",
+      "version": "5.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ws",
+      "version": "8.13.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "agalwood-Motrix",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "agalwood-Motrix",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "agalwood-Motrix",
+      "child": "actions/setup-node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "agalwood-Motrix",
+      "child": "aria2c"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "agalwood-Motrix",
+      "child": "array-union"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "agalwood-Motrix",
+      "child": "concat-map"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "agalwood-Motrix",
+      "child": "end-of-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "agalwood-Motrix",
+      "child": "esprima"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "agalwood-Motrix",
+      "child": "fast-json-stable-stringify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "agalwood-Motrix",
+      "child": "github/codeql-action/analyze"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "agalwood-Motrix",
+      "child": "github/codeql-action/autobuild"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "agalwood-Motrix",
+      "child": "github/codeql-action/init"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "agalwood-Motrix",
+      "child": "is-buffer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "agalwood-Motrix",
+      "child": "isarray"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "agalwood-Motrix",
+      "child": "memory-fs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "agalwood-Motrix",
+      "child": "motrixapp/action-electron-builder"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "agalwood-Motrix",
+      "child": "node-fetch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "agalwood-Motrix",
+      "child": "path-is-absolute"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "agalwood-Motrix",
+      "child": "pify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "agalwood-Motrix",
+      "child": "process-nextick-args"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "agalwood-Motrix",
+      "child": "pseudomap"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "agalwood-Motrix",
+      "child": "pump"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "agalwood-Motrix",
+      "child": "samuelmeuli/action-snapcraft"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "agalwood-Motrix",
+      "child": "toidentifier"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "agalwood-Motrix",
+      "child": "tr46"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "agalwood-Motrix",
+      "child": "webidl-conversions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "agalwood-Motrix",
+      "child": "whatwg-url"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "agalwood-Motrix",
+      "child": "ws"
+    }
+  ]
+}

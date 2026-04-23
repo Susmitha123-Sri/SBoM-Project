@@ -1,0 +1,6588 @@
+{
+  "scan_id": "babel-babel",
+  "timestamp": "2026-04-23T14:21:30.302786",
+  "target": "https://github.com/babel/babel",
+  "summary": {
+    "total_packages": 438,
+    "total_vulnerabilities": 14,
+    "critical": 4,
+    "high": 0,
+    "medium": 2,
+    "low": 8,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "@babel-baseline/cli",
+      "version": "7.27.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel-baseline/core",
+      "version": "7.24.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel-baseline/generator",
+      "version": "7.24.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel-baseline/helper-compilation-targets",
+      "version": "7.23.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel-baseline/helper-validator-identifier",
+      "version": "7.22.20",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel-baseline/parser",
+      "version": "7.24.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel-baseline/traverse",
+      "version": "7.24.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel-baseline/types",
+      "version": "7.24.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel-internal/runtime-integration-rollup",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel-internal/runtime-integration-src",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel-internal/runtime-integration-webpack-3",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel-internal/runtime-integration-webpack-4",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel-internal/runtime-integration-webpack-5",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/benchmark",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/build-external-helpers",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/eslint-plugin",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/eslint-shared-fixtures",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/eslint-tests",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/helper-builder-react-jsx",
+      "version": "7.27.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/helper-environment-visitor",
+      "version": "7.24.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/helper-function-name",
+      "version": "7.24.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/helper-hoist-variables",
+      "version": "7.24.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/helper-split-export-declaration",
+      "version": "7.24.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/highlight",
+      "version": "7.24.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/node",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-codemod-object-assign-to-object-spread",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-codemod-optional-catch-binding",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-proposal-async-do-expressions",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-proposal-decorators",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-proposal-destructuring-private",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-proposal-discard-binding",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-proposal-do-expressions",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-proposal-export-default-from",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-proposal-function-bind",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-proposal-function-sent",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-proposal-import-defer",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-proposal-import-wasm-source",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-proposal-optional-chaining-assign",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-proposal-partial-application",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-proposal-pipeline-operator",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-proposal-record-and-tuple",
+      "version": "7.27.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-proposal-throw-expressions",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-syntax-async-do-expressions",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-syntax-decimal",
+      "version": "7.24.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-syntax-decorators",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-syntax-destructuring-private",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-syntax-do-expressions",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-syntax-export-default-from",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-syntax-flow",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-syntax-function-bind",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-syntax-function-sent",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-syntax-import-defer",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-syntax-import-reflection",
+      "version": "7.24.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-syntax-import-source",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-syntax-module-blocks",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-syntax-optional-chaining-assign",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-syntax-partial-application",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-syntax-pipeline-operator",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-syntax-record-and-tuple",
+      "version": "7.27.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-syntax-throw-expressions",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-transform-flow-comments",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-transform-flow-strip-types",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-transform-instanceof",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-transform-jscript",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-transform-object-set-prototype-of-to-assign",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-transform-proto-to-assign",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-transform-react-constant-elements",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-transform-react-display-name",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-transform-react-inline-elements",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-transform-react-jsx",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-transform-react-jsx-compat",
+      "version": "7.27.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-transform-react-jsx-development",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-transform-react-jsx-self",
+      "version": "7.27.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-transform-react-jsx-source",
+      "version": "7.27.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-transform-react-pure-annotations",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/plugin-transform-strict-mode",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/preset-flow",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/preset-react",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/register",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/standalone",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@babel/test-esm",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@discoveryjs/json-ext",
+      "version": "0.5.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@esbuild/aix-ppc64",
+      "version": "0.25.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@esbuild/android-arm",
+      "version": "0.25.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@esbuild/android-arm64",
+      "version": "0.25.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@esbuild/android-x64",
+      "version": "0.25.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@esbuild/darwin-arm64",
+      "version": "0.25.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@esbuild/darwin-x64",
+      "version": "0.25.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@esbuild/freebsd-arm64",
+      "version": "0.25.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@esbuild/freebsd-x64",
+      "version": "0.25.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@esbuild/linux-arm",
+      "version": "0.25.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@esbuild/linux-arm64",
+      "version": "0.25.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@esbuild/linux-ia32",
+      "version": "0.25.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@esbuild/linux-loong64",
+      "version": "0.25.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@esbuild/linux-mips64el",
+      "version": "0.25.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@esbuild/linux-ppc64",
+      "version": "0.25.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@esbuild/linux-riscv64",
+      "version": "0.25.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@esbuild/linux-s390x",
+      "version": "0.25.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@esbuild/linux-x64",
+      "version": "0.25.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@esbuild/netbsd-arm64",
+      "version": "0.25.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@esbuild/netbsd-x64",
+      "version": "0.25.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@esbuild/openbsd-arm64",
+      "version": "0.25.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@esbuild/openbsd-x64",
+      "version": "0.25.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@esbuild/sunos-x64",
+      "version": "0.25.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@esbuild/win32-arm64",
+      "version": "0.25.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@esbuild/win32-ia32",
+      "version": "0.25.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@esbuild/win32-x64",
+      "version": "0.25.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@isaacs/cliui",
+      "version": "8.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@jridgewell/remapping",
+      "version": "2.3.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@jridgewell/set-array",
+      "version": "1.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@jridgewell/source-map",
+      "version": "0.3.8",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@mdn/browser-compat-data",
+      "version": "6.0.8",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@nicolo-ribaudo/chokidar-2",
+      "version": "2.1.8-no-fsevents.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@npmcli/fs",
+      "version": "5.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@pkgjs/parseargs",
+      "version": "0.11.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@rollup/rollup-android-arm-eabi",
+      "version": "4.59.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@rollup/rollup-android-arm64",
+      "version": "4.59.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@rollup/rollup-darwin-arm64",
+      "version": "4.59.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@rollup/rollup-darwin-x64",
+      "version": "4.59.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@rollup/rollup-freebsd-arm64",
+      "version": "4.59.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@rollup/rollup-freebsd-x64",
+      "version": "4.59.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@rollup/rollup-linux-arm-gnueabihf",
+      "version": "4.59.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@rollup/rollup-linux-arm-musleabihf",
+      "version": "4.59.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@rollup/rollup-linux-arm64-gnu",
+      "version": "4.59.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@rollup/rollup-linux-arm64-musl",
+      "version": "4.59.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@rollup/rollup-linux-loong64-gnu",
+      "version": "4.59.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@rollup/rollup-linux-loong64-musl",
+      "version": "4.59.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@rollup/rollup-linux-ppc64-gnu",
+      "version": "4.59.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@rollup/rollup-linux-ppc64-musl",
+      "version": "4.59.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@rollup/rollup-linux-riscv64-gnu",
+      "version": "4.59.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@rollup/rollup-linux-riscv64-musl",
+      "version": "4.59.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@rollup/rollup-linux-s390x-gnu",
+      "version": "4.59.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@rollup/rollup-linux-x64-gnu",
+      "version": "4.59.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@rollup/rollup-linux-x64-musl",
+      "version": "4.59.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@rollup/rollup-openbsd-x64",
+      "version": "4.59.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@rollup/rollup-openharmony-arm64",
+      "version": "4.59.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@rollup/rollup-win32-arm64-msvc",
+      "version": "4.59.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@rollup/rollup-win32-ia32-msvc",
+      "version": "4.59.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@rollup/rollup-win32-x64-gnu",
+      "version": "4.59.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@rollup/rollup-win32-x64-msvc",
+      "version": "4.59.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@sec-ant/readable-stream",
+      "version": "0.4.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@tootallnate/once",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "GHSA-vpq2-c234-7xj6",
+      "severity": "Low",
+      "fixed_version": "See advisory",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@tsconfig/node14",
+      "version": "14.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@tsconfig/node16",
+      "version": "16.1.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@tsconfig/node18",
+      "version": "18.2.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@tsconfig/node20",
+      "version": "20.1.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/cacache",
+      "version": "20.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/color-name",
+      "version": "1.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/convert-source-map",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/eslint-scope",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/esrecurse",
+      "version": "4.3.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/gensync",
+      "version": "1.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/jsesc",
+      "version": "2.5.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/v8flags",
+      "version": "3.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@unicode/unicode-17.0.0",
+      "version": "1.6.10",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/ast",
+      "version": "1.9.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/floating-point-hex-parser",
+      "version": "1.9.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/helper-api-error",
+      "version": "1.9.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/helper-buffer",
+      "version": "1.9.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/helper-code-frame",
+      "version": "1.9.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/helper-fsm",
+      "version": "1.9.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/helper-module-context",
+      "version": "1.9.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/helper-numbers",
+      "version": "1.13.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/helper-wasm-bytecode",
+      "version": "1.9.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/helper-wasm-section",
+      "version": "1.14.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/ieee754",
+      "version": "1.13.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/leb128",
+      "version": "1.13.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/utf8",
+      "version": "1.9.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/wasm-edit",
+      "version": "1.9.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/wasm-gen",
+      "version": "1.14.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/wasm-opt",
+      "version": "1.9.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/wasm-parser",
+      "version": "1.14.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/wast-parser",
+      "version": "1.9.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webassemblyjs/wast-printer",
+      "version": "1.14.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webpack-cli/configtest",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webpack-cli/info",
+      "version": "1.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@webpack-cli/serve",
+      "version": "1.7.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@xtuc/ieee754",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@xtuc/long",
+      "version": "4.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "abab",
+      "version": "2.0.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "acorn-dynamic-import",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "acorn-import-phases",
+      "version": "1.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "acorn-walk",
+      "version": "8.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/cache",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.0.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/download-artifact",
+      "version": "8",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/github-script",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/github-script",
+      "version": "8",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-node",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.4.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "7",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "agent-base",
+      "version": "6.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ajv-errors",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ajv-formats",
+      "version": "2.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ajv-keywords",
+      "version": "5.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "align-text",
+      "version": "0.1.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ansi-colors",
+      "version": "4.1.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "arg",
+      "version": "4.1.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "arr-flatten",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "array.prototype.concat",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "array.prototype.reduce",
+      "version": "1.0.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "asn1.js",
+      "version": "4.10.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "assert",
+      "version": "1.5.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ast-types",
+      "version": "0.16.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "async",
+      "version": "2.6.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "babel",
+      "version": "0.0.0-use.local",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "babel-plugin-polyfill-es-shims",
+      "version": "1.0.0-rc.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "babel-plugin-polyfill-regenerator",
+      "version": "1.0.0-rc.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "babel-plugin-syntax-hermes-parser",
+      "version": "0.19.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "babel/actions/create-comment",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "babel/actions/create-pull-request",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "babel/actions/generate-lerna-changelog",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "babel/actions/get-release-tags",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "babel/actions/is-org-member",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "babel/actions/publish-github-release",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "babel/actions/ref-matches-branch",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "babel/actions/update-changelog",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "benchmark",
+      "version": "2.1.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "big.js",
+      "version": "5.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bindings",
+      "version": "1.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bluebird",
+      "version": "3.7.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bn.js",
+      "version": "4.12.0",
+      "type": "npm",
+      "vulnerability_id": "GHSA-378v-28hj-76wf",
+      "severity": "Medium",
+      "fixed_version": "See advisory",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "brorand",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "browser-stdout",
+      "version": "1.3.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "browserify-aes",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "browserify-cipher",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "browserify-des",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "browserify-rsa",
+      "version": "4.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "browserify-sign",
+      "version": "4.2.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "browserify-zlib",
+      "version": "0.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "buffer-xor",
+      "version": "1.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "builtin-status-codes",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cacache",
+      "version": "12.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "center-align",
+      "version": "0.1.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "chrome-trace-event",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cipher-base",
+      "version": "1.0.4",
+      "type": "npm",
+      "vulnerability_id": "GHSA-cpq7-6gpm-g9rc",
+      "severity": "Critical",
+      "fixed_version": "See advisory",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "clone-deep",
+      "version": "4.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "code-point-at",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "codecov/codecov-action",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "color-convert",
+      "version": "1.9.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "color-name",
+      "version": "1.1.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "common-path-prefix",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "concat-map",
+      "version": "0.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "concat-stream",
+      "version": "1.6.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "console-browserify",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "constants-browserify",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "copy-concurrently",
+      "version": "1.0.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "create-ecdh",
+      "version": "4.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "create-hash",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "create-hmac",
+      "version": "1.1.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "crypto-browserify",
+      "version": "3.12.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cssstyle",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cyclist",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "d",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "data-urls",
+      "version": "4.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "decimal.js",
+      "version": "10.4.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "des.js",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dessant/lock-threads",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "diff",
+      "version": "4.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "diff-sequences",
+      "version": "29.6.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "diffie-hellman",
+      "version": "5.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "domain-browser",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "domexception",
+      "version": "4.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "duplexify",
+      "version": "3.7.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "eastasianwidth",
+      "version": "0.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "elliptic",
+      "version": "6.5.5",
+      "type": "npm",
+      "vulnerability_id": "GHSA-49q7-c7j4-3p7m",
+      "severity": "Critical",
+      "fixed_version": "See advisory",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "emoji-regex",
+      "version": "10.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "emojis-list",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "entities",
+      "version": "4.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "envinfo",
+      "version": "7.7.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "es-array-method-boxes-properly",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "es-module-lexer",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "es5-ext",
+      "version": "0.10.62",
+      "type": "npm",
+      "vulnerability_id": "GHSA-4gmj-3p3h-gm8h",
+      "severity": "Low",
+      "fixed_version": "See advisory",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "es6-iterator",
+      "version": "2.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "es6-map",
+      "version": "0.1.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "es6-set",
+      "version": "0.1.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "es6-symbol",
+      "version": "3.1.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "es6-weak-map",
+      "version": "2.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "esbuild",
+      "version": "0.25.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "escope",
+      "version": "3.6.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "esprima",
+      "version": "4.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "event-emitter",
+      "version": "0.3.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "events",
+      "version": "3.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "evp_bytestokey",
+      "version": "1.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ext",
+      "version": "1.4.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "figgy-pudding",
+      "version": "3.5.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "file-uri-to-path",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "find-cache-dir",
+      "version": "2.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "find-cache-directory",
+      "version": "6.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "find-up-simple",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flat",
+      "version": "5.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flush-write-stream",
+      "version": "1.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "from2",
+      "version": "2.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fs-readdir-recursive",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fs-write-stream-atomic",
+      "version": "1.0.10",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "get-east-asian-width",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "glob-to-regexp",
+      "version": "0.4.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hash-base",
+      "version": "3.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hash.js",
+      "version": "1.1.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "he",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hermes-estree",
+      "version": "0.19.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hermes-parser",
+      "version": "0.19.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hmac-drbg",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "html-encoding-sniffer",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "http-proxy-agent",
+      "version": "5.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "https-browserify",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "https-proxy-agent",
+      "version": "5.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "iferr",
+      "version": "0.1.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "imjohnbo/issue-bot",
+      "version": "3.4.3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.4.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "import-meta-resolve",
+      "version": "4.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "infer-owner",
+      "version": "1.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-buffer",
+      "version": "1.1.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-potential-custom-element-name",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jackspeak",
+      "version": "3.4.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jsdom",
+      "version": "22.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "json-loader",
+      "version": "0.5.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "json-parse-better-errors",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lazy-cache",
+      "version": "1.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "load-json-file",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "loader-runner",
+      "version": "2.4.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "loader-utils",
+      "version": "1.4.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "log-symbols",
+      "version": "4.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "longest",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "make-error",
+      "version": "1.3.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "md5.js",
+      "version": "1.3.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "miller-rabin",
+      "version": "4.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "minimalistic-assert",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "minimalistic-crypto-utils",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "minipass-collect",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "minipass-flush",
+      "version": "1.0.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "minipass-pipeline",
+      "version": "1.2.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mississippi",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mocha",
+      "version": "10.8.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "move-concurrently",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nan",
+      "version": "2.17.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "neo-async",
+      "version": "2.6.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "next-tick",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "node-libs-browser",
+      "version": "2.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "npm-babel-parser",
+      "version": "7.14.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "number-is-nan",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nwsapi",
+      "version": "2.2.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "object.getownpropertydescriptors",
+      "version": "2.1.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "os-browserify",
+      "version": "0.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "p-finally",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "p-map",
+      "version": "7.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "p-try",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "package-json-from-dist",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pako",
+      "version": "1.0.11",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "parallel-transform",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "parse-asn1",
+      "version": "5.1.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "parse5",
+      "version": "7.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "path-browserify",
+      "version": "0.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "path-dirname",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "path-scurry",
+      "version": "1.11.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "path-type",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pbkdf2",
+      "version": "3.1.2",
+      "type": "npm",
+      "vulnerability_id": "GHSA-h7cp-r72f-jxh6",
+      "severity": "Critical",
+      "fixed_version": "See advisory",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "platform",
+      "version": "1.3.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "process",
+      "version": "0.11.10",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "promise-inflight",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "public-encrypt",
+      "version": "4.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pump",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pumpify",
+      "version": "1.5.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "querystring-es3",
+      "version": "0.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "querystringify",
+      "version": "2.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "randomfill",
+      "version": "1.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "recast",
+      "version": "0.23.11",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "regenerator-runtime",
+      "version": "0.14.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "repeat-element",
+      "version": "1.1.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "repeat-string",
+      "version": "1.6.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "requires-port",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "right-align",
+      "version": "0.1.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ripemd160",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rrweb-cssom",
+      "version": "0.6.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "run-queue",
+      "version": "1.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "saxes",
+      "version": "6.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "schema-utils",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "setimmediate",
+      "version": "1.0.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sha.js",
+      "version": "2.4.12",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "shallow-clone",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "snapdragon-node",
+      "version": "2.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "snapdragon-util",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "source-list-map",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sprintf-js",
+      "version": "1.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ssri",
+      "version": "6.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "stream-browserify",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "stream-each",
+      "version": "1.2.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "stream-http",
+      "version": "2.8.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "stream-shift",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "string-width-cjs",
+      "version": "4.2.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "strip-ansi-cjs",
+      "version": "6.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "strip-eof",
+      "version": "1.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "symbol-tree",
+      "version": "3.2.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "terser-webpack-plugin",
+      "version": "1.4.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "through2",
+      "version": "2.0.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "timers-browserify",
+      "version": "2.0.12",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tiny-invariant",
+      "version": "1.3.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "to-arraybuffer",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "to-buffer",
+      "version": "1.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "to-fast-properties",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tr46",
+      "version": "4.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ts-node",
+      "version": "11.0.0-beta.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tsx",
+      "version": "4.20.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tty-browserify",
+      "version": "0.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "type",
+      "version": "2.7.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "typedarray",
+      "version": "0.0.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "uglify-js",
+      "version": "2.8.29",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "uglify-to-browserify",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "uglifyjs-webpack-plugin",
+      "version": "0.4.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unique-filename",
+      "version": "1.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unique-slug",
+      "version": "6.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "universalify",
+      "version": "0.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "uri-js",
+      "version": "4.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "url",
+      "version": "0.11.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "url-parse",
+      "version": "1.5.10",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "util",
+      "version": "0.10.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "v8-compile-cache-lib",
+      "version": "3.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vm-browserify",
+      "version": "1.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "w3c-xmlserializer",
+      "version": "4.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "watchpack",
+      "version": "2.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "watchpack-chokidar2",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "webidl-conversions",
+      "version": "7.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "webpack",
+      "version": "4.46.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "webpack-cli",
+      "version": "4.10.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "webpack-merge",
+      "version": "5.7.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "webpack-sources",
+      "version": "1.4.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "whatwg-encoding",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "whatwg-mimetype",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "whatwg-url",
+      "version": "12.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wildcard",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "window-size",
+      "version": "0.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wordwrap",
+      "version": "0.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "worker-farm",
+      "version": "1.7.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "workerpool",
+      "version": "6.5.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wrap-ansi-cjs",
+      "version": "7.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ws",
+      "version": "8.18.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "xml-name-validator",
+      "version": "4.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "xmlchars",
+      "version": "2.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "xtend",
+      "version": "4.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "yargs-unparser",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel-baseline/cli"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel-baseline/core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel-baseline/generator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel-baseline/helper-compilation-targets"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel-baseline/helper-validator-identifier"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel-baseline/parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel-baseline/traverse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel-baseline/types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel-internal/runtime-integration-rollup"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel-internal/runtime-integration-src"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel-internal/runtime-integration-webpack-3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel-internal/runtime-integration-webpack-4"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel-internal/runtime-integration-webpack-5"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/benchmark"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/build-external-helpers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/eslint-plugin"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/eslint-shared-fixtures"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/eslint-tests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/helper-builder-react-jsx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/helper-environment-visitor"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/helper-function-name"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/helper-hoist-variables"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/helper-split-export-declaration"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/highlight"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-codemod-object-assign-to-object-spread"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-codemod-optional-catch-binding"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-proposal-async-do-expressions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-proposal-decorators"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-proposal-destructuring-private"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-proposal-discard-binding"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-proposal-do-expressions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-proposal-export-default-from"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-proposal-function-bind"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-proposal-function-sent"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-proposal-import-defer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-proposal-import-wasm-source"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-proposal-optional-chaining-assign"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-proposal-partial-application"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-proposal-pipeline-operator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-proposal-record-and-tuple"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-proposal-throw-expressions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-syntax-async-do-expressions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-syntax-decimal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-syntax-decorators"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-syntax-destructuring-private"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-syntax-do-expressions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-syntax-export-default-from"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-syntax-flow"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-syntax-function-bind"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-syntax-function-sent"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-syntax-import-defer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-syntax-import-reflection"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-syntax-import-source"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-syntax-module-blocks"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-syntax-optional-chaining-assign"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-syntax-partial-application"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-syntax-pipeline-operator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-syntax-record-and-tuple"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-syntax-throw-expressions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-transform-flow-comments"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-transform-flow-strip-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-transform-instanceof"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-transform-jscript"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-transform-object-set-prototype-of-to-assign"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-transform-proto-to-assign"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-transform-react-constant-elements"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-transform-react-display-name"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-transform-react-inline-elements"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-transform-react-jsx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-transform-react-jsx-compat"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-transform-react-jsx-development"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-transform-react-jsx-self"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-transform-react-jsx-source"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-transform-react-pure-annotations"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/plugin-transform-strict-mode"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/preset-flow"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/preset-react"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/register"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/standalone"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@babel/test-esm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@discoveryjs/json-ext"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@esbuild/aix-ppc64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@esbuild/android-arm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@esbuild/android-arm64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@esbuild/android-x64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@esbuild/darwin-arm64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@esbuild/darwin-x64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@esbuild/freebsd-arm64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@esbuild/freebsd-x64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@esbuild/linux-arm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@esbuild/linux-arm64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@esbuild/linux-ia32"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@esbuild/linux-loong64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@esbuild/linux-mips64el"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@esbuild/linux-ppc64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@esbuild/linux-riscv64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@esbuild/linux-s390x"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@esbuild/linux-x64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@esbuild/netbsd-arm64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@esbuild/netbsd-x64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@esbuild/openbsd-arm64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@esbuild/openbsd-x64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@esbuild/sunos-x64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@esbuild/win32-arm64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@esbuild/win32-ia32"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@esbuild/win32-x64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@isaacs/cliui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@jridgewell/remapping"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@jridgewell/set-array"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@jridgewell/source-map"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@mdn/browser-compat-data"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@nicolo-ribaudo/chokidar-2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@npmcli/fs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@pkgjs/parseargs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@rollup/rollup-android-arm-eabi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@rollup/rollup-android-arm64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@rollup/rollup-darwin-arm64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@rollup/rollup-darwin-x64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@rollup/rollup-freebsd-arm64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@rollup/rollup-freebsd-x64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@rollup/rollup-linux-arm-gnueabihf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@rollup/rollup-linux-arm-musleabihf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@rollup/rollup-linux-arm64-gnu"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@rollup/rollup-linux-arm64-musl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@rollup/rollup-linux-loong64-gnu"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@rollup/rollup-linux-loong64-musl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@rollup/rollup-linux-ppc64-gnu"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@rollup/rollup-linux-ppc64-musl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@rollup/rollup-linux-riscv64-gnu"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@rollup/rollup-linux-riscv64-musl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@rollup/rollup-linux-s390x-gnu"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@rollup/rollup-linux-x64-gnu"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@rollup/rollup-linux-x64-musl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@rollup/rollup-openbsd-x64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@rollup/rollup-openharmony-arm64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@rollup/rollup-win32-arm64-msvc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@rollup/rollup-win32-ia32-msvc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@rollup/rollup-win32-x64-gnu"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@rollup/rollup-win32-x64-msvc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@sec-ant/readable-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@tootallnate/once"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@tsconfig/node14"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@tsconfig/node16"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@tsconfig/node18"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@tsconfig/node20"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@types/cacache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@types/color-name"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@types/convert-source-map"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@types/eslint-scope"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@types/esrecurse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@types/gensync"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@types/jsesc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@types/v8flags"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@unicode/unicode-17.0.0"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@webassemblyjs/ast"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@webassemblyjs/floating-point-hex-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@webassemblyjs/helper-api-error"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@webassemblyjs/helper-buffer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@webassemblyjs/helper-code-frame"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@webassemblyjs/helper-fsm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@webassemblyjs/helper-module-context"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@webassemblyjs/helper-numbers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@webassemblyjs/helper-wasm-bytecode"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@webassemblyjs/helper-wasm-section"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@webassemblyjs/ieee754"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@webassemblyjs/leb128"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@webassemblyjs/utf8"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@webassemblyjs/wasm-edit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@webassemblyjs/wasm-gen"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@webassemblyjs/wasm-opt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@webassemblyjs/wasm-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@webassemblyjs/wast-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@webassemblyjs/wast-printer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@webpack-cli/configtest"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@webpack-cli/info"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@webpack-cli/serve"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@xtuc/ieee754"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "@xtuc/long"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "abab"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "acorn-dynamic-import"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "acorn-import-phases"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "acorn-walk"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "actions/cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "actions/download-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "actions/github-script"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "actions/github-script"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "actions/setup-node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "agent-base"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "ajv-errors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "ajv-formats"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "ajv-keywords"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "align-text"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "ansi-colors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "arg"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "arr-flatten"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "array.prototype.concat"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "array.prototype.reduce"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "asn1.js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "assert"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "ast-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "async"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "babel"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "babel-plugin-polyfill-es-shims"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "babel-plugin-polyfill-regenerator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "babel-plugin-syntax-hermes-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "babel/actions/create-comment"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "babel/actions/create-pull-request"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "babel/actions/generate-lerna-changelog"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "babel/actions/get-release-tags"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "babel/actions/is-org-member"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "babel/actions/publish-github-release"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "babel/actions/ref-matches-branch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "babel/actions/update-changelog"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "benchmark"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "big.js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "bindings"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "bluebird"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "bn.js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "brorand"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "browser-stdout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "browserify-aes"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "browserify-cipher"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "browserify-des"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "browserify-rsa"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "browserify-sign"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "browserify-zlib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "buffer-xor"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "builtin-status-codes"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "cacache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "center-align"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "chrome-trace-event"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "cipher-base"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "clone-deep"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "code-point-at"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "codecov/codecov-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "color-convert"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "color-name"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "common-path-prefix"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "concat-map"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "concat-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "console-browserify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "constants-browserify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "copy-concurrently"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "create-ecdh"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "create-hash"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "create-hmac"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "crypto-browserify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "cssstyle"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "cyclist"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "d"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "data-urls"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "decimal.js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "des.js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "dessant/lock-threads"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "diff"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "diff-sequences"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "diffie-hellman"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "domain-browser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "domexception"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "duplexify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "eastasianwidth"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "elliptic"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "emoji-regex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "emojis-list"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "entities"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "envinfo"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "es-array-method-boxes-properly"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "es-module-lexer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "es5-ext"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "es6-iterator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "es6-map"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "es6-set"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "es6-symbol"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "es6-weak-map"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "esbuild"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "escope"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "esprima"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "event-emitter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "events"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "evp_bytestokey"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "ext"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "figgy-pudding"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "file-uri-to-path"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "find-cache-dir"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "find-cache-directory"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "find-up-simple"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "flat"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "flush-write-stream"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "from2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "fs-readdir-recursive"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "fs-write-stream-atomic"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "get-east-asian-width"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "glob-to-regexp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "hash-base"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "hash.js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "he"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "hermes-estree"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "hermes-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "hmac-drbg"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "html-encoding-sniffer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "http-proxy-agent"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "https-browserify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "https-proxy-agent"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "iferr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "imjohnbo/issue-bot"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "import-meta-resolve"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "infer-owner"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "is-buffer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "is-potential-custom-element-name"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "jackspeak"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "jsdom"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "json-loader"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "json-parse-better-errors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "lazy-cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "load-json-file"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "loader-runner"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "loader-utils"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "log-symbols"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "longest"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "make-error"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "md5.js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "miller-rabin"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "minimalistic-assert"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "minimalistic-crypto-utils"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "minipass-collect"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "minipass-flush"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "minipass-pipeline"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "mississippi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "mocha"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "move-concurrently"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "nan"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "neo-async"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "next-tick"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "node-libs-browser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "npm-babel-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "number-is-nan"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "nwsapi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "object.getownpropertydescriptors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "os-browserify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "p-finally"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "p-map"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "p-try"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "package-json-from-dist"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "pako"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "parallel-transform"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "parse-asn1"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "parse5"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "path-browserify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "path-dirname"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "path-scurry"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "path-type"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "pbkdf2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "platform"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "process"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "promise-inflight"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "public-encrypt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "pump"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "pumpify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "querystring-es3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "querystringify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "randomfill"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "recast"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "regenerator-runtime"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "repeat-element"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "repeat-string"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "requires-port"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "right-align"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "ripemd160"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "rrweb-cssom"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "run-queue"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "saxes"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "schema-utils"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "setimmediate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "sha.js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "shallow-clone"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "snapdragon-node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "snapdragon-util"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "source-list-map"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "sprintf-js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "ssri"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "stream-browserify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "stream-each"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "stream-http"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "stream-shift"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "string-width-cjs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "strip-ansi-cjs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "strip-eof"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "symbol-tree"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "terser-webpack-plugin"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "through2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "timers-browserify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "tiny-invariant"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "to-arraybuffer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "to-buffer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "to-fast-properties"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "tr46"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "ts-node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "tsx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "tty-browserify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "type"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "typedarray"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "uglify-js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "uglify-to-browserify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "uglifyjs-webpack-plugin"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "unique-filename"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "unique-slug"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "universalify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "uri-js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "url"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "url-parse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "util"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "v8-compile-cache-lib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "vm-browserify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "w3c-xmlserializer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "watchpack"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "watchpack-chokidar2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "webidl-conversions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "webpack"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "webpack-cli"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "webpack-merge"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "webpack-sources"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "whatwg-encoding"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "whatwg-mimetype"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "whatwg-url"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "wildcard"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "window-size"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "wordwrap"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "worker-farm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "workerpool"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "wrap-ansi-cjs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "ws"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "xml-name-validator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "xmlchars"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "xtend"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "babel-babel",
+      "child": "yargs-unparser"
+    }
+  ]
+}

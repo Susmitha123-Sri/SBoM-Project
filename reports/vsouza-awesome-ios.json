@@ -1,0 +1,78 @@
+{
+  "scan_id": "vsouza-awesome-ios",
+  "timestamp": "2026-03-20T04:46:56.772378",
+  "target": "https://github.com/vsouza/awesome-ios",
+  "summary": {
+    "total_packages": 4,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-node",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jaywcjlove/markdown-to-html-cli",
+      "version": "main",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "peaceiris/actions-gh-pages",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vsouza-awesome-ios",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vsouza-awesome-ios",
+      "child": "actions/setup-node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vsouza-awesome-ios",
+      "child": "jaywcjlove/markdown-to-html-cli"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "vsouza-awesome-ios",
+      "child": "peaceiris/actions-gh-pages"
+    }
+  ]
+}

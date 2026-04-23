@@ -1,0 +1,123 @@
+{
+  "scan_id": "PKUFlyingPig-cs-self-learning",
+  "timestamp": "2026-03-20T02:06:21.431519",
+  "target": "https://github.com/PKUFlyingPig/cs-self-learning",
+  "summary": {
+    "total_packages": 7,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-python",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jinja2",
+      "version": "3.1.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.1.6",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mkdocs-material",
+      "version": "9.5.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.7.6",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mkdocs-minify-plugin",
+      "version": "0.7.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.8.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mkdocs-open-in-new-tab",
+      "version": "1.0.8",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.8",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mkdocs-static-i18n",
+      "version": "1.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.1",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "PKUFlyingPig-cs-self-learning",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "PKUFlyingPig-cs-self-learning",
+      "child": "actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "PKUFlyingPig-cs-self-learning",
+      "child": "jinja2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "PKUFlyingPig-cs-self-learning",
+      "child": "mkdocs-material"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "PKUFlyingPig-cs-self-learning",
+      "child": "mkdocs-minify-plugin"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "PKUFlyingPig-cs-self-learning",
+      "child": "mkdocs-open-in-new-tab"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "PKUFlyingPig-cs-self-learning",
+      "child": "mkdocs-static-i18n"
+    }
+  ]
+}

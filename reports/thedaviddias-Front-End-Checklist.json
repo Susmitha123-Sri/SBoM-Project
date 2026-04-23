@@ -1,0 +1,978 @@
+{
+  "scan_id": "thedaviddias-Front-End-Checklist",
+  "timestamp": "2026-03-20T02:02:49.098591",
+  "target": "https://github.com/thedaviddias/Front-End-Checklist",
+  "summary": {
+    "total_packages": 64,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "@isaacs/cliui",
+      "version": "8.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-node",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/stale",
+      "version": "8",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ansi-regex",
+      "version": "5.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ansi-regex",
+      "version": "6.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ansi-styles",
+      "version": "4.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ansi-styles",
+      "version": "6.2.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "argparse",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "balanced-match",
+      "version": "1.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "brace-expansion",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "color-convert",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "color-name",
+      "version": "1.1.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "commander",
+      "version": "12.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cross-spawn",
+      "version": "7.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "deep-extend",
+      "version": "0.6.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "eastasianwidth",
+      "version": "0.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "emoji-regex",
+      "version": "8.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "emoji-regex",
+      "version": "9.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "entities",
+      "version": "4.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "foreground-child",
+      "version": "3.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "get-stdin",
+      "version": "9.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "glob",
+      "version": "11.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "husky",
+      "version": "9.1.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ignore",
+      "version": "6.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ini",
+      "version": "4.1.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-fullwidth-code-point",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "isexe",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jackspeak",
+      "version": "4.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "js-yaml",
+      "version": "4.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jsonc-parser",
+      "version": "3.3.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jsonpointer",
+      "version": "5.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "linkify-it",
+      "version": "5.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lru-cache",
+      "version": "11.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lycheeverse/lychee-action",
+      "version": "2.0.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "markdown-it",
+      "version": "14.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "markdownlint",
+      "version": "0.35.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "markdownlint-cli",
+      "version": "0.42.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "markdownlint-micromark",
+      "version": "0.1.10",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mdurl",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "minimatch",
+      "version": "10.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "minimist",
+      "version": "1.2.8",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "minipass",
+      "version": "7.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "package-json-from-dist",
+      "version": "1.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "path-key",
+      "version": "3.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "path-scurry",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "peter-evans/create-issue-from-file",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pnpm/action-setup",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "prettier",
+      "version": "3.3.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "punycode.js",
+      "version": "2.3.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "run-con",
+      "version": "1.3.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "shebang-command",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "shebang-regex",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "signal-exit",
+      "version": "4.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "smol-toml",
+      "version": "1.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "string-width",
+      "version": "4.2.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "string-width",
+      "version": "5.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "strip-ansi",
+      "version": "6.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "strip-ansi",
+      "version": "7.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "strip-json-comments",
+      "version": "3.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "uc.micro",
+      "version": "2.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "which",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wrap-ansi",
+      "version": "7.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wrap-ansi",
+      "version": "8.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "@isaacs/cliui"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "actions/setup-node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "actions/stale"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "ansi-regex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "ansi-regex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "ansi-styles"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "ansi-styles"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "argparse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "balanced-match"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "brace-expansion"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "color-convert"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "color-name"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "commander"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "cross-spawn"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "deep-extend"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "eastasianwidth"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "emoji-regex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "emoji-regex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "entities"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "foreground-child"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "get-stdin"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "glob"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "husky"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "ignore"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "ini"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "is-fullwidth-code-point"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "isexe"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "jackspeak"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "js-yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "jsonc-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "jsonpointer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "linkify-it"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "lru-cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "lycheeverse/lychee-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "markdown-it"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "markdownlint"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "markdownlint-cli"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "markdownlint-micromark"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "mdurl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "minimatch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "minimist"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "minipass"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "package-json-from-dist"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "path-key"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "path-scurry"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "peter-evans/create-issue-from-file"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "pnpm/action-setup"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "prettier"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "punycode.js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "run-con"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "shebang-command"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "shebang-regex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "signal-exit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "smol-toml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "string-width"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "string-width"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "strip-ansi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "strip-ansi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "strip-json-comments"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "uc.micro"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "which"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "wrap-ansi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "thedaviddias-Front-End-Checklist",
+      "child": "wrap-ansi"
+    }
+  ]
+}

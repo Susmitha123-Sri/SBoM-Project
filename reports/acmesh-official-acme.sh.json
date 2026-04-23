@@ -1,0 +1,243 @@
+{
+  "scan_id": "acmesh-official-acme.sh",
+  "timestamp": "2026-03-20T06:29:28.794368",
+  "target": "https://github.com/acmesh-official/acme.sh",
+  "summary": {
+    "total_packages": 15,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "actions/checkout",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/github-script",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "anyvm-org/cf-tunnel",
+      "version": "0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/metadata-action",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/setup-buildx-action",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/setup-qemu-action",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "peter-evans/create-issue-from-file",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vmactions/dragonflybsd-vm",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vmactions/freebsd-vm",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vmactions/haiku-vm",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vmactions/netbsd-vm",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vmactions/omnios-vm",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vmactions/openbsd-vm",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vmactions/openindiana-vm",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "vmactions/solaris-vm",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "acmesh-official-acme.sh",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "acmesh-official-acme.sh",
+      "child": "actions/github-script"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "acmesh-official-acme.sh",
+      "child": "anyvm-org/cf-tunnel"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "acmesh-official-acme.sh",
+      "child": "docker/metadata-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "acmesh-official-acme.sh",
+      "child": "docker/setup-buildx-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "acmesh-official-acme.sh",
+      "child": "docker/setup-qemu-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "acmesh-official-acme.sh",
+      "child": "peter-evans/create-issue-from-file"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "acmesh-official-acme.sh",
+      "child": "vmactions/dragonflybsd-vm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "acmesh-official-acme.sh",
+      "child": "vmactions/freebsd-vm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "acmesh-official-acme.sh",
+      "child": "vmactions/haiku-vm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "acmesh-official-acme.sh",
+      "child": "vmactions/netbsd-vm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "acmesh-official-acme.sh",
+      "child": "vmactions/omnios-vm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "acmesh-official-acme.sh",
+      "child": "vmactions/openbsd-vm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "acmesh-official-acme.sh",
+      "child": "vmactions/openindiana-vm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "acmesh-official-acme.sh",
+      "child": "vmactions/solaris-vm"
+    }
+  ]
+}

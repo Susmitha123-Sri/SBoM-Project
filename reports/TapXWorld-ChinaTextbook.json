@@ -1,0 +1,63 @@
+{
+  "scan_id": "TapXWorld-ChinaTextbook",
+  "timestamp": "2026-03-20T03:09:14.034682",
+  "target": "https://github.com/TapXWorld/ChinaTextbook",
+  "summary": {
+    "total_packages": 3,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "command-line-arguments",
+      "version": "UNKNOWN",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mergePDFs",
+      "version": "UNKNOWN",
+      "type": "binary",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "stdlib",
+      "version": "go1.22.4",
+      "type": "go-module",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "TapXWorld-ChinaTextbook",
+      "child": "command-line-arguments"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "TapXWorld-ChinaTextbook",
+      "child": "mergePDFs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "TapXWorld-ChinaTextbook",
+      "child": "stdlib"
+    }
+  ]
+}

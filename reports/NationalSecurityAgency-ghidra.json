@@ -1,0 +1,243 @@
+{
+  "scan_id": "NationalSecurityAgency-ghidra",
+  "timestamp": "2026-03-20T03:09:24.081995",
+  "target": "https://github.com/NationalSecurityAgency/ghidra",
+  "summary": {
+    "total_packages": 15,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "AppleJavaExtensions",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "WallaceSrc",
+      "version": "UNKNOWN",
+      "type": "binary",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "WallaceVersion2",
+      "version": "UNKNOWN",
+      "type": "binary",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "WinHelloCPP",
+      "version": "UNKNOWN",
+      "type": "binary",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "apache-ant",
+      "version": "1.7.0-bzip2",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "csframework",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gradle-wrapper",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hfsx",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hfsx_dmglib",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "iharder-base64",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "java_awt_Desktop",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llio_amd64",
+      "version": "UNKNOWN",
+      "type": "binary",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llio_i386",
+      "version": "UNKNOWN",
+      "type": "binary",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llio_ia64",
+      "version": "UNKNOWN",
+      "type": "binary",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "swing-layout",
+      "version": "1.0.3",
+      "type": "java-archive",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "NationalSecurityAgency-ghidra",
+      "child": "AppleJavaExtensions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "NationalSecurityAgency-ghidra",
+      "child": "WallaceSrc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "NationalSecurityAgency-ghidra",
+      "child": "WallaceVersion2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "NationalSecurityAgency-ghidra",
+      "child": "WinHelloCPP"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "NationalSecurityAgency-ghidra",
+      "child": "apache-ant"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "NationalSecurityAgency-ghidra",
+      "child": "csframework"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "NationalSecurityAgency-ghidra",
+      "child": "gradle-wrapper"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "NationalSecurityAgency-ghidra",
+      "child": "hfsx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "NationalSecurityAgency-ghidra",
+      "child": "hfsx_dmglib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "NationalSecurityAgency-ghidra",
+      "child": "iharder-base64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "NationalSecurityAgency-ghidra",
+      "child": "java_awt_Desktop"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "NationalSecurityAgency-ghidra",
+      "child": "llio_amd64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "NationalSecurityAgency-ghidra",
+      "child": "llio_i386"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "NationalSecurityAgency-ghidra",
+      "child": "llio_ia64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "NationalSecurityAgency-ghidra",
+      "child": "swing-layout"
+    }
+  ]
+}

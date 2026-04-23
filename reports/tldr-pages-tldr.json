@@ -1,0 +1,1443 @@
+{
+  "scan_id": "tldr-pages-tldr",
+  "timestamp": "2026-03-20T03:29:29.897601",
+  "target": "https://github.com/tldr-pages/tldr",
+  "summary": {
+    "total_packages": 95,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "@types/debug",
+      "version": "4.1.12",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/katex",
+      "version": "0.16.7",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/ms",
+      "version": "2.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "@types/unist",
+      "version": "2.0.11",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/attest-build-provenance",
+      "version": "4.1.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "6.0.2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-node",
+      "version": "6.3.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-python",
+      "version": "6.2.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "7.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ansi-regex",
+      "version": "6.2.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "argparse",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "balanced-match",
+      "version": "4.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "black",
+      "version": "26.3.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "26.3.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "brace-expansion",
+      "version": "5.0.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "character-entities",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "character-entities-legacy",
+      "version": "3.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "character-reference-invalid",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "codespell-project/actions-codespell",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "commander",
+      "version": "14.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "commander",
+      "version": "8.3.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "debug",
+      "version": "4.4.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "decode-named-character-reference",
+      "version": "1.2.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "deep-extend",
+      "version": "0.6.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dequal",
+      "version": "2.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "devlop",
+      "version": "1.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "entities",
+      "version": "4.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fdir",
+      "version": "6.5.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flake8",
+      "version": "7.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.3.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "get-east-asian-width",
+      "version": "1.4.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "glob",
+      "version": "13.0.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ignore",
+      "version": "7.0.5",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ini",
+      "version": "4.1.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-alphabetical",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-alphanumerical",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-decimal",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "is-hexadecimal",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "js-yaml",
+      "version": "4.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jsonc-parser",
+      "version": "3.3.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jsonpointer",
+      "version": "5.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "katex",
+      "version": "0.16.27",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "linkify-it",
+      "version": "5.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lru-cache",
+      "version": "11.2.6",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lycheeverse/lychee-action",
+      "version": "2.8.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "markdown-it",
+      "version": "14.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "markdownlint",
+      "version": "0.40.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "markdownlint-cli",
+      "version": "0.48.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mdurl",
+      "version": "2.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micalevisk/last-issue-action",
+      "version": "2.3.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark",
+      "version": "4.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-core-commonmark",
+      "version": "2.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-extension-directive",
+      "version": "4.0.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-extension-gfm-autolink-literal",
+      "version": "2.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-extension-gfm-footnote",
+      "version": "2.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-extension-gfm-table",
+      "version": "2.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-extension-math",
+      "version": "3.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-factory-destination",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-factory-label",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-factory-space",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-factory-title",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-factory-whitespace",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-util-character",
+      "version": "2.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-util-chunked",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-util-classify-character",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-util-combine-extensions",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-util-decode-numeric-character-reference",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-util-encode",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-util-html-tag-name",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-util-normalize-identifier",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-util-resolve-all",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-util-sanitize-uri",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-util-subtokenize",
+      "version": "2.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-util-symbol",
+      "version": "2.0.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "micromark-util-types",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "minimatch",
+      "version": "10.2.4",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "minimist",
+      "version": "1.2.8",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "minipass",
+      "version": "7.1.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ms",
+      "version": "2.1.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "parse-entities",
+      "version": "4.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "path-scurry",
+      "version": "2.0.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "peter-evans/create-issue-from-file",
+      "version": "6.0.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "peter-evans/create-pull-request",
+      "version": "8.1.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "picomatch",
+      "version": "4.0.3",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "punycode.js",
+      "version": "2.3.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "requests",
+      "version": "2.32.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.32.5",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "run-con",
+      "version": "1.3.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "smol-toml",
+      "version": "1.6.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "string-width",
+      "version": "8.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "strip-ansi",
+      "version": "7.1.2",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "strip-json-comments",
+      "version": "3.1.1",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tinyglobby",
+      "version": "0.2.15",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tj-actions/changed-files",
+      "version": "47.0.5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tldr-lint",
+      "version": "0.0.22",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tldr-pages",
+      "version": "UNKNOWN",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tldr-pages/tldr-labeler-action",
+      "version": "0.6.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "uc.micro",
+      "version": "2.1.0",
+      "type": "npm",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "@types/debug"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "@types/katex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "@types/ms"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "@types/unist"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "actions/attest-build-provenance"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "actions/setup-node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "ansi-regex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "argparse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "balanced-match"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "black"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "brace-expansion"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "character-entities"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "character-entities-legacy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "character-reference-invalid"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "codespell-project/actions-codespell"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "commander"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "commander"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "debug"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "decode-named-character-reference"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "deep-extend"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "dequal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "devlop"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "entities"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "fdir"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "flake8"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "get-east-asian-width"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "glob"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "ignore"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "ini"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "is-alphabetical"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "is-alphanumerical"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "is-decimal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "is-hexadecimal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "js-yaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "jsonc-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "jsonpointer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "katex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "linkify-it"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "lru-cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "lycheeverse/lychee-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "markdown-it"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "markdownlint"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "markdownlint-cli"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "mdurl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "micalevisk/last-issue-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "micromark"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "micromark-core-commonmark"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "micromark-extension-directive"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "micromark-extension-gfm-autolink-literal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "micromark-extension-gfm-footnote"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "micromark-extension-gfm-table"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "micromark-extension-math"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "micromark-factory-destination"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "micromark-factory-label"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "micromark-factory-space"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "micromark-factory-title"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "micromark-factory-whitespace"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "micromark-util-character"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "micromark-util-chunked"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "micromark-util-classify-character"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "micromark-util-combine-extensions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "micromark-util-decode-numeric-character-reference"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "micromark-util-encode"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "micromark-util-html-tag-name"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "micromark-util-normalize-identifier"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "micromark-util-resolve-all"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "micromark-util-sanitize-uri"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "micromark-util-subtokenize"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "micromark-util-symbol"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "micromark-util-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "minimatch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "minimist"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "minipass"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "ms"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "parse-entities"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "path-scurry"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "peter-evans/create-issue-from-file"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "peter-evans/create-pull-request"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "picomatch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "punycode.js"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "requests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "run-con"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "smol-toml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "string-width"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "strip-ansi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "strip-json-comments"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "tinyglobby"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "tj-actions/changed-files"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "tldr-lint"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "tldr-pages"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "tldr-pages/tldr-labeler-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "tldr-pages-tldr",
+      "child": "uc.micro"
+    }
+  ]
+}

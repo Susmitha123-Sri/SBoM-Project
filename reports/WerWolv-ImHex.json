@@ -1,0 +1,993 @@
+{
+  "scan_id": "WerWolv-ImHex",
+  "timestamp": "2026-03-20T04:37:55.123985",
+  "target": "https://github.com/WerWolv/ImHex",
+  "summary": {
+    "total_packages": 65,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "KSXGitHub/github-actions-deploy-aur",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.1.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/attest-build-provenance",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/cache",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.0.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/deploy-pages",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/download-artifact",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-dotnet",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/stale",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "10.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-pages-artifact",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cmake",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "dawidd6/action-download-artifact",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "19",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/build-push-action",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/login-action",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docker/metadata-action",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flatpak/flatpak-github-actions/flatpak-builder",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "friendlyanon/setup-vcpkg",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "g++-14",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "gcc-14",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "geekyeggo/delete-artifact",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "git",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "github/codeql-action/analyze",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/init",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hendrikmuhs/ccache-action",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.21",
+      "version_status": "outdated"
+    },
+    {
+      "package": "iTrooz/cache/restore",
+      "version": "restore_with_version",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ilammy/msvc-dev-cmd",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.13.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "libbz2-1.0",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libbz2-dev",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libcurl4-gnutls-dev",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libdbus-1-3",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libdbus-1-dev",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libfontconfig-dev",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libfontconfig1",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libfreetype-dev",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libfreetype6",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libglfw3",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libglfw3-dev",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libgtk-3-0",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libgtk-3-dev",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "liblz4-1",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "liblz4-dev",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "liblzma-dev",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "liblzma5",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libmagic-dev",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libmagic1",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libmbedtls-dev",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libmbedtls14",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libmd4c-dev",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libmd4c-html0-dev",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libssh2-1",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libssh2-1-dev",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libzstd-dev",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "libzstd1",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "lukka/get-cmake",
+      "version": "latest",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "msys2/setup-msys2",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.30.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ncipollo/release-action",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.21.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ninja-build",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "peter-evans/repository-dispatch",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pkg-config",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "reproducible-containers/buildkit-cache-dance",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.3.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "signpath/github-action-submit-signing-request",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "snapcore/action-publish",
+      "version": "1",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "softprops/action-gh-release",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.6.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "zlib1g",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "zlib1g-dev",
+      "version": "unknown",
+      "type": "deb",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "KSXGitHub/github-actions-deploy-aur"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "actions/attest-build-provenance"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "actions/cache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "actions/deploy-pages"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "actions/download-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "actions/setup-dotnet"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "actions/stale"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "actions/upload-pages-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "cmake"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "dawidd6/action-download-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "docker/build-push-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "docker/login-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "docker/metadata-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "flatpak/flatpak-github-actions/flatpak-builder"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "friendlyanon/setup-vcpkg"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "g++-14"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "gcc-14"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "geekyeggo/delete-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "git"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "github/codeql-action/analyze"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "github/codeql-action/init"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "hendrikmuhs/ccache-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "iTrooz/cache/restore"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "ilammy/msvc-dev-cmd"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "libbz2-1.0"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "libbz2-dev"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "libcurl4-gnutls-dev"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "libdbus-1-3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "libdbus-1-dev"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "libfontconfig-dev"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "libfontconfig1"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "libfreetype-dev"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "libfreetype6"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "libglfw3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "libglfw3-dev"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "libgtk-3-0"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "libgtk-3-dev"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "liblz4-1"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "liblz4-dev"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "liblzma-dev"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "liblzma5"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "libmagic-dev"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "libmagic1"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "libmbedtls-dev"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "libmbedtls14"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "libmd4c-dev"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "libmd4c-html0-dev"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "libssh2-1"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "libssh2-1-dev"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "libzstd-dev"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "libzstd1"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "lukka/get-cmake"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "msys2/setup-msys2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "ncipollo/release-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "ninja-build"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "peter-evans/repository-dispatch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "pkg-config"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "reproducible-containers/buildkit-cache-dance"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "signpath/github-action-submit-signing-request"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "snapcore/action-publish"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "softprops/action-gh-release"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "zlib1g"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "WerWolv-ImHex",
+      "child": "zlib1g-dev"
+    }
+  ]
+}

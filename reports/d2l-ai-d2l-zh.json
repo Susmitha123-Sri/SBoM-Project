@@ -1,0 +1,183 @@
+{
+  "scan_id": "d2l-ai-d2l-zh",
+  "timestamp": "2026-03-20T01:45:41.981500",
+  "target": "https://github.com/d2l-ai/d2l-zh",
+  "summary": {
+    "total_packages": 11,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "./.github/actions/setup_env_vars",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "./.github/actions/submit-job",
+      "version": "UNKNOWN",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "3",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aws-actions/configure-aws-credentials",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jupyter",
+      "version": "1.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.1.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "matplotlib",
+      "version": "3.5.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.10.8",
+      "version_status": "outdated"
+    },
+    {
+      "package": "numpy",
+      "version": "1.21.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pandas",
+      "version": "1.2.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "peter-evans/create-or-update-comment",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "prince-chrismc/check-actor-permissions-action",
+      "version": "unknown",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "requests",
+      "version": "2.25.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.32.5",
+      "version_status": "outdated"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d2l-ai-d2l-zh",
+      "child": "./.github/actions/setup_env_vars"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d2l-ai-d2l-zh",
+      "child": "./.github/actions/submit-job"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d2l-ai-d2l-zh",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d2l-ai-d2l-zh",
+      "child": "aws-actions/configure-aws-credentials"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d2l-ai-d2l-zh",
+      "child": "jupyter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d2l-ai-d2l-zh",
+      "child": "matplotlib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d2l-ai-d2l-zh",
+      "child": "numpy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d2l-ai-d2l-zh",
+      "child": "pandas"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d2l-ai-d2l-zh",
+      "child": "peter-evans/create-or-update-comment"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d2l-ai-d2l-zh",
+      "child": "prince-chrismc/check-actor-permissions-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "d2l-ai-d2l-zh",
+      "child": "requests"
+    }
+  ]
+}

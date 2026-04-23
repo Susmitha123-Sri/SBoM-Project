@@ -1,0 +1,6723 @@
+{
+  "scan_id": "crewAIInc-crewAI",
+  "timestamp": "2026-03-20T06:14:28.445550",
+  "target": "https://github.com/crewAIInc/crewAI",
+  "summary": {
+    "total_packages": 447,
+    "total_vulnerabilities": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "negligible": 0
+  },
+  "packages": [
+    {
+      "package": "a2a-sdk",
+      "version": "0.3.22",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.3.25",
+      "version_status": "outdated"
+    },
+    {
+      "package": "accelerate",
+      "version": "1.12.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.13.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/cache/restore",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/cache/save",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/checkout",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/download-artifact",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-node",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/setup-python",
+      "version": "5",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/stale",
+      "version": "9",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "actions/upload-artifact",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aiobotocore",
+      "version": "2.25.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aiocache",
+      "version": "0.12.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.12.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "aiofiles",
+      "version": "24.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "25.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "aiohappyeyeballs",
+      "version": "2.6.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.6.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "aiohttp",
+      "version": "3.13.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.13.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "aioitertools",
+      "version": "0.13.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.13.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "aiolimiter",
+      "version": "1.2.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "aiomcache",
+      "version": "0.8.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.8.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "aiosignal",
+      "version": "1.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "aiosqlite",
+      "version": "0.21.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.22.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "annotated-doc",
+      "version": "0.0.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.0.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "annotated-types",
+      "version": "0.7.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "anthropic",
+      "version": "0.73.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.86.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "antlr4-python3-runtime",
+      "version": "4.9.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.13.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "anyio",
+      "version": "4.12.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.12.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "apify-client",
+      "version": "2.4.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.5.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "apify-shared",
+      "version": "2.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.2.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "appdirs",
+      "version": "1.4.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "asn1crypto",
+      "version": "1.5.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.5.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "astral-sh/setup-uv",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "astral-sh/setup-uv",
+      "version": "6",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "async-generator",
+      "version": "1.10",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.10",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "async-timeout",
+      "version": "5.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.0.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "attrs",
+      "version": "25.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "26.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "authlib",
+      "version": "1.6.9",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.6.9",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "av",
+      "version": "13.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "17.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "azure-ai-inference",
+      "version": "1.0.0b9",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.0b9",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "azure-core",
+      "version": "1.38.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.39.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "backoff",
+      "version": "2.2.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.2.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "backports-asyncio-runner",
+      "version": "1.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "bandit",
+      "version": "1.9.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.9.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bcrypt",
+      "version": "5.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "beautifulsoup4",
+      "version": "4.13.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.14.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "bedrock-agentcore",
+      "version": "1.2.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.7",
+      "version_status": "outdated"
+    },
+    {
+      "package": "boto3",
+      "version": "1.40.70",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.42.72",
+      "version_status": "outdated"
+    },
+    {
+      "package": "boto3-stubs",
+      "version": "1.42.40",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.42.72",
+      "version_status": "outdated"
+    },
+    {
+      "package": "botocore",
+      "version": "1.40.70",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.42.72",
+      "version_status": "outdated"
+    },
+    {
+      "package": "botocore-stubs",
+      "version": "1.42.41",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.42.41",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "browserbase",
+      "version": "1.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.7.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "build",
+      "version": "1.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "cachetools",
+      "version": "7.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.0.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "certifi",
+      "version": "2026.1.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2026.2.25",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cffi",
+      "version": "2.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "cfgv",
+      "version": "3.5.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.5.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "charset-normalizer",
+      "version": "3.4.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.4.6",
+      "version_status": "outdated"
+    },
+    {
+      "package": "chromadb",
+      "version": "1.1.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.5.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "click",
+      "version": "8.1.8",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8.3.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "colorama",
+      "version": "0.4.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.6",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "coloredlogs",
+      "version": "15.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "15.0.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "colorlog",
+      "version": "6.10.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.10.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "composio-core",
+      "version": "0.7.21",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.21",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "contextual-client",
+      "version": "0.11.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.11.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "contourpy",
+      "version": "1.3.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "couchbase",
+      "version": "4.5.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.5.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "crewai",
+      "version": "UNKNOWN",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.11.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "crewai-devtools",
+      "version": "UNKNOWN",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "crewai-files",
+      "version": "UNKNOWN",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.11.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "crewai-tools",
+      "version": "UNKNOWN",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.11.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cryptography",
+      "version": "46.0.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "46.0.5",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "cuda-bindings",
+      "version": "12.9.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "13.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cuda-pathfinder",
+      "version": "1.3.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "cycler",
+      "version": "0.12.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.12.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "databricks-sdk",
+      "version": "0.85.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.102.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "dataclasses-json",
+      "version": "0.6.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.7",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "decorator",
+      "version": "5.2.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.2.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "defusedxml",
+      "version": "0.7.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "deprecated",
+      "version": "1.3.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "deprecation",
+      "version": "2.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.1.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "dill",
+      "version": "0.4.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "diskcache",
+      "version": "5.6.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.6.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "distlib",
+      "version": "0.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "distro",
+      "version": "1.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.9.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "dnspython",
+      "version": "2.8.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.8.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "docker",
+      "version": "7.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.1.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "docling",
+      "version": "2.75.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.80.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docling-core",
+      "version": "2.66.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.70.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docling-ibm-models",
+      "version": "3.11.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.12.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docling-parse",
+      "version": "5.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.5.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "docstring-parser",
+      "version": "0.17.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.17.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "durationpy",
+      "version": "0.10",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.10",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "effdet",
+      "version": "0.4.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "emoji",
+      "version": "2.15.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.15.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "et-xmlfile",
+      "version": "2.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "eval-type-backport",
+      "version": "0.2.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.3.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "exa-py",
+      "version": "2.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.9.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "exceptiongroup",
+      "version": "1.3.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "execnet",
+      "version": "2.1.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.1.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "faker",
+      "version": "40.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "40.11.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fastapi",
+      "version": "0.128.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.135.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fastembed",
+      "version": "0.7.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "fastembed",
+      "version": "0.7.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "ffmpeg-python",
+      "version": "0.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.2.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "filelock",
+      "version": "3.20.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.25.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "filetype",
+      "version": "1.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "firecrawl-py",
+      "version": "4.14.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.19.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "flatbuffers",
+      "version": "25.12.19",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "25.12.19",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "fonttools",
+      "version": "4.61.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.62.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "frozenlist",
+      "version": "1.8.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.8.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "fsspec",
+      "version": "2026.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2026.2.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "future",
+      "version": "1.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "gitdb",
+      "version": "4.0.12",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.12",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "github/codeql-action/analyze",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "github/codeql-action/init",
+      "version": "4",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "gitpython",
+      "version": "3.1.46",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.1.46",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "google-api-core",
+      "version": "2.29.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.30.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google-auth",
+      "version": "2.48.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.49.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "google-cloud-vision",
+      "version": "3.12.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.12.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "google-genai",
+      "version": "1.65.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.68.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "googleapis-common-protos",
+      "version": "1.72.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.73.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "greenlet",
+      "version": "3.3.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.3.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "grpcio",
+      "version": "1.78.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.78.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "grpcio-status",
+      "version": "1.71.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.78.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "h11",
+      "version": "0.16.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.16.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "h2",
+      "version": "4.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.3.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "hf-xet",
+      "version": "1.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hpack",
+      "version": "4.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.1.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "html5lib",
+      "version": "1.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "httpcore",
+      "version": "1.0.9",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.9",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "httptools",
+      "version": "0.7.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "httpx",
+      "version": "0.28.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.28.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "httpx-auth",
+      "version": "0.23.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.23.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "httpx-sse",
+      "version": "0.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "huggingface-hub",
+      "version": "0.36.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.7.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "humanfriendly",
+      "version": "10.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "10.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "hyperbrowser",
+      "version": "0.83.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.88.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "hyperframe",
+      "version": "6.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.1.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "ibm-cos-sdk",
+      "version": "2.14.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.16.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ibm-cos-sdk",
+      "version": "2.14.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.16.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ibm-cos-sdk-core",
+      "version": "2.14.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.16.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ibm-cos-sdk-core",
+      "version": "2.14.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.16.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ibm-cos-sdk-s3transfer",
+      "version": "2.14.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.16.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ibm-cos-sdk-s3transfer",
+      "version": "2.14.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.16.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ibm-watsonx-ai",
+      "version": "1.3.42",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.5.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "identify",
+      "version": "2.6.16",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.6.18",
+      "version_status": "outdated"
+    },
+    {
+      "package": "idna",
+      "version": "3.11",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.11",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "ijson",
+      "version": "3.4.0.post0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.5.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "impit",
+      "version": "0.9.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.12.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "importlib-metadata",
+      "version": "8.7.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "importlib-resources",
+      "version": "6.5.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.5.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "inflection",
+      "version": "0.5.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.5.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "iniconfig",
+      "version": "2.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.3.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "instructor",
+      "version": "1.12.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.14.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "invoke",
+      "version": "2.2.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.2.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "isodate",
+      "version": "0.7.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jinja2",
+      "version": "3.1.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.1.6",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jiter",
+      "version": "0.10.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.13.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jmespath",
+      "version": "1.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "joblib",
+      "version": "1.5.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.5.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "json-repair",
+      "version": "0.25.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.58.6",
+      "version_status": "outdated"
+    },
+    {
+      "package": "json5",
+      "version": "0.10.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.13.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "jsonlines",
+      "version": "4.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jsonpatch",
+      "version": "1.33",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.33",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jsonpointer",
+      "version": "3.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jsonref",
+      "version": "1.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.1.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jsonschema",
+      "version": "4.26.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.26.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "jsonschema-specifications",
+      "version": "2025.9.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2025.9.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "kiwisolver",
+      "version": "1.4.9",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.5.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "kubernetes",
+      "version": "35.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "35.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "lance-namespace",
+      "version": "0.5.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lance-namespace-urllib3-client",
+      "version": "0.5.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "lancedb",
+      "version": "0.29.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.30.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "langchain-apify",
+      "version": "0.1.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.1.6",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "langchain-core",
+      "version": "0.3.83",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.20",
+      "version_status": "outdated"
+    },
+    {
+      "package": "langchain-text-splitters",
+      "version": "0.3.11",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.1.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "langdetect",
+      "version": "1.0.9",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.9",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "langsmith",
+      "version": "0.6.9",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.22",
+      "version_status": "outdated"
+    },
+    {
+      "package": "latex2mathml",
+      "version": "3.78.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.79.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "librt",
+      "version": "0.7.8",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.8.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "linkify-it-py",
+      "version": "2.0.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.1.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "linkup-sdk",
+      "version": "0.10.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.13.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "litellm",
+      "version": "1.75.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.82.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "llvmlite",
+      "version": "0.46.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.46.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "loguru",
+      "version": "0.7.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "lomond",
+      "version": "0.3.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.3.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "lxml",
+      "version": "5.3.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "markdown",
+      "version": "3.10.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.10.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "markdown-it-py",
+      "version": "4.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "marko",
+      "version": "2.2.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.2.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "markupsafe",
+      "version": "3.0.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "marshmallow",
+      "version": "3.26.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.2.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "matplotlib",
+      "version": "3.10.8",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.10.8",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mcp",
+      "version": "1.26.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.26.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mcpadapt",
+      "version": "0.1.19",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.1.20",
+      "version_status": "outdated"
+    },
+    {
+      "package": "mdit-py-plugins",
+      "version": "0.5.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.5.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mdurl",
+      "version": "0.1.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.1.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mem0ai",
+      "version": "0.1.116",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.6",
+      "version_status": "outdated"
+    },
+    {
+      "package": "ml-dtypes",
+      "version": "0.5.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.5.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mmh3",
+      "version": "5.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.2.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "more-itertools",
+      "version": "10.8.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "10.8.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mpire",
+      "version": "2.10.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.10.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mpmath",
+      "version": "1.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "msoffcrypto-tool",
+      "version": "6.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "multidict",
+      "version": "6.7.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.7.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "multion",
+      "version": "1.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.8",
+      "version_status": "outdated"
+    },
+    {
+      "package": "multiprocess",
+      "version": "0.70.19",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.70.19",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mypy",
+      "version": "1.19.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.19.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mypy-boto3-bedrock-runtime",
+      "version": "1.42.42",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.42.42",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "mypy-extensions",
+      "version": "1.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.1.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "nest-asyncio",
+      "version": "1.6.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.6.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "networkx",
+      "version": "3.4.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.6.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nltk",
+      "version": "3.9.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.9.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "nodeenv",
+      "version": "1.10.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.10.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "numba",
+      "version": "0.63.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.64.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "numpy",
+      "version": "2.2.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cublas-cu12",
+      "version": "12.8.4.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.9.1.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cuda-cupti-cu12",
+      "version": "12.8.90",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.9.79",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cuda-nvrtc-cu12",
+      "version": "12.8.93",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.9.86",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cuda-runtime-cu12",
+      "version": "12.8.90",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.9.79",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cudnn-cu12",
+      "version": "9.10.2.21",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.20.0.48",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cufft-cu12",
+      "version": "11.3.3.83",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "11.4.1.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cufile-cu12",
+      "version": "1.13.1.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.14.1.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-curand-cu12",
+      "version": "10.3.9.90",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "10.3.10.19",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cusolver-cu12",
+      "version": "11.7.3.90",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "11.7.5.82",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cusparse-cu12",
+      "version": "12.5.8.93",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.5.10.65",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-cusparselt-cu12",
+      "version": "0.7.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.8.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-nccl-cu12",
+      "version": "2.27.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.29.7",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-nvjitlink-cu12",
+      "version": "12.8.93",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.9.86",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-nvshmem-cu12",
+      "version": "3.4.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.5.21",
+      "version_status": "outdated"
+    },
+    {
+      "package": "nvidia-nvtx-cu12",
+      "version": "12.8.90",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.9.79",
+      "version_status": "outdated"
+    },
+    {
+      "package": "oauthlib",
+      "version": "3.3.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.3.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "ocrmac",
+      "version": "1.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "olefile",
+      "version": "0.47",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.47",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "omegaconf",
+      "version": "2.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.3.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "onnx",
+      "version": "1.20.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.20.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "onnxruntime",
+      "version": "1.23.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.24.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "openai",
+      "version": "1.83.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.29.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opencv-python",
+      "version": "4.13.0.92",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.13.0.92",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "openpyxl",
+      "version": "3.1.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.1.5",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "opentelemetry-api",
+      "version": "1.34.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.40.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opentelemetry-exporter-otlp",
+      "version": "1.34.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.40.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opentelemetry-exporter-otlp-proto-common",
+      "version": "1.34.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.40.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opentelemetry-exporter-otlp-proto-grpc",
+      "version": "1.34.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.40.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opentelemetry-exporter-otlp-proto-http",
+      "version": "1.34.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.40.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opentelemetry-proto",
+      "version": "1.34.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.40.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opentelemetry-sdk",
+      "version": "1.34.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.40.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "opentelemetry-semantic-conventions",
+      "version": "0.55b1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.61b0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "orjson",
+      "version": "3.11.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.11.7",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "outcome",
+      "version": "1.3.0.post0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.0.post0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "overrides",
+      "version": "7.7.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.7.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "oxylabs",
+      "version": "2.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "packaging",
+      "version": "25.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "26.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pandas",
+      "version": "2.2.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "paramiko",
+      "version": "4.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "parsimonious",
+      "version": "0.11.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.11.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pathspec",
+      "version": "1.0.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "patronus",
+      "version": "0.1.24",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.1.25",
+      "version_status": "outdated"
+    },
+    {
+      "package": "patronus-api",
+      "version": "0.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.3.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pdf2image",
+      "version": "1.17.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.17.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pdfminer-six",
+      "version": "20251230",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "20260107",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pdfplumber",
+      "version": "0.11.9",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.11.9",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pi-heif",
+      "version": "0.22.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pikepdf",
+      "version": "10.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "10.5.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pillow",
+      "version": "12.1.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.1.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "platformdirs",
+      "version": "4.5.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.9.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "playwright",
+      "version": "1.58.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.58.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pluggy",
+      "version": "1.6.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.6.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "polyfactory",
+      "version": "3.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "portalocker",
+      "version": "2.7.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "posthog",
+      "version": "5.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.9.12",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pre-commit",
+      "version": "4.5.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.5.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "propcache",
+      "version": "0.4.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "proto-plus",
+      "version": "1.27.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.27.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "protobuf",
+      "version": "5.29.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.34.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "psutil",
+      "version": "7.2.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.2.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "psycopg2-binary",
+      "version": "2.9.11",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.9.11",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "py-rust-stemmers",
+      "version": "0.1.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.1.5",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyarrow",
+      "version": "23.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "23.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pyasn1",
+      "version": "0.6.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.6.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyasn1-modules",
+      "version": "0.4.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pybase64",
+      "version": "1.4.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyclipper",
+      "version": "1.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pycocotools",
+      "version": "2.0.11",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.11",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pycparser",
+      "version": "3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pydantic",
+      "version": "2.11.10",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.12.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pydantic-core",
+      "version": "2.33.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.42.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pydantic-settings",
+      "version": "2.10.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.13.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pyee",
+      "version": "13.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "13.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pygithub",
+      "version": "1.59.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.8.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pygments",
+      "version": "2.19.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.19.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyjwt",
+      "version": "2.12.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.12.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pylatexenc",
+      "version": "2.10",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.10",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pymongo",
+      "version": "4.16.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.16.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pymupdf",
+      "version": "1.26.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.27.2.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pymysql",
+      "version": "1.1.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.1.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pynacl",
+      "version": "1.6.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.6.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyobjc-core",
+      "version": "12.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyobjc-framework-cocoa",
+      "version": "12.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyobjc-framework-coreml",
+      "version": "12.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyobjc-framework-quartz",
+      "version": "12.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyobjc-framework-vision",
+      "version": "12.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "12.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyopenssl",
+      "version": "25.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "26.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pypandoc",
+      "version": "1.16.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.17",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pyparsing",
+      "version": "3.3.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.3.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pypdf",
+      "version": "6.7.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.9.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pypdfium2",
+      "version": "4.30.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.6.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pyperclip",
+      "version": "1.11.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.11.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pypika",
+      "version": "0.51.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.51.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyproject-hooks",
+      "version": "1.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyreadline3",
+      "version": "3.5.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.5.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pysher",
+      "version": "1.0.8",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.8",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pytest",
+      "version": "8.4.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytest-asyncio",
+      "version": "1.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pytest-randomly",
+      "version": "4.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.0.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pytest-recording",
+      "version": "0.13.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.13.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pytest-split",
+      "version": "0.10.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.11.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pytest-subprocess",
+      "version": "1.5.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.5.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pytest-timeout",
+      "version": "2.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pytest-xdist",
+      "version": "3.8.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.8.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "python-dateutil",
+      "version": "2.9.0.post0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.9.0.post0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "python-docx",
+      "version": "1.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "python-dotenv",
+      "version": "1.1.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "python-iso639",
+      "version": "2026.1.31",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2026.1.31",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "python-magic",
+      "version": "0.4.27",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.27",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "python-multipart",
+      "version": "0.0.22",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.0.22",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "python-oxmsg",
+      "version": "0.0.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.0.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "python-pptx",
+      "version": "1.0.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pytube",
+      "version": "15.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "15.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pytz",
+      "version": "2025.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2026.1.post1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "pywin32",
+      "version": "311",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "311",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "pyyaml",
+      "version": "6.0.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "qdrant-client",
+      "version": "1.14.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.17.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rapidfuzz",
+      "version": "3.14.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.14.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "rapidocr",
+      "version": "3.6.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.7.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "redis",
+      "version": "7.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "7.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "referencing",
+      "version": "0.37.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.37.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "regex",
+      "version": "2026.1.15",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2026.2.28",
+      "version_status": "outdated"
+    },
+    {
+      "package": "requests",
+      "version": "2.32.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.32.5",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "requests-oauthlib",
+      "version": "2.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "requests-toolbelt",
+      "version": "1.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "rich",
+      "version": "14.3.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "14.3.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "rpds-py",
+      "version": "0.30.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.30.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "rsa",
+      "version": "4.9.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.9.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "rtree",
+      "version": "1.4.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "ruff",
+      "version": "0.15.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.15.7",
+      "version_status": "outdated"
+    },
+    {
+      "package": "s3transfer",
+      "version": "0.14.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.16.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "safetensors",
+      "version": "0.7.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "scipy",
+      "version": "1.15.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.17.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "scrapegraph-py",
+      "version": "1.46.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.46.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "scrapfly-sdk",
+      "version": "0.8.24",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.8.27",
+      "version_status": "outdated"
+    },
+    {
+      "package": "selenium",
+      "version": "4.32.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.41.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "selenium",
+      "version": "4.40.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.41.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "semchunk",
+      "version": "2.2.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.2.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "semver",
+      "version": "3.0.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.0.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "sentry-sdk",
+      "version": "2.52.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.55.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "serpapi",
+      "version": "0.1.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "setuptools",
+      "version": "82.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "82.0.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "shapely",
+      "version": "2.1.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.1.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "shellingham",
+      "version": "1.5.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.5.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "singlestoredb",
+      "version": "1.16.9",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.16.9",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "six",
+      "version": "1.17.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.17.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "slackapi/slack-github-action",
+      "version": "2.1.0",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "smmap",
+      "version": "5.0.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.0.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sniffio",
+      "version": "1.3.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "snowflake-connector-python",
+      "version": "4.3.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.3.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "snowflake-sqlalchemy",
+      "version": "1.8.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.9.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sortedcontainers",
+      "version": "2.4.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "soupsieve",
+      "version": "2.8.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.8.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "spider-client",
+      "version": "0.1.85",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.1.88",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sqlalchemy",
+      "version": "2.0.46",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.48",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sqlparams",
+      "version": "6.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.2.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "sse-starlette",
+      "version": "3.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.3.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "stagehand",
+      "version": "3.5.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.6.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "starlette",
+      "version": "0.52.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.52.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "stevedore",
+      "version": "5.6.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.7.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "sympy",
+      "version": "1.14.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.14.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tabulate",
+      "version": "0.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.10.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tavily-python",
+      "version": "0.7.21",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.7.23",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tenacity",
+      "version": "9.1.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "9.1.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "textual",
+      "version": "7.5.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8.1.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tibdex/github-app-token",
+      "version": "2",
+      "type": "github-action",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "unknown",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tiktoken",
+      "version": "0.8.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.12.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "timm",
+      "version": "1.0.24",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.0.25",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tinytag",
+      "version": "1.10.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.2.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tokenizers",
+      "version": "0.22.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.22.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "toml",
+      "version": "0.10.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.10.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tomli",
+      "version": "2.0.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.4.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tomli-w",
+      "version": "1.1.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tomlkit",
+      "version": "0.14.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.14.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "toonify",
+      "version": "1.6.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.6.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "torch",
+      "version": "2.10.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.10.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "torchvision",
+      "version": "0.25.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.25.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tqdm",
+      "version": "4.67.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.67.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "transformers",
+      "version": "4.57.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "5.3.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "tree-sitter",
+      "version": "0.25.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.25.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tree-sitter-c",
+      "version": "0.24.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.24.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tree-sitter-javascript",
+      "version": "0.25.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.25.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tree-sitter-python",
+      "version": "0.25.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.25.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tree-sitter-typescript",
+      "version": "0.23.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.23.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "trio",
+      "version": "0.32.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.33.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "trio-typing",
+      "version": "0.10.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.10.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "trio-websocket",
+      "version": "0.12.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.12.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "triton",
+      "version": "3.6.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.6.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "typer",
+      "version": "0.19.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.24.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "types-aiofiles",
+      "version": "25.1.0.20251011",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "25.1.0.20251011",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "types-appdirs",
+      "version": "1.4.3.5",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.4.3.5",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "types-awscrt",
+      "version": "0.31.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.31.3",
+      "version_status": "outdated"
+    },
+    {
+      "package": "types-certifi",
+      "version": "2021.10.8.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2021.10.8.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "types-psycopg2",
+      "version": "2.9.21.20251012",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.9.21.20260223",
+      "version_status": "outdated"
+    },
+    {
+      "package": "types-pymysql",
+      "version": "1.1.0.20250916",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.1.0.20251220",
+      "version_status": "outdated"
+    },
+    {
+      "package": "types-pyyaml",
+      "version": "6.0.12.20250915",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "6.0.12.20250915",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "types-regex",
+      "version": "2026.1.15.20260116",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2026.2.28.20260301",
+      "version_status": "outdated"
+    },
+    {
+      "package": "types-requests",
+      "version": "2.31.0.6",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.32.4.20260107",
+      "version_status": "outdated"
+    },
+    {
+      "package": "types-s3transfer",
+      "version": "0.16.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.16.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "types-urllib3",
+      "version": "1.26.25.14",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.26.25.14",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "typing-extensions",
+      "version": "4.15.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.15.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "typing-inspect",
+      "version": "0.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.9.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "typing-inspection",
+      "version": "0.4.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.4.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "tzdata",
+      "version": "2025.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2025.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "uc-micro-py",
+      "version": "1.0.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unstructured",
+      "version": "0.18.31",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.21.5",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unstructured-client",
+      "version": "0.42.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.42.10",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unstructured-inference",
+      "version": "1.1.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.5.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "unstructured-pytesseract",
+      "version": "0.3.15",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.3.15",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "urllib3",
+      "version": "2.6.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.6.3",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "uuid-utils",
+      "version": "0.14.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.14.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "uv",
+      "version": "0.9.30",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.10.12",
+      "version_status": "outdated"
+    },
+    {
+      "package": "uvicorn",
+      "version": "0.40.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.42.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "uvloop",
+      "version": "0.22.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.22.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "validators",
+      "version": "0.35.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.35.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "vcrpy",
+      "version": "7.0.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "8.1.1",
+      "version_status": "outdated"
+    },
+    {
+      "package": "virtualenv",
+      "version": "20.36.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "21.2.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "voyageai",
+      "version": "0.3.7",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.3.7",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "watchfiles",
+      "version": "1.1.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.1.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "weaviate-client",
+      "version": "4.18.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "4.20.4",
+      "version_status": "outdated"
+    },
+    {
+      "package": "webencodings",
+      "version": "0.5.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.5.1",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "websocket-client",
+      "version": "1.9.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.9.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "websockets",
+      "version": "15.0.1",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "16.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "win32-setctime",
+      "version": "1.2.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "wrapt",
+      "version": "1.17.3",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.1.2",
+      "version_status": "outdated"
+    },
+    {
+      "package": "wsproto",
+      "version": "1.3.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.3.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "xlrd",
+      "version": "2.0.2",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "2.0.2",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "xlsxwriter",
+      "version": "3.2.9",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.2.9",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "xxhash",
+      "version": "3.6.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.6.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "yarl",
+      "version": "1.22.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.23.0",
+      "version_status": "outdated"
+    },
+    {
+      "package": "youtube-transcript-api",
+      "version": "1.2.4",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "1.2.4",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "zipp",
+      "version": "3.23.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "3.23.0",
+      "version_status": "up_to_date"
+    },
+    {
+      "package": "zstandard",
+      "version": "0.25.0",
+      "type": "python",
+      "vulnerability_id": "None",
+      "severity": "None",
+      "fixed_version": "N/A",
+      "latest_version": "0.25.0",
+      "version_status": "up_to_date"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "a2a-sdk"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "accelerate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "actions/cache/restore"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "actions/cache/save"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "actions/checkout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "actions/download-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "actions/setup-node"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "actions/setup-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "actions/stale"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "actions/upload-artifact"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "aiobotocore"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "aiocache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "aiofiles"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "aiohappyeyeballs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "aiohttp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "aioitertools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "aiolimiter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "aiomcache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "aiosignal"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "aiosqlite"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "annotated-doc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "annotated-types"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "anthropic"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "antlr4-python3-runtime"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "anyio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "apify-client"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "apify-shared"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "appdirs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "asn1crypto"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "astral-sh/setup-uv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "astral-sh/setup-uv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "async-generator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "async-timeout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "attrs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "authlib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "av"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "azure-ai-inference"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "azure-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "backoff"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "backports-asyncio-runner"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "bandit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "bcrypt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "beautifulsoup4"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "bedrock-agentcore"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "boto3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "boto3-stubs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "botocore"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "botocore-stubs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "browserbase"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "build"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "cachetools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "certifi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "cffi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "cfgv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "charset-normalizer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "chromadb"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "click"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "colorama"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "coloredlogs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "colorlog"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "composio-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "contextual-client"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "contourpy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "couchbase"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "crewai"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "crewai-devtools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "crewai-files"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "crewai-tools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "cryptography"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "cuda-bindings"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "cuda-pathfinder"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "cycler"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "databricks-sdk"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "dataclasses-json"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "decorator"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "defusedxml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "deprecated"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "deprecation"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "dill"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "diskcache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "distlib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "distro"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "dnspython"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "docker"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "docling"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "docling-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "docling-ibm-models"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "docling-parse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "docstring-parser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "durationpy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "effdet"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "emoji"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "et-xmlfile"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "eval-type-backport"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "exa-py"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "exceptiongroup"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "execnet"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "faker"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "fastapi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "fastembed"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "fastembed"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "ffmpeg-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "filelock"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "filetype"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "firecrawl-py"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "flatbuffers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "fonttools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "frozenlist"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "fsspec"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "future"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "gitdb"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "github/codeql-action/analyze"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "github/codeql-action/init"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "gitpython"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "google-api-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "google-auth"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "google-cloud-vision"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "google-genai"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "googleapis-common-protos"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "greenlet"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "grpcio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "grpcio-status"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "h11"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "h2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "hf-xet"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "hpack"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "html5lib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "httpcore"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "httptools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "httpx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "httpx-auth"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "httpx-sse"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "huggingface-hub"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "humanfriendly"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "hyperbrowser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "hyperframe"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "ibm-cos-sdk"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "ibm-cos-sdk"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "ibm-cos-sdk-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "ibm-cos-sdk-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "ibm-cos-sdk-s3transfer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "ibm-cos-sdk-s3transfer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "ibm-watsonx-ai"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "identify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "idna"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "ijson"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "impit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "importlib-metadata"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "importlib-resources"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "inflection"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "iniconfig"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "instructor"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "invoke"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "isodate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "jinja2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "jiter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "jmespath"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "joblib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "json-repair"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "json5"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "jsonlines"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "jsonpatch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "jsonpointer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "jsonref"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "jsonschema"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "jsonschema-specifications"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "kiwisolver"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "kubernetes"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "lance-namespace"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "lance-namespace-urllib3-client"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "lancedb"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "langchain-apify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "langchain-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "langchain-text-splitters"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "langdetect"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "langsmith"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "latex2mathml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "librt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "linkify-it-py"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "linkup-sdk"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "litellm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "llvmlite"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "loguru"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "lomond"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "lxml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "markdown"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "markdown-it-py"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "marko"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "markupsafe"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "marshmallow"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "matplotlib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "mcp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "mcpadapt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "mdit-py-plugins"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "mdurl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "mem0ai"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "ml-dtypes"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "mmh3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "more-itertools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "mpire"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "mpmath"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "msoffcrypto-tool"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "multidict"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "multion"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "multiprocess"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "mypy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "mypy-boto3-bedrock-runtime"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "mypy-extensions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "nest-asyncio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "networkx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "nltk"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "nodeenv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "numba"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "numpy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "nvidia-cublas-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "nvidia-cuda-cupti-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "nvidia-cuda-nvrtc-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "nvidia-cuda-runtime-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "nvidia-cudnn-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "nvidia-cufft-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "nvidia-cufile-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "nvidia-curand-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "nvidia-cusolver-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "nvidia-cusparse-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "nvidia-cusparselt-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "nvidia-nccl-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "nvidia-nvjitlink-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "nvidia-nvshmem-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "nvidia-nvtx-cu12"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "oauthlib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "ocrmac"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "olefile"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "omegaconf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "onnx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "onnxruntime"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "openai"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "opencv-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "openpyxl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "opentelemetry-api"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "opentelemetry-exporter-otlp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "opentelemetry-exporter-otlp-proto-common"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "opentelemetry-exporter-otlp-proto-grpc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "opentelemetry-exporter-otlp-proto-http"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "opentelemetry-proto"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "opentelemetry-sdk"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "opentelemetry-semantic-conventions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "orjson"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "outcome"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "overrides"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "oxylabs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "packaging"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pandas"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "paramiko"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "parsimonious"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pathspec"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "patronus"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "patronus-api"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pdf2image"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pdfminer-six"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pdfplumber"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pi-heif"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pikepdf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pillow"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "platformdirs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "playwright"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pluggy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "polyfactory"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "portalocker"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "posthog"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pre-commit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "propcache"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "proto-plus"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "protobuf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "psutil"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "psycopg2-binary"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "py-rust-stemmers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pyarrow"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pyasn1"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pyasn1-modules"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pybase64"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pyclipper"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pycocotools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pycparser"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pydantic"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pydantic-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pydantic-settings"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pyee"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pygithub"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pygments"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pyjwt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pylatexenc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pymongo"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pymupdf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pymysql"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pynacl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pyobjc-core"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pyobjc-framework-cocoa"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pyobjc-framework-coreml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pyobjc-framework-quartz"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pyobjc-framework-vision"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pyopenssl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pypandoc"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pyparsing"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pypdf"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pypdfium2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pyperclip"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pypika"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pyproject-hooks"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pyreadline3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pysher"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pytest"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pytest-asyncio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pytest-randomly"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pytest-recording"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pytest-split"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pytest-subprocess"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pytest-timeout"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pytest-xdist"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "python-dateutil"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "python-docx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "python-dotenv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "python-iso639"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "python-magic"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "python-multipart"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "python-oxmsg"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "python-pptx"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pytube"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pytz"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pywin32"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "pyyaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "qdrant-client"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "rapidfuzz"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "rapidocr"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "redis"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "referencing"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "regex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "requests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "requests-oauthlib"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "requests-toolbelt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "rich"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "rpds-py"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "rsa"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "rtree"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "ruff"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "s3transfer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "safetensors"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "scipy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "scrapegraph-py"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "scrapfly-sdk"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "selenium"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "selenium"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "semchunk"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "semver"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "sentry-sdk"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "serpapi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "setuptools"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "shapely"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "shellingham"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "singlestoredb"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "six"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "slackapi/slack-github-action"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "smmap"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "sniffio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "snowflake-connector-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "snowflake-sqlalchemy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "sortedcontainers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "soupsieve"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "spider-client"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "sqlalchemy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "sqlparams"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "sse-starlette"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "stagehand"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "starlette"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "stevedore"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "sympy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "tabulate"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "tavily-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "tenacity"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "textual"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "tibdex/github-app-token"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "tiktoken"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "timm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "tinytag"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "tokenizers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "toml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "tomli"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "tomli-w"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "tomlkit"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "toonify"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "torch"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "torchvision"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "tqdm"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "transformers"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "tree-sitter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "tree-sitter-c"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "tree-sitter-javascript"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "tree-sitter-python"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "tree-sitter-typescript"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "trio"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "trio-typing"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "trio-websocket"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "triton"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "typer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "types-aiofiles"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "types-appdirs"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "types-awscrt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "types-certifi"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "types-psycopg2"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "types-pymysql"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "types-pyyaml"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "types-regex"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "types-requests"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "types-s3transfer"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "types-urllib3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "typing-extensions"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "typing-inspect"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "typing-inspection"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "tzdata"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "uc-micro-py"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "unstructured"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "unstructured-client"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "unstructured-inference"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "unstructured-pytesseract"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "urllib3"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "uuid-utils"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "uv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "uvicorn"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "uvloop"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "validators"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "vcrpy"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "virtualenv"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "voyageai"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "watchfiles"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "weaviate-client"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "webencodings"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "websocket-client"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "websockets"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "win32-setctime"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "wrapt"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "wsproto"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "xlrd"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "xlsxwriter"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "xxhash"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "yarl"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "youtube-transcript-api"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "zipp"
+    },
+    {
+      "type": "DIRECT_DEPENDENCY",
+      "parent": "crewAIInc-crewAI",
+      "child": "zstandard"
+    }
+  ]
+}
