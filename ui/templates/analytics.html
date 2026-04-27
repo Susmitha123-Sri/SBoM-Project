@@ -22,11 +22,19 @@
          REFRESH BUTTON
     ============================= -->
     <div style="text-align:right; margin-bottom:20px;">
-        <a href="/refresh-analytics">
-            <button class="refresh-btn">🔄 Refresh Analytics</button>
+        <a href="/refresh-analytics" class="refresh-btn">
+            🔄 Refresh Analytics
         </a>
     </div>
-
+    <script>
+    function refreshAnalytics() {
+        fetch('/refresh-analytics')
+            .then(() => {
+                location.reload();
+            })
+            .catch(err => console.error(err));
+    }
+    </script>
     {% if full_model_table %}
 
     <!-- ============================
@@ -77,7 +85,7 @@
          EMPTY STATE
     ============================= -->
     <div class="card empty">
-        <h3>No analytics data available</h3>
+        <h3>⏳ Analytics is being generated... Please refresh in a few seconds.</h3>
     </div>
 
     {% endif %}

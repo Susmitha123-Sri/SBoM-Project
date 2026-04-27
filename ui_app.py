@@ -167,14 +167,6 @@ def auto_monitor_versions():
         print("Auto recalculating:", scan["scan_id"])
         db.recalculate_metrics_for_scan(scan["scan_id"])
 
-    # ======================================
-    #(AUTO ANALYTICS)
-    # ======================================
-    from analytics_ml import run_analytics
-
-    print("Checking if analytics needs update...")
-    run_analytics()
-
     # Detect new packages (not in baseline)
 
     # Example: you can fetch from PyPI or repo (simplified demo)
@@ -330,13 +322,13 @@ def create_app() -> Flask:
         # ======================================
 
         def initial_background_scan():
-            print("\n🚀 Running initial scan (background)...")
+            print("\n Running initial scan (background)...")
 
             try:
                 auto_scan_repositories()
                 auto_monitor_versions()
 
-                print("✅ Initial scan completed\n")
+                print("✅ Initial scan complete")
 
             except Exception as e:
                 print("Initial scan error:", e)
@@ -997,21 +989,12 @@ def create_app() -> Flask:
     @app.route("/analytics")
     def analytics():
 
-        from analytics_ml import load_cached_analytics
-        import os
+        from analytics_ml import run_analytics
         from datetime import datetime
 
-        results = load_cached_analytics()
+        results = run_analytics()
 
-        # ============================
-        # ADD TIMESTAMP LOGIC
-        # ============================
-        timestamp = None
-
-        if os.path.exists("analytics_cache.json"):
-            timestamp = datetime.fromtimestamp(
-                os.path.getmtime("analytics_cache.json")
-            ).strftime("%Y-%m-%d %H:%M:%S")
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
         if not results:
             return render_template(
@@ -1023,7 +1006,7 @@ def create_app() -> Flask:
             "analytics.html",
             full_model_table=results.get("full_model_table"),
             images=results.get("images"),
-            last_updated=timestamp  
+            last_updated=timestamp
         )
     #---------------------------------------------
 
@@ -1031,16 +1014,27 @@ def create_app() -> Flask:
     def refresh_analytics():
 
         from analytics_ml import run_analytics
+        import os
 
-        print("Manual analytics refresh triggered")
+        print("🔄 Manual analytics refresh triggered")
 
+        # OPTIONAL: clear cache files
+        if os.path.exists("analytics_cache.json"):
+            os.remove("analytics_cache.json")
+
+        if os.path.exists("analytics_hash.txt"):
+            os.remove("analytics_hash.txt")
+
+        # Run fresh analytics
         run_analytics()
 
         return redirect("/analytics")
    
 
     return app
+
 if __name__ == "__main__":
+    
     import sys
     
     # Try to use waitress (production WSGI server) if available

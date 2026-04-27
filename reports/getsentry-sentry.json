@@ -1,13 +1,13 @@
 {
   "scan_id": "getsentry-sentry",
-  "timestamp": "2026-04-23T14:49:32.760605",
+  "timestamp": "2026-04-26T13:52:21.716285",
   "target": "https://github.com/getsentry/sentry",
   "summary": {
     "total_packages": 2378,
-    "total_vulnerabilities": 82,
+    "total_vulnerabilities": 84,
     "critical": 0,
     "high": 37,
-    "medium": 33,
+    "medium": 35,
     "low": 12,
     "negligible": 0
   },
@@ -8279,7 +8279,7 @@
       "vulnerability_id": "None",
       "severity": "None",
       "fixed_version": "N/A",
-      "latest_version": "1.42.94",
+      "latest_version": "1.42.96",
       "version_status": "outdated"
     },
     {
@@ -8289,7 +8289,7 @@
       "vulnerability_id": "None",
       "severity": "None",
       "fixed_version": "N/A",
-      "latest_version": "1.42.94",
+      "latest_version": "1.42.96",
       "version_status": "outdated"
     },
     {
@@ -9489,7 +9489,7 @@
       "vulnerability_id": "GHSA-p423-j2cm-9vmq",
       "severity": "Medium",
       "fixed_version": "See advisory",
-      "latest_version": "46.0.7",
+      "latest_version": "47.0.0",
       "version_status": "outdated"
     },
     {
@@ -10206,7 +10206,7 @@
       "package": "django",
       "version": "5.2.12",
       "type": "python",
-      "vulnerability_id": "GHSA-5mf9-h53q-7mhq",
+      "vulnerability_id": "GHSA-933h-hp56-hf7m",
       "severity": "High",
       "fixed_version": "See advisory",
       "latest_version": "6.0.4",
@@ -10426,7 +10426,7 @@
       "package": "dompurify",
       "version": "3.3.2",
       "type": "npm",
-      "vulnerability_id": "GHSA-39q2-94rc-95cp",
+      "vulnerability_id": "GHSA-crv5-9vww-q3g8",
       "severity": "Medium",
       "fixed_version": "See advisory",
       "latest_version": "unknown",
@@ -13709,7 +13709,7 @@
       "vulnerability_id": "None",
       "severity": "None",
       "fixed_version": "N/A",
-      "latest_version": "1.11.0",
+      "latest_version": "1.12.0",
       "version_status": "outdated"
     },
     {
@@ -15604,13 +15604,13 @@
     },
     {
       "package": "librt",
-      "version": "0.7.8",
+      "version": "0.9.0",
       "type": "python",
       "vulnerability_id": "None",
       "severity": "None",
       "fixed_version": "N/A",
       "latest_version": "0.9.0",
-      "version_status": "outdated"
+      "version_status": "up_to_date"
     },
     {
       "package": "lines-and-columns",
@@ -17044,7 +17044,7 @@
     },
     {
       "package": "mypy",
-      "version": "1.19.1",
+      "version": "1.20.1",
       "type": "python",
       "vulnerability_id": "None",
       "severity": "None",
@@ -17609,7 +17609,7 @@
       "vulnerability_id": "None",
       "severity": "None",
       "fixed_version": "N/A",
-      "latest_version": "0.8.4",
+      "latest_version": "0.8.5",
       "version_status": "outdated"
     },
     {
@@ -17629,7 +17629,7 @@
       "vulnerability_id": "None",
       "severity": "None",
       "fixed_version": "N/A",
-      "latest_version": "1.41.0",
+      "latest_version": "1.41.1",
       "version_status": "outdated"
     },
     {
@@ -17799,7 +17799,7 @@
       "vulnerability_id": "None",
       "severity": "None",
       "fixed_version": "N/A",
-      "latest_version": "26.1",
+      "latest_version": "26.2",
       "version_status": "outdated"
     },
     {
@@ -18149,7 +18149,7 @@
       "vulnerability_id": "None",
       "severity": "None",
       "fixed_version": "N/A",
-      "latest_version": "9.0.28",
+      "latest_version": "9.0.29",
       "version_status": "outdated"
     },
     {
@@ -18326,9 +18326,9 @@
       "package": "postcss",
       "version": "8.5.3",
       "type": "npm",
-      "vulnerability_id": "None",
-      "severity": "None",
-      "fixed_version": "N/A",
+      "vulnerability_id": "GHSA-qx2v-qp2m-jg93",
+      "severity": "Medium",
+      "fixed_version": "See advisory",
       "latest_version": "unknown",
       "version_status": "outdated"
     },
@@ -20019,7 +20019,7 @@
       "vulnerability_id": "None",
       "severity": "None",
       "fixed_version": "N/A",
-      "latest_version": "0.15.11",
+      "latest_version": "0.15.12",
       "version_status": "outdated"
     },
     {
@@ -20404,12 +20404,12 @@
     },
     {
       "package": "sentry-protos",
-      "version": "0.8.17",
+      "version": "0.8.19",
       "type": "python",
       "vulnerability_id": "None",
       "severity": "None",
       "fixed_version": "N/A",
-      "latest_version": "0.8.17",
+      "latest_version": "0.8.19",
       "version_status": "up_to_date"
     },
     {
@@ -20439,7 +20439,7 @@
       "vulnerability_id": "None",
       "severity": "None",
       "fixed_version": "N/A",
-      "latest_version": "0.6.0",
+      "latest_version": "0.7.0",
       "version_status": "outdated"
     },
     {
@@ -20709,7 +20709,7 @@
       "vulnerability_id": "None",
       "severity": "None",
       "fixed_version": "N/A",
-      "latest_version": "4.1.0",
+      "latest_version": "4.1.1",
       "version_status": "outdated"
     },
     {
@@ -21379,7 +21379,7 @@
       "vulnerability_id": "None",
       "severity": "None",
       "fixed_version": "N/A",
-      "latest_version": "15.0.1",
+      "latest_version": "15.1.0",
       "version_status": "outdated"
     },
     {

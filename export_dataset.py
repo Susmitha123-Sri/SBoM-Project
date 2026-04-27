@@ -124,7 +124,7 @@ def export_clean_dataset():
     df.to_csv("sbom_dataset.csv", index=False)
     df.to_excel("sbom_dataset.xlsx", index=False)
 
-    print("\n✅ CLEAN DATASET GENERATED:")
+    print("\n CLEAN DATASET GENERATED:")
     print("sbom_dataset.csv")
     print("sbom_dataset.xlsx")
 
