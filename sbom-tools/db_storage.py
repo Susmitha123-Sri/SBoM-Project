@@ -778,10 +778,17 @@ class DatabaseStorage:
             # HANDLE UP-TO-DATE
             # ---------------------------
             if row["version_status"] == "up_to_date":
-                row["severity_level"] = "low"
+                row["severity_level"] = "Not Applicable"
                 row["days_outdated"] = 0
                 row["versions_behind"] = "0.0.0"
                 row["total_gap"] = 0
+                continue
+
+            # ---------------------------
+            # HANDLE UNKNOWN (lookup failed / can't determine risk)
+            # ---------------------------
+            if row["version_status"] == "unknown":
+                row["severity_level"] = "Unknown"
                 continue
 
             # ---------------------------
@@ -1185,7 +1192,9 @@ class DatabaseStorage:
 
             # ✅ FINAL SEVERITY
             if row["version_status"] == "up_to_date":
-                row["severity_level"] = "low"   # ✅ FIX (IMPORTANT)
+                row["severity_level"] = "Not Applicable"
+            elif row["version_status"] == "unknown":
+                row["severity_level"] = "Unknown"
             else:
                 row["severity_level"] = compute_severity_from_string(
                     row.get("versions_behind"),

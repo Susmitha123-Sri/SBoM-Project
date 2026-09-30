@@ -433,25 +433,29 @@ def create_app() -> Flask:
         if filename.endswith(".csv"):
 
             content = file.read().decode("utf-8").strip()
-            reader = csv.reader(content.splitlines())
+            reader = csv.DictReader(content.splitlines())
 
             for row in reader:
 
-                if len(row) < 2:
-                    continue
-
-                name = row[0].strip()
-                version = row[1].strip()
-
-                # skip header
-                if name.lower() in ["package_name", "name"]:
-                    continue
+                # Accept either naming convention for the name/version columns
+                name = (row.get("package_name") or row.get("name") or "").strip()
+                version = (
+                    row.get("current_version")
+                    or row.get("version")
+                    or ""
+                ).strip()
+                risk_level = (
+                    row.get("risk_level")
+                    or row.get("severity")
+                    or ""
+                ).strip()
 
                 if name and version:
                     packages.append({
                         "name": name,
                         "version": version,
-                        "ecosystem": "pypi"
+                        "ecosystem": "pypi",
+                        "risk_level": risk_level
                     })
 
         # =========================
