@@ -121,6 +121,10 @@ def auto_monitor_versions():
 
     scans = db.get_all_scans()
 
+    if not scans:
+        print("No scans found. Nothing to monitor.")
+        return
+
     for scan in scans:
 
         scan_id = scan["scan_id"]
@@ -197,6 +201,45 @@ def auto_monitor_versions():
             )
 
             print("New package detected:", package_name)
+
+
+SCAN_JOB_ID = "auto_scan_repositories"
+MONITOR_JOB_ID = "auto_monitor_versions"
+
+RESCAN_UNITS = ("minutes", "hours", "days")
+
+
+def validate_settings(raw):
+    """
+    Validate raw (string) settings from the form or DB.
+    Returns (cleaned_dict, errors).
+    """
+    errors = []
+    cleaned = {}
+
+    try:
+        value = int(str(raw.get("rescan_interval_value", "")).strip())
+        if not 1 <= value <= 1000:
+            raise ValueError
+        cleaned["rescan_interval_value"] = value
+    except ValueError:
+        errors.append("Rescan interval must be a whole number between 1 and 1000.")
+
+    unit = str(raw.get("rescan_interval_unit", "")).strip()
+    if unit in RESCAN_UNITS:
+        cleaned["rescan_interval_unit"] = unit
+    else:
+        errors.append("Rescan interval unit must be minutes, hours, or days.")
+
+    try:
+        threshold = int(str(raw.get("age_threshold_days", "")).strip())
+        if not 0 <= threshold <= 36500:
+            raise ValueError
+        cleaned["age_threshold_days"] = threshold
+    except ValueError:
+        errors.append("Age threshold must be a whole number of days between 0 and 36500.")
+
+    return cleaned, errors
 
 
 def create_app() -> Flask:
@@ -292,19 +335,42 @@ def create_app() -> Flask:
     # ======================================
     # SCHEDULER SETUP (FIXED ORDER)
     # ======================================
+    from db_storage import get_db_storage, ensure_schema, DEFAULT_SETTINGS
+
+    # Create settings table / new columns if this DB predates them
+    try:
+        ensure_schema()
+    except Exception as e:
+        print("Schema check failed (is MySQL running?):", e)
+
+    try:
+        settings, errors = validate_settings(get_db_storage().get_settings())
+        if errors:
+            print("Invalid stored settings, using defaults:", errors)
+            settings, _ = validate_settings(DEFAULT_SETTINGS)
+    except Exception as e:
+        print("Could not load settings, using defaults:", e)
+        settings, _ = validate_settings(DEFAULT_SETTINGS)
+
+    interval_value = settings["rescan_interval_value"]
+    interval_unit = settings["rescan_interval_unit"]
+
     scheduler = BackgroundScheduler()
+    app.config["scheduler"] = scheduler
 
     # Add jobs BEFORE starting scheduler
     scheduler.add_job(
         auto_scan_repositories,
         trigger="interval",
-        hours=6
+        id=SCAN_JOB_ID,
+        **{interval_unit: interval_value}
     )
 
     scheduler.add_job(
         auto_monitor_versions,
         trigger="interval",
-        hours=6
+        id=MONITOR_JOB_ID,
+        **{interval_unit: interval_value}
     )
 
 
@@ -314,8 +380,8 @@ def create_app() -> Flask:
         scheduler.start()
 
         print("Background scheduler started")
-        print("Repository scanning every 6 hours")
-        print("Package monitoring every 6 hours")
+        print(f"Repository scanning every {interval_value} {interval_unit}")
+        print(f"Package monitoring every {interval_value} {interval_unit}")
 
         # ======================================
         # INITIAL BACKGROUND SCAN (RUN ONCE)
@@ -694,14 +760,15 @@ def create_app() -> Flask:
         for p in packages:
             vb = str(p.get("versions_behind", "0.0.0"))
 
+            # "N/A" = gap not known; leave it out rather than count it as 0
             if vb == "N/A":
+                continue
+
+            try:
+                major = int(vb.split(".")[0])
+                version_gaps.append(major)
+            except:
                 version_gaps.append(0)
-            else:
-                try:
-                    major = int(vb.split(".")[0])
-                    version_gaps.append(major)
-                except:
-                    version_gaps.append(0)
 
 
         avg_version_gap = round(sum(version_gaps) / len(version_gaps), 2) if version_gaps else 0
@@ -877,8 +944,7 @@ def create_app() -> Flask:
 
                 if not latest_version:
                     status = "unknown"
-
-                if latest_version == current_version:
+                elif latest_version == current_version:
                     status = "up_to_date"
                 else:
                     status = "outdated"
@@ -918,7 +984,8 @@ def create_app() -> Flask:
     @app.route("/dashboard")
     def dashboard():
 
-        from db_storage import get_db_storage  
+        from db_storage import get_db_storage
+        from age_tiers import TIER_NAMES, UNKNOWN_TIER
 
         db = get_db_storage()
         scans = db.get_all_scans()
@@ -927,6 +994,8 @@ def create_app() -> Flask:
         total_packages = 0
         total_outdated = 0
         total_updated = 0
+        # Every package lands in exactly one bucket, so these add up to total_packages
+        tier_counts = {name: 0 for name in TIER_NAMES + [UNKNOWN_TIER]}
 
         for scan in scans:
             pkgs = db.get_monitored_versions(scan["scan_id"])
@@ -935,12 +1004,17 @@ def create_app() -> Flask:
             total_outdated += sum(1 for p in pkgs if p["version_status"] == "outdated")
             total_updated += sum(1 for p in pkgs if p["version_status"] == "up_to_date")
 
+            for p in pkgs:
+                tier = p.get("age_tier")
+                tier_counts[tier if tier in TIER_NAMES else UNKNOWN_TIER] += 1
+
         return render_template(
             "dashboard.html",
             total_repos=total_repos,
             total_packages=total_packages,
             total_outdated=total_outdated,
-            total_updated=total_updated
+            total_updated=total_updated,
+            tier_counts=tier_counts
         )
 
     #-----------------------------------------
@@ -966,17 +1040,48 @@ def create_app() -> Flask:
 
         offset = (page - 1) * per_page
 
+        # "Requires attention" = installed version older than the threshold
+        attention_only = request.args.get("attention") == "1"
+
+        try:
+            cleaned, _ = validate_settings(db.get_settings())
+            age_threshold = cleaned.get("age_threshold_days")
+        except Exception as e:
+            print("ERROR loading settings:", e)
+            age_threshold = None
+
+        if age_threshold is None:
+            age_threshold = int(DEFAULT_SETTINGS["age_threshold_days"])
+
+        older_than = age_threshold if attention_only else None
+
+        # Age tier filter / sort (server-side so they cover every page)
+        from age_tiers import TIER_NAMES, UNKNOWN_TIER
+        age_tier = request.args.get("tier", "")
+        if age_tier not in TIER_NAMES and age_tier != UNKNOWN_TIER:
+            age_tier = ""
+        sort_by_tier = request.args.get("sort") == "tier"
+
         try:
             # Fetch paginated data
-            packages = db.get_packages_paginated(limit=per_page, offset=offset)
+            packages = db.get_packages_paginated(
+                limit=per_page, offset=offset, older_than_days=older_than,
+                age_tier=age_tier or None, sort_by_tier=sort_by_tier
+            )
 
             # Total count
-            total = db.get_total_packages()
+            total = db.get_total_packages(
+                older_than_days=older_than, age_tier=age_tier or None
+            )
 
         except Exception as e:
             print("ERROR fetching packages:", e)
             packages = []
             total = 0
+
+        for p in packages:
+            days = p.get("days_since_release")
+            p["requires_attention"] = days is not None and days > age_threshold
 
         total_pages = (total // per_page) + (1 if total % per_page else 0)
 
@@ -985,7 +1090,76 @@ def create_app() -> Flask:
             packages=packages,
             page=page,
             total_pages=total_pages,
-            active="packages"  
+            age_threshold=age_threshold,
+            attention_only=attention_only,
+            tier_names=TIER_NAMES,
+            age_tier=age_tier,
+            sort_by_tier=sort_by_tier,
+            active="packages"
+        )
+
+    #----------------------------------------------------
+    @app.route("/settings", methods=["GET", "POST"])
+    def settings_page():
+
+        from db_storage import get_db_storage
+        db = get_db_storage()
+
+        if request.method == "POST":
+            cleaned, errors = validate_settings(request.form)
+
+            if errors:
+                return render_template(
+                    "settings.html",
+                    settings=request.form,
+                    units=RESCAN_UNITS,
+                    errors=errors,
+                    active="settings"
+                ), 400
+
+            try:
+                db.save_settings(cleaned)
+            except Exception as e:
+                print("ERROR saving settings:", e)
+                return render_template(
+                    "settings.html",
+                    settings=request.form,
+                    units=RESCAN_UNITS,
+                    errors=["Could not save settings to the database."],
+                    active="settings"
+                ), 500
+
+            # Apply the new interval right away (no restart needed)
+            interval = {cleaned["rescan_interval_unit"]: cleaned["rescan_interval_value"]}
+            for job_id in (SCAN_JOB_ID, MONITOR_JOB_ID):
+                scheduler.reschedule_job(job_id, trigger="interval", **interval)
+
+            print(
+                "Rescan interval updated to every "
+                f"{cleaned['rescan_interval_value']} {cleaned['rescan_interval_unit']}"
+            )
+
+            return redirect("/settings?saved=1")
+
+        try:
+            current = db.get_settings()
+        except Exception as e:
+            print("ERROR loading settings:", e)
+            current = dict(DEFAULT_SETTINGS)
+
+        next_run = None
+        job = scheduler.get_job(SCAN_JOB_ID)
+        if job and getattr(job, "next_run_time", None):
+            next_run = job.next_run_time.strftime("%Y-%m-%d %H:%M:%S")
+
+        return render_template(
+            "settings.html",
+            settings=current,
+            units=RESCAN_UNITS,
+            errors=[],
+            saved=request.args.get("saved") == "1",
+            next_run=next_run,
+            active="settings"
         )
             
     #----------------------------------------------------

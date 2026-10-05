@@ -16,6 +16,24 @@
                     <input type="checkbox" id="outdatedOnly">
                     <span>Show only outdated</span>
                 </label>
+
+                <label class="checkbox-container" title="Installed version released more than {{ age_threshold }} days ago">
+                    <input type="checkbox" id="attentionOnly" {{ 'checked' if attention_only }}>
+                    <span>Requires attention only (&gt; {{ age_threshold }} days)</span>
+                </label>
+
+                <select id="tierFilter" title="Filter by age tier">
+                    <option value="" {{ 'selected' if not age_tier }}>All age tiers</option>
+                    {% for t in tier_names %}
+                    <option value="{{ t }}" {{ 'selected' if age_tier == t }}>{{ t }}</option>
+                    {% endfor %}
+                    <option value="unknown" {{ 'selected' if age_tier == 'unknown' }}>unknown</option>
+                </select>
+
+                <label class="checkbox-container" title="Abandoned first, then Stale, Aging, Fresh">
+                    <input type="checkbox" id="sortByTier" {{ 'checked' if sort_by_tier }}>
+                    <span>Sort by age tier</span>
+                </label>
             </div>
         </div>
 
@@ -31,6 +49,8 @@
                         <th>Status</th>
                         <th>Days Outdated</th>
                         <th>Version Behind</th>
+                        <th>Days Since Release</th>
+                        <th>Age Tier</th>
                         <th>Risk Level</th>
                         <th>Repository</th>
                     </tr>
@@ -38,7 +58,7 @@
 
                 <tbody>
                     {% for p in packages %}
-                    <tr>
+                    <tr class="{{ 'attention-row' if p.requires_attention }}">
                         <td>{{ p.package_name }}</td>
                         <td>{{ p.current_version }}</td>
                         <td>{{ p.latest_version }}</td>
@@ -49,7 +69,32 @@
                         </td>
 
                         <td>{{ p.days_outdated }}</td>
-                        <td>{{ p.versions_behind }}</td>
+                        <td>
+                            {% if p.versions_behind == 'N/A' %}
+                                <span class="unknown">N/A</span>
+                            {% else %}
+                                {{ p.versions_behind }}
+                            {% endif %}
+                        </td>
+
+                        <td class="age-cell">
+                            {% if p.days_since_release is not none %}
+                                {{ p.days_since_release }}
+                                {% if p.requires_attention %}
+                                <span class="attention-badge">⚠ Requires attention</span>
+                                {% endif %}
+                            {% else %}
+                                <span class="unknown">N/A</span>
+                            {% endif %}
+                        </td>
+
+                        <td>
+                            {% if p.age_tier %}
+                                <span class="tier-badge tier-{{ p.age_tier|lower }}">{{ p.age_tier }}</span>
+                            {% else %}
+                                <span class="unknown">unknown</span>
+                            {% endif %}
+                        </td>
 
                         <td class="{{ p.severity_level|lower|replace(' ', '-') }}">
                             {{ p.severity_level }}
@@ -65,8 +110,12 @@
         <!-- PAGINATION -->
         <div class="pagination">
 
+            {% set filter_qs = ('&attention=1' if attention_only else '')
+                ~ ('&tier=' ~ age_tier if age_tier else '')
+                ~ ('&sort=tier' if sort_by_tier else '') %}
+
             {% if page > 1 %}
-            <a href="/packages?page={{ page-1 }}">
+            <a href="/packages?page={{ page-1 }}{{ filter_qs }}">
                 <button>⬅ Prev</button>
             </a>
             {% endif %}
@@ -74,7 +123,7 @@
             <span>Page {{ page }} / {{ total_pages }}</span>
 
             {% if page < total_pages %}
-            <a href="/packages?page={{ page+1 }}">
+            <a href="/packages?page={{ page+1 }}{{ filter_qs }}">
                 <button>Next ➡</button>
             </a>
             {% endif %}
@@ -94,9 +143,11 @@ body {
 
 /* CENTERED CONTAINER (CONSISTENT ACROSS PAGES) */
 .container {
+    width: auto;
     max-width: 1300px;
     margin: 0 auto;
     padding: 30px 20px;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -112,11 +163,14 @@ h1 {
     margin-bottom: 30px;
     box-shadow: 0 6px 20px rgba(0,0,0,0.15);
     width: 100%;
+    box-sizing: border-box;
 }
 
 /* ===== TOP BAR ===== */
 .top-bar {
     display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 20px;
@@ -142,8 +196,9 @@ h1 {
 /* RIGHT SIDE CONTROLS */
 .right-controls {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 10px;
+    gap: 10px 16px;
 }
 
 /* CHECKBOX */
@@ -163,10 +218,13 @@ h1 {
 }
 
 /* ===== TABLE ===== */
+/* The table keeps its natural width; when that is wider than the card,
+   this container scrolls horizontally rather than the page. */
 .table-container {
     border-radius: 12px;
     overflow-x: auto;
     width: 100%;
+    max-width: 100%;
 }
 
 table {
@@ -261,6 +319,52 @@ td:last-child {
     font-style: italic;
 }
 
+/* REQUIRES ATTENTION */
+td.age-cell {
+    max-width: none;
+    overflow: visible;
+}
+
+tbody tr.attention-row td:first-child {
+    box-shadow: inset 4px 0 0 #f59e0b;
+}
+
+.attention-badge {
+    display: inline-block;
+    margin-top: 4px;
+    padding: 2px 8px;
+    border-radius: 999px;
+    background: #fef3c7;
+    color: #b45309;
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+/* AGE TIER */
+#tierFilter {
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    font-size: 14px;
+    color: #374151;
+    background: white;
+}
+
+.tier-badge {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.tier-fresh     { background: #dcfce7; color: #166534; }
+.tier-aging     { background: #fef3c7; color: #92400e; }
+.tier-stale     { background: #ffedd5; color: #9a3412; }
+.tier-abandoned { background: #fee2e2; color: #991b1b; }
+
 /* ===== PAGINATION ===== */
 .pagination {
     margin-top: 20px;
@@ -289,6 +393,22 @@ let checkbox = document.getElementById("outdatedOnly");
 
 searchInput.addEventListener("input", filterTable);
 checkbox.addEventListener("change", filterTable);
+
+// Attention / tier filters and tier sort run server-side so they cover every
+// page, not just this one. Changing any of them goes back to page 1.
+function reloadWithFilters() {
+    let params = new URLSearchParams();
+    if (document.getElementById("attentionOnly").checked) params.set("attention", "1");
+    let tier = document.getElementById("tierFilter").value;
+    if (tier) params.set("tier", tier);
+    if (document.getElementById("sortByTier").checked) params.set("sort", "tier");
+    let qs = params.toString();
+    window.location.href = qs ? "/packages?" + qs : "/packages";
+}
+
+document.getElementById("attentionOnly").addEventListener("change", reloadWithFilters);
+document.getElementById("tierFilter").addEventListener("change", reloadWithFilters);
+document.getElementById("sortByTier").addEventListener("change", reloadWithFilters);
 
 function filterTable() {
     let filter = searchInput.value.toLowerCase();

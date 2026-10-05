@@ -132,6 +132,22 @@ body {
 .outdated { border-left: 5px solid #ef4444; }
 .updated { border-left: 5px solid #22c55e; }
 
+/* AGE TIERS */
+.section-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #e2e8f0;
+    margin: 35px 0 15px;
+}
+
+.stat-link { text-decoration: none; }
+
+.tier-abandoned { border-left: 5px solid #b91c1c; }
+.tier-stale { border-left: 5px solid #ea580c; }
+.tier-aging { border-left: 5px solid #f59e0b; }
+.tier-fresh { border-left: 5px solid #16a34a; }
+.tier-unknown { border-left: 5px solid #94a3b8; }
+
 </style>
 
 <div class="dashboard-wrapper">
@@ -194,6 +210,30 @@ body {
             <div class="stat-value">{{ total_updated }}</div>
             <div class="stat-sub">Safe & latest</div>
         </div>
+
+    </div>
+
+    <!-- AGE TIERS -->
+    <div class="section-title">Age Tiers</div>
+    <div class="stats-grid">
+
+        {% set tier_subs = {
+            'Abandoned': 'Latest release is 3+ years old',
+            'Stale': 'Installed version > 365 days old',
+            'Aging': 'Installed version 31–365 days old',
+            'Fresh': 'Installed version ≤ 30 days old',
+            'unknown': 'No release date available'
+        } %}
+
+        {% for tier, count in tier_counts.items() %}
+        <a class="stat-link" href="/packages?tier={{ tier }}">
+            <div class="stat-card tier-{{ tier|lower }}">
+                <div class="stat-title">{{ tier|capitalize }}</div>
+                <div class="stat-value">{{ count }}</div>
+                <div class="stat-sub">{{ tier_subs[tier] }}</div>
+            </div>
+        </a>
+        {% endfor %}
 
     </div>
 

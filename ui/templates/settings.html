@@ -1,0 +1,209 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="container">
+
+    <h1>⚙️ Settings</h1>
+
+    {% if saved %}
+    <div class="notice success">✅ Settings saved. Background jobs have been rescheduled.</div>
+    {% endif %}
+
+    {% if errors %}
+    <div class="notice error">
+        {% for e in errors %}
+        <div>⚠ {{ e }}</div>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <form method="post" action="/settings">
+
+        <!-- RESCAN INTERVAL -->
+        <div class="card">
+            <h2>🔄 Rescan Interval</h2>
+            <p class="hint">
+                How often repositories are rescanned and package versions are re-checked.
+                Changes take effect immediately.
+            </p>
+
+            <div class="field-row">
+                <label for="rescan_interval_value">Every</label>
+
+                <input type="number" id="rescan_interval_value" name="rescan_interval_value"
+                       min="1" max="1000" step="1" required
+                       value="{{ settings.rescan_interval_value }}">
+
+                <select id="rescan_interval_unit" name="rescan_interval_unit">
+                    {% for u in units %}
+                    <option value="{{ u }}" {{ 'selected' if settings.rescan_interval_unit == u }}>{{ u }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            {% if next_run %}
+            <p class="meta">Next scheduled rescan: <strong>{{ next_run }}</strong></p>
+            {% endif %}
+        </div>
+
+        <!-- AGE THRESHOLD -->
+        <div class="card">
+            <h2>⏳ Age Threshold</h2>
+            <p class="hint">
+                Packages whose installed version was released more than this many days ago
+                are marked <span class="attention-badge">⚠ Requires attention</span> on the
+                <a href="/packages">Packages</a> page.
+            </p>
+
+            <div class="field-row">
+                <input type="number" id="age_threshold_days" name="age_threshold_days"
+                       min="0" max="36500" step="1" required
+                       value="{{ settings.age_threshold_days }}">
+                <label for="age_threshold_days">days</label>
+            </div>
+        </div>
+
+        <div class="actions">
+            <button type="submit">💾 Save Settings</button>
+        </div>
+
+    </form>
+
+</div>
+
+<style>
+
+body {
+    margin: 0;
+}
+
+/* CENTERED CONTAINER (CONSISTENT ACROSS PAGES) */
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 14px;
+    margin-bottom: 30px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.card h2 {
+    margin: 0 0 8px;
+    font-size: 18px;
+    color: #1e293b;
+}
+
+.hint {
+    margin: 0 0 18px;
+    font-size: 14px;
+    color: #64748b;
+}
+
+.hint a {
+    color: #4f46e5;
+}
+
+.meta {
+    margin: 16px 0 0;
+    font-size: 13px;
+    color: #475569;
+}
+
+/* FORM FIELDS */
+.field-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #f9fafb;
+    padding: 12px 16px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.field-row label {
+    font-size: 14px;
+    color: #374151;
+}
+
+.field-row input,
+.field-row select {
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    outline: none;
+    font-size: 14px;
+    transition: 0.2s;
+    background: white;
+}
+
+.field-row input {
+    width: 120px;
+}
+
+.field-row input:focus,
+.field-row select:focus {
+    border-color: #6366f1;
+    box-shadow: 0 0 5px rgba(99,102,241,0.3);
+}
+
+/* BADGE (same as Packages page) */
+.attention-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 999px;
+    background: #fef3c7;
+    color: #b45309;
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+/* NOTICES */
+.notice {
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.notice.success {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.notice.error {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+/* SAVE BUTTON */
+.actions button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background: #6366f1;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.actions button:hover {
+    background: #4f46e5;
+}
+
+</style>
+
+{% endblock %}

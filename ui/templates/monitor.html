@@ -90,6 +90,7 @@ td {
 /* STATUS */
 .status-up { color: #22c55e; }
 .status-out { color: #ef4444; }
+.na { color: #6b7280; font-style: italic; }
 
 /* SEVERITY */
 .sev-low { color: #22c55e; }
@@ -209,6 +210,8 @@ td {
 <td>
 {% if p.version_status == "up_to_date" %}
     -
+{% elif p.versions_behind == "N/A" %}
+    <span class="na">N/A</span>
 {% else %}
     {{ p.versions_behind }}
 {% endif %}

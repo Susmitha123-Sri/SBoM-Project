@@ -6,6 +6,7 @@ from typing import Optional
 from datetime import datetime
 from version_monitor import get_package_release_info
 from version_monitor import get_commit_date
+from age_tiers import classify_age, tier_label, TIER_NAMES
 import requests
 from packaging import version as v
 
@@ -102,34 +103,36 @@ def find_closest_version(current, versions):
         return None, None
 
 #------------------------------------------
+VERSION_GAP_UNKNOWN = "N/A"
+
+
 def calculate_versions_behind(current, latest):
+    """
+    "Version Behind" (stored in versions.versions_behind and shown in the UI).
+
+    Compares major, then minor, then patch, and reports only the first part
+    that differs: 1.26.5 -> 2.8.0 is "1.0.0", 1.2.9 -> 1.5.0 is "0.3.0",
+    1.2.3 -> 1.2.7 is "0.0.4". Never negative (an installed version at or
+    ahead of latest is "0.0.0"). "N/A" if either version can't be parsed.
+    """
+    if not current or not latest:
+        return VERSION_GAP_UNKNOWN
     try:
-        cur = [int(x) for x in current.replace("v", "").split(".")]
-        lat = [int(x) for x in latest.replace("v", "").split(".")]
+        cur = v.Version(str(current).strip()).release
+        lat = v.Version(str(latest).strip()).release
+    except v.InvalidVersion:
+        return VERSION_GAP_UNKNOWN
 
-        # normalize to 3 parts
-        while len(cur) < 3:
-            cur.append(0)
-        while len(lat) < 3:
-            lat.append(0)
+    cur = (list(cur) + [0, 0, 0])[:3]
+    lat = (list(lat) + [0, 0, 0])[:3]
 
-        major = lat[0] - cur[0]
-        minor = lat[1] - cur[1]
-        patch = lat[2] - cur[2]
+    gap = [0, 0, 0]
+    for i in range(3):
+        if lat[i] != cur[i]:
+            gap[i] = max(lat[i] - cur[i], 0)
+            break
 
-        # normalize negatives
-        if patch < 0:
-            patch += 10
-            minor -= 1
-
-        if minor < 0:
-            minor += 10
-            major -= 1
-
-        return f"{major}.{minor}.{patch}"
-
-    except:
-        return "0.0.0"
+    return ".".join(str(n) for n in gap)
 
 DB_CONFIG = {
     "host": "127.0.0.1",
@@ -146,15 +149,109 @@ DB_CONFIG = {
 def get_new_connection():
     return pymysql.connect(**DB_CONFIG)
 
+# ======================================
+# SETTINGS (shared, stored in DB)
+# ======================================
+RESCAN_UNITS = ("minutes", "hours", "days")
+
+DEFAULT_SETTINGS = {
+    "rescan_interval_value": "6",
+    "rescan_interval_unit": "hours",
+    "age_threshold_days": "365",
+}
+
+
+def ensure_schema():
+    """Create the settings table and days_since_release column if missing."""
+    conn = get_new_connection()
+    try:
+        with conn.cursor() as cursor:
+            cursor.execute("""
+                CREATE TABLE IF NOT EXISTS settings (
+                    setting_key VARCHAR(100) PRIMARY KEY,
+                    setting_value VARCHAR(255) NOT NULL,
+                    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+                        ON UPDATE CURRENT_TIMESTAMP
+                )
+            """)
+
+            for key, value in DEFAULT_SETTINGS.items():
+                cursor.execute(
+                    "INSERT IGNORE INTO settings (setting_key, setting_value) VALUES (%s, %s)",
+                    (key, value)
+                )
+
+            # MySQL has no ADD COLUMN IF NOT EXISTS, so check first.
+            # Both columns are nullable, so existing rows are left untouched.
+            for column, definition in (
+                ("days_since_release", "INT NULL"),
+                ("age_tier", "VARCHAR(20) NULL"),
+            ):
+                cursor.execute("""
+                    SELECT COUNT(*) AS cnt
+                    FROM information_schema.COLUMNS
+                    WHERE TABLE_SCHEMA = DATABASE()
+                      AND TABLE_NAME = 'versions'
+                      AND COLUMN_NAME = %s
+                """, (column,))
+                if cursor.fetchone()["cnt"] == 0:
+                    cursor.execute(
+                        f"ALTER TABLE versions ADD COLUMN {column} {definition}"
+                    )
+
+        conn.commit()
+    finally:
+        conn.close()
+
+
+def days_since(date_str):
+    """Days between a YYYY-MM-DD(...) date string and today, or None."""
+    if not date_str:
+        return None
+    try:
+        released = datetime.strptime(str(date_str)[:10], "%Y-%m-%d")
+        return max((datetime.now() - released).days, 0)
+    except Exception:
+        return None
+
+
+def find_release_date(releases, version):
+    """Release date of exactly this version (tolerating a leading 'v')."""
+    if not releases or not version:
+        return None
+    version = str(version)
+    bare = version[1:] if version.lower().startswith("v") else version
+    for candidate in (version, bare, "v" + bare):
+        if releases.get(candidate):
+            return releases[candidate]
+    return None
+
+
+def compute_age_tier(releases, days_since_release):
+    """
+    Age tier label from the installed version's age (days_since_release) and
+    the package's latest release date, both from the releases already fetched.
+    Returns None (stored as NULL, shown as "unknown") when there's no date.
+    """
+    dates = [d for d in (releases or {}).values() if d]
+    days_since_last_release = days_since(max(dates)) if dates else None
+
+    return tier_label(classify_age(days_since_release, days_since_last_release))
+
 #----------------------------------------
 def compute_severity_from_string(versions_behind, days_outdated):
     try:
         gap = str(versions_behind or "0.0.0")
         parts = gap.split(".")
 
-        major = int(parts[0]) if len(parts) > 0 else 0
-        minor = int(parts[1]) if len(parts) > 1 else 0
-        patch = int(parts[2]) if len(parts) > 2 else 0
+        # An "N/A" gap (unparseable version) gives no version-based risk,
+        # but the time-based risk below still applies
+        try:
+            major = int(parts[0]) if len(parts) > 0 else 0
+            minor = int(parts[1]) if len(parts) > 1 else 0
+            patch = int(parts[2]) if len(parts) > 2 else 0
+        except ValueError:
+            major = minor = patch = 0
 
         days = days_outdated or 0
 
@@ -321,6 +418,8 @@ class DatabaseStorage:
 
         versions_behind = "0.0.0"
         days_outdated = 0
+        days_since_release = None
+        age_tier = None
 
         try:
             #releases = get_package_release_info(package_name)
@@ -334,6 +433,12 @@ class DatabaseStorage:
                 #releases = get_github_releases(package_name)
             else:
                 releases = {}
+
+            # -------- DAYS SINCE RELEASE (installed version) --------
+            days_since_release = days_since(find_release_date(releases, version))
+
+            # -------- AGE TIER (Fresh / Aging / Stale / Abandoned) --------
+            age_tier = compute_age_tier(releases, days_since_release)
 
             if releases:
                 # Sort versions chronologically if possible
@@ -483,13 +588,24 @@ class DatabaseStorage:
 
         with self.connection.cursor() as cursor:
 
-            # Check existing
-            cursor.execute("""
-                SELECT version_id, version_number
-                FROM versions
-                WHERE package_id=%s AND scan_id=%s
-                LIMIT 1
-            """, (package_id, scan_id))
+            # Check existing. Rescans call this without a package_id, and
+            # "package_id = NULL" never matches in SQL, so fall back to the name.
+            if package_id is not None:
+                cursor.execute("""
+                    SELECT version_id, version_number
+                    FROM versions
+                    WHERE package_id=%s AND scan_id=%s
+                    ORDER BY version_id
+                    LIMIT 1
+                """, (package_id, scan_id))
+            else:
+                cursor.execute("""
+                    SELECT version_id, version_number
+                    FROM versions
+                    WHERE package_name=%s AND scan_id=%s
+                    ORDER BY version_id
+                    LIMIT 1
+                """, (package_name, scan_id))
 
             existing = cursor.fetchone()
 
@@ -502,7 +618,9 @@ class DatabaseStorage:
                         baseline_status=%s,
                         release_date=%s,
                         days_outdated=%s,
-                        versions_behind=%s
+                        versions_behind=%s,
+                        days_since_release=%s,
+                        age_tier=%s
                     WHERE version_id=%s
                 """, (
                     version,
@@ -512,6 +630,8 @@ class DatabaseStorage:
                     now,
                     days_outdated,
                     versions_behind,
+                    days_since_release,
+                    age_tier,
                     existing["version_id"]
                 ))
 
@@ -523,8 +643,8 @@ class DatabaseStorage:
                 INSERT INTO versions
                 (scan_id, package_id, package_name, version_number,
                 baseline_status, release_date, status, latest_version,
-                days_outdated, versions_behind)
-                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                days_outdated, versions_behind, days_since_release, age_tier)
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
             """, (
                 scan_id,
                 package_id,
@@ -535,7 +655,9 @@ class DatabaseStorage:
                 status,
                 latest_version if latest_version else version,
                 days_outdated,
-                versions_behind
+                versions_behind,
+                days_since_release,
+                age_tier
             ))
 
             version_id = cursor.lastrowid
@@ -759,7 +881,9 @@ class DatabaseStorage:
             v.release_date,
             v.days_outdated,
             v.versions_behind,
-            v.severity_level 
+            v.severity_level,
+            v.days_since_release,
+            v.age_tier
         FROM versions v
         WHERE v.scan_id = %s
         ORDER BY v.package_name LIMIT 500
@@ -789,20 +913,19 @@ class DatabaseStorage:
             # ---------------------------
             if row["version_status"] == "unknown":
                 row["severity_level"] = "Unknown"
+                # latest_version was stored as the installed version when the
+                # lookup failed, so the gap isn't known
+                row["versions_behind"] = VERSION_GAP_UNKNOWN
                 continue
 
             # ---------------------------
             # GAP CALCULATION
             # ---------------------------
-            gap = str(row.get("versions_behind") or "0.0.0")
-
-            try:
-                parts = [int(x) for x in gap.split(".")]
-                major = parts[0]
-                minor = parts[1] if len(parts) > 1 else 0
-                patch = parts[2] if len(parts) > 2 else 0
-            except:
-                major = minor = patch = 0
+            # Recomputed from the version strings, so rows saved before the
+            # calculate_versions_behind() fix (e.g. "0.-9.5") show correctly
+            row["versions_behind"] = calculate_versions_behind(
+                row.get("current_version"), row.get("latest_version")
+            )
 
             row["severity_level"] = compute_severity_from_string(
                 row.get("versions_behind"),
@@ -815,14 +938,6 @@ class DatabaseStorage:
                 row["monitored_time"] = row["release_date"].strftime("%Y-%m-%d %H:%M:%S")
             else:
                 row["monitored_time"] = "N/A"
-
-            # REAL CALCULATION
-            current = row.get("current_version")
-            latest = row.get("latest_version")
-            status = row.get("version_status")
-
-            if row["version_status"] != "up_to_date":
-                row["versions_behind"] = row.get("versions_behind") or "0.0.0"
 
         return results
     
@@ -1146,7 +1261,32 @@ class DatabaseStorage:
 
     #----------------------------------------
     #----------------------------------------
-    def get_packages_paginated(self, limit, offset):
+    @staticmethod
+    def _package_filters(older_than_days=None, age_tier=None):
+        """WHERE clause + params shared by the /packages list and its count."""
+        clauses = []
+        params = []
+
+        if older_than_days is not None:
+            clauses.append("v.days_since_release > %s")
+            params.append(older_than_days)
+
+        if age_tier == "unknown":
+            clauses.append("v.age_tier IS NULL")
+        elif age_tier in TIER_NAMES:
+            clauses.append("v.age_tier = %s")
+            params.append(age_tier)
+
+        where = ("WHERE " + " AND ".join(clauses)) if clauses else ""
+        return where, params
+
+    def get_packages_paginated(self, limit, offset, older_than_days=None,
+                               age_tier=None, sort_by_tier=False):
+        """
+        older_than_days: only rows whose installed version is older than this.
+        age_tier:        only rows in this tier ("unknown" = no tier).
+        sort_by_tier:    Abandoned first, then Stale, Aging, Fresh, unknown.
+        """
 
         if not self._connect():
             return []
@@ -1156,21 +1296,37 @@ class DatabaseStorage:
         conn = get_new_connection()
         cursor = conn.cursor()
 
-        cursor.execute("""
-            SELECT 
+        where, params = self._package_filters(older_than_days, age_tier)
+
+        order_by = "v.release_date DESC"
+        if sort_by_tier:
+            # FIELD() is 0 for NULL/unlisted, so those sort last via the "= 0" key
+            placeholders = ", ".join(["%s"] * len(TIER_NAMES))
+            order_by = (
+                f"FIELD(v.age_tier, {placeholders}) = 0, "
+                f"FIELD(v.age_tier, {placeholders}), "
+                "v.days_since_release DESC, v.release_date DESC"
+            )
+            params += TIER_NAMES + TIER_NAMES
+
+        cursor.execute(f"""
+            SELECT
                 v.package_name,
                 v.version_number AS current_version,
                 v.latest_version,
                 v.status AS version_status,
                 v.days_outdated,
                 v.versions_behind,
+                v.days_since_release,
+                v.age_tier,
                 v.release_date,
                 s.target_name as repo
             FROM versions v
             JOIN scan s ON v.scan_id = s.scan_id
-            ORDER BY v.release_date DESC
+            {where}
+            ORDER BY {order_by}
             LIMIT %s OFFSET %s
-        """, (limit, offset))
+        """, (*params, limit, offset))
 
         results = cursor.fetchall()
 
@@ -1187,10 +1343,21 @@ class DatabaseStorage:
 
             # SAFE DEFAULTS
             row["days_outdated"] = row.get("days_outdated") or 0
-            row["versions_behind"] = row.get("versions_behind") or "0.0.0"
             row["version_status"] = row.get("version_status") or "unknown"
 
-            # ✅ FINAL SEVERITY
+            # "Version Behind", recomputed from the version strings so rows
+            # saved before the calculate_versions_behind() fix (e.g. "0.-9.5")
+            # show correctly. When the latest-version lookup failed,
+            # latest_version was stored as the installed version, so the gap
+            # is not known.
+            if row["version_status"] == "unknown":
+                row["versions_behind"] = VERSION_GAP_UNKNOWN
+            else:
+                row["versions_behind"] = calculate_versions_behind(
+                    row.get("current_version"), row.get("latest_version")
+                )
+
+            # ✅ FINAL SEVERITY (uses the corrected versions_behind)
             if row["version_status"] == "up_to_date":
                 row["severity_level"] = "Not Applicable"
             elif row["version_status"] == "unknown":
@@ -1204,16 +1371,57 @@ class DatabaseStorage:
         return results
 
     #-----------------------------------------
-    def get_total_packages(self):
+    def get_total_packages(self, older_than_days=None, age_tier=None):
 
         if not self._connect():
             return 0
 
+        # Same JOIN + filters as get_packages_paginated so page counts line up
+        where, params = self._package_filters(older_than_days, age_tier)
+        query = f"""
+            SELECT COUNT(*) as total
+            FROM versions v
+            JOIN scan s ON v.scan_id = s.scan_id
+            {where}
+        """
+
         with self.connection.cursor() as cursor:
-            cursor.execute("SELECT COUNT(*) as total FROM versions")
+            cursor.execute(query, params)
             result = cursor.fetchone()
 
         return result["total"] if result else 0
+
+    #-----------------------------------------
+    def get_settings(self):
+        """All settings as a dict of strings, with defaults for missing keys."""
+
+        settings = dict(DEFAULT_SETTINGS)
+
+        conn = get_new_connection()
+        try:
+            with conn.cursor() as cursor:
+                cursor.execute("SELECT setting_key, setting_value FROM settings")
+                for row in cursor.fetchall():
+                    settings[row["setting_key"]] = row["setting_value"]
+        finally:
+            conn.close()
+
+        return settings
+
+    def save_settings(self, values):
+
+        conn = get_new_connection()
+        try:
+            with conn.cursor() as cursor:
+                for key, value in values.items():
+                    cursor.execute("""
+                        INSERT INTO settings (setting_key, setting_value)
+                        VALUES (%s, %s)
+                        ON DUPLICATE KEY UPDATE setting_value = VALUES(setting_value)
+                    """, (key, str(value)))
+            conn.commit()
+        finally:
+            conn.close()
 
 # ============================
 # GLOBAL INSTANCE

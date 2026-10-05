@@ -13,14 +13,23 @@
 
     .app {
         display: flex;
+        align-items: flex-start;
     }
 
     /* ========================= */
     /* SIDEBAR (LIGHT THEME) */
     /* ========================= */
+    /* Sticky (in the flex flow) instead of styles.css's position: fixed, so
+       the page content always starts to the right of it and can never slide
+       underneath it. */
     .sidebar {
+        position: sticky;
+        top: 0;
+        flex: 0 0 240px;
         width: 240px;
         height: 100vh;
+        overflow-y: auto;
+        box-sizing: border-box;
         background: #ffffff;
         padding: 20px;
         box-shadow: 2px 0 10px rgba(0,0,0,0.1);
@@ -61,8 +70,14 @@
     /* ========================= */
     /* MAIN CONTENT */
     /* ========================= */
+    /* min-width: 0 lets wide tables scroll inside their own container
+       instead of stretching .main (and the whole page) sideways.
+       margin-left / width undo styles.css, which assumed a fixed sidebar. */
     .main {
-        flex: 1;
+        flex: 1 1 auto;
+        min-width: 0;
+        margin-left: 0;
+        width: auto;
         padding: 0;
     }
 
@@ -86,6 +101,7 @@
 
         <!-- ✅ UPDATED -->
         <a href="/run-scan">🚀 Run Scan</a>
+        <a href="/settings">⚙️ Settings</a>
 
     </div>
 
