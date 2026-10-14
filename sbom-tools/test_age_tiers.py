@@ -7,11 +7,14 @@
 #
 # No network or database access: compute_age_tier() only uses the release
 # dates passed in, and importing db_storage doesn't open a connection.
+#
+# Tier = how far the installed version's release date is BEHIND the latest
+# version's release date (Abandoned: latest release 3+ years old).
 
 import os
 import sys
 import unittest
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
@@ -25,12 +28,18 @@ from age_tiers import (
 from db_storage import compute_age_tier
 
 THREE_YEARS = ABANDONED_MIN_DAYS_SINCE_LAST_RELEASE   # 1095 days
-RECENT = 10   # latest release 10 days ago: package is clearly not abandoned
+TODAY = date(2026, 10, 14)
+LATEST = TODAY - timedelta(days=10)   # latest release 10 days ago: not abandoned
 
 
 def days_ago(n):
     """YYYY-MM-DD date string n days before today (format the APIs return)."""
     return (datetime.now() - timedelta(days=n)).strftime("%Y-%m-%d")
+
+
+def behind(days):
+    """Tier of an installed release `days` before a recent latest release."""
+    return classify_age(LATEST - timedelta(days=days), LATEST, TODAY)
 
 
 class TestTierNames(unittest.TestCase):
@@ -49,101 +58,121 @@ class TestTierNames(unittest.TestCase):
         self.assertEqual(ABANDONED_MIN_DAYS_SINCE_LAST_RELEASE, 3 * 365)
 
 
-class TestClassifyAgeBoundaries(unittest.TestCase):
-    """Installed-version age boundaries, on a package that still releases."""
+class TestDaysBehindBoundaries(unittest.TestCase):
+    """Days behind the latest release, on a package that still releases."""
 
-    def assertTier(self, days_since_release, expected):
-        self.assertEqual(classify_age(days_since_release, RECENT), expected)
+    def test_0_days_behind_is_fresh(self):
+        """Installed == latest release date -> Fresh"""
+        self.assertEqual(behind(0), AgeTier.FRESH)
 
-    def test_0_days_is_fresh(self):
-        """0 days -> Fresh"""
-        self.assertTier(0, AgeTier.FRESH)
+    def test_30_days_behind_is_fresh(self):
+        self.assertEqual(behind(30), AgeTier.FRESH)
 
-    def test_30_days_is_fresh(self):
-        """30 days -> Fresh (upper boundary)"""
-        self.assertTier(30, AgeTier.FRESH)
+    def test_31_days_behind_is_aging(self):
+        self.assertEqual(behind(31), AgeTier.AGING)
 
-    def test_31_days_is_aging(self):
-        """31 days -> Aging (lower boundary)"""
-        self.assertTier(31, AgeTier.AGING)
+    def test_365_days_behind_is_aging(self):
+        self.assertEqual(behind(365), AgeTier.AGING)
 
-    def test_365_days_is_aging(self):
-        """365 days -> Aging (upper boundary)"""
-        self.assertTier(365, AgeTier.AGING)
+    def test_366_days_behind_is_stale(self):
+        self.assertEqual(behind(366), AgeTier.STALE)
 
-    def test_366_days_is_stale(self):
-        """366 days -> Stale (lower boundary)"""
-        self.assertTier(366, AgeTier.STALE)
+    def test_installed_newer_than_latest_is_fresh(self):
+        """A pre-release newer than the latest stable is 0 days behind"""
+        self.assertEqual(behind(-40), AgeTier.FRESH)
 
-    def test_requires_attention_is_never_fresh(self):
-        """Every age > 365 days (Requires attention) is never Fresh"""
-        for days in range(366, 5000):
-            for last_release in (None, 0, RECENT, THREE_YEARS):
-                self.assertNotEqual(classify_age(days, last_release), AgeTier.FRESH)
+    def test_old_but_up_to_date_is_fresh(self):
+        """The installed version's own age doesn't matter, only the gap:
+        installed == latest, both released 2 years ago -> Fresh"""
+        two_years = TODAY - timedelta(days=730)
+        self.assertEqual(classify_age(two_years, two_years, TODAY), AgeTier.FRESH)
 
 
-class TestClassifyAgeAbandoned(unittest.TestCase):
-    """Abandoned: the package's latest release is 3+ years old; wins over age."""
+class TestAbandoned(unittest.TestCase):
+    """Abandoned: the latest release is 3+ years old; wins over the gap."""
+
+    def tier(self, latest_age, gap=0):
+        latest = TODAY - timedelta(days=latest_age)
+        return classify_age(latest - timedelta(days=gap), latest, TODAY)
 
     def test_one_day_under_three_years_is_not_abandoned(self):
-        """Latest release 1094 days old -> not Abandoned (Stale by age)"""
-        self.assertEqual(classify_age(1094, THREE_YEARS - 1), AgeTier.STALE)
+        self.assertEqual(self.tier(THREE_YEARS - 1), AgeTier.FRESH)
 
     def test_exactly_three_years_is_abandoned(self):
-        """Latest release 1095 days old -> Abandoned"""
-        self.assertEqual(classify_age(1095, THREE_YEARS), AgeTier.ABANDONED)
+        self.assertEqual(self.tier(THREE_YEARS), AgeTier.ABANDONED)
 
-    def test_one_day_over_three_years_is_abandoned(self):
-        """Latest release 1096 days old -> Abandoned"""
-        self.assertEqual(classify_age(1096, THREE_YEARS + 1), AgeTier.ABANDONED)
+    def test_abandoned_wins_over_stale_gap(self):
+        self.assertEqual(self.tier(THREE_YEARS + 1, gap=900), AgeTier.ABANDONED)
 
-    def test_abandoned_wins_over_fresh_age(self):
-        """Abandoned beats the installed version's own age"""
-        self.assertEqual(classify_age(0, THREE_YEARS + 1), AgeTier.ABANDONED)
+
+class TestInputs(unittest.TestCase):
+
+    def test_accepts_strings_dates_and_datetimes(self):
+        self.assertEqual(classify_age("2026-01-01", date(2026, 3, 1), TODAY), AgeTier.AGING)
+        self.assertEqual(
+            classify_age(datetime(2026, 9, 1, 12), "2026-09-20T08:00:00Z", TODAY),
+            AgeTier.FRESH,
+        )
+
+    def test_today_defaults_to_the_real_date(self):
+        self.assertEqual(classify_age(days_ago(100), days_ago(50)), AgeTier.AGING)
 
 
 class TestUnknown(unittest.TestCase):
-    """No release date -> None, stored as NULL and shown as "unknown"."""
+    """A missing date -> None, stored as NULL and shown as "unknown"."""
 
-    def test_classify_age_without_dates_is_unknown(self):
-        """classify_age(None, None) -> unknown (None)"""
+    def test_no_dates(self):
         self.assertIsNone(classify_age(None, None))
 
-    def test_classify_age_without_installed_date_is_unknown(self):
-        """No installed-version date, recent package -> unknown (None)"""
-        self.assertIsNone(classify_age(None, RECENT))
+    def test_no_installed_date(self):
+        self.assertIsNone(classify_age(None, LATEST, TODAY))
 
-    def test_compute_age_tier_no_releases_is_unknown(self):
-        """compute_age_tier({}, None) -> unknown (None)"""
-        self.assertIsNone(compute_age_tier({}, None))
+    def test_no_latest_date_even_if_installed_is_old(self):
+        self.assertIsNone(classify_age(TODAY - timedelta(days=4000), None, TODAY))
 
-    def test_compute_age_tier_dates_missing_is_unknown(self):
-        """compute_age_tier with tags but no dates -> unknown (None)"""
-        self.assertIsNone(compute_age_tier({"v1.0": None, "v1.1": None}, None))
+    def test_invalid_date(self):
+        self.assertIsNone(classify_age("not a date", LATEST, TODAY))
+
+    def test_compute_age_tier_no_releases(self):
+        self.assertIsNone(compute_age_tier({}, "1.0.0", "2.0.0"))
+
+    def test_compute_age_tier_no_latest_version(self):
+        """Lookup failed (latest unknown) -> no tier"""
+        self.assertIsNone(compute_age_tier({"1.0.0": days_ago(10)}, "1.0.0", None))
+
+    def test_compute_age_tier_tags_without_dates(self):
+        self.assertIsNone(compute_age_tier({"v1.0": None, "v1.1": None}, "v1.0", "v1.1"))
 
 
 class TestComputeAgeTierExamples(unittest.TestCase):
-    """One end-to-end example per tier, from a releases dict like the APIs give."""
+    """One example per tier, from a releases dict like the registries give."""
 
     def test_example_fresh(self):
-        """Fresh: installed 2.1.0 released 12 days ago"""
-        releases = {"2.0.0": days_ago(200), "2.1.0": days_ago(12)}
-        self.assertEqual(compute_age_tier(releases, 12), "Fresh")
+        """2.0.0 released 20 days before latest 2.1.0"""
+        releases = {"2.0.0": days_ago(32), "2.1.0": days_ago(12)}
+        self.assertEqual(compute_age_tier(releases, "2.0.0", "2.1.0"), "Fresh")
+
+    def test_example_up_to_date_is_fresh(self):
+        """Installed is the latest, released 800 days ago -> Fresh (0 behind)"""
+        releases = {"1.0.0": days_ago(900), "1.1.0": days_ago(800)}
+        self.assertEqual(compute_age_tier(releases, "1.1.0", "1.1.0"), "Fresh")
 
     def test_example_aging(self):
-        """Aging: installed 2.0.0 released 200 days ago, 2.1.0 out 12 days ago"""
-        releases = {"2.0.0": days_ago(200), "2.1.0": days_ago(12)}
-        self.assertEqual(compute_age_tier(releases, 200), "Aging")
+        releases = {"2.0.0": days_ago(212), "2.1.0": days_ago(12)}
+        self.assertEqual(compute_age_tier(releases, "2.0.0", "2.1.0"), "Aging")
 
     def test_example_stale(self):
-        """Stale: installed 1.0.0 released 800 days ago, 2.1.0 out 12 days ago"""
         releases = {"1.0.0": days_ago(800), "2.1.0": days_ago(12)}
-        self.assertEqual(compute_age_tier(releases, 800), "Stale")
+        self.assertEqual(compute_age_tier(releases, "1.0.0", "2.1.0"), "Stale")
 
     def test_example_abandoned(self):
-        """Abandoned: newest release (1.4.0) is 1200 days old"""
+        """Latest release (1.4.0) is 1200 days old"""
         releases = {"1.3.0": days_ago(1500), "1.4.0": days_ago(1200)}
-        self.assertEqual(compute_age_tier(releases, 1500), "Abandoned")
+        self.assertEqual(compute_age_tier(releases, "1.3.0", "1.4.0"), "Abandoned")
+
+    def test_v_prefixed_tags(self):
+        releases = {"v1.0.0": days_ago(400), "v1.2.0": days_ago(5)}
+        self.assertEqual(compute_age_tier(releases, "1.0.0", "v1.2.0"), "Stale")
 
 
 if __name__ == "__main__":

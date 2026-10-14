@@ -215,14 +215,20 @@ body {
 
     <!-- AGE TIERS -->
     <div class="section-title">Age Tiers</div>
+    <div class="stat-sub" style="margin: -6px 0 12px;">
+        Based on how far the installed version's release date is behind the
+        latest release's date, not on the installed version's own age.
+        "Requires attention" on the Packages page is separate: it uses the
+        installed version's age.
+    </div>
     <div class="stats-grid">
 
         {% set tier_subs = {
             'Abandoned': 'Latest release is 3+ years old',
-            'Stale': 'Installed version > 365 days old',
-            'Aging': 'Installed version 31–365 days old',
-            'Fresh': 'Installed version ≤ 30 days old',
-            'unknown': 'No release date available'
+            'Stale': '> 365 days behind the latest release',
+            'Aging': '31–365 days behind the latest release',
+            'Fresh': '≤ 30 days behind the latest release (incl. up to date)',
+            'unknown': 'Release dates unknown, or not on a registry'
         } %}
 
         {% for tier, count in tier_counts.items() %}

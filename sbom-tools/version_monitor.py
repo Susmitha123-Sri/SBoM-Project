@@ -2,6 +2,7 @@ import requests
 from packaging import version as v
 from datetime import datetime
 from dotenv import load_dotenv
+from urllib.parse import quote
 import os
 import time
 
@@ -13,6 +14,56 @@ GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 # CACHE (VERY IMPORTANT)
 # ============================
 VERSION_CACHE = {}
+
+# ============================
+# ECOSYSTEM OF A PACKAGE NAME
+# ============================
+# Other spellings stored in packages.ecosystem (sbom.py uses "python" etc.)
+ECOSYSTEM_ALIASES = {
+    "pypi": "pypi", "python": "pypi",
+    "npm": "npm", "node": "npm",
+    "github": "github", "github-action": "github",
+    "none": "none",
+}
+
+# "none": not on any registry we can query (e.g. a dataset row whose
+# registry_ecosystem is not_found). Never looked up; status stays unknown.
+NO_REGISTRY = "none"
+
+# package_type argument of get_latest_version() for each ecosystem
+# (None = no registry, nothing to look up)
+PACKAGE_TYPES = {"pypi": "python", "npm": "npm", "github": "github-action", NO_REGISTRY: None}
+
+
+def is_npm_scoped(package_name):
+    """@scope/name is an npm package, never a GitHub owner/repo."""
+    return str(package_name or "").startswith("@")
+
+
+def package_ecosystem(package_name, hint=None):
+    """
+    "pypi", "npm", "github" or "none" for a package name.
+
+    A "none" hint (no registry) always wins. Then the name decides when it
+    can: @scope/name is npm, and any other name with a "/" is a GitHub
+    owner/repo (neither PyPI nor unscoped npm names can contain "/").
+    Otherwise the hint (a stored or CSV ecosystem such as "npm", "pypi",
+    "python") decides, and anything else means PyPI.
+    """
+    name = str(package_name or "")
+    if ECOSYSTEM_ALIASES.get(str(hint or "").strip().lower()) == NO_REGISTRY:
+        return NO_REGISTRY
+    if is_npm_scoped(name):
+        return "npm"
+    if "/" in name:
+        return "github"
+    hinted = ECOSYSTEM_ALIASES.get(str(hint or "").strip().lower())
+    return hinted if hinted in ("pypi", "npm") else "pypi"
+
+
+def package_type(package_name, hint=None):
+    """get_latest_version() package_type for this package (None = no registry)."""
+    return PACKAGE_TYPES[package_ecosystem(package_name, hint)]
 
 # ============================
 # SAFE REQUEST
@@ -52,10 +103,16 @@ def get_latest_version(package_name, package_type):
         elif package_type == "github-action":
             result = get_latest_github_action_version(package_name)
 
-        else:
-            result = None
+        elif package_type == "npm":
+            result = get_latest_npm_version(package_name)
 
-        VERSION_CACHE[key] = result
+        else:
+            result = None   # no registry for this type (e.g. None = "none")
+
+        # Only successful lookups are cached: a failure (timeout, rate
+        # limit) is retried next time instead of sticking until restart
+        if result is not None:
+            VERSION_CACHE[key] = result
         return result
 
     except Exception as e:
@@ -86,7 +143,7 @@ def get_latest_pypi_version(package_name):
 # ============================
 def get_latest_github_action_version(package_name):
     try:
-        if "/" not in package_name:
+        if "/" not in package_name or is_npm_scoped(package_name):
             return None
 
         headers = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
@@ -112,6 +169,60 @@ def get_latest_github_action_version(package_name):
     except Exception as e:
         print("GitHub version error:", package_name, e)
         return None
+
+
+# ============================
+# NPM (latest version + release dates from one request)
+# ============================
+NPM_REGISTRY = "https://registry.npmjs.org/"
+NPM_CACHE = {}   # name -> {"latest": str, "releases": {version: "YYYY-MM-DD"}}
+
+
+def get_npm_package_info(package_name):
+    """
+    Latest version and release dates of an npm package, or None if the
+    lookup failed. Only successful lookups are cached, so a failure is
+    retried next time.
+    """
+    if package_name in NPM_CACHE:
+        return NPM_CACHE[package_name]
+
+    try:
+        # Scoped names keep the "@" but encode the "/": @babel%2Fcore
+        url = NPM_REGISTRY + quote(package_name, safe="@")
+        response = requests.get(url, timeout=15)
+
+        if response.status_code != 200:
+            return None
+
+        data = response.json()
+        times = data.get("time") or {}
+        info = {
+            "latest": (data.get("dist-tags") or {}).get("latest"),
+            "releases": {
+                ver: str(when)[:10]
+                for ver, when in times.items()
+                if ver not in ("created", "modified") and when
+            },
+        }
+
+        NPM_CACHE[package_name] = info
+        return info
+
+    except Exception as e:
+        print("npm error:", package_name, e)
+        return None
+
+
+def get_latest_npm_version(package_name):
+    info = get_npm_package_info(package_name)
+    return info["latest"] if info else None
+
+
+def get_npm_release_info(package_name):
+    """{version: "YYYY-MM-DD"} like get_package_release_info(); {} on failure."""
+    info = get_npm_package_info(package_name)
+    return dict(info["releases"]) if info else {}
 
 
 # ============================
@@ -161,7 +272,7 @@ def get_package_release_info(package_name):
 # ============================
 def get_commit_date(package_name, version):
     try:
-        if "/" not in package_name:
+        if "/" not in package_name or is_npm_scoped(package_name):
             return None
 
         headers = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
@@ -189,7 +300,7 @@ def get_commit_date(package_name, version):
 # ============================
 def get_github_release_info(package_name):
     try:
-        if "/" not in package_name:
+        if "/" not in package_name or is_npm_scoped(package_name):
             return {}
 
         headers = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}

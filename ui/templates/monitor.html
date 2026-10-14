@@ -1,6 +1,113 @@
 {% extends "layout.html" %}
 {% block content %}
 
+{% if upload_job %}
+<!-- UPLOAD PROGRESS / RESULT (polls /api/upload-status while processing) -->
+<style>
+.upload-status {
+    margin: 20px 0;
+    padding: 12px 16px;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.upload-status .headline { font-weight: 600; }
+.upload-running, .upload-finishing { background: #dbeafe; color: #1e3a8a; }
+.upload-done { background: #dcfce7; color: #166534; }
+.upload-error { background: #fee2e2; color: #991b1b; }
+.upload-bar {
+    height: 8px;
+    margin: 8px 0;
+    border-radius: 4px;
+    background: rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.upload-bar div { height: 100%; background: currentColor; transition: width 0.4s; }
+</style>
+
+<div id="uploadStatus" class="upload-status upload-{{ upload_job.state }}" role="status" aria-live="polite">
+    <div class="headline">Upload {{ upload_job.state }}</div>
+</div>
+
+<script>
+(() => {
+  const box = document.getElementById("uploadStatus");
+  const scanId = {{ upload_job.scan_id | tojson }};
+  const ACTIVE = ["running", "finishing"];
+
+  function line(text, cls) {
+    const div = document.createElement("div");
+    if (cls) div.className = cls;
+    div.textContent = text;   // names come from the uploaded file: never HTML
+    box.appendChild(div);
+  }
+
+  function render(job) {
+    box.className = "upload-status upload-" + job.state;
+    box.replaceChildren();
+
+    const pct = job.distinct ? Math.round(job.processed / job.distinct * 100) : 100;
+
+    if (job.state === "running") {
+      line(`Processing ${job.target}: ${job.processed} of ${job.distinct} packages (${pct}%)`, "headline");
+    } else if (job.state === "finishing") {
+      line(`All ${job.distinct} packages written. Recalculating metrics…`, "headline");
+    } else if (job.state === "done") {
+      line(`Upload finished at ${job.finished_at}: ${job.target}`, "headline");
+    } else {
+      line(`Upload stopped with an error: ${job.error}`, "headline");
+    }
+
+    if (ACTIVE.includes(job.state)) {
+      const bar = document.createElement("div");
+      bar.className = "upload-bar";
+      const fill = document.createElement("div");
+      fill.style.width = (job.state === "finishing" ? 100 : pct) + "%";
+      bar.appendChild(fill);
+      box.appendChild(bar);
+      if (job.current) line(`Now: ${job.current}`);
+    }
+
+    line(`${job.distinct} distinct packages from ${job.csv_rows} rows`
+         + (job.csv_rows > job.distinct
+            ? ` (${job.csv_rows - job.distinct} repeated names merged; the last row for each name is kept)`
+            : ""));
+    line(`${job.inserted} inserted, ${job.updated} updated, `
+         + `${job.skipped} skipped (already stored with the same version), ${job.failed} failed`);
+    if (job.failed_names && job.failed_names.length) {
+      line(`Failed: ${job.failed_names.join(", ")}`
+           + (job.failed > job.failed_names.length ? " …" : "") + " (details in terminal)");
+    }
+    if (job.saved_as) {
+      line(`File stored as ${job.saved_as}: a different file with that name already exists.`);
+    }
+
+    if (!ACTIVE.includes(job.state)) {
+      const link = document.createElement("a");
+      link.href = window.location.pathname;
+      link.textContent = "Reload to see the results";
+      box.appendChild(link);
+    }
+  }
+
+  async function poll() {
+    try {
+      const response = await fetch(`/api/upload-status/${scanId}`);
+      const job = await response.json();
+      if (job.state === "none") return;   // e.g. server restarted
+      render(job);
+      if (ACTIVE.includes(job.state)) setTimeout(poll, 2000);
+    } catch (e) {
+      setTimeout(poll, 5000);              // server busy or restarting
+    }
+  }
+
+  render({{ upload_job | tojson }});
+  if (ACTIVE.includes({{ upload_job.state | tojson }})) setTimeout(poll, 2000);
+})();
+</script>
+{% endif %}
+
 {% if empty_message %}
 <div style="
     background: white;
@@ -76,6 +183,23 @@ input[type="text"] {
 
 label { font-size: 14px; color: #cbd5f5; }
 
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination button {
+    padding: 8px 14px;
+    margin: 5px;
+    border-radius: 6px;
+    border: none;
+    background: #6366f1;
+    color: white;
+    cursor: pointer;
+}
+
+.pagination button:hover { background: #4f46e5; }
+
 table { width: 100%; border-collapse: collapse; }
 
 thead { background: rgba(255,255,255,0.08); }
@@ -91,6 +215,7 @@ td {
 .status-up { color: #22c55e; }
 .status-out { color: #ef4444; }
 .na { color: #6b7280; font-style: italic; }
+
 
 /* SEVERITY */
 .sev-low { color: #22c55e; }
@@ -143,6 +268,7 @@ td {
 
 <div class="title">Monitoring Dashboard</div>
 
+
 <!-- STATS -->
 <div class="stats">
     <div class="card"><h4>Total Packages</h4><h2>{{ total_packages }}</h2></div>
@@ -162,12 +288,14 @@ td {
 
 <h3>Package Version Status</h3>
 
-<div class="table-controls">
-    <input type="text" id="searchInput" placeholder="Search package...">
+<!-- Search and filter run on the server so they cover every page -->
+<form class="table-controls" method="get" id="tableFilters">
+    <input type="text" name="q" value="{{ search }}" placeholder="Search package... (Enter)">
     <label>
-        <input type="checkbox" id="outdatedFilter"> Show only outdated
+        <input type="checkbox" name="outdated" value="1" id="outdatedFilter"
+               {% if outdated_only %}checked{% endif %}> Show only outdated
     </label>
-</div>
+</form>
 
 <table class="monitor-table">
 <thead>
@@ -188,20 +316,24 @@ td {
 <tr>
 <td>{{ p.package_name }}</td>
 <td>{{ p.current_version }}</td>
-<td>{{ p.latest_version }}</td>
+<td>{% if p.latest_version %}{{ p.latest_version }}{% else %}<span class="na">N/A</span>{% endif %}</td>
 <td>{{ p.monitored_time }}</td>
 
 <td>
 {% if p.version_status == "up_to_date" %}
 <span class="status-up">Up-to-date</span>
-{% else %}
+{% elif p.version_status == "outdated" %}
 <span class="status-out">Outdated</span>
+{% else %}
+<span class="na" title="Latest version not known (lookup failed or not on a registry)">Unknown</span>
 {% endif %}
 </td>
 
 <td>
 {% if p.version_status == "up_to_date" %}
     -
+{% elif p.version_status != "outdated" %}
+    <span class="na">N/A</span>
 {% else %}
     {{ p.days_outdated }}
 {% endif %}
@@ -210,7 +342,7 @@ td {
 <td>
 {% if p.version_status == "up_to_date" %}
     -
-{% elif p.versions_behind == "N/A" %}
+{% elif p.version_status != "outdated" or p.versions_behind == "N/A" %}
     <span class="na">N/A</span>
 {% else %}
     {{ p.versions_behind }}
@@ -220,6 +352,8 @@ td {
 <td>
 {% if p.version_status == "up_to_date" %}
     -
+{% elif p.version_status != "outdated" %}
+    <span class="na">N/A</span>
 {% else %}
     {% if p.severity_level == "high" %}
         <span class="sev-high">High</span>
@@ -231,9 +365,28 @@ td {
 {% endif %}
 </td>
 </tr>
+{% else %}
+<tr><td colspan="8">No packages match.</td></tr>
 {% endfor %}
 </tbody>
 </table>
+
+<!-- PAGINATION -->
+<div class="pagination">
+    {% set filter_qs = ('&q=' ~ (search | urlencode) if search else '')
+        ~ ('&outdated=1' if outdated_only else '') %}
+
+    {% if page > 1 %}
+    <a href="?page={{ page - 1 }}{{ filter_qs }}"><button>⬅ Prev</button></a>
+    {% endif %}
+
+    <span>Page {{ page }} / {{ total_pages }}
+        (rows {{ first_row }}–{{ last_row }} of {{ filtered_count }})</span>
+
+    {% if page < total_pages %}
+    <a href="?page={{ page + 1 }}{{ filter_qs }}"><button>Next ➡</button></a>
+    {% endif %}
+</div>
 
 </div>
 
@@ -261,34 +414,11 @@ window.severityValues = {{ severity_values | tojson }};
 <script>
 document.addEventListener("DOMContentLoaded", () => {
 
-  const searchInput = document.getElementById("searchInput");
-  const outdatedToggle = document.getElementById("outdatedFilter");
-
-  function filterTable() {
-    const searchText = searchInput.value.toLowerCase();
-    const onlyOutdated = outdatedToggle.checked;
-
-    const rows = document.querySelectorAll("#packageTable tr");
-
-    rows.forEach(row => {
-
-      const packageName = row.children[0].innerText.toLowerCase();
-      const statusText = row.children[4].innerText.toLowerCase();
-
-      const isOutdated =
-        statusText.includes("outdated") &&
-        !statusText.includes("up-to-date");
-
-      const matchSearch = packageName.includes(searchText);
-      const matchStatus = !onlyOutdated || isOutdated;
-
-      row.style.display =
-        (matchSearch && matchStatus) ? "" : "none";
-    });
-  }
-
-  searchInput.addEventListener("input", filterTable);
-  outdatedToggle.addEventListener("change", filterTable);
+  // The search box submits on Enter; the checkbox applies immediately.
+  // Either way the form reloads at page 1 with the new filter.
+  const form = document.getElementById("tableFilters");
+  document.getElementById("outdatedFilter")
+    .addEventListener("change", () => form.submit());
 
 });
 </script>

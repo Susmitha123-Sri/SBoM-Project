@@ -2,11 +2,14 @@
 # coding: utf-8
 
 import pymysql
+import threading
+import traceback
 from typing import Optional
 from datetime import datetime
 from version_monitor import get_package_release_info
 from version_monitor import get_commit_date
-from age_tiers import classify_age, tier_label, TIER_NAMES
+from version_monitor import package_ecosystem, ECOSYSTEM_ALIASES
+from age_tiers import classify_age, tier_label, TIER_NAMES, UNKNOWN_TIER
 import requests
 from packaging import version as v
 
@@ -50,10 +53,19 @@ def calculate_real_gap(current, latest):
 
 #-----------------------------------------
 
-def detect_package_source(package_name):
-    if "/" in package_name:
-        return "github"
-    return "pypi"
+def ecosystem_differs(stored, new):
+    """True if new is a known ecosystem and stored is a different one."""
+    def norm(e):
+        return ECOSYSTEM_ALIASES.get(str(e or "").strip().lower())
+    return norm(new) is not None and norm(stored) != norm(new)
+
+
+def detect_package_source(package_name, ecosystem=None):
+    """
+    "pypi", "npm" or "github". @scope/name is npm (never a GitHub repo);
+    see version_monitor.package_ecosystem for the full rule.
+    """
+    return package_ecosystem(package_name, ecosystem)
 
 
 def get_github_releases(repo_name):
@@ -227,16 +239,17 @@ def find_release_date(releases, version):
     return None
 
 
-def compute_age_tier(releases, days_since_release):
+def compute_age_tier(releases, version, latest_version):
     """
-    Age tier label from the installed version's age (days_since_release) and
-    the package's latest release date, both from the releases already fetched.
-    Returns None (stored as NULL, shown as "unknown") when there's no date.
+    Age tier label from how far the installed version's release date is
+    behind the latest version's release date, both looked up in the releases
+    already fetched ({version: "YYYY-MM-DD"}). See age_tiers.classify_age.
+    Returns None (stored as NULL, shown as "unknown") when a date is missing.
     """
-    dates = [d for d in (releases or {}).values() if d]
-    days_since_last_release = days_since(max(dates)) if dates else None
-
-    return tier_label(classify_age(days_since_release, days_since_last_release))
+    return tier_label(classify_age(
+        find_release_date(releases, version),
+        find_release_date(releases, latest_version),
+    ))
 
 #----------------------------------------
 def compute_severity_from_string(versions_behind, days_outdated):
@@ -287,20 +300,319 @@ def compute_severity_from_string(versions_behind, days_outdated):
     except:
         return "low"
 
+# Statuses decided by comparing installed vs latest. Any other status a
+# caller passes (e.g. "baseline" from initial_population.py) is kept.
+DERIVED_STATUSES = (None, "up_to_date", "outdated", "unknown")
+
+
+def compute_version_metrics(package_name, version, status=None, latest_version=None,
+                            ecosystem=None):
+    """
+    The one place that decides a row's status, latest version, tier and
+    other metrics (registry lookups, no database). Used by insert_version()
+    and refresh_version(), so every write stores values that agree.
+
+    Returns a dict with status, latest_version, versions_behind,
+    days_outdated, days_since_release, age_tier and severity_level.
+
+    - latest_version is the registry's latest version, or the caller's if
+      the lookup fails, or None. It is never filled in with the installed
+      version, so a failed lookup is "unknown", not "up_to_date".
+    - status (when derived) is up_to_date only if installed == latest.
+    - ecosystem "none" (no registry): no lookups at all; unknown, no tier.
+    """
+
+    # ============================
+    # GET REAL DATA FROM API
+    # ============================
+
+    from version_monitor import get_latest_version, compare_versions, PACKAGE_TYPES
+
+    source = detect_package_source(package_name, ecosystem)
+
+    if PACKAGE_TYPES.get(source) is None:
+        # Not on any registry we can query: nothing to look up
+        return {
+            "status": "unknown" if status in DERIVED_STATUSES else status,
+            "latest_version": None,
+            "versions_behind": "0.0.0",
+            "days_outdated": 0,
+            "days_since_release": None,
+            "age_tier": None,
+            "severity_level": None,
+        }
+
+    try:
+        latest_version_api = get_latest_version(package_name, PACKAGE_TYPES[source])
+    except:
+        latest_version_api = None
+
+    latest_version = latest_version_api or latest_version or None
+
+    if status in DERIVED_STATUSES:
+        status = compare_versions(version, latest_version)
+
+    # ============================
+    # REAL VERSION + TIME CALCULATION
+    # ============================
+
+    from datetime import datetime
+    from version_monitor import get_package_release_info
+    
+
+    versions_behind = "0.0.0"
+    days_outdated = 0
+    days_since_release = None
+    age_tier = None
+
+    try:
+        if source == "pypi":
+            releases = get_package_release_info(package_name)
+        elif source == "npm":
+            from version_monitor import get_npm_release_info
+            releases = get_npm_release_info(package_name)
+        elif source == "github":
+            from version_monitor import get_github_release_info
+            releases = get_github_release_info(package_name)
+            #releases = get_github_releases(package_name)
+        else:
+            releases = {}
+
+        # -------- DAYS SINCE RELEASE (installed version's own age) --------
+        days_since_release = days_since(find_release_date(releases, version))
+
+        # -------- AGE TIER (days behind the latest release) --------
+        age_tier = compute_age_tier(releases, version, latest_version)
+
+        if releases:
+            # Sort versions chronologically if possible
+            #versions = sorted(releases.keys())
+            safe_versions = []
+
+            for ver in releases.keys():
+                try:
+                    v.parse(ver)
+                    safe_versions.append(ver)
+                except:
+                    continue
+
+            versions = sorted(safe_versions, key=lambda x: v.parse(x))
+            #versions = sorted(releases.keys(), key=lambda x: v.parse(x))
+
+            # -------- VERSION BEHIND --------
+            #versions_behind = calculate_structured_gap(version, versions)
+            #versions_behind = self.calculate_structured_gap(version, versions)
+            # -------------------------
+            # REAL VERSION GAP
+            # -------------------------
+            if latest_version and latest_version != version:
+                versions_behind = calculate_versions_behind(version, latest_version)
+            else:
+                versions_behind = "0.0.0"
+            '''
+            if version in versions:
+                current_index = versions.index(version)
+                versions_behind = len(versions) - current_index - 1
+            '''
+
+            # -------- DAYS OUTDATED --------
+            #release_date = releases.get(version)
+            matched_current, _ = find_closest_version(version, versions)
+            matched_latest, _ = find_closest_version(latest_version, versions)
+
+            # ============================
+            # DAYS OUTDATED (FINAL FIX)
+            # ============================
+
+            date_current = None
+            date_latest = None
+
+            if status == "up_to_date":
+                days_outdated = 0
+            else:
+                try:
+                    date_current = None
+                    date_latest = None
+
+                    # ---------------------------
+                    # PYPI / NPM (registry release dates)
+                    # ---------------------------
+                    if source in ("pypi", "npm"):
+                        date_current = releases.get(version)
+                        date_latest = releases.get(latest_version)
+
+                    # ---------------------------
+                    # GITHUB
+                    # ---------------------------
+                    elif source == "github":
+                        if not matched_current:
+                            matched_current = version
+
+                        date_current = get_commit_date(package_name, matched_current)
+                        date_latest = get_commit_date(package_name, latest_version)
+
+                    # ---------------------------
+                    # CALCULATE
+                    # ---------------------------
+                    if date_current and date_latest:
+                        d1 = datetime.strptime(str(date_current)[:10], "%Y-%m-%d")
+                        d2 = datetime.strptime(str(date_latest)[:10], "%Y-%m-%d")
+                        days_outdated = (d2 - d1).days
+                    else:
+                        try:
+                            parts = [int(x) for x in str(versions_behind).split(".")]
+                            major = parts[0]
+                            minor = parts[1] if len(parts) > 1 else 0
+                            patch = parts[2] if len(parts) > 2 else 0
+
+                            days_outdated = (major * 180) + (minor * 30) + (patch * 7)
+
+                        except:
+                            days_outdated = 30
+
+                except Exception as e:
+                    print("Date calculation failed:", package_name, e)
+                    days_outdated = 0
+
+            # -------------------------
+            # TRY RELEASE FIRST, THEN COMMITS
+            # -------------------------
+            # FORCE fallback if missing (commit dates exist only for GitHub
+            # repos; never ask GitHub about other names)
+            if not date_current and source == "github":
+                date_current = get_commit_date(package_name, matched_current)
+
+            if not date_latest and source == "github":
+                date_latest = get_commit_date(package_name, matched_latest)
+
+            # -------------------------
+            # CALCULATE DAYS
+            # -------------------------
+            if date_current and date_latest:
+                try:
+                    d1 = datetime.strptime(str(date_current)[:10], "%Y-%m-%d")
+                    d2 = datetime.strptime(str(date_latest)[:10], "%Y-%m-%d")
+
+                    days_outdated = (d2 - d1).days
+                except:
+                    days_outdated = 0
+            else:
+                try:
+                    parts = [int(x) for x in str(versions_behind).split(".")]
+                    major = parts[0]
+                    minor = parts[1] if len(parts) > 1 else 0
+                    patch = parts[2] if len(parts) > 2 else 0
+
+                    days_outdated = (major * 180) + (minor * 30) + (patch * 7)
+
+                except:
+                    days_outdated = 30
+
+    except Exception as e:
+        print("Real calculation failed:", package_name, e)
+
+    # ============================
+    # SAFE DEFAULTS (FINAL FIX)
+    # ============================
+
+    # versions_behind must ALWAYS be string
+    if not versions_behind or versions_behind == 0:
+        versions_behind = "0.0.0"
+
+    # days_outdated must be integer
+    if days_outdated is None or days_outdated < 0:
+        days_outdated = 0
+    
+
+    # 🔥 ADD THIS LINE HERE
+    #versions_behind = f"{versions_behind}.0.0"
+    '''
+    if not versions_behind:
+        versions_behind = "0.0.0"
+    '''
+
+    # Same severity rule recalculate_metrics_for_scan used; none when the
+    # status isn't known
+    if status == "up_to_date":
+        severity_level = "low"
+    elif status == "outdated":
+        severity_level = compute_severity_from_string(versions_behind, days_outdated)
+    else:
+        severity_level = None
+
+    return {
+        "status": status,
+        "latest_version": latest_version,
+        "versions_behind": versions_behind,
+        "days_outdated": days_outdated,
+        "days_since_release": days_since_release,
+        "age_tier": age_tier,
+        "severity_level": severity_level,
+    }
+
 #=========================================
+
+def empty_scan_summary():
+    """Counts for a scan with no packages (shape of get_scan_summaries values)."""
+    return {
+        "total": 0,
+        "outdated": 0,
+        "up_to_date": 0,
+        "tiers": {name: 0 for name in TIER_NAMES + [UNKNOWN_TIER]},
+    }
+
+#=========================================
+
+# Errors that mean the connection was closed or lost mid-use; the
+# operation can be retried on a fresh connection.
+CONNECTION_LOST_ERRORS = (pymysql.err.InterfaceError, pymysql.err.OperationalError)
+
 
 class DatabaseStorage:
 
+    # One instance is shared app-wide (get_db_storage), but Flask request
+    # threads and the background scheduler/scan threads must never share a
+    # pymysql connection, so each thread gets its own.
     def __init__(self):
-        self.connection: Optional[pymysql.Connection] = None
+        self._local = threading.local()
+
+    @property
+    def connection(self) -> Optional[pymysql.Connection]:
+        return getattr(self._local, "connection", None)
+
+    @connection.setter
+    def connection(self, value):
+        self._local.connection = value
+
+    def reset_connection(self):
+        """Close and drop this thread's connection; the next call reconnects."""
+        conn = self.connection
+        self.connection = None
+        if conn is not None:
+            try:
+                conn.close()
+            except Exception:
+                pass   # already closed/broken; we're discarding it anyway
+
+    def with_reconnect(self, func, *args, **kwargs):
+        """
+        Run func; if the connection was lost, reconnect and retry once.
+        A second failure is raised to the caller.
+        """
+        try:
+            return func(*args, **kwargs)
+        except CONNECTION_LOST_ERRORS as e:
+            print(f"Database connection lost ({e!r}); reconnecting and retrying once")
+            self.reset_connection()
+            return func(*args, **kwargs)
 
     def _connect(self):
         if self.connection:
             try:
                 self.connection.ping(reconnect=False)
                 return True
-            except:
-                self.connection = None
+            except Exception:
+                self.reset_connection()
 
         try:
             self.connection = pymysql.connect(**DB_CONFIG)
@@ -346,12 +658,20 @@ class DatabaseStorage:
 
         with self.connection.cursor() as cursor:
             cursor.execute(
-                "SELECT package_id FROM packages WHERE package_name=%s",
+                "SELECT package_id, ecosystem FROM packages WHERE package_name=%s",
                 (package_name,)
             )
             result = cursor.fetchone()
 
             if result:
+                # Correct a wrong stored ecosystem (uploads used to store
+                # "pypi" for everything, npm packages included)
+                if ecosystem_differs(result["ecosystem"], ecosystem):
+                    cursor.execute(
+                        "UPDATE packages SET ecosystem=%s WHERE package_id=%s",
+                        (ecosystem, result["package_id"])
+                    )
+                    self.connection.commit()
                 return result["package_id"]
 
             cursor.execute(
@@ -374,8 +694,14 @@ class DatabaseStorage:
         version,
         status="unknown",
         latest_version=None,
-        baseline_status="inactive"
+        baseline_status="inactive",
+        ecosystem=None
     ):
+        """
+        Insert or update the one row for (scan_id, package_name). Returns its
+        version_id, or None if the database is unavailable. ecosystem
+        ("pypi"/"npm"/...) picks the registry; None decides from the name.
+        """
 
         if not self._connect():
             return None
@@ -383,236 +709,37 @@ class DatabaseStorage:
         from datetime import datetime
         now = datetime.now()
 
-        # ============================
-        # GET REAL DATA FROM API
-        # ============================
-
-        from version_monitor import get_latest_version
-
-        try:
-            #latest_version_api = get_latest_version(package_name, "pypi")
-            #latest_version_api = get_latest_version(package_name, "python")
-            source = detect_package_source(package_name)
-
-            if source == "pypi":
-                latest_version_api = get_latest_version(package_name, "python")
-            elif source == "github":
-                latest_version_api = get_latest_version(package_name, "github-action")
-            else:
-                latest_version_api = None
-        except:
-            latest_version_api = version
-
-        if latest_version_api and latest_version_api != version:
-            latest_version = latest_version_api
-        elif not latest_version:
-            latest_version = version
-
-        # ============================
-        # REAL VERSION + TIME CALCULATION
-        # ============================
-
-        from datetime import datetime
-        from version_monitor import get_package_release_info
-        
-
-        versions_behind = "0.0.0"
-        days_outdated = 0
-        days_since_release = None
-        age_tier = None
-
-        try:
-            #releases = get_package_release_info(package_name)
-            source = detect_package_source(package_name)
-
-            if source == "pypi":
-                releases = get_package_release_info(package_name)
-            elif source == "github":
-                from version_monitor import get_github_release_info
-                releases = get_github_release_info(package_name)
-                #releases = get_github_releases(package_name)
-            else:
-                releases = {}
-
-            # -------- DAYS SINCE RELEASE (installed version) --------
-            days_since_release = days_since(find_release_date(releases, version))
-
-            # -------- AGE TIER (Fresh / Aging / Stale / Abandoned) --------
-            age_tier = compute_age_tier(releases, days_since_release)
-
-            if releases:
-                # Sort versions chronologically if possible
-                #versions = sorted(releases.keys())
-                safe_versions = []
-
-                for ver in releases.keys():
-                    try:
-                        v.parse(ver)
-                        safe_versions.append(ver)
-                    except:
-                        continue
-
-                versions = sorted(safe_versions, key=lambda x: v.parse(x))
-                #versions = sorted(releases.keys(), key=lambda x: v.parse(x))
-
-                # -------- VERSION BEHIND --------
-                #versions_behind = calculate_structured_gap(version, versions)
-                #versions_behind = self.calculate_structured_gap(version, versions)
-                # -------------------------
-                # REAL VERSION GAP
-                # -------------------------
-                if latest_version and latest_version != version:
-                    versions_behind = calculate_versions_behind(version, latest_version)
-                else:
-                    versions_behind = "0.0.0"
-                '''
-                if version in versions:
-                    current_index = versions.index(version)
-                    versions_behind = len(versions) - current_index - 1
-                '''
-
-                # -------- DAYS OUTDATED --------
-                #release_date = releases.get(version)
-                matched_current, _ = find_closest_version(version, versions)
-                matched_latest, _ = find_closest_version(latest_version, versions)
-
-                # ============================
-                # DAYS OUTDATED (FINAL FIX)
-                # ============================
-
-                date_current = None
-                date_latest = None
-
-                if status == "up_to_date":
-                    days_outdated = 0
-                else:
-                    try:
-                        date_current = None
-                        date_latest = None
-
-                        # ---------------------------
-                        # PYPI
-                        # ---------------------------
-                        if source == "pypi":
-                            date_current = releases.get(version)
-                            date_latest = releases.get(latest_version)
-
-                        # ---------------------------
-                        # GITHUB
-                        # ---------------------------
-                        elif source == "github":
-                            if not matched_current:
-                                matched_current = version
-
-                            date_current = get_commit_date(package_name, matched_current)
-                            date_latest = get_commit_date(package_name, latest_version)
-
-                        # ---------------------------
-                        # CALCULATE
-                        # ---------------------------
-                        if date_current and date_latest:
-                            d1 = datetime.strptime(str(date_current)[:10], "%Y-%m-%d")
-                            d2 = datetime.strptime(str(date_latest)[:10], "%Y-%m-%d")
-                            days_outdated = (d2 - d1).days
-                        else:
-                            try:
-                                parts = [int(x) for x in str(versions_behind).split(".")]
-                                major = parts[0]
-                                minor = parts[1] if len(parts) > 1 else 0
-                                patch = parts[2] if len(parts) > 2 else 0
-
-                                days_outdated = (major * 180) + (minor * 30) + (patch * 7)
-
-                            except:
-                                days_outdated = 30
-
-                    except Exception as e:
-                        print("Date calculation failed:", package_name, e)
-                        days_outdated = 0
-
-                # -------------------------
-                # TRY RELEASE FIRST, THEN COMMITS
-                # -------------------------
-                # FORCE fallback if missing
-                if not date_current:
-                    date_current = get_commit_date(package_name, matched_current)
-
-                if not date_latest:
-                    date_latest = get_commit_date(package_name, matched_latest)
-
-                # -------------------------
-                # CALCULATE DAYS
-                # -------------------------
-                if date_current and date_latest:
-                    try:
-                        d1 = datetime.strptime(str(date_current)[:10], "%Y-%m-%d")
-                        d2 = datetime.strptime(str(date_latest)[:10], "%Y-%m-%d")
-
-                        days_outdated = (d2 - d1).days
-                    except:
-                        days_outdated = 0
-                else:
-                    try:
-                        parts = [int(x) for x in str(versions_behind).split(".")]
-                        major = parts[0]
-                        minor = parts[1] if len(parts) > 1 else 0
-                        patch = parts[2] if len(parts) > 2 else 0
-
-                        days_outdated = (major * 180) + (minor * 30) + (patch * 7)
-
-                    except:
-                        days_outdated = 30
-
-        except Exception as e:
-            print("Real calculation failed:", package_name, e)
-
-        # ============================
-        # SAFE DEFAULTS (FINAL FIX)
-        # ============================
-
-        # versions_behind must ALWAYS be string
-        if not versions_behind or versions_behind == 0:
-            versions_behind = "0.0.0"
-
-        # days_outdated must be integer
-        if days_outdated is None or days_outdated < 0:
-            days_outdated = 0
-        
-
-        # 🔥 ADD THIS LINE HERE
-        #versions_behind = f"{versions_behind}.0.0"
-        '''
-        if not versions_behind:
-            versions_behind = "0.0.0"
-        '''
+        metrics = compute_version_metrics(
+            package_name, version, status, latest_version, ecosystem
+        )
+        status = metrics["status"]
+        latest_version = metrics["latest_version"]          # None if unknown
+        severity_level = metrics["severity_level"]
+        versions_behind = metrics["versions_behind"]
+        days_outdated = metrics["days_outdated"]
+        days_since_release = metrics["days_since_release"]
+        age_tier = metrics["age_tier"]
 
         with self.connection.cursor() as cursor:
 
-            # Check existing. Rescans call this without a package_id, and
-            # "package_id = NULL" never matches in SQL, so fall back to the name.
-            if package_id is not None:
-                cursor.execute("""
-                    SELECT version_id, version_number
-                    FROM versions
-                    WHERE package_id=%s AND scan_id=%s
-                    ORDER BY version_id
-                    LIMIT 1
-                """, (package_id, scan_id))
-            else:
-                cursor.execute("""
-                    SELECT version_id, version_number
-                    FROM versions
-                    WHERE package_name=%s AND scan_id=%s
-                    ORDER BY version_id
-                    LIMIT 1
-                """, (package_name, scan_id))
+            # One row per package name per scan. Matched by name (not
+            # package_id) so rescans without a package_id, and rows whose
+            # package_id changed, still update instead of duplicating.
+            cursor.execute("""
+                SELECT version_id, version_number
+                FROM versions
+                WHERE package_name=%s AND scan_id=%s
+                ORDER BY version_id
+                LIMIT 1
+            """, (package_name, scan_id))
 
             existing = cursor.fetchone()
 
             if existing:
                 cursor.execute("""
                     UPDATE versions
-                    SET version_number=%s,
+                    SET package_id=COALESCE(%s, package_id),
+                        version_number=%s,
                         status=%s,
                         latest_version=%s,
                         baseline_status=%s,
@@ -620,18 +747,21 @@ class DatabaseStorage:
                         days_outdated=%s,
                         versions_behind=%s,
                         days_since_release=%s,
-                        age_tier=%s
+                        age_tier=%s,
+                        severity_level=%s
                     WHERE version_id=%s
                 """, (
+                    package_id,
                     version,
                     status,
-                    latest_version if latest_version else version,
+                    latest_version,
                     baseline_status,
                     now,
                     days_outdated,
                     versions_behind,
                     days_since_release,
                     age_tier,
+                    severity_level,
                     existing["version_id"]
                 ))
 
@@ -643,8 +773,9 @@ class DatabaseStorage:
                 INSERT INTO versions
                 (scan_id, package_id, package_name, version_number,
                 baseline_status, release_date, status, latest_version,
-                days_outdated, versions_behind, days_since_release, age_tier)
-                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                days_outdated, versions_behind, days_since_release, age_tier,
+                severity_level)
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
             """, (
                 scan_id,
                 package_id,
@@ -653,17 +784,136 @@ class DatabaseStorage:
                 baseline_status,
                 now,
                 status,
-                latest_version if latest_version else version,
+                latest_version,
                 days_outdated,
                 versions_behind,
                 days_since_release,
-                age_tier
+                age_tier,
+                severity_level
             ))
 
             version_id = cursor.lastrowid
 
         self.connection.commit()
         return version_id
+
+    # ============================
+    # SCHEDULED REFRESH OF ONE ROW
+    # ============================
+    def refresh_version(self, scan_id, package_name, ecosystem=None):
+        """
+        Re-check one row's latest version and metrics (scheduled job, repair
+        script), without ever writing stale data:
+
+          1. re-read the row now (not from an earlier copy of the scan),
+          2. compute status/metrics for the version it has *now*
+             (compute_version_metrics, the same function every write uses),
+          3. write only those computed columns (never version_number,
+             package_id or baseline_status), and only if version_number is
+             still what was read in step 1. If an upload changed the row
+             during the registry lookups, the upload's data is kept.
+
+        ecosystem overrides the stored one (e.g. "none" from the repair).
+        Returns "refreshed", "changed" (row changed meanwhile, not written),
+        "missing" (no such row) or None (database unavailable).
+        """
+        if not self._connect():
+            return None
+
+        # End any open transaction so the read below sees the latest data
+        # (InnoDB keeps one snapshot per transaction)
+        self.connection.commit()
+
+        with self.connection.cursor() as cursor:
+            cursor.execute("""
+                SELECT v.version_id, v.version_number, p.ecosystem
+                FROM versions v
+                LEFT JOIN packages p ON p.package_id = v.package_id
+                WHERE v.scan_id=%s AND v.package_name=%s
+                ORDER BY v.version_id
+                LIMIT 1
+            """, (scan_id, package_name))
+            row = cursor.fetchone()
+
+        if not row:
+            return "missing"
+
+        metrics = compute_version_metrics(
+            package_name, row["version_number"], None, None,
+            ecosystem or row["ecosystem"]
+        )
+        written = self.write_version_metrics(
+            row["version_id"], row["version_number"], metrics
+        )
+        return "refreshed" if written else "changed"
+
+    def write_version_metrics(self, version_id, expected_version, metrics):
+        """
+        Write the computed columns of one row (compute_version_metrics
+        output), only if its version_number is still expected_version.
+        Returns True if written, False if the row changed meanwhile.
+        """
+        if not self._connect():
+            return False
+
+        with self.connection.cursor() as cursor:
+            cursor.execute("""
+                UPDATE versions
+                SET status=%s,
+                    latest_version=%s,
+                    release_date=%s,
+                    days_outdated=%s,
+                    versions_behind=%s,
+                    days_since_release=%s,
+                    age_tier=%s,
+                    severity_level=%s
+                WHERE version_id=%s AND version_number=%s
+            """, (
+                metrics["status"],
+                metrics["latest_version"],
+                datetime.now(),
+                metrics["days_outdated"],
+                metrics["versions_behind"],
+                metrics["days_since_release"],
+                metrics["age_tier"],
+                metrics["severity_level"],
+                version_id,
+                expected_version,
+            ))
+            written = cursor.rowcount
+
+        self.connection.commit()
+        return bool(written)
+
+    # ============================
+    # ROWS ALREADY STORED FOR A SCAN (for uploads)
+    # ============================
+    def get_scan_rows(self, scan_id):
+        """
+        {package_name: {"version_number", "status", "ecosystem"}} for every
+        row of the scan, read fresh. ecosystem comes from the packages table.
+        """
+        conn = get_new_connection()
+        try:
+            with conn.cursor() as cursor:
+                cursor.execute("""
+                    SELECT v.package_name, v.version_number, v.status, p.ecosystem
+                    FROM versions v
+                    LEFT JOIN packages p ON p.package_id = v.package_id
+                    WHERE v.scan_id = %s
+                """, (scan_id,))
+                rows = cursor.fetchall()
+        finally:
+            conn.close()
+
+        return {
+            r["package_name"]: {
+                "version_number": r["version_number"],
+                "status": r["status"],
+                "ecosystem": r["ecosystem"],
+            }
+            for r in rows
+        }
 
     # ============================
     # INSERT VULNERABILITY (unchanged)
@@ -863,7 +1113,13 @@ class DatabaseStorage:
     # GET MONITORED VERSIONS
     # ============================
 
-    def get_monitored_versions(self, scan_id):
+    def get_monitored_versions(self, scan_id, limit=None, offset=0):
+        """
+        Version rows of one scan, ordered by package name.
+
+        limit=None (the default) returns every row. Pass limit/offset to get
+        one slice of them.
+        """
 
         if not self._connect():
             return []
@@ -871,7 +1127,14 @@ class DatabaseStorage:
         conn = get_new_connection()
         cursor = conn.cursor()
 
-        query = """
+        params = [scan_id]
+        page_sql = ""
+        if limit is not None:
+            page_sql = "LIMIT %s OFFSET %s"
+            params += [int(limit), int(offset)]
+
+        # version_id breaks ties so slices don't overlap or skip rows
+        query = f"""
         SELECT
             v.package_name,
             v.version_number AS current_version,
@@ -883,13 +1146,16 @@ class DatabaseStorage:
             v.versions_behind,
             v.severity_level,
             v.days_since_release,
-            v.age_tier
+            v.age_tier,
+            p.ecosystem
         FROM versions v
+        LEFT JOIN packages p ON p.package_id = v.package_id
         WHERE v.scan_id = %s
-        ORDER BY v.package_name LIMIT 500
+        ORDER BY v.package_name, v.version_id
+        {page_sql}
         """
 
-        cursor.execute(query, (scan_id,))
+        cursor.execute(query, params)
         results = cursor.fetchall()
 
         cursor.close()
@@ -940,183 +1206,83 @@ class DatabaseStorage:
                 row["monitored_time"] = "N/A"
 
         return results
-    
-    #=========================================
-    def recalculate_metrics_for_scan(self, scan_id):
 
-        from version_monitor import (
-            get_package_release_info,
-            get_github_release_info,
-            get_commit_date,
-            compare_versions
-        )
+    # ============================
+    # PER-SCAN COUNTS (no rows loaded)
+    # ============================
+    def get_scan_summaries(self):
+        """
+        Package counts for every scan from one GROUP BY query:
+            {scan_id: {"total", "outdated", "up_to_date", "tiers": {tier: n}}}
+        tiers has every name in TIER_NAMES plus UNKNOWN_TIER (NULL or an
+        unrecognised value). Scans with no versions are left out; use
+        empty_scan_summary() for those.
+        """
 
         if not self._connect():
-            return
+            return {}
 
-        conn = self.connection
-        conn.ping(reconnect=True)
-        cursor = conn.cursor(pymysql.cursors.DictCursor)
-
-        cursor.execute("""
-            SELECT version_id, package_name, version_number, latest_version
-            FROM versions
-            WHERE scan_id = %s
-        """, (scan_id,))
-
-        rows = cursor.fetchall()
-
-        for row in rows:
-            try:
-                version_id = row["version_id"]
-                package = row["package_name"]
-                current = row["version_number"]
-                latest = row["latest_version"]
-
-                # ============================
-                # STATUS
-                # ============================
-                status = compare_versions(current, latest)
-
-                versions_behind = "0.0.0"
-                days_outdated = 0
-
-                try:
-                    # ---------------------------
-                    # Detect source
-                    # ---------------------------
-                    source = detect_package_source(package)
-
-                    if source == "pypi":
-                        releases = get_package_release_info(package)
-                    elif source == "github":
-                        releases = get_github_release_info(package)
-                    else:
-                        releases = {}
-
-                    if releases:
-
-                        # ---------------------------
-                        # CLEAN + SORT VERSIONS
-                        # ---------------------------
-                        safe_versions = []
-                        for ver in releases.keys():
-                            try:
-                                v.parse(ver)
-                                safe_versions.append(ver)
-                            except:
-                                continue
-
-                        versions = sorted(safe_versions, key=lambda x: v.parse(x))
-
-                        matched_version, _ = find_closest_version(current, versions)
-
-                        # ---------------------------
-                        # VERSION GAP
-                        # ---------------------------
-                        if latest and latest != current:
-                            versions_behind = calculate_versions_behind(current, latest)
-                        else:
-                            versions_behind = "0.0.0"
-
-                        # ---------------------------
-                        # DAYS OUTDATED
-                        # ---------------------------
-                        if status == "up_to_date":
-                            days_outdated = 0
-                        else:
-                            try:
-                                date_current = None
-                                date_latest = None
-
-                                if source == "pypi":
-                                    date_current = releases.get(current)
-                                    date_latest = releases.get(latest)
-
-                                elif source == "github":
-                                    if not matched_version:
-                                        matched_version = current
-
-                                    date_current = get_commit_date(package, matched_version)
-                                    date_latest = get_commit_date(package, latest)
-
-                                if date_current and date_latest:
-                                    d1 = datetime.strptime(str(date_current)[:10], "%Y-%m-%d")
-                                    d2 = datetime.strptime(str(date_latest)[:10], "%Y-%m-%d")
-                                    days_outdated = max((d2 - d1).days, 0)
-
-                                else:
-                                    # ============================
-                                    # 🔥 TIME DECAY FALLBACK MODEL
-                                    # ============================
-                                    try:
-                                        parts = [int(x) for x in str(versions_behind).split(".")]
-                                        major = parts[0]
-                                        minor = parts[1] if len(parts) > 1 else 0
-                                        patch = parts[2] if len(parts) > 2 else 0
-
-                                        # realistic estimation
-                                        days_outdated = (major * 180) + (minor * 30) + (patch * 7)
-
-                                    except:
-                                        days_outdated = 30  # minimal fallback
-
-                            except Exception as e:
-                                print("Date calculation failed:", package, e)
-                                days_outdated = 0
-
-                except Exception as e:
-                    print("Advanced calculation failed:", package, e)
-
-                # ---------------------------
-                # SAFETY CLEANUP
-                # ---------------------------
-                if not versions_behind:
-                    versions_behind = "0.0.0"
-
-                if days_outdated is None or days_outdated < 0:
-                    days_outdated = 0
-
-                # ============================
-                # 🔥 SEVERITY (AUTO)
-                # ============================
-                if status == "up_to_date":
-                    severity = "low"
-                else:
-                    severity = compute_severity_from_string(
-                        versions_behind,
-                        days_outdated
-                    )
-
-                # ============================
-                # 🔥 FINAL UPDATE (ALL COLUMNS)
-                # ============================
+        conn = get_new_connection()
+        try:
+            with conn.cursor() as cursor:
                 cursor.execute("""
-                    UPDATE versions
-                    SET latest_version=%s,
-                        status=%s,
-                        days_outdated=%s,
-                        versions_behind=%s,
-                        severity_level=%s,
-                        release_date=NOW()
-                    WHERE version_id=%s
-                """, (
-                    latest,
-                    status,
-                    days_outdated,
-                    versions_behind,
-                    severity,
-                    version_id
-                ))
+                    SELECT v.scan_id, v.status, v.age_tier, COUNT(*) AS n
+                    FROM versions v
+                    JOIN scan s ON s.scan_id = v.scan_id
+                    GROUP BY v.scan_id, v.status, v.age_tier
+                """)
+                rows = cursor.fetchall()
+        finally:
+            conn.close()
 
+        summaries = {}
+        for row in rows:
+            summary = summaries.setdefault(row["scan_id"], empty_scan_summary())
+            n = int(row["n"])
+
+            summary["total"] += n
+            if row["status"] == "outdated":
+                summary["outdated"] += n
+            elif row["status"] == "up_to_date":
+                summary["up_to_date"] += n
+
+            tier = row["age_tier"]
+            summary["tiers"][tier if tier in TIER_NAMES else UNKNOWN_TIER] += n
+
+        return summaries
+
+    #=========================================
+    def recalculate_metrics_for_scan(self, scan_id):
+        """
+        Re-check every row of a scan with refresh_version() (live registry
+        lookups). Only for background work: the scheduled job and the
+        repair script, never a page load.
+
+        Returns a Counter of refresh_version() results.
+        """
+        from collections import Counter
+
+        conn = get_new_connection()
+        try:
+            with conn.cursor() as cursor:
+                cursor.execute(
+                    "SELECT package_name FROM versions WHERE scan_id = %s "
+                    "ORDER BY package_name",
+                    (scan_id,)
+                )
+                names = [r["package_name"] for r in cursor.fetchall()]
+        finally:
+            conn.close()
+
+        results = Counter()
+        for name in names:
+            try:
+                results[self.refresh_version(scan_id, name)] += 1
             except Exception as e:
-                if "timeout" in str(e).lower():
-                    print("API timeout:", package)
-                else:
-                    pass
-                continue
+                print("Refresh failed:", name, e)
+                results["error"] += 1
 
-        conn.commit()
+        return results
 
     #--------------------------------------
     def calculate_structured_gap(self, current, versions):
@@ -1422,6 +1588,46 @@ class DatabaseStorage:
             conn.commit()
         finally:
             conn.close()
+
+# ============================
+# WRITE A LIST OF PACKAGES (with honest counts)
+# ============================
+def write_packages(db, packages, write_one, on_result=None):
+    """
+    Call write_one(pkg) for each package, retrying once if the database
+    connection was lost. write_one returns a result (e.g. the version_id),
+    or None if nothing was written.
+
+    on_result(pkg, result), if given, is called after every package, with
+    result None for a failure (used for upload counts and progress).
+
+    Returns (inserted_count, failed_names). Every failure is printed with
+    its traceback; none are skipped silently.
+    """
+    inserted = 0
+    failed = []
+
+    for pkg in packages:
+        name = pkg.get("name")
+        try:
+            result = db.with_reconnect(write_one, pkg)
+        except Exception:
+            print(f"Failed to save package {name}:")
+            traceback.print_exc()
+            result = None
+        else:
+            if result is None:
+                print(f"Failed to save package {name}: nothing was written")
+
+        if result is None:
+            failed.append(name)
+        else:
+            inserted += 1
+
+        if on_result is not None:
+            on_result(pkg, result)
+
+    return inserted, failed
 
 # ============================
 # GLOBAL INSTANCE

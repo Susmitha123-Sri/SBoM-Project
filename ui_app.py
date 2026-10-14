@@ -108,10 +108,34 @@ def _serialize_child_nodes(children: List[TreeNode]) -> List[Dict[str, object]]:
         )
     return serialized
 
+def run_in_background(target, *args):
+    """Run target(*args) in a daemon thread (tests replace this)."""
+    threading.Thread(target=target, args=args, daemon=True).start()
+
+
+# Only one monitoring run at a time (scheduler, startup scan, /run-monitor)
+_monitor_lock = threading.Lock()
+
+
 def auto_monitor_versions():
+    """
+    Background job: re-check every row of every scan against the live
+    registries. Runs from the scheduler, the startup scan and /run-monitor
+    (which starts it in the background); never as part of a page load.
+    """
+    if not _monitor_lock.acquire(blocking=False):
+        print("Auto monitoring already running; skipped this run.")
+        return
+    try:
+        _auto_monitor_versions()
+    finally:
+        _monitor_lock.release()
+
+
+def _auto_monitor_versions():
 
     from db_storage import get_db_storage
-    from version_monitor import get_latest_version
+    from version_monitor import get_latest_version, package_type
 
     print("\n======================================")
     print("Auto Version Monitoring Started:", datetime.now())
@@ -125,82 +149,98 @@ def auto_monitor_versions():
         print("No scans found. Nothing to monitor.")
         return
 
+    existing_packages = {}
+
     for scan in scans:
 
         scan_id = scan["scan_id"]
 
-        packages = db.get_monitored_versions(scan_id)
+        # One pass per row through refresh_version(): re-reads the row,
+        # recomputes status/tier/metrics, never writes back a stale copy
+        results = db.recalculate_metrics_for_scan(scan_id)
+        print(f"Scan {scan_id}: {dict(results)}")
 
-        existing_packages = {p["package_name"] for p in packages}
-
-        for pkg in packages:
-
-            package_name = pkg["package_name"]
-            current_version = pkg["current_version"]
-
-            #latest_version = get_latest_version(package_name, "pypi")
-            latest_version = get_latest_version(package_name, "python")
-
-            if not latest_version:
-                status = "unknown"
-
-            elif latest_version == current_version:
-                status = "up_to_date"
-
-            else:
-                status = "outdated"
-
-            # Re-insert version to recalculate metrics
-            db.insert_version(
-                scan_id,
-                pkg.get("package_id", None),
-                package_name,
-                current_version,
-                status,
-                latest_version,
-                pkg.get("baseline_status", "active")
-            )
+        existing_packages = {
+            p["package_name"]: p.get("ecosystem")
+            for p in db.get_monitored_versions(scan_id)
+        }
 
     print("Auto monitoring finished:", datetime.now())
-
-    from db_storage import get_db_storage
-
-    db = get_db_storage()
-
-    for scan in db.get_all_scans():
-        print("Auto recalculating:", scan["scan_id"])
-        db.recalculate_metrics_for_scan(scan["scan_id"])
 
     # Detect new packages (not in baseline)
 
     # Example: you can fetch from PyPI or repo (simplified demo)
 
-    monitored_list = list(existing_packages)
+    for package_name, ecosystem in existing_packages.items():
 
-    for package_name in monitored_list:
+        # Checked first so known packages cost no registry lookup; packages
+        # with no registry (ecosystem "none") are never looked up
+        if db.package_exists(package_name):
+            continue
 
-        #latest_version = get_latest_version(package_name, "pypi")
-        latest_version = get_latest_version(package_name, "python")
+        kind = package_type(package_name, ecosystem)
+        if kind is None:
+            continue
+
+        latest_version = get_latest_version(package_name, kind)
 
         if not latest_version:
             continue
 
         # If package not in DB → insert as inactive baseline
-        if not db.package_exists(package_name):
+        package_id = db.insert_package(package_name)
 
-            package_id = db.insert_package(package_name)
+        db.insert_version(
+            scan_id,
+            package_id,
+            package_name,
+            latest_version,
+            None,               # status derived (installed == latest)
+            latest_version,
+            "active",
+            ecosystem=ecosystem
+        )
 
-            db.insert_version(
-                scan_id,
-                package_id,
-                package_name,
-                latest_version,
-                status,
-                latest_version,
-                "active"
-            )
+        print("New package detected:", package_name)
 
-            print("New package detected:", package_name)
+
+MONITOR_PAGE_SIZE = 100   # package rows per page on /monitor/<scan_id>
+
+
+def paginate(total, page, per_page):
+    """
+    Clamp page to 1..total_pages (at least 1, even with no rows).
+    Returns (page, total_pages, offset).
+    """
+    total_pages = max(1, -(-total // per_page))
+    page = min(max(page, 1), total_pages)
+    return page, total_pages, (page - 1) * per_page
+
+
+def dashboard_totals(summaries):
+    """Add up get_scan_summaries() values into one set of dashboard counts."""
+    from db_storage import empty_scan_summary
+
+    totals = empty_scan_summary()
+    for summary in summaries.values():
+        for key in ("total", "outdated", "up_to_date"):
+            totals[key] += summary[key]
+        for tier, n in summary["tiers"].items():
+            totals["tiers"][tier] += n
+    return totals
+
+
+def repo_outdated_percentages(scans, summaries):
+    """(target_name, % outdated) for each scan, in scan order; 0 for empty scans."""
+    from db_storage import empty_scan_summary
+
+    result = []
+    for scan in scans:
+        summary = summaries.get(scan["scan_id"]) or empty_scan_summary()
+        total = summary["total"]
+        percentage = round(summary["outdated"] / total * 100, 2) if total else 0
+        result.append((scan["target_name"], percentage))
+    return result
 
 
 SCAN_JOB_ID = "auto_scan_repositories"
@@ -258,6 +298,7 @@ def create_app() -> Flask:
     def auto_scan_repositories():
 
         from db_storage import get_db_storage
+        from target_files import resolve_target_file
 
         scan_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
@@ -305,7 +346,7 @@ def create_app() -> Flask:
 
                     import pandas as pd
 
-                    df = pd.read_csv(target)
+                    df = pd.read_csv(resolve_target_file(target))
 
                     print(f"CSV Rows: {len(df)}, Columns: {len(df.columns)}")
 
@@ -317,7 +358,7 @@ def create_app() -> Flask:
 
                     import json
 
-                    with open(target, "r") as f:
+                    with open(resolve_target_file(target), "r") as f:
                         data = json.load(f)
 
                     print(f"JSON Keys: {list(data.keys())[:5]}")
@@ -470,11 +511,13 @@ def create_app() -> Flask:
 
     @app.route("/upload-sbom", methods=["POST"])
     def upload_sbom():
-
+        """
+        Save the file, create (or reuse) its scan, and process the packages
+        in a background thread. The monitor page shows the progress.
+        """
         from db_storage import get_db_storage
-        from version_monitor import get_latest_version
-        import csv
-        import json
+        from target_files import save_upload
+        from upload_jobs import JOBS, dedupe_packages, parse_upload, process_upload
 
         db = get_db_storage()
 
@@ -489,169 +532,77 @@ def create_app() -> Flask:
         if file.filename == "":
             return redirect("/dashboard")
 
-        filename = file.filename.lower()
+        # Read once: the same bytes are parsed below and saved to uploaded_sboms/
+        raw = file.read()
 
-        packages = []
+        try:
+            rows = parse_upload(file.filename, raw)
+        except ValueError as e:
+            print(e)
+            return redirect("/dashboard")
 
-        # =========================
-        # CSV HANDLING
-        # =========================
-        if filename.endswith(".csv"):
-
-            content = file.read().decode("utf-8").strip()
-            reader = csv.DictReader(content.splitlines())
-
-            for row in reader:
-
-                # Accept either naming convention for the name/version columns
-                name = (row.get("package_name") or row.get("name") or "").strip()
-                version = (
-                    row.get("current_version")
-                    or row.get("version")
-                    or ""
-                ).strip()
-                risk_level = (
-                    row.get("risk_level")
-                    or row.get("severity")
-                    or ""
-                ).strip()
-
-                if name and version:
-                    packages.append({
-                        "name": name,
-                        "version": version,
-                        "ecosystem": "pypi",
-                        "risk_level": risk_level
-                    })
+        # One entry per package name; a later row overrides an earlier one
+        packages = dedupe_packages(rows)
 
         # =========================
-        # JSON HANDLING (SBOM)
+        # SAVE FILE + SCAN
         # =========================
-        elif filename.endswith(".json"):
-
-            try:
-                data = json.load(file)
-
-                raw_packages = (
-                    data.get("packages")
-                    or data.get("components")
-                    or data.get("artifacts")
-                    or []
-                )
-
-                for pkg in raw_packages:
-
-                    name = (
-                        pkg.get("package")
-                        or pkg.get("name")
-                    )
-
-                    version = (
-                        pkg.get("version")
-                        or pkg.get("versionInfo")
-                    )
-
-                    # fallback from purl
-                    if not name and pkg.get("purl"):
-                        name = pkg.get("purl").split("/")[-1].split("@")[0]
-
-                    if not version and pkg.get("purl") and "@" in pkg.get("purl"):
-                        version = pkg.get("purl").split("@")[-1]
-
-                    if name and version:
-                        packages.append({
-                            "name": name.strip(),
-                            "version": version.strip(),
-                            "ecosystem": "github" if "/" in str(name) else "pypi"
-                        })
-
-            except Exception as e:
-                print("Invalid SBOM file:", e)
-                return redirect("/dashboard")
-
+        # Save the file so the scheduled rescan can open it. The stored target
+        # is exactly the saved file name. A different file that already has
+        # this name is never overwritten; this one gets a _1, _2... suffix.
+        # The same file again reuses its name, and so its scan.
+        target, renamed = save_upload(raw, file.filename)
+        if renamed:
+            print(f"Saved upload {file.filename!r} as uploaded_sboms/{target} "
+                  f"(a different file with that name already exists)")
         else:
+            print(f"Saved upload {file.filename!r} as uploaded_sboms/{target}")
+
+        scan_id = db.with_reconnect(db.insert_scan, target)
+        if scan_id is None:
+            print(f"Upload of {target} failed: could not create scan (database unavailable)")
             return redirect("/dashboard")
 
         # =========================
-        # INSERT INTO DATABASE
+        # PROCESS IN THE BACKGROUND
         # =========================
-        target = file.filename
-        scan_id = db.insert_scan(target)
-        print(f"Added {target} to DB. Background scan will handle it.")
+        job, started = JOBS.start(
+            scan_id,
+            target=target,
+            saved_as=target if renamed else None,
+            csv_rows=len(rows),
+            distinct=len(packages),
+        )
+        if started:
+            print(f"Processing {target}: {len(packages)} distinct packages "
+                  f"from {len(rows)} rows (scan {scan_id})")
+            run_in_background(process_upload, db, scan_id, packages)
+        else:
+            print(f"{target} (scan {scan_id}) is already being processed; "
+                  f"not starting it again")
 
-        for pkg in packages:
-
-            name = pkg.get("name")
-            version = pkg.get("version")
-            ecosystem = pkg.get("ecosystem", "pypi")
-
-            if not name or not version:
-                continue
-
-            name = name.strip()
-            version = version.strip()
-
-            # insert package
-            package_id = db.insert_package(name, ecosystem)
-
-            # detect type
-            if "/" in name:
-                pkg_type = "github-action"
-            else:
-                pkg_type = "python"
-
-            latest_version = get_latest_version(name, pkg_type)
-
-            # determine status
-            if not latest_version:
-                status = "unknown"
-            elif latest_version == version:
-                status = "up_to_date"
-            else:
-                status = "outdated"
-
-            # insert version
-            db.insert_version(
-                scan_id,
-                package_id,
-                name,
-                version,
-                status,
-                latest_version,
-                "active"
-            )
-
-        # =========================
-        # DEBUG PRINT (ONCE)
-        # =========================
-        print(f"Inserted {len(packages)} packages successfully")
-
-        # =========================
-        # 🔥 CRITICAL STEP (FIXES YOUR ISSUE)
-        # =========================
-        try:
-            db.recalculate_metrics_for_scan(scan_id)
-        except Exception as e:
-            print("Recalculation failed:", e)
-
-        # =========================
-        # REDIRECT TO MONITOR
-        # =========================
         return redirect(f"/monitor/{scan_id}")
-    
+
+    @app.route("/api/upload-status/<int:scan_id>")
+    def upload_status(scan_id):
+        """Progress of the latest upload for this scan (polled by the monitor page)."""
+        from upload_jobs import JOBS
+
+        return jsonify(JOBS.get(scan_id) or {"scan_id": scan_id, "state": "none"})
+
     @app.route("/monitor/<int:scan_id>")
     def monitor_packages(scan_id):
 
         from db_storage import get_db_storage
         db = get_db_storage()
 
-        # 🔥 ADD THIS
-        
-        try:
-            db.recalculate_metrics_for_scan(scan_id)
-        except Exception as e:
-            print("Recalculation failed:", e)
-        
+        # Latest upload for this scan (running or finished), for the
+        # progress/result box
+        from upload_jobs import JOBS
+        upload_job = JOBS.get(scan_id)
+
+        # No registry lookups on a page load: rows are recalculated by the
+        # upload (as they are written) and by the scheduled background job.
 
         #packages = db.get_monitored_versions(scan_id)
         packages = db.get_monitored_versions(scan_id)
@@ -727,6 +678,7 @@ def create_app() -> Flask:
         if not packages:
             return render_template(
                 "monitor.html",
+                upload_job=upload_job,
                 packages=[],
                 total_packages=0,
                 outdated_packages=0,
@@ -739,7 +691,11 @@ def create_app() -> Flask:
                 repo_outdated_counts=[],
                 best_repo=("N/A", 0),
                 worst_repo=("N/A", 0),
-                empty_message="⚠️ No package data available (N/A)"
+                empty_message=(
+                    "Upload in progress: packages appear here as they are saved."
+                    if JOBS.is_active(scan_id)
+                    else "⚠️ No package data available (N/A)"
+                )
             )
             
 
@@ -775,23 +731,13 @@ def create_app() -> Flask:
         max_version_gap = max(version_gaps) if version_gaps else 0
 
         #REPO COMPARISON (TOP 10 ONLY)
-        repo_data = []
-
+        # % outdated per scan, counted in SQL (GROUP BY) instead of loading
+        # every scan's rows
         all_scans = db.get_all_scans()
-
-        for scan in all_scans:
-            pkgs = db.get_monitored_versions(scan["scan_id"])
-
-            total_pkgs = len(pkgs)
-            outdated_pkgs = sum(1 for p in pkgs if p["version_status"] == "outdated")
-
-            # NORMALIZED VALUE
-            percentage = round((outdated_pkgs / total_pkgs) * 100, 2) if total_pkgs > 0 else 0
-
-            repo_data.append((scan["target_name"], percentage))
+        repo_scores = repo_outdated_percentages(all_scans, db.get_scan_summaries())
 
         #sort descending
-        repo_data = sorted(repo_data, key=lambda x: x[1], reverse=True)[:10]
+        repo_data = sorted(repo_scores, key=lambda x: x[1], reverse=True)[:10]
 
         repo_labels = [r[0] for r in repo_data]
         repo_outdated_counts = [r[1] for r in repo_data]
@@ -863,26 +809,46 @@ def create_app() -> Flask:
         # BEST vs WORST REPO
         # ============================
 
-        repo_scores = []
-
-        for scan in all_scans:
-            pkgs = db.get_monitored_versions(scan["scan_id"])
-            total_pkgs = len(pkgs)
-            outdated_pkgs = sum(1 for p in pkgs if p["version_status"] == "outdated")
-
-            percentage = (outdated_pkgs / total_pkgs * 100) if total_pkgs > 0 else 0
-
-            repo_scores.append((scan["target_name"], percentage))
-
-        # sort
+        # sort (repo_scores is from the REPO COMPARISON step above)
         repo_scores_sorted = sorted(repo_scores, key=lambda x: x[1])
 
         best_repo = repo_scores_sorted[0] if repo_scores_sorted else ("N/A", 0)
         worst_repo = repo_scores_sorted[-1] if repo_scores_sorted else ("N/A", 0)
 
+        # ============================
+        # TABLE: SEARCH / FILTER + PAGINATION
+        # ============================
+        # The stats above cover every row; the table shows one page of
+        # MONITOR_PAGE_SIZE rows. Search and the outdated filter are applied
+        # here (not in the browser) so they cover all pages.
+        search = request.args.get("q", "").strip()
+        outdated_only = request.args.get("outdated") == "1"
+
+        table_rows = packages
+        if search:
+            table_rows = [p for p in table_rows
+                          if search.lower() in p["package_name"].lower()]
+        if outdated_only:
+            # Strictly outdated: unknown rows (lookup failed / no registry)
+            # are shown as "Unknown", not "Outdated"
+            table_rows = [p for p in table_rows if p["version_status"] == "outdated"]
+
+        page, total_pages, offset = paginate(
+            len(table_rows), request.args.get("page", 1, type=int), MONITOR_PAGE_SIZE
+        )
+        page_rows = table_rows[offset:offset + MONITOR_PAGE_SIZE]
+
         return render_template(
             "monitor.html",
-            packages=packages,
+            upload_job=upload_job,
+            packages=page_rows,
+            page=page,
+            total_pages=total_pages,
+            filtered_count=len(table_rows),
+            first_row=offset + 1 if page_rows else 0,
+            last_row=offset + len(page_rows),
+            search=search,
+            outdated_only=outdated_only,
             scan_id=scan_id,
             total_packages=total,
             outdated_packages=outdated,
@@ -918,49 +884,12 @@ def create_app() -> Flask:
     
     @app.route("/run-monitor")
     def run_monitor():
+        """Start the monitoring job in the background; returns at once."""
 
-        auto_monitor_versions()
+        run_in_background(auto_monitor_versions)
 
-        #FORCE UPDATE ALL PACKAGES
-        from db_storage import get_db_storage
-        db = get_db_storage()
-
-        scans = db.get_all_scans()
-
-        for scan in scans:
-            scan_id = scan["scan_id"]
-
-            packages = db.get_monitored_versions(scan_id)
-
-            for pkg in packages:
-
-                package_name = pkg["package_name"]
-                current_version = pkg["current_version"]
-
-                from version_monitor import get_latest_version
-
-                #latest_version = get_latest_version(package_name, "pypi")
-                latest_version = get_latest_version(package_name, "python")
-
-                if not latest_version:
-                    status = "unknown"
-                elif latest_version == current_version:
-                    status = "up_to_date"
-                else:
-                    status = "outdated"
-
-                #THIS WILL UPDATE DB WITH CORRECT VALUES
-                db.insert_version(
-                    scan_id,
-                    None,
-                    package_name,
-                    current_version,
-                    status,
-                    latest_version,
-                    "active"
-                )
-
-        return "Monitoring completed successfully!"
+        return ("Monitoring started in the background. "
+                "Results appear on the monitor pages as rows are refreshed.")
     
     #--------------------------
     @app.route("/api/monitored")
@@ -985,28 +914,18 @@ def create_app() -> Flask:
     def dashboard():
 
         from db_storage import get_db_storage
-        from age_tiers import TIER_NAMES, UNKNOWN_TIER
 
         db = get_db_storage()
         scans = db.get_all_scans()
 
+        # Counted in SQL (GROUP BY), so no package rows are loaded
+        totals = dashboard_totals(db.get_scan_summaries())
         total_repos = len(scans)
-        total_packages = 0
-        total_outdated = 0
-        total_updated = 0
+        total_packages = totals["total"]
+        total_outdated = totals["outdated"]
+        total_updated = totals["up_to_date"]
         # Every package lands in exactly one bucket, so these add up to total_packages
-        tier_counts = {name: 0 for name in TIER_NAMES + [UNKNOWN_TIER]}
-
-        for scan in scans:
-            pkgs = db.get_monitored_versions(scan["scan_id"])
-
-            total_packages += len(pkgs)
-            total_outdated += sum(1 for p in pkgs if p["version_status"] == "outdated")
-            total_updated += sum(1 for p in pkgs if p["version_status"] == "up_to_date")
-
-            for p in pkgs:
-                tier = p.get("age_tier")
-                tier_counts[tier if tier in TIER_NAMES else UNKNOWN_TIER] += 1
+        tier_counts = totals["tiers"]
 
         return render_template(
             "dashboard.html",

@@ -414,7 +414,9 @@ class SBOMScanner:
                             grype_fix = fix_versions[0]
                     '''
 
-                    external_latest = api_latest or package_version
+                    # A failed lookup stays unknown; never treat the
+                    # installed version as the latest one
+                    external_latest = api_latest
 
                     if external_latest is None:
                         status = "unknown"

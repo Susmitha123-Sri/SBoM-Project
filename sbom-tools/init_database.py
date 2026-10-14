@@ -80,7 +80,9 @@ def create_tables():
         days_outdated INT DEFAULT 0,
         versions_behind VARCHAR(50),
         severity_level VARCHAR(50),
-                   
+        days_since_release INT NULL,
+        age_tier VARCHAR(20) NULL,
+
         baseline_status VARCHAR(50) DEFAULT 'inactive',
 
         release_date DATETIME DEFAULT CURRENT_TIMESTAMP,
@@ -161,6 +163,53 @@ def create_tables():
             ON DELETE CASCADE
     )
     """)
+
+    # ==============================
+    # EXISTING DATABASES: ADD NEW COLUMNS
+    # (nullable, so existing rows are left as-is;
+    #  age_tier is filled in by the next /run-monitor)
+    # ==============================
+
+    for column, definition in (
+        ("days_since_release", "INT NULL"),
+        ("age_tier", "VARCHAR(20) NULL"),
+    ):
+        cursor.execute("""
+        SELECT COUNT(*)
+        FROM information_schema.COLUMNS
+        WHERE TABLE_SCHEMA = %s
+          AND TABLE_NAME = 'versions'
+          AND COLUMN_NAME = %s
+        """, (DATABASE_NAME, column))
+
+        if cursor.fetchone()[0] == 0:
+            cursor.execute(f"ALTER TABLE versions ADD COLUMN {column} {definition}")
+            print(f"Added column versions.{column}")
+
+    # ==============================
+    # SETTINGS TABLE (shared app settings)
+    # ==============================
+
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS settings (
+        setting_key VARCHAR(100) PRIMARY KEY,
+        setting_value VARCHAR(255) NOT NULL,
+        updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+            ON UPDATE CURRENT_TIMESTAMP
+    )
+    """)
+
+    default_settings = {
+        "rescan_interval_value": "6",
+        "rescan_interval_unit": "hours",
+        "age_threshold_days": "365",
+    }
+
+    for key, value in default_settings.items():
+        cursor.execute(
+            "INSERT IGNORE INTO settings (setting_key, setting_value) VALUES (%s, %s)",
+            (key, value)
+        )
 
     connection.commit()
 

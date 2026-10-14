@@ -17,12 +17,12 @@
                     <span>Show only outdated</span>
                 </label>
 
-                <label class="checkbox-container" title="Installed version released more than {{ age_threshold }} days ago">
+                <label class="checkbox-container" title="Requires attention: the installed version itself was released more than {{ age_threshold }} days ago (its own age, set in Settings). This is separate from the age tier, which measures days behind the latest release.">
                     <input type="checkbox" id="attentionOnly" {{ 'checked' if attention_only }}>
-                    <span>Requires attention only (&gt; {{ age_threshold }} days)</span>
+                    <span>Requires attention only (installed version &gt; {{ age_threshold }} days old)</span>
                 </label>
 
-                <select id="tierFilter" title="Filter by age tier">
+                <select id="tierFilter" title="Filter by age tier (days the installed version's release is behind the latest release)">
                     <option value="" {{ 'selected' if not age_tier }}>All age tiers</option>
                     {% for t in tier_names %}
                     <option value="{{ t }}" {{ 'selected' if age_tier == t }}>{{ t }}</option>
@@ -49,8 +49,8 @@
                         <th>Status</th>
                         <th>Days Outdated</th>
                         <th>Version Behind</th>
-                        <th>Days Since Release</th>
-                        <th>Age Tier</th>
+                        <th title="Age of the installed version (days since it was released); used for Requires attention">Days Since Release</th>
+                        <th title="Days the installed version's release is behind the latest release">Age Tier (behind latest)</th>
                         <th>Risk Level</th>
                         <th>Repository</th>
                     </tr>
@@ -61,14 +61,22 @@
                     <tr class="{{ 'attention-row' if p.requires_attention }}">
                         <td>{{ p.package_name }}</td>
                         <td>{{ p.current_version }}</td>
-                        <td>{{ p.latest_version }}</td>
+                        <td>
+                            {% if p.latest_version %}{{ p.latest_version }}{% else %}<span class="unknown">N/A</span>{% endif %}
+                        </td>
                         <td>{{ p.scan_date }}</td>
 
-                        <td class="{{ 'green' if p.version_status == 'up_to_date' else 'red' }}">
+                        <td class="{{ 'green' if p.version_status == 'up_to_date' else ('red' if p.version_status == 'outdated' else 'unknown') }}">
                             {{ p.version_status }}
                         </td>
 
-                        <td>{{ p.days_outdated }}</td>
+                        <td>
+                            {% if p.version_status == 'outdated' or p.version_status == 'up_to_date' %}
+                                {{ p.days_outdated }}
+                            {% else %}
+                                <span class="unknown">N/A</span>
+                            {% endif %}
+                        </td>
                         <td>
                             {% if p.versions_behind == 'N/A' %}
                                 <span class="unknown">N/A</span>
@@ -81,7 +89,7 @@
                             {% if p.days_since_release is not none %}
                                 {{ p.days_since_release }}
                                 {% if p.requires_attention %}
-                                <span class="attention-badge">⚠ Requires attention</span>
+                                <span class="attention-badge" title="Installed version released more than {{ age_threshold }} days ago (not the age tier)">⚠ Requires attention</span>
                                 {% endif %}
                             {% else %}
                                 <span class="unknown">N/A</span>
