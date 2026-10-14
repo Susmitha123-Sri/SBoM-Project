@@ -9,6 +9,7 @@ from datetime import datetime
 from version_monitor import get_package_release_info
 from version_monitor import get_commit_date
 from version_monitor import package_ecosystem, ECOSYSTEM_ALIASES
+from version_monitor import match_release, same_version
 from age_tiers import classify_age, tier_label, TIER_NAMES, UNKNOWN_TIER
 import requests
 from packaging import version as v
@@ -231,8 +232,11 @@ def days_since(date_str):
         return None
 
 
-def find_release_date(releases, version):
-    """Release date of exactly this version (tolerating a leading 'v')."""
+def find_release_date(releases, version, ecosystem=None):
+    """
+    Release date of exactly this version (tolerating a leading 'v'); on
+    PyPI also of the same PEP 440 version (26 -> 26.0, see same_version).
+    """
     if not releases or not version:
         return None
     version = str(version)
@@ -240,10 +244,11 @@ def find_release_date(releases, version):
     for candidate in (version, bare, "v" + bare):
         if releases.get(candidate):
             return releases[candidate]
-    return None
+    key = match_release(releases, version, ecosystem)
+    return releases.get(key) if key else None
 
 
-def compute_age_tier(releases, version, latest_version):
+def compute_age_tier(releases, version, latest_version, ecosystem=None):
     """
     Age tier label from how far the installed version's release date is
     behind the latest version's release date, both looked up in the releases
@@ -251,8 +256,8 @@ def compute_age_tier(releases, version, latest_version):
     Returns None (stored as NULL, shown as "unknown") when a date is missing.
     """
     return tier_label(classify_age(
-        find_release_date(releases, version),
-        find_release_date(releases, latest_version),
+        find_release_date(releases, version, ecosystem),
+        find_release_date(releases, latest_version, ecosystem),
     ))
 
 #----------------------------------------
@@ -354,7 +359,7 @@ def compute_version_metrics(package_name, version, status=None, latest_version=N
     latest_version = latest_version_api or latest_version or None
 
     if status in DERIVED_STATUSES:
-        status = compare_versions(version, latest_version)
+        status = compare_versions(version, latest_version, source)
 
     # ============================
     # REAL VERSION + TIME CALCULATION
@@ -383,10 +388,10 @@ def compute_version_metrics(package_name, version, status=None, latest_version=N
             releases = {}
 
         # -------- DAYS SINCE RELEASE (installed version's own age) --------
-        days_since_release = days_since(find_release_date(releases, version))
+        days_since_release = days_since(find_release_date(releases, version, source))
 
         # -------- AGE TIER (days behind the latest release) --------
-        age_tier = compute_age_tier(releases, version, latest_version)
+        age_tier = compute_age_tier(releases, version, latest_version, source)
 
         if releases:
             # Sort versions chronologically if possible
@@ -409,7 +414,7 @@ def compute_version_metrics(package_name, version, status=None, latest_version=N
             # -------------------------
             # REAL VERSION GAP
             # -------------------------
-            if latest_version and latest_version != version:
+            if latest_version and not same_version(latest_version, version, source):
                 versions_behind = calculate_versions_behind(version, latest_version)
             else:
                 versions_behind = "0.0.0"
@@ -442,8 +447,8 @@ def compute_version_metrics(package_name, version, status=None, latest_version=N
                     # PYPI / NPM (registry release dates)
                     # ---------------------------
                     if source in ("pypi", "npm"):
-                        date_current = releases.get(version)
-                        date_latest = releases.get(latest_version)
+                        date_current = find_release_date(releases, version, source)
+                        date_latest = find_release_date(releases, latest_version, source)
 
                     # ---------------------------
                     # GITHUB

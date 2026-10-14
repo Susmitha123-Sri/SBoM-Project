@@ -228,10 +228,53 @@ def get_npm_release_info(package_name):
 # ============================
 # COMPARE
 # ============================
-def compare_versions(current_version, latest_version):
+def pypi_release(text):
+    """A plain PyPI version, parsed; None if unparseable, a dev build or a local version."""
+    try:
+        parsed = v.Version(str(text).strip())
+    except v.InvalidVersion:
+        return None
+    if parsed.is_devrelease or parsed.local:
+        return None
+    return parsed
+
+
+def same_version(a, b, ecosystem=None):
+    """
+    True if a and b are the same release. Exact string, except on PyPI where
+    26 == 26.0 and 0.8 == 0.8.0 (PEP 440). Dev/local builds and
+    unparseable versions only match exactly; npm/GitHub always exactly.
+    (Same rule as data-prep/add_release_dates.py match_current.)
+    """
+    if not a or not b:
+        return False
+    if a == b:
+        return True
+    if ecosystem != "pypi":
+        return False
+    pa = pypi_release(a)
+    return pa is not None and pa == pypi_release(b)
+
+
+def match_release(releases, version, ecosystem=None):
+    """The key in releases that is this version (see same_version), or None."""
+    if not version:
+        return None
+    if version in releases:
+        return version
+    if ecosystem != "pypi":
+        return None
+    return next((key for key in releases if same_version(version, key, ecosystem)), None)
+
+
+def compare_versions(current_version, latest_version, ecosystem=None):
+    """
+    "up_to_date", "outdated" or "unknown" (a version missing). ecosystem
+    "pypi" compares by PEP 440 (see same_version); anything else, exactly.
+    """
     if not current_version or not latest_version:
         return "unknown"
-    elif current_version == latest_version:
+    elif same_version(current_version, latest_version, ecosystem):
         return "up_to_date"
     else:
         return "outdated"
