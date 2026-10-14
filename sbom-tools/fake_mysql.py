@@ -4,6 +4,7 @@
 # small part of the pymysql API that db_storage uses, so the real SQL runs
 # in tests without MySQL.
 
+import re
 import sqlite3
 import unittest
 from datetime import datetime
@@ -43,6 +44,23 @@ SCHEMA = """
         days_since_release INTEGER,
         age_tier TEXT
     );
+    CREATE TABLE package_reviews (
+        review_id INTEGER PRIMARY KEY,
+        package_id INTEGER NOT NULL UNIQUE,
+        status TEXT NOT NULL DEFAULT 'Open',
+        reviewer TEXT,
+        reviewed_at DATETIME,
+        note TEXT
+    );
+    CREATE TABLE package_review_history (
+        history_id INTEGER PRIMARY KEY,
+        package_id INTEGER NOT NULL,
+        old_status TEXT,
+        new_status TEXT NOT NULL,
+        reviewer TEXT NOT NULL,
+        note TEXT,
+        changed_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+    );
 """
 
 
@@ -61,6 +79,12 @@ class SqliteCursor:
     def execute(self, sql, params=()):
         # MySQL's NOW() -> SQLite's CURRENT_TIMESTAMP
         sql = sql.replace("%s", "?").replace("NOW()", "CURRENT_TIMESTAMP")
+        # Row locks don't exist in SQLite; ON DUPLICATE KEY UPDATE x = VALUES(x)
+        # -> ON CONFLICT DO UPDATE SET x = excluded.x
+        sql = sql.replace(" FOR UPDATE", "")
+        if "ON DUPLICATE KEY UPDATE" in sql:
+            sql = sql.replace("ON DUPLICATE KEY UPDATE", "ON CONFLICT DO UPDATE SET")
+            sql = re.sub(r"VALUES\((\w+)\)", r"excluded.\1", sql)
         self.cur.execute(sql, tuple(params or ()))
 
     def _row(self, values):

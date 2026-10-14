@@ -282,6 +282,46 @@ def validate_settings(raw):
     return cleaned, errors
 
 
+REVIEWER_MAX_LENGTH = 100   # package_reviews.reviewer is VARCHAR(100)
+
+
+def validate_review(raw):
+    """
+    Validate a review form (status, reviewer, note).
+    Returns (cleaned_dict, errors); an empty note becomes None.
+    """
+    from db_storage import REVIEW_STATUSES
+
+    errors = []
+    cleaned = {}
+
+    status = str(raw.get("status", "")).strip()
+    if status in REVIEW_STATUSES:
+        cleaned["status"] = status
+    else:
+        errors.append("Status must be one of: " + ", ".join(REVIEW_STATUSES) + ".")
+
+    reviewer = str(raw.get("reviewer", "")).strip()
+    if not reviewer:
+        errors.append("Reviewer name is required.")
+    elif len(reviewer) > REVIEWER_MAX_LENGTH:
+        errors.append(f"Reviewer name must be at most {REVIEWER_MAX_LENGTH} characters.")
+    else:
+        cleaned["reviewer"] = reviewer
+
+    cleaned["note"] = str(raw.get("note", "")).strip() or None
+
+    return cleaned, errors
+
+
+def safe_packages_url(url):
+    """url if it is a /packages page on this site, else /packages (no open redirect)."""
+    url = str(url or "")
+    if url == "/packages" or url.startswith("/packages?"):
+        return url
+    return "/packages"
+
+
 def create_app() -> Flask:
 
     app = Flask(
@@ -927,13 +967,21 @@ def create_app() -> Flask:
         # Every package lands in exactly one bucket, so these add up to total_packages
         tier_counts = totals["tiers"]
 
+        from db_storage import REVIEW_STATUSES
+        try:
+            review_counts = db.get_review_status_counts()
+        except Exception as e:
+            print("ERROR loading review counts:", e)
+            review_counts = {status: 0 for status in REVIEW_STATUSES}
+
         return render_template(
             "dashboard.html",
             total_repos=total_repos,
             total_packages=total_packages,
             total_outdated=total_outdated,
             total_updated=total_updated,
-            tier_counts=tier_counts
+            tier_counts=tier_counts,
+            review_counts=review_counts
         )
 
     #-----------------------------------------
@@ -981,16 +1029,24 @@ def create_app() -> Flask:
             age_tier = ""
         sort_by_tier = request.args.get("sort") == "tier"
 
+        # Review status filter (server-side, like the tier filter)
+        from db_storage import REVIEW_STATUSES
+        review_status = request.args.get("review", "")
+        if review_status not in REVIEW_STATUSES:
+            review_status = ""
+
         try:
             # Fetch paginated data
             packages = db.get_packages_paginated(
                 limit=per_page, offset=offset, older_than_days=older_than,
-                age_tier=age_tier or None, sort_by_tier=sort_by_tier
+                age_tier=age_tier or None, sort_by_tier=sort_by_tier,
+                review_status=review_status or None
             )
 
             # Total count
             total = db.get_total_packages(
-                older_than_days=older_than, age_tier=age_tier or None
+                older_than_days=older_than, age_tier=age_tier or None,
+                review_status=review_status or None
             )
 
         except Exception as e:
@@ -1014,6 +1070,63 @@ def create_app() -> Flask:
             tier_names=TIER_NAMES,
             age_tier=age_tier,
             sort_by_tier=sort_by_tier,
+            review_statuses=REVIEW_STATUSES,
+            review_status=review_status,
+            active="packages"
+        )
+
+    #----------------------------------------------------
+    @app.route("/packages/<int:package_id>/review", methods=["POST"])
+    def save_package_review(package_id):
+        """Save a package's review status from the Packages page edit form."""
+
+        from db_storage import get_db_storage
+        db = get_db_storage()
+
+        back = safe_packages_url(request.form.get("next"))
+
+        cleaned, errors = validate_review(request.form)
+        if errors:
+            return " ".join(errors), 400
+
+        try:
+            saved = db.save_review(
+                package_id, cleaned["status"], cleaned["reviewer"], cleaned["note"]
+            )
+        except Exception as e:
+            print("ERROR saving review:", e)
+            return "Could not save the review to the database.", 500
+
+        if not saved:
+            return "Package not found.", 404
+
+        print(f"Package {package_id} review set to {cleaned['status']!r} "
+              f"by {cleaned['reviewer']!r}")
+
+        return redirect(back)
+
+    @app.route("/packages/<int:package_id>/history")
+    def package_review_history(package_id):
+        """Read-only review history for one package, newest first."""
+
+        from db_storage import get_db_storage
+        db = get_db_storage()
+
+        try:
+            review = db.get_review(package_id)
+            history = db.get_review_history(package_id) if review else []
+        except Exception as e:
+            print("ERROR loading review history:", e)
+            return "Could not load the review history.", 500
+
+        if review is None:
+            return "Package not found.", 404
+
+        return render_template(
+            "review_history.html",
+            review=review,
+            history=history,
+            back=safe_packages_url(request.args.get("next")),
             active="packages"
         )
 

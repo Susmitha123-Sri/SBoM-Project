@@ -172,6 +172,10 @@ DEFAULT_SETTINGS = {
     "age_threshold_days": "365",
 }
 
+# Management review of a package (package_reviews.status). A package with
+# no package_reviews row is "Open".
+REVIEW_STATUSES = ("Open", "Reviewed - Accepted", "Compensating Control", "Resolved")
+
 
 def ensure_schema():
     """Create the settings table and days_since_release column if missing."""
@@ -1428,8 +1432,11 @@ class DatabaseStorage:
     #----------------------------------------
     #----------------------------------------
     @staticmethod
-    def _package_filters(older_than_days=None, age_tier=None):
-        """WHERE clause + params shared by the /packages list and its count."""
+    def _package_filters(older_than_days=None, age_tier=None, review_status=None):
+        """
+        WHERE clause + params shared by the /packages list and its count.
+        Both queries LEFT JOIN package_reviews r (no row = "Open").
+        """
         clauses = []
         params = []
 
@@ -1443,15 +1450,21 @@ class DatabaseStorage:
             clauses.append("v.age_tier = %s")
             params.append(age_tier)
 
+        if review_status in REVIEW_STATUSES:
+            clauses.append("COALESCE(r.status, 'Open') = %s")
+            params.append(review_status)
+
         where = ("WHERE " + " AND ".join(clauses)) if clauses else ""
         return where, params
 
     def get_packages_paginated(self, limit, offset, older_than_days=None,
-                               age_tier=None, sort_by_tier=False):
+                               age_tier=None, sort_by_tier=False,
+                               review_status=None):
         """
         older_than_days: only rows whose installed version is older than this.
         age_tier:        only rows in this tier ("unknown" = no tier).
         sort_by_tier:    Abandoned first, then Stale, Aging, Fresh, unknown.
+        review_status:   only rows with this review status (one of REVIEW_STATUSES).
         """
 
         if not self._connect():
@@ -1462,7 +1475,7 @@ class DatabaseStorage:
         conn = get_new_connection()
         cursor = conn.cursor()
 
-        where, params = self._package_filters(older_than_days, age_tier)
+        where, params = self._package_filters(older_than_days, age_tier, review_status)
 
         order_by = "v.release_date DESC"
         if sort_by_tier:
@@ -1486,9 +1499,15 @@ class DatabaseStorage:
                 v.days_since_release,
                 v.age_tier,
                 v.release_date,
-                s.target_name as repo
+                s.target_name as repo,
+                v.package_id,
+                COALESCE(r.status, 'Open') AS review_status,
+                r.reviewer,
+                r.reviewed_at,
+                r.note AS review_note
             FROM versions v
             JOIN scan s ON v.scan_id = s.scan_id
+            LEFT JOIN package_reviews r ON r.package_id = v.package_id
             {where}
             ORDER BY {order_by}
             LIMIT %s OFFSET %s
@@ -1537,17 +1556,19 @@ class DatabaseStorage:
         return results
 
     #-----------------------------------------
-    def get_total_packages(self, older_than_days=None, age_tier=None):
+    def get_total_packages(self, older_than_days=None, age_tier=None,
+                           review_status=None):
 
         if not self._connect():
             return 0
 
         # Same JOIN + filters as get_packages_paginated so page counts line up
-        where, params = self._package_filters(older_than_days, age_tier)
+        where, params = self._package_filters(older_than_days, age_tier, review_status)
         query = f"""
             SELECT COUNT(*) as total
             FROM versions v
             JOIN scan s ON v.scan_id = s.scan_id
+            LEFT JOIN package_reviews r ON r.package_id = v.package_id
             {where}
         """
 
@@ -1588,6 +1609,118 @@ class DatabaseStorage:
             conn.commit()
         finally:
             conn.close()
+
+    #-----------------------------------------
+    # PACKAGE REVIEWS (management check mark)
+    #-----------------------------------------
+    # Rows in package_reviews / package_review_history are never deleted;
+    # every save is an upsert plus one history row.
+    def save_review(self, package_id, status, reviewer, note):
+        """
+        Set the review of a package and log the change, in one transaction.
+        status must be one of REVIEW_STATUSES (validated by the caller).
+        A package with no review row gets one. Every save is logged, even a
+        note-only change. Returns False if the package does not exist.
+        """
+
+        conn = get_new_connection()
+        try:
+            with conn.cursor() as cursor:
+                cursor.execute(
+                    "SELECT package_id FROM packages WHERE package_id = %s",
+                    (package_id,)
+                )
+                if cursor.fetchone() is None:
+                    return False
+
+                # Lock the row so two saves can't both read the same old_status
+                cursor.execute(
+                    "SELECT status FROM package_reviews WHERE package_id = %s FOR UPDATE",
+                    (package_id,)
+                )
+                existing = cursor.fetchone()
+                old_status = existing["status"] if existing else None
+
+                cursor.execute("""
+                    INSERT INTO package_reviews
+                        (package_id, status, reviewer, note, reviewed_at)
+                    VALUES (%s, %s, %s, %s, NOW())
+                    ON DUPLICATE KEY UPDATE
+                        status = VALUES(status),
+                        reviewer = VALUES(reviewer),
+                        note = VALUES(note),
+                        reviewed_at = NOW()
+                """, (package_id, status, reviewer, note))
+
+                cursor.execute("""
+                    INSERT INTO package_review_history
+                        (package_id, old_status, new_status, reviewer, note)
+                    VALUES (%s, %s, %s, %s, %s)
+                """, (package_id, old_status, status, reviewer, note))
+
+            conn.commit()
+            return True
+        except Exception:
+            conn.rollback()
+            raise
+        finally:
+            conn.close()
+
+    def get_review(self, package_id):
+        """The package's name and current review (status "Open" if none), or None."""
+
+        conn = get_new_connection()
+        try:
+            with conn.cursor() as cursor:
+                cursor.execute("""
+                    SELECT p.package_id, p.package_name,
+                           COALESCE(r.status, 'Open') AS status,
+                           r.reviewer, r.reviewed_at, r.note
+                    FROM packages p
+                    LEFT JOIN package_reviews r ON r.package_id = p.package_id
+                    WHERE p.package_id = %s
+                """, (package_id,))
+                return cursor.fetchone()
+        finally:
+            conn.close()
+
+    def get_review_history(self, package_id):
+        """Every review change for a package, newest first."""
+
+        conn = get_new_connection()
+        try:
+            with conn.cursor() as cursor:
+                cursor.execute("""
+                    SELECT old_status, new_status, reviewer, note, changed_at
+                    FROM package_review_history
+                    WHERE package_id = %s
+                    ORDER BY changed_at DESC, history_id DESC
+                """, (package_id,))
+                return cursor.fetchall()
+        finally:
+            conn.close()
+
+    def get_review_status_counts(self):
+        """{status: number of packages} for every status in REVIEW_STATUSES."""
+
+        counts = {status: 0 for status in REVIEW_STATUSES}
+
+        conn = get_new_connection()
+        try:
+            with conn.cursor() as cursor:
+                cursor.execute("""
+                    SELECT COALESCE(r.status, 'Open') AS status, COUNT(*) AS n
+                    FROM packages p
+                    LEFT JOIN package_reviews r ON r.package_id = p.package_id
+                    GROUP BY COALESCE(r.status, 'Open')
+                """)
+                for row in cursor.fetchall():
+                    if row["status"] in counts:
+                        counts[row["status"]] += int(row["n"])
+        finally:
+            conn.close()
+
+        return counts
 
 # ============================
 # WRITE A LIST OF PACKAGES (with honest counts)

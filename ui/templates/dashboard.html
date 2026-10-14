@@ -148,6 +148,12 @@ body {
 .tier-fresh { border-left: 5px solid #16a34a; }
 .tier-unknown { border-left: 5px solid #94a3b8; }
 
+/* REVIEW STATUS */
+.review-open { border-left: 5px solid #94a3b8; }
+.review-reviewed-accepted { border-left: 5px solid #16a34a; }
+.review-compensating-control { border-left: 5px solid #6366f1; }
+.review-resolved { border-left: 5px solid #059669; }
+
 </style>
 
 <div class="dashboard-wrapper">
@@ -237,6 +243,34 @@ body {
                 <div class="stat-title">{{ tier|capitalize }}</div>
                 <div class="stat-value">{{ count }}</div>
                 <div class="stat-sub">{{ tier_subs[tier] }}</div>
+            </div>
+        </a>
+        {% endfor %}
+
+    </div>
+
+    <!-- REVIEW STATUS -->
+    <div class="section-title">Review Status</div>
+    <div class="stat-sub" style="margin: -6px 0 12px;">
+        Management review of each package, counted once per package (the
+        cards above count one row per package per repository). Packages not
+        reviewed yet are Open.
+    </div>
+    <div class="stats-grid">
+
+        {% set review_subs = {
+            'Open': 'Not reviewed yet',
+            'Reviewed - Accepted': 'Reviewed, risk accepted',
+            'Compensating Control': 'Risk covered by another control',
+            'Resolved': 'Fixed or no longer an issue'
+        } %}
+
+        {% for status, count in review_counts.items() %}
+        <a class="stat-link" href="/packages?review={{ status|urlencode }}">
+            <div class="stat-card review-{{ status|lower|replace(' - ', '-')|replace(' ', '-') }}">
+                <div class="stat-title">{{ status }}</div>
+                <div class="stat-value">{{ count }}</div>
+                <div class="stat-sub">{{ review_subs[status] }}</div>
             </div>
         </a>
         {% endfor %}

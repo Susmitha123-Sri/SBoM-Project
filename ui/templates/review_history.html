@@ -1,0 +1,187 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="container">
+
+    <h1>📝 Review History: {{ review.package_name }}</h1>
+
+    <div class="card">
+
+        <div class="summary">
+            <div>
+                Current status:
+                <span class="review-badge review-{{ review.status|lower|replace(' - ', '-')|replace(' ', '-') }}">{{ review.status }}</span>
+            </div>
+            {% if review.reviewer %}
+            <div class="muted">Last set by {{ review.reviewer }} on {{ review.reviewed_at }}</div>
+            {% endif %}
+            {% if review.note %}
+            <div class="muted">Note: {{ review.note }}</div>
+            {% endif %}
+        </div>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Changed At</th>
+                        <th>Old Status</th>
+                        <th>New Status</th>
+                        <th>Reviewer</th>
+                        <th>Note</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for h in history %}
+                    <tr>
+                        <td>{{ h.changed_at }}</td>
+                        <td>
+                            {% if h.old_status %}{{ h.old_status }}{% else %}<span class="unknown">none</span>{% endif %}
+                        </td>
+                        <td>{{ h.new_status }}</td>
+                        <td>{{ h.reviewer }}</td>
+                        <td class="note">{{ h.note or '' }}</td>
+                    </tr>
+                    {% else %}
+                    <tr>
+                        <td colspan="5" class="unknown">No changes yet (status Open)</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <div class="back">
+            <a href="{{ back }}"><button>⬅ Back to Packages</button></a>
+        </div>
+
+    </div>
+
+</div>
+
+<style>
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: auto;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 14px;
+    margin-bottom: 30px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 20px;
+    background: #f9fafb;
+    padding: 12px 16px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #374151;
+}
+
+.muted {
+    color: #6b7280;
+}
+
+.table-container {
+    border-radius: 12px;
+    overflow-x: auto;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 14px;
+}
+
+thead th {
+    background: #1e3a8a;
+    color: #ffffff;
+    padding: 14px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #e5e7eb;
+    color: #1f2937;
+}
+
+td.note {
+    text-align: left;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+tbody tr:nth-child(even) {
+    background: #f8fafc;
+}
+
+.unknown {
+    color: #6b7280;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.review-badge {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.review-open                 { background: #f3f4f6; color: #4b5563; }
+.review-reviewed-accepted    { background: #dcfce7; color: #166534; }
+.review-compensating-control { background: #e0e7ff; color: #3730a3; }
+.review-resolved             { background: #d1fae5; color: #065f46; }
+
+.back {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.back button {
+    padding: 8px 14px;
+    border-radius: 6px;
+    border: none;
+    background: #6366f1;
+    color: white;
+    cursor: pointer;
+}
+
+.back button:hover {
+    background: #4f46e5;
+}
+
+</style>
+
+{% endblock %}
