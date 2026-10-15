@@ -154,6 +154,14 @@ body {
 .review-compensating-control { border-left: 5px solid #6366f1; }
 .review-resolved { border-left: 5px solid #059669; }
 
+/* PACKAGE RISK */
+.risk-critical { border-left: 5px solid #b91c1c; }
+.risk-high { border-left: 5px solid #ea580c; }
+.risk-medium { border-left: 5px solid #f59e0b; }
+.risk-low { border-left: 5px solid #16a34a; }
+.risk-unknown { border-left: 5px dashed #94a3b8; }
+.risk-not-scored { border-left: 5px solid #cbd5e1; }
+
 </style>
 
 <div class="dashboard-wrapper">
@@ -271,6 +279,37 @@ body {
                 <div class="stat-title">{{ status }}</div>
                 <div class="stat-value">{{ count }}</div>
                 <div class="stat-sub">{{ review_subs[status] }}</div>
+            </div>
+        </a>
+        {% endfor %}
+
+    </div>
+
+    <!-- PACKAGE RISK -->
+    <div class="section-title">Packages by Risk (latest scan)</div>
+    <div class="stat-sub" style="margin: -6px 0 12px;">
+        Counted once per package, from its row in the latest scan that has it.
+        Points come from days behind the latest release, being abandoned, and
+        known vulnerabilities. Unknown means the release dates are missing, so
+        the age can't be judged either way.
+    </div>
+    <div class="stats-grid">
+
+        {% set risk_subs = {
+            'Critical': 'Score 70+',
+            'High': 'Score 45–69',
+            'Medium': 'Score 20–44',
+            'Low': 'Score under 20',
+            'Unknown': 'Age unknown, no known vulnerabilities',
+            'Not scored': 'No scan row scored yet'
+        } %}
+
+        {% for level, count in risk_counts.items() %}
+        <a class="stat-link" href="/packages?risk={{ level|urlencode }}">
+            <div class="stat-card risk-{{ level|lower|replace(' ', '-') }}">
+                <div class="stat-title">{{ level }}</div>
+                <div class="stat-value">{{ count }}</div>
+                <div class="stat-sub">{{ risk_subs[level] }}</div>
             </div>
         </a>
         {% endfor %}

@@ -41,6 +41,13 @@
                     <option value="{{ s }}" {{ 'selected' if review_status == s }}>{{ s }}</option>
                     {% endfor %}
                 </select>
+
+                <select id="riskFilter" title="Filter by package risk (scored from the package's latest scan)">
+                    <option value="" {{ 'selected' if not risk_level }}>All risk levels</option>
+                    {% for r in risk_filters %}
+                    <option value="{{ r }}" {{ 'selected' if risk_level == r }}>{{ r }}</option>
+                    {% endfor %}
+                </select>
             </div>
         </div>
 
@@ -59,7 +66,8 @@
                         <th>Version Behind</th>
                         <th title="Age of the installed version (days since it was released); used for Requires attention">Days Since Release</th>
                         <th title="Days the installed version's release is behind the latest release">Age Tier (behind latest)</th>
-                        <th>Risk Level</th>
+                        <th title="Old version-gap severity (versions behind and days outdated)">Severity (version gap)</th>
+                        <th title="Package risk from its latest scan (age tier, days behind, abandoned, known vulnerabilities). Rows from older scans show the latest scan's risk. Hover a badge for the reasons.">Risk</th>
                         <th>Repository</th>
                     </tr>
                 </thead>
@@ -150,6 +158,15 @@
                             {{ p.severity_level }}
                         </td>
 
+                        <td>
+                            {% if p.risk_level %}
+                                <span class="risk-badge risk-{{ p.risk_level|lower }}"
+                                      title="{{ p.risk_reasons }}{% if p.risk_score is not none %} (score {{ p.risk_score|round|int }}{% else %} (no score{% endif %}, model {{ p.risk_model_version }})">{{ p.risk_level }}</span>
+                            {% else %}
+                                <span class="unknown" title="No risk computed yet for this package">not scored</span>
+                            {% endif %}
+                        </td>
+
                         <td>{{ p.repo }}</td>
                     </tr>
                     {% endfor %}
@@ -163,7 +180,8 @@
             {% set filter_qs = ('&attention=1' if attention_only else '')
                 ~ ('&tier=' ~ age_tier if age_tier else '')
                 ~ ('&sort=tier' if sort_by_tier else '')
-                ~ ('&review=' ~ review_status|urlencode if review_status else '') %}
+                ~ ('&review=' ~ review_status|urlencode if review_status else '')
+                ~ ('&risk=' ~ risk_level|urlencode if risk_level else '') %}
 
             {% if page > 1 %}
             <a href="/packages?page={{ page-1 }}{{ filter_qs }}">
@@ -416,6 +434,32 @@ tbody tr.attention-row td:first-child {
 .tier-stale     { background: #ffedd5; color: #9a3412; }
 .tier-abandoned { background: #fee2e2; color: #991b1b; }
 
+/* RISK */
+#riskFilter {
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    font-size: 14px;
+    color: #374151;
+    background: white;
+}
+
+.risk-badge {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: help;
+}
+
+.risk-low      { background: #dcfce7; color: #166534; }
+.risk-medium   { background: #fef3c7; color: #92400e; }
+.risk-high     { background: #ffedd5; color: #9a3412; }
+.risk-critical { background: #fee2e2; color: #991b1b; }
+.risk-unknown  { background: #f3f4f6; color: #4b5563; border: 1px dashed #9ca3af; }
+
 /* REVIEW STATUS */
 #reviewFilter {
     padding: 8px 10px;
@@ -527,6 +571,8 @@ function reloadWithFilters() {
     if (document.getElementById("sortByTier").checked) params.set("sort", "tier");
     let review = document.getElementById("reviewFilter").value;
     if (review) params.set("review", review);
+    let risk = document.getElementById("riskFilter").value;
+    if (risk) params.set("risk", risk);
     let qs = params.toString();
     window.location.href = qs ? "/packages?" + qs : "/packages";
 }
@@ -535,6 +581,7 @@ document.getElementById("attentionOnly").addEventListener("change", reloadWithFi
 document.getElementById("tierFilter").addEventListener("change", reloadWithFilters);
 document.getElementById("sortByTier").addEventListener("change", reloadWithFilters);
 document.getElementById("reviewFilter").addEventListener("change", reloadWithFilters);
+document.getElementById("riskFilter").addEventListener("change", reloadWithFilters);
 
 function filterTable() {
     let filter = searchInput.value.toLowerCase();

@@ -55,7 +55,7 @@ class TestReviews(test_upload_pipeline.RouteTestCase):
         # package 1 has a review row, package 2 has none (must still be reviewable)
         self.sqlite.executescript("""
             INSERT INTO scan (scan_id, target_name) VALUES (1, 'deps.csv');
-            INSERT INTO packages VALUES (1, 'requests', 'pypi'), (2, 'flask', 'pypi');
+            INSERT INTO packages (package_id, package_name, ecosystem) VALUES (1, 'requests', 'pypi'), (2, 'flask', 'pypi');
             INSERT INTO versions (scan_id, package_id, package_name, version_number,
                 latest_version, status, release_date, days_outdated, versions_behind,
                 days_since_release, age_tier)

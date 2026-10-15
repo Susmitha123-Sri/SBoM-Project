@@ -11,6 +11,7 @@ from version_monitor import get_commit_date
 from version_monitor import package_ecosystem, ECOSYSTEM_ALIASES
 from version_monitor import match_release, same_version
 from age_tiers import classify_age, tier_label, TIER_NAMES, UNKNOWN_TIER
+from risk import score_risk, RISK_LEVELS, UNKNOWN_RISK
 import requests
 from packaging import version as v
 
@@ -176,6 +177,10 @@ DEFAULT_SETTINGS = {
 # Management review of a package (package_reviews.status). A package with
 # no package_reviews row is "Open".
 REVIEW_STATUSES = ("Open", "Reviewed - Accepted", "Compensating Control", "Resolved")
+
+# Risk filter / count bucket for packages with no risk yet (risk_level NULL)
+RISK_NOT_SCORED = "Not scored"
+RISK_FILTERS = RISK_LEVELS + [UNKNOWN_RISK, RISK_NOT_SCORED]
 
 
 def ensure_schema():
@@ -1291,7 +1296,139 @@ class DatabaseStorage:
                 print("Refresh failed:", name, e)
                 results["error"] += 1
 
+        # Package risk from the freshly refreshed rows (no registry lookups)
+        try:
+            results["risk_updated"] = self.update_package_risk_for_scan(scan_id)
+        except Exception as e:
+            print("Risk update failed for scan", scan_id, e)
+            results["risk_error"] += 1
+
         return results
+
+    #=========================================
+    # PACKAGE RISK (packages.risk_*)
+    #=========================================
+    # A package's risk comes from its row in its latest scan: the versions
+    # row with the highest scan_id for that package_id.
+    LATEST_SCAN_ROW_SQL = (
+        "v.scan_id = (SELECT MAX(v2.scan_id) FROM versions v2 "
+        "WHERE v2.package_id = v.package_id)"
+    )
+
+    def package_risk_rows(self, scan_id):
+        """
+        Risk (risk.score_risk) of every package whose latest scan is scan_id,
+        read fresh, nothing written. Rows without a package_id are skipped.
+        Returns [{"package_id", "version_id", "package_name", "risk"}].
+        """
+        conn = get_new_connection()
+        try:
+            with conn.cursor() as cursor:
+                cursor.execute(f"""
+                    SELECT v.version_id, v.package_id, v.package_name,
+                           v.age_tier, v.days_outdated,
+                           (SELECT COUNT(DISTINCT sr.vulnerability_id)
+                            FROM scan_results sr
+                            WHERE sr.version_id = v.version_id) AS vuln_count
+                    FROM versions v
+                    WHERE v.scan_id = %s
+                      AND v.package_id IS NOT NULL
+                      AND {self.LATEST_SCAN_ROW_SQL}
+                    ORDER BY v.package_id, v.version_id
+                """, (scan_id,))
+                rows = cursor.fetchall()
+        finally:
+            conn.close()
+
+        result = {}
+        for row in rows:
+            # One row per package (the first, if a scan somehow has two)
+            result.setdefault(row["package_id"], {
+                "package_id": row["package_id"],
+                "version_id": row["version_id"],
+                "package_name": row["package_name"],
+                "risk": score_risk(row["age_tier"], row["days_outdated"],
+                                   row["vuln_count"]),
+            })
+        return list(result.values())
+
+    def update_package_risk_for_scan(self, scan_id):
+        """
+        Write packages.risk_* for every package whose latest scan is scan_id.
+        Each UPDATE re-checks that scan_id is still the package's latest
+        scan, so an older scan never overwrites a newer scan's risk.
+        Returns the number of packages written.
+        """
+        rows = self.package_risk_rows(scan_id)
+
+        written = 0
+        conn = get_new_connection()
+        try:
+            with conn.cursor() as cursor:
+                for row in rows:
+                    risk = row["risk"]
+                    is_abandoned = risk["is_abandoned"]
+                    cursor.execute("""
+                        UPDATE packages
+                        SET risk_score = %s,
+                            risk_level = %s,
+                            risk_reasons = %s,
+                            risk_tier = %s,
+                            risk_days_behind = %s,
+                            risk_vuln_count = %s,
+                            risk_is_abandoned = %s,
+                            risk_version_id = %s,
+                            risk_model_version = %s,
+                            risk_computed_at = NOW()
+                        WHERE package_id = %s
+                          AND %s = (SELECT MAX(scan_id) FROM versions
+                                    WHERE package_id = %s)
+                    """, (
+                        risk["score"],
+                        risk["level"],
+                        risk["reasons"],
+                        risk["tier"],
+                        risk["days_behind"],
+                        risk["vuln_count"],
+                        None if is_abandoned is None else int(is_abandoned),
+                        row["version_id"],
+                        risk["model_version"],
+                        row["package_id"],
+                        scan_id,
+                        row["package_id"],
+                    ))
+                    written += cursor.rowcount
+            conn.commit()
+        except Exception:
+            conn.rollback()
+            raise
+        finally:
+            conn.close()
+
+        return written
+
+    def get_risk_level_counts(self):
+        """
+        {level: number of packages} for RISK_LEVELS, UNKNOWN_RISK and
+        RISK_NOT_SCORED (risk_level NULL: no versions row scored yet).
+        """
+        counts = {level: 0 for level in RISK_LEVELS + [UNKNOWN_RISK, RISK_NOT_SCORED]}
+
+        conn = get_new_connection()
+        try:
+            with conn.cursor() as cursor:
+                cursor.execute("""
+                    SELECT risk_level, COUNT(*) AS n
+                    FROM packages
+                    GROUP BY risk_level
+                """)
+                for row in cursor.fetchall():
+                    level = row["risk_level"]
+                    counts[level if level in counts else RISK_NOT_SCORED] += int(row["n"])
+        finally:
+            conn.close()
+
+        return counts
 
     #--------------------------------------
     def calculate_structured_gap(self, current, versions):
@@ -1437,10 +1574,12 @@ class DatabaseStorage:
     #----------------------------------------
     #----------------------------------------
     @staticmethod
-    def _package_filters(older_than_days=None, age_tier=None, review_status=None):
+    def _package_filters(older_than_days=None, age_tier=None, review_status=None,
+                         risk_level=None):
         """
         WHERE clause + params shared by the /packages list and its count.
-        Both queries LEFT JOIN package_reviews r (no row = "Open").
+        Both queries LEFT JOIN package_reviews r (no row = "Open") and
+        packages p (the package's risk, from its latest scan).
         """
         clauses = []
         params = []
@@ -1459,17 +1598,24 @@ class DatabaseStorage:
             clauses.append("COALESCE(r.status, 'Open') = %s")
             params.append(review_status)
 
+        if risk_level == RISK_NOT_SCORED:
+            clauses.append("p.risk_level IS NULL")
+        elif risk_level in RISK_FILTERS:
+            clauses.append("p.risk_level = %s")
+            params.append(risk_level)
+
         where = ("WHERE " + " AND ".join(clauses)) if clauses else ""
         return where, params
 
     def get_packages_paginated(self, limit, offset, older_than_days=None,
                                age_tier=None, sort_by_tier=False,
-                               review_status=None):
+                               review_status=None, risk_level=None):
         """
         older_than_days: only rows whose installed version is older than this.
         age_tier:        only rows in this tier ("unknown" = no tier).
         sort_by_tier:    Abandoned first, then Stale, Aging, Fresh, unknown.
         review_status:   only rows with this review status (one of REVIEW_STATUSES).
+        risk_level:      only rows whose package has this risk (one of RISK_FILTERS).
         """
 
         if not self._connect():
@@ -1480,7 +1626,8 @@ class DatabaseStorage:
         conn = get_new_connection()
         cursor = conn.cursor()
 
-        where, params = self._package_filters(older_than_days, age_tier, review_status)
+        where, params = self._package_filters(older_than_days, age_tier, review_status,
+                                              risk_level)
 
         order_by = "v.release_date DESC"
         if sort_by_tier:
@@ -1509,10 +1656,15 @@ class DatabaseStorage:
                 COALESCE(r.status, 'Open') AS review_status,
                 r.reviewer,
                 r.reviewed_at,
-                r.note AS review_note
+                r.note AS review_note,
+                p.risk_level,
+                p.risk_score,
+                p.risk_reasons,
+                p.risk_model_version
             FROM versions v
             JOIN scan s ON v.scan_id = s.scan_id
             LEFT JOIN package_reviews r ON r.package_id = v.package_id
+            LEFT JOIN packages p ON p.package_id = v.package_id
             {where}
             ORDER BY {order_by}
             LIMIT %s OFFSET %s
@@ -1562,18 +1714,20 @@ class DatabaseStorage:
 
     #-----------------------------------------
     def get_total_packages(self, older_than_days=None, age_tier=None,
-                           review_status=None):
+                           review_status=None, risk_level=None):
 
         if not self._connect():
             return 0
 
         # Same JOIN + filters as get_packages_paginated so page counts line up
-        where, params = self._package_filters(older_than_days, age_tier, review_status)
+        where, params = self._package_filters(older_than_days, age_tier, review_status,
+                                              risk_level)
         query = f"""
             SELECT COUNT(*) as total
             FROM versions v
             JOIN scan s ON v.scan_id = s.scan_id
             LEFT JOIN package_reviews r ON r.package_id = v.package_id
+            LEFT JOIN packages p ON p.package_id = v.package_id
             {where}
         """
 

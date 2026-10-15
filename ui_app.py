@@ -974,6 +974,14 @@ def create_app() -> Flask:
             print("ERROR loading review counts:", e)
             review_counts = {status: 0 for status in REVIEW_STATUSES}
 
+        # Per package (risk of its latest scan), not per versions row
+        from db_storage import RISK_FILTERS
+        try:
+            risk_counts = db.get_risk_level_counts()
+        except Exception as e:
+            print("ERROR loading risk counts:", e)
+            risk_counts = {level: 0 for level in RISK_FILTERS}
+
         return render_template(
             "dashboard.html",
             total_repos=total_repos,
@@ -981,7 +989,8 @@ def create_app() -> Flask:
             total_outdated=total_outdated,
             total_updated=total_updated,
             tier_counts=tier_counts,
-            review_counts=review_counts
+            review_counts=review_counts,
+            risk_counts=risk_counts
         )
 
     #-----------------------------------------
@@ -1035,18 +1044,26 @@ def create_app() -> Flask:
         if review_status not in REVIEW_STATUSES:
             review_status = ""
 
+        # Risk filter (the package's risk from its latest scan)
+        from db_storage import RISK_FILTERS
+        risk_level = request.args.get("risk", "")
+        if risk_level not in RISK_FILTERS:
+            risk_level = ""
+
         try:
             # Fetch paginated data
             packages = db.get_packages_paginated(
                 limit=per_page, offset=offset, older_than_days=older_than,
                 age_tier=age_tier or None, sort_by_tier=sort_by_tier,
-                review_status=review_status or None
+                review_status=review_status or None,
+                risk_level=risk_level or None
             )
 
             # Total count
             total = db.get_total_packages(
                 older_than_days=older_than, age_tier=age_tier or None,
-                review_status=review_status or None
+                review_status=review_status or None,
+                risk_level=risk_level or None
             )
 
         except Exception as e:
@@ -1072,6 +1089,8 @@ def create_app() -> Flask:
             sort_by_tier=sort_by_tier,
             review_statuses=REVIEW_STATUSES,
             review_status=review_status,
+            risk_filters=RISK_FILTERS,
+            risk_level=risk_level,
             active="packages"
         )
 

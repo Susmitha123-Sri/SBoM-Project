@@ -306,7 +306,7 @@ class TestProcessUpload(UploadDbTestCase):
 
     def test_rows_from_the_old_upload_are_repaired(self):
         """A scoped package saved as 'pypi' with status unknown is updated"""
-        self.sqlite.execute("INSERT INTO packages VALUES (1, '@babel/core', 'pypi')")
+        self.sqlite.execute("INSERT INTO packages (package_id, package_name, ecosystem) VALUES (1, '@babel/core', 'pypi')")
         self.sqlite.execute("""INSERT INTO versions (scan_id, package_id, package_name,
             version_number, latest_version, status) VALUES (1, 1, '@babel/core',
             '7.20.0', '7.20.0', 'unknown')""")
@@ -368,7 +368,7 @@ class TestNoStaleOverwrite(UploadDbTestCase):
         LATEST["pkg"] = "2.0.0"
         self.addCleanup(LATEST.pop, "pkg")
         # The upload already stored 2.0.0 (newer than the scan's copy)
-        self.sqlite.execute("INSERT INTO packages VALUES (1, 'pkg', 'pypi')")
+        self.sqlite.execute("INSERT INTO packages (package_id, package_name, ecosystem) VALUES (1, 'pkg', 'pypi')")
         self.sqlite.execute("""INSERT INTO versions (version_id, scan_id, package_id,
             package_name, version_number, latest_version, status, baseline_status)
             VALUES (1, 1, 1, 'pkg', '2.0.0', '2.0.0', 'outdated', 'inactive')""")
@@ -558,7 +558,7 @@ class TestNoRegistry(UploadDbTestCase):
                          ("unknown", None, None))
 
     def test_scheduled_job_never_looks_up_none_packages(self):
-        self.sqlite.execute("INSERT INTO packages VALUES (9, 'bitflags', 'none')")
+        self.sqlite.execute("INSERT INTO packages (package_id, package_name, ecosystem) VALUES (9, 'bitflags', 'none')")
         self.sqlite.execute("""INSERT INTO versions (scan_id, package_id, package_name,
             version_number, latest_version, status) VALUES (1, 9, 'bitflags',
             '2.11.1', '1.2.0', 'outdated')""")
@@ -587,7 +587,7 @@ class TestStatusAndTierAgree(UploadDbTestCase):
     def test_failed_lookup_is_unknown_not_up_to_date(self):
         """A row stored with latest == installed (old behaviour) whose lookup
         fails becomes unknown, with no latest version and no tier"""
-        self.sqlite.execute("INSERT INTO packages VALUES (1, 'block-buffer', 'pypi')")
+        self.sqlite.execute("INSERT INTO packages (package_id, package_name, ecosystem) VALUES (1, 'block-buffer', 'pypi')")
         self.sqlite.execute("""INSERT INTO versions (scan_id, package_id, package_name,
             version_number, latest_version, status, age_tier) VALUES (1, 1,
             'block-buffer', '0.10.4', '0.10.4', 'up_to_date', 'Stale')""")
@@ -644,7 +644,7 @@ class TestPages(RouteTestCase):
         super().setUp()
         self.sqlite.executescript("""
             INSERT INTO scan (scan_id, target_name) VALUES (1, 'deps.csv');
-            INSERT INTO packages VALUES (1, 'gone', 'none'), (2, 'requests', 'pypi'),
+            INSERT INTO packages (package_id, package_name, ecosystem) VALUES (1, 'gone', 'none'), (2, 'requests', 'pypi'),
                                         (3, 'flask', 'pypi');
             INSERT INTO versions (scan_id, package_id, package_name, version_number,
                 latest_version, status, release_date, days_outdated, versions_behind,

@@ -26,7 +26,25 @@ SCHEMA = """
     CREATE TABLE packages (
         package_id INTEGER PRIMARY KEY,
         package_name TEXT,
-        ecosystem TEXT
+        ecosystem TEXT,
+        risk_score REAL,
+        risk_level TEXT,
+        risk_reasons TEXT,
+        risk_tier TEXT,
+        risk_days_behind INTEGER,
+        risk_vuln_count INTEGER,
+        risk_is_abandoned INTEGER,
+        risk_version_id INTEGER,
+        risk_model_version TEXT,
+        risk_computed_at DATETIME
+    );
+    CREATE TABLE scan_results (
+        spr_id INTEGER PRIMARY KEY,
+        scan_id INTEGER,
+        version_id INTEGER,
+        vulnerability_id TEXT,
+        fixed_version TEXT,
+        detected_at DATETIME DEFAULT CURRENT_TIMESTAMP
     );
     CREATE TABLE versions (
         version_id INTEGER PRIMARY KEY,
