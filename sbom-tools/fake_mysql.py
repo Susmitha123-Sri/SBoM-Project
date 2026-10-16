@@ -36,7 +36,14 @@ SCHEMA = """
         risk_is_abandoned INTEGER,
         risk_version_id INTEGER,
         risk_model_version TEXT,
-        risk_computed_at DATETIME
+        risk_computed_at DATETIME,
+        priority_score REAL,
+        priority_rank INTEGER,
+        priority_reason TEXT,
+        priority_category TEXT,
+        priority_version_id INTEGER,
+        priority_model_version TEXT,
+        priority_computed_at DATETIME
     );
     CREATE TABLE scan_results (
         spr_id INTEGER PRIMARY KEY,

@@ -12,6 +12,7 @@ from version_monitor import package_ecosystem, ECOSYSTEM_ALIASES
 from version_monitor import match_release, same_version
 from age_tiers import classify_age, tier_label, TIER_NAMES, UNKNOWN_TIER
 from risk import score_risk, RISK_LEVELS, UNKNOWN_RISK
+from priority import score_priority, rank_priorities, PRIORITY_CATEGORIES
 import requests
 from packaging import version as v
 
@@ -181,6 +182,11 @@ REVIEW_STATUSES = ("Open", "Reviewed - Accepted", "Compensating Control", "Resol
 # Risk filter / count bucket for packages with no risk yet (risk_level NULL)
 RISK_NOT_SCORED = "Not scored"
 RISK_FILTERS = RISK_LEVELS + [UNKNOWN_RISK, RISK_NOT_SCORED]
+
+# Priority filter for packages with no priority (no versions row, or not
+# computed yet: priority_category NULL)
+PRIORITY_NOT_SET = "Not prioritized"
+PRIORITY_FILTERS = PRIORITY_CATEGORIES + [PRIORITY_NOT_SET]
 
 
 def ensure_schema():
@@ -1303,6 +1309,13 @@ class DatabaseStorage:
             print("Risk update failed for scan", scan_id, e)
             results["risk_error"] += 1
 
+        # Update queue from the new risk (all packages: ranks are global)
+        try:
+            results["priority_updated"] = self.update_package_priorities()
+        except Exception as e:
+            print("Priority update failed after scan", scan_id, e)
+            results["priority_error"] += 1
+
         return results
 
     #=========================================
@@ -1429,6 +1442,144 @@ class DatabaseStorage:
             conn.close()
 
         return counts
+
+    #=========================================
+    # UPDATE PRIORITY (packages.priority_*)
+    #=========================================
+    # Like risk, a package's priority comes from its latest-scan row. Ranks
+    # compare every package, so the whole queue is recomputed together.
+    def package_priority_rows(self):
+        """
+        Priority (priority.score_priority) and rank of every package with a
+        versions row, read fresh, nothing written. Returns a list of
+        {"package_id", "version_id", "package_name", "priority", "rank", ...}
+        in package_id order; rank is None for packages not in the queue.
+        """
+        conn = get_new_connection()
+        try:
+            with conn.cursor() as cursor:
+                cursor.execute(f"""
+                    SELECT p.package_id, p.risk_level, p.risk_score, p.risk_days_behind,
+                           v.version_id, v.package_name, v.version_number,
+                           v.latest_version, v.status,
+                           (SELECT COUNT(DISTINCT v3.scan_id) FROM versions v3
+                            WHERE v3.package_id = p.package_id) AS repo_count,
+                           COALESCE(r.status, 'Open') AS review_status,
+                           r.reviewer
+                    FROM packages p
+                    JOIN versions v ON v.package_id = p.package_id
+                    LEFT JOIN package_reviews r ON r.package_id = p.package_id
+                    WHERE {self.LATEST_SCAN_ROW_SQL}
+                    ORDER BY p.package_id, v.version_id
+                """)
+                rows = cursor.fetchall()
+        finally:
+            conn.close()
+
+        items = {}
+        for row in rows:
+            # One row per package (the first, if its latest scan somehow has two)
+            if row["package_id"] in items:
+                continue
+            status = row["status"] or "unknown"
+            items[row["package_id"]] = {
+                "package_id": row["package_id"],
+                "version_id": row["version_id"],
+                "package_name": row["package_name"],
+                "risk_score": row["risk_score"],
+                "days_behind": row["risk_days_behind"],
+                "repo_count": row["repo_count"],
+                "review_status": row["review_status"],
+                "priority": score_priority(
+                    status,
+                    row["risk_level"],
+                    row["risk_score"],
+                    row["risk_days_behind"],
+                    calculate_versions_behind(row["version_number"], row["latest_version"]),
+                    row["version_number"],
+                    row["latest_version"],
+                    row["repo_count"],
+                    row["review_status"],
+                    row["reviewer"],
+                ),
+            }
+
+        ranks = rank_priorities(list(items.values()))
+        for item in items.values():
+            item["rank"] = ranks.get(item["package_id"])
+        return list(items.values())
+
+    def update_package_priorities(self):
+        """
+        Recompute and write packages.priority_* for every package, in one
+        transaction: packages with no versions row are cleared, the others
+        get their score, rank, category and reason. Returns the number of
+        packages given a priority (ranked or "No action").
+        """
+        items = self.package_priority_rows()
+
+        conn = get_new_connection()
+        try:
+            with conn.cursor() as cursor:
+                cursor.execute("""
+                    UPDATE packages
+                    SET priority_score = NULL,
+                        priority_rank = NULL,
+                        priority_reason = NULL,
+                        priority_category = NULL,
+                        priority_version_id = NULL,
+                        priority_model_version = NULL,
+                        priority_computed_at = NULL
+                """)
+                for item in items:
+                    p = item["priority"]
+                    cursor.execute("""
+                        UPDATE packages
+                        SET priority_score = %s,
+                            priority_rank = %s,
+                            priority_reason = %s,
+                            priority_category = %s,
+                            priority_version_id = %s,
+                            priority_model_version = %s,
+                            priority_computed_at = NOW()
+                        WHERE package_id = %s
+                    """, (
+                        p["score"],
+                        item["rank"],
+                        p["reason"],
+                        p["category"],
+                        item["version_id"],
+                        p["model_version"],
+                        item["package_id"],
+                    ))
+            conn.commit()
+        except Exception:
+            conn.rollback()
+            raise
+        finally:
+            conn.close()
+
+        return len(items)
+
+    def get_top_priorities(self, limit=10):
+        """The first `limit` packages of the update queue (rank 1 first)."""
+        conn = get_new_connection()
+        try:
+            with conn.cursor() as cursor:
+                cursor.execute("""
+                    SELECT p.package_id, p.package_name, p.priority_rank,
+                           p.priority_score, p.priority_category, p.priority_reason,
+                           p.risk_level,
+                           COALESCE(r.status, 'Open') AS review_status
+                    FROM packages p
+                    LEFT JOIN package_reviews r ON r.package_id = p.package_id
+                    WHERE p.priority_rank IS NOT NULL
+                    ORDER BY p.priority_rank, p.package_id
+                    LIMIT %s
+                """, (limit,))
+                return cursor.fetchall()
+        finally:
+            conn.close()
 
     #--------------------------------------
     def calculate_structured_gap(self, current, versions):
@@ -1575,7 +1726,7 @@ class DatabaseStorage:
     #----------------------------------------
     @staticmethod
     def _package_filters(older_than_days=None, age_tier=None, review_status=None,
-                         risk_level=None):
+                         risk_level=None, priority_category=None):
         """
         WHERE clause + params shared by the /packages list and its count.
         Both queries LEFT JOIN package_reviews r (no row = "Open") and
@@ -1604,18 +1755,27 @@ class DatabaseStorage:
             clauses.append("p.risk_level = %s")
             params.append(risk_level)
 
-        where = ("WHERE " + " AND ".join(clauses)) if clauses else ""
+        if priority_category == PRIORITY_NOT_SET:
+            clauses.append("p.priority_category IS NULL")
+        elif priority_category in PRIORITY_FILTERS:
+            clauses.append("p.priority_category = %s")
+            params.append(priority_category)
+
+        where =("WHERE " + " AND ".join(clauses)) if clauses else ""
         return where, params
 
     def get_packages_paginated(self, limit, offset, older_than_days=None,
                                age_tier=None, sort_by_tier=False,
-                               review_status=None, risk_level=None):
+                               review_status=None, risk_level=None,
+                               sort_by_priority=False, priority_category=None):
         """
-        older_than_days: only rows whose installed version is older than this.
-        age_tier:        only rows in this tier ("unknown" = no tier).
-        sort_by_tier:    Abandoned first, then Stale, Aging, Fresh, unknown.
-        review_status:   only rows with this review status (one of REVIEW_STATUSES).
-        risk_level:      only rows whose package has this risk (one of RISK_FILTERS).
+        older_than_days:   only rows whose installed version is older than this.
+        age_tier:          only rows in this tier ("unknown" = no tier).
+        sort_by_tier:      Abandoned first, then Stale, Aging, Fresh, unknown.
+        review_status:     only rows with this review status (one of REVIEW_STATUSES).
+        risk_level:        only rows whose package has this risk (one of RISK_FILTERS).
+        sort_by_priority:  update queue order (rank 1 first, unranked last).
+        priority_category: only rows whose package is in this category (PRIORITY_FILTERS).
         """
 
         if not self._connect():
@@ -1627,10 +1787,14 @@ class DatabaseStorage:
         cursor = conn.cursor()
 
         where, params = self._package_filters(older_than_days, age_tier, review_status,
-                                              risk_level)
+                                              risk_level, priority_category)
 
         order_by = "v.release_date DESC"
-        if sort_by_tier:
+        if sort_by_priority:
+            # Stable: a package's rows (one per scan) stay together, newest scan first
+            order_by = ("p.priority_rank IS NULL, p.priority_rank, "
+                        "v.scan_id DESC, v.version_id")
+        elif sort_by_tier:
             # FIELD() is 0 for NULL/unlisted, so those sort last via the "= 0" key
             placeholders = ", ".join(["%s"] * len(TIER_NAMES))
             order_by = (
@@ -1660,7 +1824,12 @@ class DatabaseStorage:
                 p.risk_level,
                 p.risk_score,
                 p.risk_reasons,
-                p.risk_model_version
+                p.risk_model_version,
+                p.priority_rank,
+                p.priority_score,
+                p.priority_category,
+                p.priority_reason,
+                p.priority_model_version
             FROM versions v
             JOIN scan s ON v.scan_id = s.scan_id
             LEFT JOIN package_reviews r ON r.package_id = v.package_id
@@ -1714,14 +1883,14 @@ class DatabaseStorage:
 
     #-----------------------------------------
     def get_total_packages(self, older_than_days=None, age_tier=None,
-                           review_status=None, risk_level=None):
+                           review_status=None, risk_level=None, priority_category=None):
 
         if not self._connect():
             return 0
 
         # Same JOIN + filters as get_packages_paginated so page counts line up
         where, params = self._package_filters(older_than_days, age_tier, review_status,
-                                              risk_level)
+                                              risk_level, priority_category)
         query = f"""
             SELECT COUNT(*) as total
             FROM versions v

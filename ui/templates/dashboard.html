@@ -162,6 +162,71 @@ body {
 .risk-unknown { border-left: 5px dashed #94a3b8; }
 .risk-not-scored { border-left: 5px solid #cbd5e1; }
 
+/* UPDATE QUEUE */
+.queue-card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 18px 22px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    overflow-x: auto;
+}
+
+.queue-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    color: #1e293b;
+}
+
+.queue-table th {
+    text-align: left;
+    font-size: 12px;
+    color: #64748b;
+    font-weight: 600;
+    padding: 6px 8px;
+    border-bottom: 1px solid #e2e8f0;
+    white-space: nowrap;
+}
+
+.queue-table td {
+    padding: 8px;
+    border-bottom: 1px solid #f1f5f9;
+    white-space: nowrap;
+}
+
+.queue-table td.queue-reason {
+    white-space: normal;
+    color: #475569;
+    font-size: 12px;
+    min-width: 260px;
+}
+
+.queue-badge {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.queue-update-now  { background: #fee2e2; color: #991b1b; }
+.queue-plan-update { background: #ffedd5; color: #9a3412; }
+.queue-monitor     { background: #fef3c7; color: #92400e; }
+.queue-investigate { background: #f3f4f6; color: #4b5563; border: 1px dashed #9ca3af; }
+
+.queue-link {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #4f46e5;
+    text-decoration: none;
+}
+
+.queue-empty {
+    color: #64748b;
+    font-size: 14px;
+}
+
 </style>
 
 <div class="dashboard-wrapper">
@@ -314,6 +379,47 @@ body {
         </a>
         {% endfor %}
 
+    </div>
+
+    <!-- UPDATE QUEUE -->
+    <div class="section-title">Top 10 to Update</div>
+    <div class="stat-sub" style="margin: -6px 0 12px;">
+        The head of the update queue (#1 = update first), from risk, days behind,
+        upgrade size, repositories using the package and its review status.
+        Reviewed packages rank lower but stay in the queue.
+    </div>
+    <div class="queue-card">
+        {% if top_priorities %}
+        <table class="queue-table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Package</th>
+                    <th>Category</th>
+                    <th>Score</th>
+                    <th>Risk</th>
+                    <th>Review</th>
+                    <th>Why</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for q in top_priorities %}
+                <tr>
+                    <td>{{ q.priority_rank }}</td>
+                    <td>{{ q.package_name }}</td>
+                    <td><span class="queue-badge queue-{{ q.priority_category|lower|replace(' ', '-') }}">{{ q.priority_category }}</span></td>
+                    <td>{% if q.priority_score is not none %}{{ q.priority_score|round|int }}{% else %}–{% endif %}</td>
+                    <td>{{ q.risk_level or 'not scored' }}</td>
+                    <td>{{ q.review_status }}</td>
+                    <td class="queue-reason">{{ q.priority_reason }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <a class="queue-link" href="/packages?sort=priority">See the full update queue →</a>
+        {% else %}
+        <div class="queue-empty">No update priorities yet. They are computed by the monitor job (or backfill_priority.py).</div>
+        {% endif %}
     </div>
 
 </div>

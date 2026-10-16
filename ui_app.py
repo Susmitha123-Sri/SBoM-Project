@@ -982,6 +982,13 @@ def create_app() -> Flask:
             print("ERROR loading risk counts:", e)
             risk_counts = {level: 0 for level in RISK_FILTERS}
 
+        # Head of the update queue (rank 1 first)
+        try:
+            top_priorities = db.get_top_priorities(10)
+        except Exception as e:
+            print("ERROR loading update queue:", e)
+            top_priorities = []
+
         return render_template(
             "dashboard.html",
             total_repos=total_repos,
@@ -990,7 +997,8 @@ def create_app() -> Flask:
             total_updated=total_updated,
             tier_counts=tier_counts,
             review_counts=review_counts,
-            risk_counts=risk_counts
+            risk_counts=risk_counts,
+            top_priorities=top_priorities
         )
 
     #-----------------------------------------
@@ -1036,7 +1044,12 @@ def create_app() -> Flask:
         age_tier = request.args.get("tier", "")
         if age_tier not in TIER_NAMES and age_tier != UNKNOWN_TIER:
             age_tier = ""
-        sort_by_tier = request.args.get("sort") == "tier"
+        # Sort: newest (default), age tier, or the update queue
+        sort = request.args.get("sort", "")
+        if sort not in ("tier", "priority"):
+            sort = ""
+        sort_by_tier = sort == "tier"
+        sort_by_priority = sort == "priority"
 
         # Review status filter (server-side, like the tier filter)
         from db_storage import REVIEW_STATUSES
@@ -1050,20 +1063,29 @@ def create_app() -> Flask:
         if risk_level not in RISK_FILTERS:
             risk_level = ""
 
+        # Update queue category filter (the package's priority)
+        from db_storage import PRIORITY_FILTERS
+        priority_category = request.args.get("priority", "")
+        if priority_category not in PRIORITY_FILTERS:
+            priority_category = ""
+
         try:
             # Fetch paginated data
             packages = db.get_packages_paginated(
                 limit=per_page, offset=offset, older_than_days=older_than,
                 age_tier=age_tier or None, sort_by_tier=sort_by_tier,
                 review_status=review_status or None,
-                risk_level=risk_level or None
+                risk_level=risk_level or None,
+                sort_by_priority=sort_by_priority,
+                priority_category=priority_category or None
             )
 
             # Total count
             total = db.get_total_packages(
                 older_than_days=older_than, age_tier=age_tier or None,
                 review_status=review_status or None,
-                risk_level=risk_level or None
+                risk_level=risk_level or None,
+                priority_category=priority_category or None
             )
 
         except Exception as e:
@@ -1087,10 +1109,13 @@ def create_app() -> Flask:
             tier_names=TIER_NAMES,
             age_tier=age_tier,
             sort_by_tier=sort_by_tier,
+            sort=sort,
             review_statuses=REVIEW_STATUSES,
             review_status=review_status,
             risk_filters=RISK_FILTERS,
             risk_level=risk_level,
+            priority_filters=PRIORITY_FILTERS,
+            priority_category=priority_category,
             active="packages"
         )
 
@@ -1121,6 +1146,13 @@ def create_app() -> Flask:
 
         print(f"Package {package_id} review set to {cleaned['status']!r} "
               f"by {cleaned['reviewer']!r}")
+
+        # The review changes the update queue; the review itself is already
+        # saved, so a failure here is only logged (the monitor job re-ranks)
+        try:
+            db.update_package_priorities()
+        except Exception as e:
+            print("ERROR updating priorities after review:", e)
 
         return redirect(back)
 
