@@ -1437,6 +1437,62 @@ class DatabaseStorage:
         finally:
             conn.close()
 
+    def package_match_status_rows(self):
+        """package_id, package_name, ecosystem and match_status of every package (read-only)."""
+        conn = get_new_connection()
+        try:
+            with conn.cursor() as cursor:
+                cursor.execute("""
+                    SELECT package_id, package_name, ecosystem, match_status
+                    FROM packages
+                    ORDER BY package_id
+                """)
+                return cursor.fetchall()
+        finally:
+            conn.close()
+
+    def update_unmatched_package_matches(self, results):
+        """
+        Like update_package_matches, but only for rows that are still
+        'unmatched' (the guard is in the SQL): a row that is matched or in
+        review, or became so meanwhile, is never overwritten. Used by
+        fuzzy_match.py. Returns the number of packages written.
+        """
+        written = 0
+        conn = get_new_connection()
+        try:
+            with conn.cursor() as cursor:
+                for r in results:
+                    cursor.execute("""
+                        UPDATE packages
+                        SET normalized_name = %s,
+                            matched_name = %s,
+                            match_ecosystem = %s,
+                            match_method = %s,
+                            match_score = %s,
+                            match_status = %s,
+                            matched_at = NOW()
+                        WHERE package_id = %s
+                          AND match_status = 'unmatched'
+                    """, (
+                        r["normalized_name"],
+                        r["matched_name"],
+                        r["match_ecosystem"],
+                        r["match_type"],
+                        r["confidence"],
+                        r["match_status"],
+                        r["package_id"],
+                    ))
+                    written += cursor.rowcount
+            conn.commit()
+        except Exception:
+            conn.rollback()
+            raise
+        finally:
+            conn.close()
+
+        return written
+
     def update_package_matches(self, results):
         """
         Write the match columns (normalized_name, matched_name,
