@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "about": "Known alternative names for packages, used by name_match.py (layer 'alias'). Each entry: ecosystem, canonical registry name, aliases, optional confidence (default 0.90) and note. Names are compared in normalized form (PEP 503 for pypi, lowercase for npm).",
+  "aliases": [
+    {"ecosystem": "pypi", "canonical": "PyYAML", "aliases": ["yaml"], "note": "import name"},
+    {"ecosystem": "pypi", "canonical": "beautifulsoup4", "aliases": ["bs4"], "note": "import name"},
+    {"ecosystem": "pypi", "canonical": "scikit-learn", "aliases": ["sklearn"], "note": "import name"},
+    {"ecosystem": "pypi", "canonical": "Pillow", "aliases": ["PIL"], "note": "import name"},
+    {"ecosystem": "pypi", "canonical": "opencv-python", "aliases": ["cv2"], "note": "import name"},
+    {"ecosystem": "pypi", "canonical": "python-dateutil", "aliases": ["dateutil"], "note": "import name"},
+    {"ecosystem": "pypi", "canonical": "python-dotenv", "aliases": ["dotenv"], "note": "import name"},
+    {"ecosystem": "pypi", "canonical": "PyJWT", "aliases": ["jwt"], "note": "import name"},
+    {"ecosystem": "pypi", "canonical": "attrs", "aliases": ["attr"], "note": "import name"},
+    {"ecosystem": "pypi", "canonical": "pycryptodome", "aliases": ["Crypto"], "note": "import name"}
+  ]
+}

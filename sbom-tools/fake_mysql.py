@@ -27,6 +27,13 @@ SCHEMA = """
         package_id INTEGER PRIMARY KEY,
         package_name TEXT,
         ecosystem TEXT,
+        normalized_name TEXT,
+        matched_name TEXT,
+        match_ecosystem TEXT,
+        match_method TEXT,
+        match_score REAL,
+        match_status TEXT,
+        matched_at DATETIME,
         risk_score REAL,
         risk_level TEXT,
         risk_reasons TEXT,
@@ -75,6 +82,19 @@ SCHEMA = """
         status TEXT NOT NULL DEFAULT 'Open',
         reviewer TEXT,
         reviewed_at DATETIME,
+        note TEXT
+    );
+    CREATE TABLE labeled_pairs (
+        pair_id INTEGER PRIMARY KEY,
+        name_a TEXT NOT NULL,
+        ecosystem_a TEXT,
+        name_b TEXT NOT NULL,
+        ecosystem_b TEXT,
+        label TEXT NOT NULL,
+        labeled_by TEXT NOT NULL,
+        labeled_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+        source TEXT NOT NULL DEFAULT 'manual',
+        package_id INTEGER,
         note TEXT
     );
     CREATE TABLE package_review_history (

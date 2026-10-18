@@ -1420,6 +1420,64 @@ class DatabaseStorage:
 
         return written
 
+    #=========================================
+    # NAME MATCHING (packages match columns, see name_match.py)
+    #=========================================
+    def package_match_rows(self):
+        """package_id, package_name and ecosystem of every package."""
+        conn = get_new_connection()
+        try:
+            with conn.cursor() as cursor:
+                cursor.execute("""
+                    SELECT package_id, package_name, ecosystem
+                    FROM packages
+                    ORDER BY package_id
+                """)
+                return cursor.fetchall()
+        finally:
+            conn.close()
+
+    def update_package_matches(self, results):
+        """
+        Write the match columns (normalized_name, matched_name,
+        match_ecosystem, match_method, match_score, match_status, matched_at)
+        for each name_match result, in one transaction. No other columns or
+        tables are touched. Returns the number of packages written.
+        """
+        written = 0
+        conn = get_new_connection()
+        try:
+            with conn.cursor() as cursor:
+                for r in results:
+                    cursor.execute("""
+                        UPDATE packages
+                        SET normalized_name = %s,
+                            matched_name = %s,
+                            match_ecosystem = %s,
+                            match_method = %s,
+                            match_score = %s,
+                            match_status = %s,
+                            matched_at = NOW()
+                        WHERE package_id = %s
+                    """, (
+                        r["normalized_name"],
+                        r["matched_name"],
+                        r["match_ecosystem"],
+                        r["match_type"],
+                        r["confidence"],
+                        r["match_status"],
+                        r["package_id"],
+                    ))
+                    written += cursor.rowcount
+            conn.commit()
+        except Exception:
+            conn.rollback()
+            raise
+        finally:
+            conn.close()
+
+        return written
+
     def get_risk_level_counts(self):
         """
         {level: number of packages} for RISK_LEVELS, UNKNOWN_RISK and
