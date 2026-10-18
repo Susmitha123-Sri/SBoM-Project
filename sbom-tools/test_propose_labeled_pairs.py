@@ -268,7 +268,8 @@ class TestNameSimilarityInOutput(ProposeTestCase):
         order = [r["name_similarity"] for r in self.pairs()]
         self.assertIn(LOW, order)
         self.assertEqual(order, sorted(order, key=lambda x: x != HIGH))
-        self.assertEqual(open(self.out, encoding="utf-8").readline().strip().split(","), COLUMNS)
+        with open(self.out, encoding="utf-8") as f:
+            self.assertEqual(f.readline().strip().split(","), COLUMNS)
 
     def test_dry_run_prints_the_counts_and_writes_nothing(self):
         code, out = self.run_cli("--all")

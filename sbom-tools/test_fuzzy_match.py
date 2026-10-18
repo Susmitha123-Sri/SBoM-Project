@@ -310,12 +310,14 @@ class TestFuzzyCli(FuzzyCliTestCase):
     def test_out_csv_has_reasons_and_competitors(self):
         out_csv = self.dir / "fuzzy.csv"
         self.run_cli("--out", str(out_csv))
-        rows = {r["package_name"]: r for r in csv.DictReader(open(out_csv, encoding="utf-8"))}
+        with open(out_csv, encoding="utf-8") as f:
+            rows = {r["package_name"]: r for r in csv.DictReader(f)}
         self.assertEqual(set(rows), {"pydantic-settingz", "jinja2", "six", "darling_core",
                                      "zz-not-a-real-package-1"})
         self.assertIn("fuzzy similarity", rows["pydantic-settingz"]["reason"])
         self.assertIn("version-only", rows["jinja2"]["reason"])
-        self.assertIn("competitors", open(out_csv, encoding="utf-8").readline())
+        with open(out_csv, encoding="utf-8") as f:
+            self.assertIn("competitors", f.readline())
 
     def test_threshold_report_says_proposals(self):
         _, out = self.run_cli()

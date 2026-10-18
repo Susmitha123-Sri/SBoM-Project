@@ -2232,4 +2232,4 @@ if __name__ == "__main__":
     db.compute_features()
     print(" Feature engineering completed")
 
-    print("\ Database is ready for UI\n")
+    print(" Database is ready for UI\n")
