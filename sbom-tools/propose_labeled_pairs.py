@@ -22,6 +22,8 @@
 # Inputs (you download them; no network):
 #   data-prep/external/Package-List/*.csv   ("" to skip)
 #   data-prep/external/purl2cpe.db.zip      ("" to skip)
+#   --repo-urls data-prep/repo_urls.csv     repository URLs looked up by
+#                                           fetch_repo_urls.py (off by default)
 # By default only pairs involving names related to our packages are kept
 # (reads packages, read-only); --all keeps everything (needs much memory with
 # the full Package-List).
@@ -192,6 +194,24 @@ def sample(rows, max_pairs, seed):
     return sorted(picked, key=row_order)
 
 
+def read_repo_urls(path):
+    """
+    (name, ecosystem, normalized repository) for every "ok" row of a
+    fetch_repo_urls.py results file (the last row per name wins). Raises
+    FileNotFoundError when the file is missing.
+    """
+    from fetch_repo_urls import OK, load_results
+
+    if not Path(path).is_file():
+        raise FileNotFoundError(f"repo URLs file not found: {path}")
+    rows = []
+    for (eco, name), row in sorted(load_results(path).items()):
+        repo = normalize_repo_url(row.get("repository_url")) if row.get("status") == OK else None
+        if repo:
+            rows.append((name, eco, repo))
+    return rows
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(
         description="Propose labeled_pairs candidates into a review CSV (preview by default)."
@@ -200,6 +220,8 @@ def main(argv=None):
                         help='folder with the Package-List CSVs ("" to skip)')
     parser.add_argument("--purl2cpe", default=str(DEFAULT_PURL2CPE),
                         help='purl2cpe.db.zip ("" to skip)')
+    parser.add_argument("--repo-urls", default="",
+                        help="repo_urls.csv from fetch_repo_urls.py (off by default)")
     parser.add_argument("--out", default=str(DEFAULT_OUT), help="review CSV (written with --apply)")
     parser.add_argument("--all", action="store_true",
                         help="keep pairs for all names, not only names related to our packages")
@@ -213,9 +235,10 @@ def main(argv=None):
     try:
         if args.package_lists:
             package_list_files(args.package_lists)
-        if not args.package_lists and not args.purl2cpe:
+        if not (args.package_lists or args.purl2cpe or args.repo_urls):
             raise FileNotFoundError("no sources given")
         purl2cpe = read_purl2cpe(args.purl2cpe) if args.purl2cpe else None
+        repo_url_rows = read_repo_urls(args.repo_urls) if args.repo_urls else []
     except (OSError, ValueError) as e:
         print(f"Error: {e}")
         return 2
@@ -257,45 +280,65 @@ def main(argv=None):
                           f"CPE product of {name}: cpe vendor {vendor}",
                           note="name_b is a CPE product name")
 
-    # ---------- Package-List: names and repositories ----------
-    by_name = {}             # collapse(name) -> [(ecosystem, name, repo)]
+    # ---------- repositories: Package-List and/or repo_urls.csv ----------
+    by_name = {}             # collapse(name) -> {(ecosystem, name): repo}
+    by_repo = {}             # repo -> {(ecosystem, name)}
+    from_lookup = set()      # (ecosystem, name) whose repo came from repo_urls.csv
+
+    def add_repo(name, eco, repo, looked_up=False):
+        group = by_name.setdefault(collapse(name), {})
+        if repo or (eco, name) not in group:
+            group[(eco, name)] = repo
+        if repo:
+            by_repo.setdefault(repo, set()).add((eco, name))
+            if looked_up:
+                from_lookup.add((eco, name))
+
     if args.package_lists:
         wanted_repos = set()
         for name, eco, url in iter_package_lists(args.package_lists):
             if is_relevant(name):
                 repo = normalize_repo_url(url)
-                by_name.setdefault(collapse(name), []).append((eco, name, repo))
+                add_repo(name, eco, repo)
                 if repo:
                     wanted_repos.add(repo)
-
-        by_repo = {}         # repo -> {(ecosystem, name)}
+        # Second pass: every name sharing a repository with a relevant one
         if wanted_repos:
             for name, eco, url in iter_package_lists(args.package_lists):
                 repo = normalize_repo_url(url)
                 if repo in wanted_repos:
                     by_repo.setdefault(repo, set()).add((eco, name))
 
-        for repo, members in sorted(by_repo.items()):
-            if len({eco for eco, _ in members}) < 2:
-                continue
-            for x, y in capped_pairs(members):
-                if x[0] != y[0]:
-                    pairs.add(x[1], x[0], y[1], y[0], MATCH, "cross-eco-repo",
-                              f"same repository {repo}")
+    for name, eco, repo in repo_url_rows:
+        if is_relevant(name):
+            add_repo(name, eco, repo, looked_up=True)
 
-        for key, members in sorted(by_name.items()):
-            found = 0
-            for x, y in combinations(sorted(members, key=lambda m: (m[0], m[1], m[2] or "")), 2):
-                if x[0] != y[0] and x[2] and y[2] and x[2] != y[2]:
-                    pairs.add(x[1], x[0], y[1], y[0], NON_MATCH, "same-name-different-repo",
-                              f"same name, different repositories ({x[2]} vs {y[2]})")
-                    found += 1
-                    if found >= MAX_PAIRS_PER_GROUP:
-                        break
+    def where(*sides):
+        return " (repo_urls.csv)" if any(side in from_lookup for side in sides) else ""
+
+    for repo, members in sorted(by_repo.items()):
+        if len({eco for eco, _ in members}) < 2:
+            continue
+        for x, y in capped_pairs(members):
+            if x[0] != y[0]:
+                pairs.add(x[1], x[0], y[1], y[0], MATCH, "cross-eco-repo",
+                          f"same repository {repo}{where(x, y)}")
+
+    for key, group in sorted(by_name.items()):
+        members = sorted(((eco, name, repo) for (eco, name), repo in group.items()),
+                         key=lambda m: (m[0], m[1], m[2] or ""))
+        found = 0
+        for x, y in combinations(members, 2):
+            if x[0] != y[0] and x[2] and y[2] and x[2] != y[2]:
+                pairs.add(x[1], x[0], y[1], y[0], NON_MATCH, "same-name-different-repo",
+                          f"same name, different repositories ({x[2]} vs {y[2]})"
+                          + where(x[:2], y[:2]))
+                found += 1
+                if found >= MAX_PAIRS_PER_GROUP:
+                    break
 
     # ---------- name_match review pairs the sources contradict ----------
-    repo_of = {(eco, name): repo
-               for members in by_name.values() for eco, name, repo in members if repo}
+    repo_of = {side: repo for group in by_name.values() for side, repo in group.items() if repo}
     if repo_of:
         index = CandidateIndex(list({(name, eco) for eco, name in repo_of}), aliases)
         for r in packages:

@@ -287,6 +287,92 @@ class TestNameSimilarityInOutput(ProposeTestCase):
         self.assertEqual(order, sorted(order, key=lambda x: x != HIGH))
 
 
+class TestRepoUrls(ProposeTestCase):
+    """--repo-urls: repository URLs looked up by fetch_repo_urls.py"""
+
+    REPO_URLS = (
+        "name,ecosystem,repository_url,status\n"
+        "bitflags,pypi,https://github.com/a/x,ok\n"
+        "bitflags,npm,https://github.com/b/y,ok\n"
+        "semver,pypi,git+https://github.com/S/Semver.git,ok\n"
+        "semver,npm,https://github.com/s/semver,ok\n"
+        "lodash,pypi,https://gitlab.com/l/l,non_github\n"
+        "lodash,npm,https://github.com/lodash/lodash,ok\n"
+        "django,pypi,,error\n"
+        "django,pypi,https://github.com/django/django,ok\n"
+        "django,npm,https://github.com/other/django,ok\n"
+        "protobuf,npm,,not_found\n"
+    )
+
+    def setUp(self):
+        super().setUp()
+        self.repo_urls = self.dir / "repo_urls.csv"
+        self.repo_urls.write_text(self.REPO_URLS, encoding="utf-8")
+
+    def run_repo_urls(self, *args):
+        return self.run_cli("--repo-urls", str(self.repo_urls), *args, lists="", zip_path="")
+
+    def test_same_name_different_repository_is_a_non_match(self):
+        code, _ = self.run_repo_urls("--apply")
+        self.assertEqual(code, 0)
+        [r] = self.find(self.pairs(), ("bitflags", "pypi"), ("bitflags", "npm"))
+        self.assertEqual((r["label"], r["source"]), (NON_MATCH, "same-name-different-repo"))
+        self.assertIn("github.com/a/x", r["evidence"])
+        self.assertIn("github.com/b/y", r["evidence"])
+        self.assertIn("(repo_urls.csv)", r["evidence"])
+
+    def test_same_repository_after_normalizing_is_a_match(self):
+        _, out = self.run_repo_urls("--apply")
+        [r] = self.find(self.pairs(), ("semver", "pypi"), ("semver", "npm"))
+        self.assertEqual((r["label"], r["source"]), (MATCH, "cross-eco-repo"))
+        self.assertIn("same repository github.com/s/semver (repo_urls.csv)", r["evidence"])
+        self.assertIn("conflicting evidence resolved: 0", out)
+
+    def test_rows_that_are_not_ok_are_ignored(self):
+        self.run_repo_urls("--apply")
+        rows = self.pairs()
+        self.assertEqual(self.find(rows, ("lodash", "pypi"), ("lodash", "npm")), [])
+        names = {r["name_a"] for r in rows} | {r["name_b"] for r in rows}
+        self.assertNotIn("protobuf", names)
+
+    def test_last_row_per_name_wins(self):
+        self.run_repo_urls("--apply")
+        [r] = self.find(self.pairs(), ("django", "pypi"), ("django", "npm"))
+        self.assertEqual(r["label"], NON_MATCH)
+
+    def test_only_rows_related_to_our_packages(self):
+        self.repo_urls.write_text(self.REPO_URLS + "unrelated,pypi,https://github.com/u/1,ok\n"
+                                  "unrelated,npm,https://github.com/u/2,ok\n", encoding="utf-8")
+        self.run_repo_urls("--apply")
+        self.assertEqual(self.find(self.pairs(), ("unrelated", "pypi"), ("unrelated", "npm")), [])
+        self.run_repo_urls("--apply", "--all")
+        self.assertTrue(self.find(self.pairs(), ("unrelated", "pypi"), ("unrelated", "npm")))
+
+    def test_preview_writes_nothing(self):
+        code, out = self.run_repo_urls()
+        self.assertEqual(code, 0)
+        self.assertFalse(self.out.exists())
+        self.assertIn("same-name-different-repo", out)
+
+    def test_missing_file_exits_2(self):
+        code, out = self.run_cli("--repo-urls", str(self.dir / "nope.csv"), lists="", zip_path="")
+        self.assertEqual(code, 2)
+        self.assertIn("repo URLs file not found", out)
+
+    def test_combines_with_package_lists(self):
+        """Package-List and repo_urls.csv rows for one name are merged, not duplicated"""
+        self.run_cli("--repo-urls", str(self.repo_urls), "--apply", zip_path="")
+        rows = self.find(self.pairs(), ("bitflags", "pypi"), ("bitflags", "npm"))
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(rows[0]["label"], NON_MATCH)
+
+    def test_labeled_pairs_is_never_written(self):
+        self.run_repo_urls()
+        self.run_repo_urls("--apply", "--all")
+        self.assertFalse([sql for sql in self.executed if "labeled_pairs" in sql])
+        self.assertEqual(self.rows("SELECT COUNT(*) AS n FROM labeled_pairs")[0]["n"], 1)
+
+
 if __name__ == "__main__":
     import unittest
     unittest.main()
