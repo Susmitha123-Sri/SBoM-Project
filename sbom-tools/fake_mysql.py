@@ -106,6 +106,54 @@ SCHEMA = """
         note TEXT,
         changed_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
     );
+    -- 002b + 004: one snapshot row per versions row per run, insert-only
+    CREATE TABLE scan_runs (
+        run_id INTEGER PRIMARY KEY,
+        snapshot_date TEXT NOT NULL,
+        started_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+        finished_at DATETIME,
+        status TEXT NOT NULL DEFAULT 'running',
+        package_count INTEGER,
+        trigger_source TEXT,
+        notes TEXT
+    );
+    CREATE TABLE package_snapshots (
+        snapshot_id INTEGER PRIMARY KEY,
+        run_id INTEGER NOT NULL,
+        package_id INTEGER NOT NULL,
+        version_id INTEGER NOT NULL,
+        scan_id INTEGER,
+        snapshot_date TEXT NOT NULL,
+        package_name TEXT,
+        ecosystem TEXT,
+        installed_version TEXT,
+        latest_version TEXT,
+        version_status TEXT,
+        age_tier TEXT,
+        days_behind INTEGER,
+        days_since_release INTEGER,
+        versions_behind TEXT,
+        installed_release_date TEXT,
+        latest_release_date TEXT,
+        is_abandoned INTEGER,
+        vuln_count INTEGER,
+        normalized_name TEXT,
+        match_status TEXT,
+        match_score REAL,
+        risk_score REAL,
+        risk_level TEXT,
+        priority_score REAL,
+        priority_rank INTEGER,
+        review_status TEXT,
+        created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+        UNIQUE (run_id, version_id)
+    );
+    CREATE TRIGGER trg_snap_no_update BEFORE UPDATE ON package_snapshots
+        BEGIN SELECT RAISE(ABORT, 'package_snapshots is insert-only'); END;
+    CREATE TRIGGER trg_snap_no_delete BEFORE DELETE ON package_snapshots
+        BEGIN SELECT RAISE(ABORT, 'package_snapshots is insert-only'); END;
+    CREATE TRIGGER trg_runs_no_delete BEFORE DELETE ON scan_runs
+        BEGIN SELECT RAISE(ABORT, 'scan_runs rows are never deleted'); END;
 """
 
 

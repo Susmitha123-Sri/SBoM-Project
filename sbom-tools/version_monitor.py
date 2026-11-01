@@ -86,6 +86,32 @@ def safe_request(url, headers):
     return None
 
 
+def clear_caches():
+    """Forget cached latest versions, so each monitor run sees new releases."""
+    VERSION_CACHE.clear()
+    NPM_CACHE.clear()
+
+
+# ============================
+# ARE THE REGISTRIES REACHABLE?
+# ============================
+REACHABILITY_URLS = ("https://pypi.org/", "https://registry.npmjs.org/")
+
+
+def registries_reachable(tries=2, timeout=10):
+    """True if PyPI and npm both answer (any HTTP status below 500)."""
+    for url in REACHABILITY_URLS:
+        for attempt in range(tries):
+            try:
+                if requests.head(url, timeout=timeout).status_code < 500:
+                    break
+            except requests.RequestException:
+                pass
+        else:
+            return False
+    return True
+
+
 # ============================
 # GET LATEST VERSION (CACHED)
 # ============================

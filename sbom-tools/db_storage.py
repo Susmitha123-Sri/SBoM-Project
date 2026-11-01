@@ -5,12 +5,12 @@ import pymysql
 import threading
 import traceback
 from typing import Optional
-from datetime import datetime
+from datetime import date, datetime
 from version_monitor import get_package_release_info
 from version_monitor import get_commit_date
-from version_monitor import package_ecosystem, ECOSYSTEM_ALIASES
+from version_monitor import package_ecosystem, ECOSYSTEM_ALIASES, PACKAGE_TYPES
 from version_monitor import match_release, same_version
-from age_tiers import classify_age, tier_label, TIER_NAMES, UNKNOWN_TIER
+from age_tiers import classify_age, tier_label, TIER_NAMES, UNKNOWN_TIER, AgeTier
 from risk import score_risk, RISK_LEVELS, UNKNOWN_RISK
 from priority import score_priority, rank_priorities, PRIORITY_CATEGORIES
 import requests
@@ -672,7 +672,12 @@ class DatabaseStorage:
     # ============================
     # INSERT PACKAGE
     # ============================
-    def insert_package(self, package_name, ecosystem=None):
+    def insert_package(self, package_name, ecosystem=None, keep_registry=False):
+        """
+        package_id for a name (inserted if new). keep_registry: never change
+        a stored pypi/npm ecosystem to "none" (sbom.py scans: a Rust crate
+        named like a PyPI package must not stop that package's checks).
+        """
         if not self._connect():
             return None
 
@@ -686,7 +691,11 @@ class DatabaseStorage:
             if result:
                 # Correct a wrong stored ecosystem (uploads used to store
                 # "pypi" for everything, npm packages included)
-                if ecosystem_differs(result["ecosystem"], ecosystem):
+                downgrade = (keep_registry
+                             and ECOSYSTEM_ALIASES.get(str(ecosystem or "").lower()) == "none"
+                             and ECOSYSTEM_ALIASES.get(str(result["ecosystem"] or "").lower())
+                             in ("pypi", "npm"))
+                if ecosystem_differs(result["ecosystem"], ecosystem) and not downgrade:
                     cursor.execute(
                         "UPDATE packages SET ecosystem=%s WHERE package_id=%s",
                         (ecosystem, result["package_id"])
@@ -835,6 +844,8 @@ class DatabaseStorage:
 
         ecosystem overrides the stored one (e.g. "none" from the repair).
         Returns "refreshed", "changed" (row changed meanwhile, not written),
+        "lookup_failed" (registry lookup failed: the latest version is
+        missing, or a stored age tier would be lost; old values kept),
         "missing" (no such row) or None (database unavailable).
         """
         if not self._connect():
@@ -846,7 +857,7 @@ class DatabaseStorage:
 
         with self.connection.cursor() as cursor:
             cursor.execute("""
-                SELECT v.version_id, v.version_number, p.ecosystem
+                SELECT v.version_id, v.version_number, v.age_tier, p.ecosystem
                 FROM versions v
                 LEFT JOIN packages p ON p.package_id = v.package_id
                 WHERE v.scan_id=%s AND v.package_name=%s
@@ -858,10 +869,18 @@ class DatabaseStorage:
         if not row:
             return "missing"
 
+        ecosystem = ecosystem or row["ecosystem"]
         metrics = compute_version_metrics(
-            package_name, row["version_number"], None, None,
-            ecosystem or row["ecosystem"]
+            package_name, row["version_number"], None, None, ecosystem
         )
+
+        # A registry package whose lookup failed (network, rate limit) keeps
+        # its old values instead of becoming unknown
+        has_registry = PACKAGE_TYPES.get(detect_package_source(package_name, ecosystem)) is not None
+        if has_registry and (metrics["latest_version"] is None
+                             or (row["age_tier"] is not None and metrics["age_tier"] is None)):
+            return "lookup_failed"
+
         written = self.write_version_metrics(
             row["version_id"], row["version_number"], metrics
         )
@@ -2163,6 +2182,145 @@ class DatabaseStorage:
             conn.close()
 
         return counts
+
+    #=========================================
+    # DAILY SNAPSHOTS (scan_runs + package_snapshots, migration 004)
+    #=========================================
+    # One package_snapshots row per versions row (repo + package) per run,
+    # at most one completed/partial run per snapshot_date. package_snapshots
+    # is insert-only; a run is only closed with an UPDATE of scan_runs.
+    def snapshot_done(self, snapshot_date=None):
+        """run_id of the completed/partial run for that date (default today), or None."""
+        day = (snapshot_date or date.today()).isoformat()
+        conn = get_new_connection()
+        try:
+            with conn.cursor() as cursor:
+                cursor.execute("""
+                    SELECT run_id FROM scan_runs
+                    WHERE snapshot_date = %s AND status IN ('completed', 'partial')
+                    ORDER BY run_id LIMIT 1
+                """, (day,))
+                row = cursor.fetchone()
+        finally:
+            conn.close()
+        return row["run_id"] if row else None
+
+    def count_snapshot_rows(self):
+        """(versions rows a snapshot would copy, rows skipped for no package_id)."""
+        conn = get_new_connection()
+        try:
+            with conn.cursor() as cursor:
+                cursor.execute(f"SELECT COUNT(*) AS n FROM versions v {SNAPSHOT_FROM_SQL}")
+                rows = int(cursor.fetchone()["n"])
+                cursor.execute("SELECT COUNT(*) AS n FROM versions WHERE package_id IS NULL")
+                without_package = int(cursor.fetchone()["n"])
+        finally:
+            conn.close()
+        return rows, without_package
+
+    def record_failed_run(self, trigger_source, notes, snapshot_date=None):
+        """A closed 'failed' scan_runs row (e.g. notes 'offline'); returns its run_id."""
+        day = (snapshot_date or date.today()).isoformat()
+        conn = get_new_connection()
+        try:
+            with conn.cursor() as cursor:
+                cursor.execute("""
+                    INSERT INTO scan_runs
+                        (snapshot_date, finished_at, status, package_count, trigger_source, notes)
+                    VALUES (%s, NOW(), 'failed', 0, %s, %s)
+                """, (day, trigger_source, notes))
+                run_id = cursor.lastrowid
+            conn.commit()
+        finally:
+            conn.close()
+        return run_id
+
+    def write_daily_snapshot(self, snapshot_date=None, trigger_source="monitor",
+                             lookup_failed=0):
+        """
+        Copy the current state of every versions row into package_snapshots
+        under a new scan_runs row, at most once per snapshot_date (default
+        today). The run is 'partial' when lookups failed in the pass before
+        it, else 'completed'; on an error nothing is copied and it is 'failed'.
+        Returns {"run_id", "status", "rows", "skipped"} (and "error" if failed).
+        """
+        snapshot_date = snapshot_date or date.today()
+        day = snapshot_date.isoformat()
+
+        done = self.snapshot_done(snapshot_date)
+        if done:
+            return {"run_id": done, "status": "skipped", "rows": 0, "skipped": True}
+
+        conn = get_new_connection()
+        try:
+            with conn.cursor() as cursor:
+                cursor.execute(
+                    "INSERT INTO scan_runs (snapshot_date, status, trigger_source) "
+                    "VALUES (%s, 'running', %s)", (day, trigger_source))
+                run_id = cursor.lastrowid
+            conn.commit()
+
+            try:
+                with conn.cursor() as cursor:
+                    cursor.execute("SELECT COUNT(*) AS n FROM versions WHERE package_id IS NULL")
+                    without_package = int(cursor.fetchone()["n"])
+                    cursor.execute(SNAPSHOT_INSERT_SQL,
+                                   (run_id, day, AgeTier.ABANDONED.value))
+                    rows = cursor.rowcount
+                    status = "partial" if lookup_failed else "completed"
+                    cursor.execute("""
+                        UPDATE scan_runs
+                        SET finished_at = NOW(), status = %s, package_count = %s, notes = %s
+                        WHERE run_id = %s
+                    """, (status, rows, f"lookup_failed={lookup_failed}; "
+                                        f"skipped_without_package_id={without_package}", run_id))
+                conn.commit()
+            except Exception as e:
+                conn.rollback()
+                error = f"{type(e).__name__}: {e}"[:500]
+                with conn.cursor() as cursor:
+                    cursor.execute("""
+                        UPDATE scan_runs SET finished_at = NOW(), status = 'failed', notes = %s
+                        WHERE run_id = %s
+                    """, (f"snapshot failed: {error}", run_id))
+                conn.commit()
+                return {"run_id": run_id, "status": "failed", "rows": 0, "skipped": False,
+                        "error": error}
+        finally:
+            conn.close()
+
+        return {"run_id": run_id, "status": status, "rows": rows, "skipped": False}
+
+
+# Rows copied by write_daily_snapshot: every versions row with a package
+SNAPSHOT_FROM_SQL = """
+    JOIN packages p ON p.package_id = v.package_id
+    WHERE v.package_id IS NOT NULL
+"""
+
+# Parameters: run_id, snapshot_date, the Abandoned tier name. The release
+# date columns stay NULL: nothing stores those dates yet.
+SNAPSHOT_INSERT_SQL = f"""
+    INSERT INTO package_snapshots
+        (run_id, package_id, version_id, scan_id, snapshot_date, package_name, ecosystem,
+         installed_version, latest_version, version_status, age_tier, days_behind,
+         days_since_release, versions_behind, is_abandoned, vuln_count, normalized_name,
+         match_status, match_score, risk_score, risk_level, priority_score, priority_rank,
+         review_status)
+    SELECT %s, v.package_id, v.version_id, v.scan_id, %s, v.package_name, p.ecosystem,
+           v.version_number, v.latest_version, v.status, v.age_tier, v.days_outdated,
+           v.days_since_release, v.versions_behind,
+           CASE WHEN v.age_tier IS NULL THEN NULL
+                WHEN v.age_tier = %s THEN 1 ELSE 0 END,
+           (SELECT COUNT(DISTINCT sr.vulnerability_id) FROM scan_results sr
+            WHERE sr.version_id = v.version_id),
+           p.normalized_name, p.match_status, p.match_score, p.risk_score, p.risk_level,
+           p.priority_score, p.priority_rank, COALESCE(r.status, 'Open')
+    FROM versions v
+    LEFT JOIN package_reviews r ON r.package_id = v.package_id
+    {SNAPSHOT_FROM_SQL}
+    ORDER BY v.version_id
+"""
 
 # ============================
 # WRITE A LIST OF PACKAGES (with honest counts)

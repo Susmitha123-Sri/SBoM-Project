@@ -221,6 +221,7 @@ class UploadDbTestCase(SqliteTestCase):
         for patcher in (
             mock.patch("requests.get", no_http),
             mock.patch.object(version_monitor, "get_latest_version", fake_latest),
+            mock.patch.object(version_monitor, "registries_reachable", lambda: True),
             mock.patch.object(version_monitor, "get_package_release_info", lambda n: {}),
             mock.patch.object(version_monitor, "get_npm_release_info", lambda n: {}),
             mock.patch.object(version_monitor, "get_github_release_info", lambda n: {}),
@@ -584,20 +585,60 @@ class TestStatusAndTierAgree(UploadDbTestCase):
         return mock.patch.object(version_monitor, "get_package_release_info",
                                  lambda name: dict(dates))
 
-    def test_failed_lookup_is_unknown_not_up_to_date(self):
-        """A row stored with latest == installed (old behaviour) whose lookup
-        fails becomes unknown, with no latest version and no tier"""
+    def test_failed_lookup_keeps_old_values(self):
+        """A registry lookup that fails (no latest version) writes nothing:
+        the row keeps its old values and is counted as lookup_failed"""
         self.sqlite.execute("INSERT INTO packages (package_id, package_name, ecosystem) VALUES (1, 'block-buffer', 'pypi')")
         self.sqlite.execute("""INSERT INTO versions (scan_id, package_id, package_name,
             version_number, latest_version, status, age_tier) VALUES (1, 1,
-            'block-buffer', '0.10.4', '0.10.4', 'up_to_date', 'Stale')""")
+            'block-buffer', '0.10.4', '0.10.5', 'outdated', 'Stale')""")
         self.sqlite.commit()
 
-        self.db.recalculate_metrics_for_scan(1)
+        results = self.db.recalculate_metrics_for_scan(1)
 
+        self.assertEqual(results["lookup_failed"], 1)
+        self.assertEqual(results["refreshed"], 0)
         row = self.rows("SELECT * FROM versions WHERE package_name = 'block-buffer'")[0]
         self.assertEqual((row["status"], row["latest_version"], row["age_tier"]),
-                         ("unknown", None, None))
+                         ("outdated", "0.10.5", "Stale"))
+
+    def test_lost_age_tier_keeps_old_values(self):
+        """Latest version found but the release dates failed: the stored tier
+        would be lost, so nothing is written"""
+        self.sqlite.execute("INSERT INTO packages (package_id, package_name, ecosystem) VALUES (1, 'requests', 'pypi')")
+        self.sqlite.execute("""INSERT INTO versions (scan_id, package_id, package_name,
+            version_number, latest_version, status, age_tier, days_since_release) VALUES
+            (1, 1, 'requests', '2.31.0', '2.32.0', 'outdated', 'Stale', 410)""")
+        self.sqlite.commit()
+
+        self.assertEqual(self.db.refresh_version(1, "requests"), "lookup_failed")
+        row = self.rows("SELECT * FROM versions WHERE package_name = 'requests'")[0]
+        self.assertEqual((row["age_tier"], row["days_since_release"]), ("Stale", 410))
+
+    def test_successful_lookup_still_writes(self):
+        self.sqlite.execute("INSERT INTO packages (package_id, package_name, ecosystem) VALUES (1, 'requests', 'pypi')")
+        self.sqlite.execute("""INSERT INTO versions (scan_id, package_id, package_name,
+            version_number, latest_version, status, age_tier) VALUES
+            (1, 1, 'requests', '2.31.0', '2.31.0', 'up_to_date', 'Fresh')""")
+        self.sqlite.commit()
+
+        with self.releases({"2.31.0": days_ago(410), "2.32.0": days_ago(10)}):
+            self.assertEqual(self.db.refresh_version(1, "requests"), "refreshed")
+        row = self.rows("SELECT * FROM versions WHERE package_name = 'requests'")[0]
+        self.assertEqual((row["status"], row["latest_version"], row["age_tier"]),
+                         ("outdated", "2.32.0", "Stale"))
+
+    def test_no_tier_before_or_after_still_writes(self):
+        """Latest found, no release dates, and no tier stored before: written"""
+        self.sqlite.execute("INSERT INTO packages (package_id, package_name, ecosystem) VALUES (1, 'requests', 'pypi')")
+        self.sqlite.execute("""INSERT INTO versions (scan_id, package_id, package_name,
+            version_number, latest_version, status) VALUES
+            (1, 1, 'requests', '2.31.0', NULL, 'unknown')""")
+        self.sqlite.commit()
+
+        self.assertEqual(self.db.refresh_version(1, "requests"), "refreshed")
+        row = self.rows("SELECT * FROM versions WHERE package_name = 'requests'")[0]
+        self.assertEqual((row["status"], row["latest_version"]), ("outdated", "2.32.0"))
 
     def test_up_to_date_is_fresh_even_if_old(self):
         """installed == latest, released 800 days ago -> up_to_date + Fresh"""

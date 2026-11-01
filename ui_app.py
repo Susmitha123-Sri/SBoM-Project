@@ -134,14 +134,26 @@ def auto_monitor_versions():
 
 def _auto_monitor_versions():
 
+    from collections import Counter
     from db_storage import get_db_storage
-    from version_monitor import get_latest_version, package_type
+    from version_monitor import (get_latest_version, package_type, clear_caches,
+                                 registries_reachable)
 
     print("\n======================================")
     print("Auto Version Monitoring Started:", datetime.now())
     print("======================================")
 
     db = get_db_storage()
+
+    # Latest versions are looked up afresh on every run
+    clear_caches()
+
+    # Offline: record it and refresh nothing (failed lookups would only be
+    # skipped, and the day's snapshot would repeat stale values)
+    if not registries_reachable():
+        print("PyPI or npm is not reachable: nothing refreshed, run recorded as offline.")
+        db.record_failed_run("monitor", "offline")
+        return
 
     scans = db.get_all_scans()
 
@@ -150,6 +162,7 @@ def _auto_monitor_versions():
         return
 
     existing_packages = {}
+    totals = Counter()
 
     for scan in scans:
 
@@ -158,6 +171,7 @@ def _auto_monitor_versions():
         # One pass per row through refresh_version(): re-reads the row,
         # recomputes status/tier/metrics, never writes back a stale copy
         results = db.recalculate_metrics_for_scan(scan_id)
+        totals.update(results)
         print(f"Scan {scan_id}: {dict(results)}")
 
         existing_packages = {
@@ -203,6 +217,11 @@ def _auto_monitor_versions():
 
         print("New package detected:", package_name)
 
+    # Today's snapshot of every row (at most one per date)
+    snapshot = db.write_daily_snapshot(trigger_source="monitor",
+                                       lookup_failed=totals["lookup_failed"])
+    print("Daily snapshot:", snapshot)
+
 
 MONITOR_PAGE_SIZE = 100   # package rows per page on /monitor/<scan_id>
 
@@ -245,6 +264,7 @@ def repo_outdated_percentages(scans, summaries):
 
 SCAN_JOB_ID = "auto_scan_repositories"
 MONITOR_JOB_ID = "auto_monitor_versions"
+RESCAN_WEEKS = 1   # repositories are re-cloned and rescanned weekly, never at startup
 
 RESCAN_UNITS = ("minutes", "hours", "days")
 
@@ -444,7 +464,7 @@ def create_app() -> Flask:
         auto_scan_repositories,
         trigger="interval",
         id=SCAN_JOB_ID,
-        **{interval_unit: interval_value}
+        weeks=RESCAN_WEEKS
     )
 
     scheduler.add_job(
@@ -461,18 +481,17 @@ def create_app() -> Flask:
         scheduler.start()
 
         print("Background scheduler started")
-        print(f"Repository scanning every {interval_value} {interval_unit}")
+        print(f"Repository scanning every {RESCAN_WEEKS} week(s), not at startup")
         print(f"Package monitoring every {interval_value} {interval_unit}")
 
         # ======================================
-        # INITIAL BACKGROUND SCAN (RUN ONCE)
+        # INITIAL BACKGROUND MONITORING (RUN ONCE; no repository rescan)
         # ======================================
 
         def initial_background_scan():
-            print("\n Running initial scan (background)...")
+            print("\n Running initial monitoring (background)...")
 
             try:
-                auto_scan_repositories()
                 auto_monitor_versions()
 
                 print("✅ Initial scan complete")
@@ -1212,10 +1231,10 @@ def create_app() -> Flask:
                     active="settings"
                 ), 500
 
-            # Apply the new interval right away (no restart needed)
+            # Apply the new interval right away (no restart needed); the
+            # repository rescan stays weekly
             interval = {cleaned["rescan_interval_unit"]: cleaned["rescan_interval_value"]}
-            for job_id in (SCAN_JOB_ID, MONITOR_JOB_ID):
-                scheduler.reschedule_job(job_id, trigger="interval", **interval)
+            scheduler.reschedule_job(MONITOR_JOB_ID, trigger="interval", **interval)
 
             print(
                 "Rescan interval updated to every "
@@ -1231,7 +1250,7 @@ def create_app() -> Flask:
             current = dict(DEFAULT_SETTINGS)
 
         next_run = None
-        job = scheduler.get_job(SCAN_JOB_ID)
+        job = scheduler.get_job(MONITOR_JOB_ID)
         if job and getattr(job, "next_run_time", None):
             next_run = job.next_run_time.strftime("%Y-%m-%d %H:%M:%S")
 

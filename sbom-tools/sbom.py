@@ -47,6 +47,9 @@ except ImportError:
 '''added'''
 import re
 
+# Syft package types with a registry the app can query
+LOOKUP_TYPES = ("python", "npm")
+
 def normalize_version(version):
 
     if not version:
@@ -387,19 +390,19 @@ class SBOMScanner:
                     package_version = normalize_version(pkg.get("version"))
                     package_type = pkg.get("type")
 
-                    # Normalize ecosystem type
+                    # Normalize ecosystem type. Types with no registry the app
+                    # can query (rust-crate, go-module, github-action, ...) are
+                    # "none": never looked up online
                     if package_type in ["python", "pypi"]:
                         ecosystem = "python"
                     elif package_type in ["npm", "node"]:
                         ecosystem = "npm"
-                    elif package_type == "github-action":
-                        ecosystem = "github-action"
                     else:
-                        ecosystem = "unknown"
+                        ecosystem = "none"
 
                     # Insert package if not exists
                     #package_id = db.insert_package(package_name, package_type)
-                    package_id = db.insert_package(package_name, ecosystem)
+                    package_id = db.insert_package(package_name, ecosystem, keep_registry=True)
 
                     # Insert version
                     # Check external latest version (PyPI / GitHub)
@@ -434,7 +437,8 @@ class SBOMScanner:
                         package_version,     # ✅ FIXED
                         status=status,
                         latest_version=external_latest,
-                        baseline_status="active"
+                        baseline_status="active",
+                        ecosystem=ecosystem
                     )
 
                     # Insert vulnerability if exists
@@ -664,7 +668,9 @@ class SBOMScanner:
 
             pkg_vulns = vuln_map.get(key, [])
 
-            external_latest = normalize_version(get_latest_version(pkg_name, pkg_type))
+            # Only PyPI and npm packages are looked up (None: no request)
+            lookup_type = pkg_type if pkg_type in LOOKUP_TYPES else None
+            external_latest = normalize_version(get_latest_version(pkg_name, lookup_type))
             if not external_latest:
                 external_latest = pkg_version
 

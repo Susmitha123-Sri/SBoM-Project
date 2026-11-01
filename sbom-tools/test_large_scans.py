@@ -180,6 +180,7 @@ class MonitorAppTestCase(LargeScanTestCase):
             mock.patch.object(db_storage, "get_db_storage", lambda: self.db),
             mock.patch.object(version_monitor, "get_latest_version",
                               lambda name, kind: "2.0.0"),
+            mock.patch.object(version_monitor, "registries_reachable", lambda: True),
             mock.patch.object(DatabaseStorage, "refresh_version", record_refresh),
             # Background work runs inline, so tests can check its effect
             mock.patch.object(ui_app, "run_in_background",
