@@ -1,0 +1,563 @@
+{
+  "dataset": "seed_v2",
+  "script": "dataset/build_seed_list.py",
+  "query_date_utc": "2026-11-01",
+  "generated_at_utc": "2026-11-01T20:24:12Z",
+  "test_run": false,
+  "limit": null,
+  "seed": 42,
+  "criteria": {
+    "groups": {
+      "python": [
+        "Python"
+      ],
+      "js_ts": [
+        "JavaScript",
+        "TypeScript"
+      ]
+    },
+    "target_per_group": 500,
+    "stars_min": 500,
+    "stars_max": 10000,
+    "forks_min": 50,
+    "pushed_within_days": 365,
+    "pushed_on_or_after": "2025-11-01",
+    "fork": false,
+    "archived": false,
+    "dependency_files": {
+      "python": [
+        "pyproject.toml",
+        "requirements.txt"
+      ],
+      "js_ts": [
+        "package.json"
+      ]
+    },
+    "dependency_check": "root folder only, GET /repos/{owner}/{repo}/contents/; the file must match the group's language",
+    "exclusion_rule": {
+      "name_tokens": [
+        "awesome",
+        "book",
+        "books",
+        "cheatsheet",
+        "cheatsheets",
+        "course",
+        "courses",
+        "examples",
+        "exercises",
+        "interview",
+        "roadmap",
+        "tutorial",
+        "tutorials"
+      ],
+      "name_phrases": [
+        "100-days"
+      ],
+      "name_prefix": "awesome",
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "books",
+        "cheatsheet",
+        "course",
+        "courses",
+        "education",
+        "interview-questions",
+        "learning-resources",
+        "roadmap",
+        "tutorial",
+        "tutorials"
+      ],
+      "description_contains": [
+        "curated list"
+      ],
+      "how": "repo name lowercased and split on - _ . into whole tokens; topics compared lowercased; description substring"
+    }
+  },
+  "query_template": "language:<language> stars:<low>..<high> forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
+  "search": {
+    "sort": "stars",
+    "order": "desc",
+    "per_page": 100,
+    "cap_per_query": 1000,
+    "start_slices": [
+      [
+        500,
+        599
+      ],
+      [
+        600,
+        799
+      ],
+      [
+        800,
+        1199
+      ],
+      [
+        1200,
+        1999
+      ],
+      [
+        2000,
+        3999
+      ],
+      [
+        4000,
+        10000
+      ]
+    ],
+    "split_rule": "a slice with total_count > 1000 is split in half"
+  },
+  "sampling": "pool per group sorted by repo id, shuffled with random.Random(f'{seed}-{group}'), walked in order; excluded repos skipped, the rest checked for a dependency file until the target is met",
+  "slices": [
+    {
+      "language": "Python",
+      "stars": [
+        500,
+        549
+      ],
+      "query": "language:Python stars:500..549 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
+      "total_count": 606,
+      "truncated": false,
+      "incomplete_results": false,
+      "fetched": 606,
+      "dropped_by_recheck": 0
+    },
+    {
+      "language": "Python",
+      "stars": [
+        550,
+        599
+      ],
+      "query": "language:Python stars:550..599 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
+      "total_count": 550,
+      "truncated": false,
+      "incomplete_results": false,
+      "fetched": 550,
+      "dropped_by_recheck": 1
+    },
+    {
+      "language": "Python",
+      "stars": [
+        600,
+        699
+      ],
+      "query": "language:Python stars:600..699 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
+      "total_count": 935,
+      "truncated": false,
+      "incomplete_results": false,
+      "fetched": 935,
+      "dropped_by_recheck": 2
+    },
+    {
+      "language": "Python",
+      "stars": [
+        700,
+        799
+      ],
+      "query": "language:Python stars:700..799 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
+      "total_count": 812,
+      "truncated": false,
+      "incomplete_results": false,
+      "fetched": 812,
+      "dropped_by_recheck": 0
+    },
+    {
+      "language": "Python",
+      "stars": [
+        800,
+        899
+      ],
+      "query": "language:Python stars:800..899 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
+      "total_count": 690,
+      "truncated": false,
+      "incomplete_results": false,
+      "fetched": 691,
+      "dropped_by_recheck": 0
+    },
+    {
+      "language": "Python",
+      "stars": [
+        900,
+        999
+      ],
+      "query": "language:Python stars:900..999 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
+      "total_count": 550,
+      "truncated": false,
+      "incomplete_results": false,
+      "fetched": 550,
+      "dropped_by_recheck": 0
+    },
+    {
+      "language": "Python",
+      "stars": [
+        1000,
+        1199
+      ],
+      "query": "language:Python stars:1000..1199 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
+      "total_count": 915,
+      "truncated": false,
+      "incomplete_results": false,
+      "fetched": 915,
+      "dropped_by_recheck": 0
+    },
+    {
+      "language": "Python",
+      "stars": [
+        1200,
+        1399
+      ],
+      "query": "language:Python stars:1200..1399 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
+      "total_count": 692,
+      "truncated": false,
+      "incomplete_results": false,
+      "fetched": 692,
+      "dropped_by_recheck": 0
+    },
+    {
+      "language": "Python",
+      "stars": [
+        1400,
+        1599
+      ],
+      "query": "language:Python stars:1400..1599 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
+      "total_count": 564,
+      "truncated": false,
+      "incomplete_results": false,
+      "fetched": 564,
+      "dropped_by_recheck": 0
+    },
+    {
+      "language": "Python",
+      "stars": [
+        1600,
+        1999
+      ],
+      "query": "language:Python stars:1600..1999 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
+      "total_count": 822,
+      "truncated": false,
+      "incomplete_results": false,
+      "fetched": 822,
+      "dropped_by_recheck": 0
+    },
+    {
+      "language": "Python",
+      "stars": [
+        2000,
+        2499
+      ],
+      "query": "language:Python stars:2000..2499 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
+      "total_count": 669,
+      "truncated": false,
+      "incomplete_results": false,
+      "fetched": 669,
+      "dropped_by_recheck": 0
+    },
+    {
+      "language": "Python",
+      "stars": [
+        2500,
+        2999
+      ],
+      "query": "language:Python stars:2500..2999 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
+      "total_count": 500,
+      "truncated": false,
+      "incomplete_results": false,
+      "fetched": 500,
+      "dropped_by_recheck": 0
+    },
+    {
+      "language": "Python",
+      "stars": [
+        3000,
+        3999
+      ],
+      "query": "language:Python stars:3000..3999 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
+      "total_count": 636,
+      "truncated": false,
+      "incomplete_results": false,
+      "fetched": 636,
+      "dropped_by_recheck": 0
+    },
+    {
+      "language": "Python",
+      "stars": [
+        4000,
+        7000
+      ],
+      "query": "language:Python stars:4000..7000 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
+      "total_count": 848,
+      "truncated": false,
+      "incomplete_results": false,
+      "fetched": 848,
+      "dropped_by_recheck": 0
+    },
+    {
+      "language": "Python",
+      "stars": [
+        7001,
+        10000
+      ],
+      "query": "language:Python stars:7001..10000 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
+      "total_count": 392,
+      "truncated": false,
+      "incomplete_results": false,
+      "fetched": 392,
+      "dropped_by_recheck": 0
+    },
+    {
+      "language": "JavaScript",
+      "stars": [
+        500,
+        599
+      ],
+      "query": "language:JavaScript stars:500..599 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
+      "total_count": 481,
+      "truncated": false,
+      "incomplete_results": false,
+      "fetched": 481,
+      "dropped_by_recheck": 0
+    },
+    {
+      "language": "JavaScript",
+      "stars": [
+        600,
+        799
+      ],
+      "query": "language:JavaScript stars:600..799 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
+      "total_count": 734,
+      "truncated": false,
+      "incomplete_results": false,
+      "fetched": 734,
+      "dropped_by_recheck": 0
+    },
+    {
+      "language": "JavaScript",
+      "stars": [
+        800,
+        1199
+      ],
+      "query": "language:JavaScript stars:800..1199 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
+      "total_count": 871,
+      "truncated": false,
+      "incomplete_results": false,
+      "fetched": 871,
+      "dropped_by_recheck": 0
+    },
+    {
+      "language": "JavaScript",
+      "stars": [
+        1200,
+        1999
+      ],
+      "query": "language:JavaScript stars:1200..1999 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
+      "total_count": 858,
+      "truncated": false,
+      "incomplete_results": false,
+      "fetched": 858,
+      "dropped_by_recheck": 1
+    },
+    {
+      "language": "JavaScript",
+      "stars": [
+        2000,
+        3999
+      ],
+      "query": "language:JavaScript stars:2000..3999 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
+      "total_count": 818,
+      "truncated": false,
+      "incomplete_results": false,
+      "fetched": 818,
+      "dropped_by_recheck": 0
+    },
+    {
+      "language": "JavaScript",
+      "stars": [
+        4000,
+        10000
+      ],
+      "query": "language:JavaScript stars:4000..10000 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
+      "total_count": 585,
+      "truncated": false,
+      "incomplete_results": false,
+      "fetched": 585,
+      "dropped_by_recheck": 0
+    },
+    {
+      "language": "TypeScript",
+      "stars": [
+        500,
+        599
+      ],
+      "query": "language:TypeScript stars:500..599 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
+      "total_count": 640,
+      "truncated": false,
+      "incomplete_results": false,
+      "fetched": 640,
+      "dropped_by_recheck": 1
+    },
+    {
+      "language": "TypeScript",
+      "stars": [
+        600,
+        799
+      ],
+      "query": "language:TypeScript stars:600..799 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
+      "total_count": 969,
+      "truncated": false,
+      "incomplete_results": false,
+      "fetched": 969,
+      "dropped_by_recheck": 2
+    },
+    {
+      "language": "TypeScript",
+      "stars": [
+        800,
+        999
+      ],
+      "query": "language:TypeScript stars:800..999 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
+      "total_count": 691,
+      "truncated": false,
+      "incomplete_results": false,
+      "fetched": 691,
+      "dropped_by_recheck": 1
+    },
+    {
+      "language": "TypeScript",
+      "stars": [
+        1000,
+        1199
+      ],
+      "query": "language:TypeScript stars:1000..1199 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
+      "total_count": 506,
+      "truncated": false,
+      "incomplete_results": false,
+      "fetched": 506,
+      "dropped_by_recheck": 0
+    },
+    {
+      "language": "TypeScript",
+      "stars": [
+        1200,
+        1599
+      ],
+      "query": "language:TypeScript stars:1200..1599 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
+      "total_count": 786,
+      "truncated": false,
+      "incomplete_results": false,
+      "fetched": 786,
+      "dropped_by_recheck": 0
+    },
+    {
+      "language": "TypeScript",
+      "stars": [
+        1600,
+        1999
+      ],
+      "query": "language:TypeScript stars:1600..1999 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
+      "total_count": 586,
+      "truncated": false,
+      "incomplete_results": false,
+      "fetched": 586,
+      "dropped_by_recheck": 0
+    },
+    {
+      "language": "TypeScript",
+      "stars": [
+        2000,
+        2999
+      ],
+      "query": "language:TypeScript stars:2000..2999 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
+      "total_count": 811,
+      "truncated": false,
+      "incomplete_results": false,
+      "fetched": 811,
+      "dropped_by_recheck": 0
+    },
+    {
+      "language": "TypeScript",
+      "stars": [
+        3000,
+        3999
+      ],
+      "query": "language:TypeScript stars:3000..3999 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
+      "total_count": 448,
+      "truncated": false,
+      "incomplete_results": false,
+      "fetched": 448,
+      "dropped_by_recheck": 0
+    },
+    {
+      "language": "TypeScript",
+      "stars": [
+        4000,
+        10000
+      ],
+      "query": "language:TypeScript stars:4000..10000 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
+      "total_count": 1000,
+      "truncated": false,
+      "incomplete_results": false,
+      "fetched": 1000,
+      "dropped_by_recheck": 0
+    }
+  ],
+  "counts": {
+    "pool_by_language": {
+      "Python": 10178,
+      "JavaScript": 4346,
+      "TypeScript": 6433
+    },
+    "pool_by_group": {
+      "python": 10178,
+      "js_ts": 10779
+    },
+    "excluded_in_pool": {
+      "python": {
+        "kept": 9879,
+        "topic": 97,
+        "name": 199,
+        "description": 3
+      },
+      "js_ts": {
+        "kept": 10526,
+        "name": 162,
+        "description": 2,
+        "topic": 89
+      }
+    },
+    "walk_by_group": {
+      "python": {
+        "checked": 707,
+        "no_dependency_file": 207,
+        "excluded_name": 18,
+        "excluded_topic": 12,
+        "accepted": 500
+      },
+      "js_ts": {
+        "checked": 569,
+        "no_dependency_file": 69,
+        "excluded_topic": 3,
+        "excluded_name": 6,
+        "accepted": 500
+      }
+    },
+    "selected_by_group": {
+      "python": 500,
+      "js_ts": 500
+    },
+    "selected_by_language": {
+      "JavaScript": 169,
+      "Python": 500,
+      "TypeScript": 331
+    },
+    "selected_total": 1000,
+    "requests": {
+      "search": 235,
+      "core": 1276
+    }
+  },
+  "notes": [
+    "Stars, forks and push dates are as of query_date_utc; rerunning later gives a different pool, so seed_v2.csv is the frozen record.",
+    "excluded_in_pool counts the whole pool; walk_by_group counts only the repos walked until the target was met."
+  ]
+}
