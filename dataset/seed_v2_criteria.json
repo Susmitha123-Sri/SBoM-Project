@@ -2,7 +2,7 @@
   "dataset": "seed_v2",
   "script": "dataset/build_seed_list.py",
   "query_date_utc": "2026-11-01",
-  "generated_at_utc": "2026-11-01T20:24:12Z",
+  "generated_at_utc": "2026-11-01T21:55:41Z",
   "test_run": false,
   "limit": null,
   "seed": 42,
@@ -26,7 +26,6 @@
     "archived": false,
     "dependency_files": {
       "python": [
-        "pyproject.toml",
         "requirements.txt"
       ],
       "js_ts": [
@@ -117,10 +116,10 @@
         549
       ],
       "query": "language:Python stars:500..549 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
-      "total_count": 606,
+      "total_count": 607,
       "truncated": false,
       "incomplete_results": false,
-      "fetched": 606,
+      "fetched": 607,
       "dropped_by_recheck": 0
     },
     {
@@ -156,10 +155,10 @@
         799
       ],
       "query": "language:Python stars:700..799 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
-      "total_count": 812,
+      "total_count": 811,
       "truncated": false,
       "incomplete_results": false,
-      "fetched": 812,
+      "fetched": 811,
       "dropped_by_recheck": 0
     },
     {
@@ -169,7 +168,7 @@
         899
       ],
       "query": "language:Python stars:800..899 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
-      "total_count": 690,
+      "total_count": 691,
       "truncated": false,
       "incomplete_results": false,
       "fetched": 691,
@@ -208,10 +207,10 @@
         1399
       ],
       "query": "language:Python stars:1200..1399 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
-      "total_count": 692,
+      "total_count": 693,
       "truncated": false,
       "incomplete_results": false,
-      "fetched": 692,
+      "fetched": 693,
       "dropped_by_recheck": 0
     },
     {
@@ -221,10 +220,10 @@
         1599
       ],
       "query": "language:Python stars:1400..1599 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
-      "total_count": 564,
+      "total_count": 562,
       "truncated": false,
       "incomplete_results": false,
-      "fetched": 564,
+      "fetched": 562,
       "dropped_by_recheck": 0
     },
     {
@@ -234,10 +233,10 @@
         1999
       ],
       "query": "language:Python stars:1600..1999 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
-      "total_count": 822,
+      "total_count": 823,
       "truncated": false,
       "incomplete_results": false,
-      "fetched": 822,
+      "fetched": 823,
       "dropped_by_recheck": 0
     },
     {
@@ -312,10 +311,10 @@
         599
       ],
       "query": "language:JavaScript stars:500..599 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
-      "total_count": 481,
+      "total_count": 482,
       "truncated": false,
       "incomplete_results": false,
-      "fetched": 481,
+      "fetched": 482,
       "dropped_by_recheck": 0
     },
     {
@@ -403,10 +402,10 @@
         799
       ],
       "query": "language:TypeScript stars:600..799 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
-      "total_count": 969,
+      "total_count": 968,
       "truncated": false,
       "incomplete_results": false,
-      "fetched": 969,
+      "fetched": 968,
       "dropped_by_recheck": 2
     },
     {
@@ -416,10 +415,10 @@
         999
       ],
       "query": "language:TypeScript stars:800..999 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
-      "total_count": 691,
+      "total_count": 692,
       "truncated": false,
       "incomplete_results": false,
-      "fetched": 691,
+      "fetched": 692,
       "dropped_by_recheck": 1
     },
     {
@@ -442,10 +441,10 @@
         1599
       ],
       "query": "language:TypeScript stars:1200..1599 forks:>=50 pushed:>=2025-11-01 fork:false archived:false",
-      "total_count": 786,
+      "total_count": 787,
       "truncated": false,
       "incomplete_results": false,
-      "fetched": 786,
+      "fetched": 787,
       "dropped_by_recheck": 0
     },
     {
@@ -503,23 +502,23 @@
   ],
   "counts": {
     "pool_by_language": {
-      "Python": 10178,
-      "JavaScript": 4346,
-      "TypeScript": 6433
+      "Python": 10179,
+      "JavaScript": 4347,
+      "TypeScript": 6434
     },
     "pool_by_group": {
-      "python": 10178,
-      "js_ts": 10779
+      "python": 10179,
+      "js_ts": 10781
     },
     "excluded_in_pool": {
       "python": {
-        "kept": 9879,
+        "kept": 9880,
         "topic": 97,
         "name": 199,
         "description": 3
       },
       "js_ts": {
-        "kept": 10526,
+        "kept": 10528,
         "name": 162,
         "description": 2,
         "topic": 89
@@ -527,17 +526,17 @@
     },
     "walk_by_group": {
       "python": {
-        "checked": 707,
-        "no_dependency_file": 207,
-        "excluded_name": 18,
-        "excluded_topic": 12,
+        "checked": 1568,
+        "no_dependency_file": 1068,
+        "excluded_name": 36,
+        "excluded_topic": 18,
         "accepted": 500
       },
       "js_ts": {
-        "checked": 569,
-        "no_dependency_file": 69,
-        "excluded_topic": 3,
-        "excluded_name": 6,
+        "checked": 589,
+        "no_dependency_file": 89,
+        "excluded_name": 11,
+        "excluded_topic": 4,
         "accepted": 500
       }
     },
@@ -546,18 +545,19 @@
       "js_ts": 500
     },
     "selected_by_language": {
-      "JavaScript": 169,
+      "JavaScript": 177,
       "Python": 500,
-      "TypeScript": 331
+      "TypeScript": 323
     },
     "selected_total": 1000,
     "requests": {
       "search": 235,
-      "core": 1276
+      "core": 2157
     }
   },
   "notes": [
     "Stars, forks and push dates are as of query_date_utc; rerunning later gives a different pool, so seed_v2.csv is the frozen record.",
-    "excluded_in_pool counts the whole pool; walk_by_group counts only the repos walked until the target was met."
+    "excluded_in_pool counts the whole pool; walk_by_group counts only the repos walked until the target was met.",
+    "Python repos must have requirements.txt in the root folder; pyproject.toml no longer counts (changed 2026-11-01). Reason: the Syft pilot (dataset/pilot_syft_results.csv) found no Python packages with Syft 1.17 in 7 of 8 repos that only had pyproject.toml, 2 of them with uv.lock."
   ]
 }
