@@ -8,8 +8,11 @@
 #              not a fork, not archived, not an awesome-list / tutorial /
 #              course (see exclusion_reason), and a dependency file in the
 #              root folder that matches the language:
-#                Python                 requirements.txt or pyproject.toml
+#                Python                 requirements.txt
 #                JavaScript/TypeScript  package.json
+#              pyproject.toml no longer counts (2026-11-01): in the Syft pilot
+#              (dataset/pilot_syft_results.csv) Syft 1.17 found no Python
+#              packages in 7 of 8 repos that only had pyproject.toml.
 #   sampling   each group's pool is sorted by repo id, shuffled with a fixed
 #              seed, and walked in that order until the group has its target
 #              (500, or --limit // 2): same pool + same seed = same list.
@@ -60,7 +63,13 @@ TIMEOUT = 30.0
 GROUPS = {"python": ("Python",), "js_ts": ("JavaScript", "TypeScript")}
 GROUP_LABELS = {"python": "Python", "js_ts": "JavaScript/TypeScript"}
 # Dependency file names (root folder) that count for each group
-DEP_FILES = {"python": ("pyproject.toml", "requirements.txt"), "js_ts": ("package.json",)}
+DEP_FILES = {"python": ("requirements.txt",), "js_ts": ("package.json",)}
+DEP_RULE_NOTE = (
+    "Python repos must have requirements.txt in the root folder; pyproject.toml no longer "
+    "counts (changed 2026-11-01). Reason: the Syft pilot (dataset/pilot_syft_results.csv) "
+    "found no Python packages with Syft 1.17 in 7 of 8 repos that only had pyproject.toml, "
+    "2 of them with uv.lock."
+)
 
 STARS_MIN, STARS_MAX = 500, 10000
 FORKS_MIN = 50
@@ -500,7 +509,8 @@ def criteria_record(args, today, cutoff, target, slices, pools, pool_excluded, w
             "different pool, so seed_v2.csv is the frozen record.",
             "excluded_in_pool counts the whole pool; walk_by_group counts only the repos "
             "walked until the target was met.",
-        ] + (["test run (--limit): the pool was capped, so the sample is not representative"]
+            DEP_RULE_NOTE,
+        ] +(["test run (--limit): the pool was capped, so the sample is not representative"]
              if args.limit is not None else []),
     }
 

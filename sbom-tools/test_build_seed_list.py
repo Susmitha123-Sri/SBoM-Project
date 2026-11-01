@@ -72,7 +72,7 @@ def make_repo(repo_id, name, language="Python", stars=1000, forks=100,
               topics=(), description="", files=None):
     owner = f"owner{repo_id}"
     if files is None:
-        files = ["pyproject.toml"] if language == "Python" else ["package.json"]
+        files = ["requirements.txt"] if language == "Python" else ["package.json"]
     return {
         "id": repo_id, "name": name, "full_name": f"{owner}/{name}",
         "html_url": f"https://github.com/{owner}/{name}", "language": language,
@@ -348,17 +348,29 @@ class TestSampling(SeedTestCase):
             make_repo(3, "py-empty", files=404),
             make_repo(4, "js-ok", "JavaScript", files=["package.json"]),
             make_repo(5, "js-only-requirements", "TypeScript", files=["requirements.txt"]),
+            make_repo(6, "py-only-pyproject", files=["pyproject.toml", "uv.lock"]),
         ]
         code, out = self.run_cli("--apply", "--limit", "20", session=FakeGitHub(repos))
         self.assertEqual(code, 0, out)
         rows = {r["name"].split("/")[1]: r for r in self.read_csv()}
         self.assertEqual(sorted(rows), ["js-ok", "py-ok"])
-        self.assertEqual(rows["py-ok"]["dependency_files"], "pyproject.toml;requirements.txt")
+        self.assertEqual(rows["py-ok"]["dependency_files"], "requirements.txt")
         walk = json.loads(self.json.read_text(encoding="utf-8"))["counts"]["walk_by_group"]
-        self.assertEqual(walk["python"]["no_dependency_file"], 1)
+        self.assertEqual(walk["python"]["no_dependency_file"], 2)   # package.json, pyproject.toml
         self.assertEqual(walk["python"]["contents_unavailable"], 1)
         self.assertEqual(walk["js_ts"]["no_dependency_file"], 1)
         self.assertIn("[warn] Python: only 1 of 10 found", out)
+
+    def test_pyproject_rule_change_is_recorded(self):
+        code, out = self.run_cli("--apply", "--limit", "20", session=FakeGitHub(standard_repos()))
+        self.assertEqual(code, 0, out)
+        record = json.loads(self.json.read_text(encoding="utf-8"))
+        self.assertEqual(record["criteria"]["dependency_files"],
+                         {"python": ["requirements.txt"], "js_ts": ["package.json"]})
+        notes = [n for n in record["notes"] if "pyproject.toml" in n]
+        self.assertEqual(len(notes), 1)
+        self.assertIn("dataset/pilot_syft_results.csv", notes[0])
+        self.assertIn("Syft 1.17", notes[0])
 
     def test_check_progress_every_25(self):
         _, out = self.run_cli("--limit", "100", session=FakeGitHub(standard_repos(60, 40, 40)))
