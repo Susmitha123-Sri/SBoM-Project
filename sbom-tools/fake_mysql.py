@@ -154,6 +154,41 @@ SCHEMA = """
         BEGIN SELECT RAISE(ABORT, 'package_snapshots is insert-only'); END;
     CREATE TRIGGER trg_runs_no_delete BEFORE DELETE ON scan_runs
         BEGIN SELECT RAISE(ABORT, 'scan_runs rows are never deleted'); END;
+    -- 005: /trends summary tables (derived from package_snapshots, rebuildable)
+    CREATE TABLE snapshot_summary_runs (
+        run_id INTEGER PRIMARY KEY,
+        snapshot_date TEXT NOT NULL,
+        run_status TEXT NOT NULL,
+        rows_n INTEGER NOT NULL,
+        packages_n INTEGER NOT NULL,
+        summarized_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+    );
+    CREATE TABLE snapshot_summary (
+        run_id INTEGER NOT NULL,
+        dimension TEXT NOT NULL CHECK (dimension IN ('tier', 'risk', 'review')),
+        value TEXT NOT NULL,
+        rows_n INTEGER NOT NULL,
+        packages_n INTEGER NOT NULL,
+        PRIMARY KEY (run_id, dimension, value)
+    );
+    CREATE TABLE snapshot_transition_pairs (
+        prev_run_id INTEGER NOT NULL,
+        run_id INTEGER NOT NULL,
+        rows_both INTEGER NOT NULL,
+        rows_changed INTEGER NOT NULL,
+        rows_new INTEGER NOT NULL,
+        rows_gone INTEGER NOT NULL,
+        summarized_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+        PRIMARY KEY (prev_run_id, run_id)
+    );
+    CREATE TABLE snapshot_transitions (
+        prev_run_id INTEGER NOT NULL,
+        run_id INTEGER NOT NULL,
+        from_tier TEXT NOT NULL,
+        to_tier TEXT NOT NULL,
+        rows_n INTEGER NOT NULL,
+        PRIMARY KEY (prev_run_id, run_id, from_tier, to_tier)
+    );
 """
 
 

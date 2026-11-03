@@ -1290,6 +1290,18 @@ def create_app() -> Flask:
         )
     #---------------------------------------------
 
+    @app.route("/trends")
+    def trends():
+        """
+        Read-only trends from the daily snapshots: reads scan_runs and the
+        migration 005 summary tables (filled by summarize_snapshots.py), never
+        package_snapshots; no registry lookups, no writes.
+        """
+        from snapshot_summary import trends_data
+
+        return render_template("trends.html", data=trends_data(), active="trends")
+    #---------------------------------------------
+
     @app.route("/refresh-analytics")
     def refresh_analytics():
 
