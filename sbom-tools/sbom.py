@@ -240,8 +240,42 @@ class SBOMScanner:
             else:
                 raise RuntimeError(f"Failed to clone repository {repo_url}: {error_msg}")
 
+    def _is_own_git_repo(self, repo_path: Path) -> bool:
+        """True only if repo_path has a .git and is the top level of its own repository."""
+        if not (repo_path / ".git").exists():
+            return False
+        result = subprocess.run(
+            [*self.git_command, "-C", str(repo_path), "rev-parse", "--show-toplevel"],
+            capture_output=True, text=True, timeout=60
+        )
+        if result.returncode != 0:
+            return False
+        top = Path(result.stdout.strip()).resolve()
+        return os.path.normcase(str(top)) == os.path.normcase(str(repo_path.resolve()))
+
+    @staticmethod
+    def _remove_cache_folder(repo_path: Path):
+        """Delete repo_path, but only a real folder inside Config.REPO_CACHE_DIR."""
+        cache_dir = Config.REPO_CACHE_DIR.resolve()
+        target = repo_path.resolve()
+        if repo_path.is_symlink() or cache_dir not in target.parents:
+            raise ValueError(f"Refusing to delete {repo_path}: not a folder inside {cache_dir}")
+
+        def make_writable(func, path, _exc):
+            os.chmod(path, 0o700)       # read-only git object files on Windows
+            func(path)
+
+        shutil.rmtree(target, onexc=make_writable)
+
     def _update_repo(self, repo_path: Path):
         """Update cached repository to latest version"""
+        # git -C in a folder that is not its own repository (no .git, or a
+        # broken one left by a failed clone) walks up to the project repository
+        # and would fetch / reset --hard THAT. Remove the folder instead; the
+        # caller re-clones it after this RuntimeError.
+        if not self._is_own_git_repo(repo_path):
+            self._remove_cache_folder(repo_path)
+            raise RuntimeError(f"{repo_path} is not its own git repository; removed for a re-clone")
         print("  -> Updating cached repository...")
         if self.shallow_clone:
             fetch_cmd = [*self.git_command, "-C", str(repo_path), "fetch", "--depth", "1", "origin"]
