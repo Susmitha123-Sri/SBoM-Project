@@ -559,5 +559,47 @@
     "Stars, forks and push dates are as of query_date_utc; rerunning later gives a different pool, so seed_v2.csv is the frozen record.",
     "excluded_in_pool counts the whole pool; walk_by_group counts only the repos walked until the target was met.",
     "Python repos must have requirements.txt in the root folder; pyproject.toml no longer counts (changed 2026-11-01). Reason: the Syft pilot (dataset/pilot_syft_results.csv) found no Python packages with Syft 1.17 in 7 of 8 repos that only had pyproject.toml, 2 of them with uv.lock."
-  ]
+  ],
+  "post_selection_exclusions": {
+    "date": "2026-11-19",
+    "final_count": 995,
+    "final_by_group": {
+      "python": 498,
+      "js_ts": 497
+    },
+    "excluded_file": "dataset/seed_v2_excluded.csv",
+    "repos": [
+      {
+        "name": "bytedance/fedlearner",
+        "url": "https://github.com/bytedance/fedlearner",
+        "language": "Python",
+        "reason": "git checkout fails on Windows: file names that are illegal on Windows (colon, trailing space, reserved name aux, question mark)"
+      },
+      {
+        "name": "ivopetiz/algotrading",
+        "url": "https://github.com/ivopetiz/algotrading",
+        "language": "Python",
+        "reason": "git checkout fails on Windows: file names that are illegal on Windows (colon, trailing space, reserved name aux, question mark)"
+      },
+      {
+        "name": "doramart/DoraCMS",
+        "url": "https://github.com/doramart/DoraCMS",
+        "language": "JavaScript",
+        "reason": "git checkout fails on Windows: file names that are illegal on Windows (colon, trailing space, reserved name aux, question mark)"
+      },
+      {
+        "name": "fecommunity/reactpress",
+        "url": "https://github.com/fecommunity/reactpress",
+        "language": "TypeScript",
+        "reason": "repository not found (deleted, renamed or private)"
+      },
+      {
+        "name": "hackclub/sprig",
+        "url": "https://github.com/hackclub/sprig",
+        "language": "JavaScript",
+        "reason": "git checkout fails on Windows: file names that are illegal on Windows (colon, trailing space, reserved name aux, question mark)"
+      }
+    ],
+    "note": "5 repos removed after selection because they cannot be scanned (4: git checkout fails on Windows because of illegal file names; 1: repository not found). seed_v2.csv now has 995 repos; selected_total above is the original selection of 1000."
+  }
 }
