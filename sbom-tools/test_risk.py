@@ -20,8 +20,9 @@ sys.path.insert(0, TESTS_DIR)
 sys.path.insert(0, os.path.dirname(TESTS_DIR))   # project root, for ui_app
 
 import risk                                         # noqa: E402
-from risk import (RISK_MODEL_VERSION, UNKNOWN_RISK, days_behind_points,  # noqa: E402
-                  describe_days, level_for, score_risk, vuln_points)
+from risk import (DEFAULT_RISK_MODEL_VERSION, DEFAULT_RISK_PARAMS,  # noqa: E402
+                  UNKNOWN_RISK, days_behind_points, describe_days, level_for, score_risk,
+                  validate_risk_params, vuln_points)
 from fake_mysql import SqliteTestCase               # noqa: E402
 from db_storage import DatabaseStorage, RISK_FILTERS, RISK_NOT_SCORED  # noqa: E402
 import test_upload_pipeline   # RouteTestCase (module import, so its tests aren't re-run here)
@@ -59,8 +60,8 @@ class TestScoreRisk(unittest.TestCase):
         self.assertEqual(r["reasons"], "Fresh; up to date; no vulnerability data")
         self.assertEqual(r["tier"], "Fresh")
         self.assertIs(r["is_abandoned"], False)
-        self.assertEqual(r["model_version"], RISK_MODEL_VERSION)
-        self.assertEqual(RISK_MODEL_VERSION, "v1")
+        self.assertEqual(r["model_version"], DEFAULT_RISK_MODEL_VERSION)
+        self.assertEqual(DEFAULT_RISK_MODEL_VERSION, "v1")
 
     def test_aging_is_low(self):
         r = score_risk("Aging", 200, None)
@@ -128,6 +129,92 @@ class TestScoreRisk(unittest.TestCase):
 
     def test_levels_listed_most_severe_first(self):
         self.assertEqual(risk.RISK_LEVELS, ["Critical", "High", "Medium", "Low"])
+
+
+# Frozen from the hard-coded v1 formula before it became settings:
+# (age_tier, days_behind, vuln_count) -> (score, level)
+GOLDEN_V1 = [
+    (("Fresh", 0, None), (0, "Low")),
+    (("Fresh", 30, None), (0, "Low")),
+    (("Aging", 31, None), (15, "Low")),
+    (("Aging", 365, None), (15, "Low")),
+    (("Stale", 366, None), (30, "Medium")),
+    (("Stale", 730, None), (30, "Medium")),
+    (("Stale", 731, None), (40, "Medium")),
+    (("Abandoned", 0, None), (25, "Medium")),
+    (("Abandoned", 2000, None), (65, "High")),
+    (("Fresh", 0, 1), (20, "Medium")),
+    (("Aging", 200, 2), (45, "High")),
+    (("Stale", 400, 4), (60, "High")),
+    (("Stale", 400, 5), (75, "Critical")),
+    (("Abandoned", 1100, 9), (100, "Critical")),
+    ((None, 540, None), (None, "Unknown")),
+    ((None, 540, 3), (30, "Medium")),
+    (("Fresh", -5, None), (0, "Low")),
+    (("Aging", 100, 1), (35, "Medium")),
+    (("Stale", 800, 1), (60, "High")),
+]
+
+
+class TestFormulaParams(unittest.TestCase):
+
+    def test_defaults_give_the_v1_scores(self):
+        for args, expected in GOLDEN_V1:
+            r = score_risk(*args, params=dict(DEFAULT_RISK_PARAMS), model_version="v1")
+            self.assertEqual((r["score"], r["level"]), expected, args)
+            self.assertEqual(r["model_version"], "v1")
+
+    def test_defaults_are_the_old_constants(self):
+        self.assertEqual(DEFAULT_RISK_PARAMS, {
+            "risk_band1_max_days": 30, "risk_band1_points": 0,
+            "risk_band2_max_days": 365, "risk_band2_points": 15,
+            "risk_band3_max_days": 730, "risk_band3_points": 30, "risk_over_points": 40,
+            "risk_abandoned_points": 25,
+            "risk_vuln1_min": 1, "risk_vuln1_points": 20, "risk_vuln2_min": 2,
+            "risk_vuln2_points": 30, "risk_vuln3_min": 5, "risk_vuln3_points": 45,
+            "risk_max_score": 100,
+            "risk_medium_min": 20, "risk_high_min": 45, "risk_critical_min": 70})
+        self.assertEqual(validate_risk_params(DEFAULT_RISK_PARAMS),
+                         (DEFAULT_RISK_PARAMS, []))
+
+    def changed(self, **values):
+        return {**DEFAULT_RISK_PARAMS, **values}
+
+    def test_changed_params_change_the_score(self):
+        p = self.changed(risk_abandoned_points=10)
+        self.assertEqual(score_risk("Abandoned", 0, None, p, "v2")["score"], 10)   # was 25
+        p = self.changed(risk_band2_points=20)
+        self.assertEqual(score_risk("Aging", 200, None, p, "v2")["score"], 20)     # was 15
+        p = self.changed(risk_critical_min=60)
+        self.assertEqual(score_risk("Stale", 400, 4, p, "v2")["level"], "Critical")  # 60, was High
+        p = self.changed(risk_max_score=50, risk_critical_min=50)
+        r = score_risk("Abandoned", 1100, 9, p, "v2")
+        self.assertEqual((r["score"], r["level"], r["model_version"]), (50, "Critical", "v2"))
+        p = self.changed(risk_band1_max_days=60)
+        self.assertEqual(score_risk("Aging", 45, None, p, "v2")["score"], 0)       # was 15
+        p = self.changed(risk_vuln1_min=3)
+        self.assertEqual(score_risk("Fresh", 0, 2, p, "v2")["score"], 30)          # 2 < 3 -> band 2
+
+    def test_validation_rejects(self):
+        cases = [
+            ({"risk_abandoned_points": "-1"}, "must not be negative"),
+            ({"risk_abandoned_points": "2.5"}, "must be a whole number"),
+            ({"risk_abandoned_points": "ten"}, "must be a whole number"),
+            ({"risk_abandoned_points": ""}, "must be a whole number"),
+            ({"risk_band2_max_days": "30"}, "bands must be in ascending order"),
+            ({"risk_band3_max_days": "40000", "risk_band2_max_days": "365"}, "at most 36500"),
+            ({"risk_vuln2_min": "5"}, "counts must be in ascending order"),
+            ({"risk_vuln1_min": "0"}, "must be at least 1"),
+            ({"risk_high_min": "80"}, "thresholds must be in ascending order"),
+            ({"risk_medium_min": "0"}, "thresholds must be in ascending order"),
+            ({"risk_critical_min": "150"}, "must not be above the maximum score"),
+            ({"risk_max_score": "0"}, "between 1 and 999"),
+            ({"risk_vuln3_points": "1000"}, "at most 999"),
+        ]
+        for change, text in cases:
+            raw = {k: str(v) for k, v in self.changed(**change).items()}
+            _, errors = validate_risk_params(raw)
+            self.assertTrue(any(text in e for e in errors), (change, errors))
 
 
 SEED = """

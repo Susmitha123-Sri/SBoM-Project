@@ -21,7 +21,7 @@ import argparse
 from collections import Counter
 
 from db_storage import get_db_storage
-from risk import RISK_LEVELS, RISK_MODEL_VERSION, UNKNOWN_RISK
+from risk import RISK_LEVELS, UNKNOWN_RISK
 
 EXAMPLES_TO_SHOW = 10
 
@@ -39,7 +39,9 @@ def main():
 
     db = get_db_storage()
     scans = db.get_all_scans()
-    print(f"Risk model {RISK_MODEL_VERSION}, {len(scans)} scans")
+    version, _ = db.get_risk_formula()
+    print(f"Current risk model {version} (packages already scored keep their own "
+          f"version), {len(scans)} scans")
 
     rows = []
     for scan in scans:

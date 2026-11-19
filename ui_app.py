@@ -302,6 +302,48 @@ def validate_settings(raw):
     return cleaned, errors
 
 
+RISK_SETUP_MESSAGE = ("Risk formula storage is not set up: apply migration 006 "
+                      "(python sbom-tools/migrate_006.py --database <name> --apply).")
+RISK_NOTICES = {
+    "saved": "Saved as risk model {version}. Scores are not changed until you press Rescore.",
+    "unchanged": "No change: the formula is still risk model {version}.",
+    "rescore": "Rescoring started in the background; the counts below update as it runs.",
+    "busy": "A monitor pass is running; try Rescore again when it has finished.",
+}
+
+
+def risk_formula_view(db, values=None):
+    """Template values for the Settings page's Risk formula section."""
+    from risk import DEFAULT_RISK_PARAMS, RISK_PARAM_FIELDS
+    from db_storage import RiskModelsMissing
+
+    groups = []
+    for key, group, label in RISK_PARAM_FIELDS:
+        if not groups or groups[-1][0] != group:
+            groups.append((group, []))
+        groups[-1][1].append((key, label, DEFAULT_RISK_PARAMS[key]))
+    view = {"risk_groups": groups, "risk_values": values or dict(DEFAULT_RISK_PARAMS),
+            "risk_version": None, "risk_since": None, "risk_counts": [],
+            "risk_needs_rescore": False, "risk_setup_error": None}
+    try:
+        version, params = db.get_risk_formula()
+        db.get_risk_models()                      # raises if migration 006 is missing
+        counts = db.risk_version_counts()
+        view.update(
+            risk_values=values or params,
+            risk_version=version,
+            risk_since=db.get_risk_model_info(version),
+            risk_counts=counts,
+            risk_needs_rescore=any(v is not None and v != version for v, _ in counts),
+        )
+    except RiskModelsMissing:
+        view["risk_setup_error"] = RISK_SETUP_MESSAGE
+    except Exception as e:
+        print("ERROR loading the risk formula:", repr(e))
+        view["risk_setup_error"] = f"Could not load the risk formula ({type(e).__name__}: {e})."
+    return view
+
+
 REVIEWER_MAX_LENGTH = 100   # package_reviews.reviewer is VARCHAR(100)
 
 
@@ -1216,7 +1258,8 @@ def create_app() -> Flask:
                     settings=request.form,
                     units=RESCAN_UNITS,
                     errors=errors,
-                    active="settings"
+                    active="settings",
+                    **risk_formula_view(db)
                 ), 400
 
             try:
@@ -1228,7 +1271,8 @@ def create_app() -> Flask:
                     settings=request.form,
                     units=RESCAN_UNITS,
                     errors=["Could not save settings to the database."],
-                    active="settings"
+                    active="settings",
+                    **risk_formula_view(db)
                 ), 500
 
             # Apply the new interval right away (no restart needed); the
@@ -1261,9 +1305,78 @@ def create_app() -> Flask:
             errors=[],
             saved=request.args.get("saved") == "1",
             next_run=next_run,
-            active="settings"
+            active="settings",
+            risk_notice=RISK_NOTICES.get(request.args.get("risk", ""), "").format(
+                version=request.args.get("version", "")),
+            **risk_formula_view(db)
         )
-            
+
+    #----------------------------------------------------
+    @app.route("/settings/risk-formula", methods=["POST"])
+    def save_risk_formula():
+        """
+        Save (or reset to the v1 defaults) the risk formula. Invalid input is
+        rejected with every message and nothing is saved. Saving never
+        rescores: packages keep their version until the Rescore button.
+        """
+        from db_storage import get_db_storage, DEFAULT_SETTINGS, RiskModelsMissing
+        from risk import DEFAULT_RISK_PARAMS, validate_risk_params
+        db = get_db_storage()
+
+        def page_with_errors(errors, status):
+            try:
+                current = db.get_settings()
+            except Exception:
+                current = dict(DEFAULT_SETTINGS)
+            return render_template(
+                "settings.html", settings=current, units=RESCAN_UNITS, errors=[],
+                active="settings", risk_errors=errors,
+                **risk_formula_view(db, values=request.form)
+            ), status
+
+        if request.form.get("action") == "reset":
+            params, errors = dict(DEFAULT_RISK_PARAMS), []
+        else:
+            params, errors = validate_risk_params(request.form)
+        if errors:
+            return page_with_errors(errors, 400)
+
+        try:
+            previous, _ = db.get_risk_formula()
+            version, _ = db.save_risk_formula(params)
+        except RiskModelsMissing:
+            return page_with_errors([RISK_SETUP_MESSAGE], 500)
+        except Exception as e:
+            print("ERROR saving the risk formula:", repr(e))
+            return page_with_errors(
+                [f"Could not save the risk formula to the database ({type(e).__name__}: {e})."],
+                500)
+
+        notice = "unchanged" if version == previous else "saved"
+        print(f"Risk formula: {notice}, current model version {version}")
+        return redirect(f"/settings?risk={notice}&version={version}#risk-formula")
+
+    @app.route("/settings/risk-formula/rescore", methods=["POST"])
+    def rescore_risk():
+        """Score every package with the current formula, in the background."""
+        from db_storage import get_db_storage
+
+        # Same lock as the monitor job: never both at once
+        if not _monitor_lock.acquire(blocking=False):
+            return redirect("/settings?risk=busy#risk-formula")
+
+        def job():
+            try:
+                version, written = get_db_storage().rescore_all_risk()
+                print(f"Rescore finished: {written} packages scored with risk model {version}")
+            except Exception as e:
+                print("ERROR rescoring risk:", repr(e))
+            finally:
+                _monitor_lock.release()
+
+        run_in_background(job)
+        return redirect("/settings?risk=rescore#risk-formula")
+
     #----------------------------------------------------
     
     @app.route("/analytics")

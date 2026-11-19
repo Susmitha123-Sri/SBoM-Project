@@ -12,6 +12,8 @@ from version_monitor import package_ecosystem, ECOSYSTEM_ALIASES, PACKAGE_TYPES
 from version_monitor import match_release, same_version
 from age_tiers import classify_age, tier_label, TIER_NAMES, UNKNOWN_TIER, AgeTier
 from risk import score_risk, RISK_LEVELS, UNKNOWN_RISK
+from risk import DEFAULT_RISK_PARAMS, DEFAULT_RISK_MODEL_VERSION, validate_risk_params
+import json
 from priority import score_priority, rank_priorities, PRIORITY_CATEGORIES
 import requests
 from packaging import version as v
@@ -586,6 +588,16 @@ def empty_scan_summary():
 # Errors that mean the connection was closed or lost mid-use; the
 # operation can be retried on a fresh connection.
 CONNECTION_LOST_ERRORS = (pymysql.err.InterfaceError, pymysql.err.OperationalError)
+
+
+class RiskModelsMissing(RuntimeError):
+    """The risk_models table does not exist (migration 006 not applied)."""
+
+
+def _missing_table(error):
+    """True for "table doesn't exist" (MySQL 1146) or SQLite's "no such table"."""
+    text = str(error).lower()
+    return "1146" in text or "doesn't exist" in text or "no such table" in text
 
 
 class DatabaseStorage:
@@ -1347,12 +1359,23 @@ class DatabaseStorage:
         "WHERE v2.package_id = v.package_id)"
     )
 
-    def package_risk_rows(self, scan_id):
+    def package_risk_rows(self, scan_id, rescore_to=None):
         """
         Risk (risk.score_risk) of every package whose latest scan is scan_id,
         read fresh, nothing written. Rows without a package_id are skipped.
+
+        Each package is scored with the model version it already has
+        (packages.risk_model_version, parameters from risk_models), so a
+        changed formula never rescores it silently; a package never scored
+        gets the current formula (settings). rescore_to (the current
+        version, from the Settings page's Rescore button) moves every
+        package to it. A package whose version is unknown is left out.
         Returns [{"package_id", "version_id", "package_name", "risk"}].
         """
+        current_version, current_params = self.get_risk_formula()
+        models = self.get_risk_models(fallback={current_version: current_params})
+        models[current_version] = current_params
+
         conn = get_new_connection()
         try:
             with conn.cursor() as cursor:
@@ -1361,8 +1384,10 @@ class DatabaseStorage:
                            v.age_tier, v.days_outdated,
                            (SELECT COUNT(DISTINCT sr.vulnerability_id)
                             FROM scan_results sr
-                            WHERE sr.version_id = v.version_id) AS vuln_count
+                            WHERE sr.version_id = v.version_id) AS vuln_count,
+                           p.risk_model_version AS stored_model
                     FROM versions v
+                    JOIN packages p ON p.package_id = v.package_id
                     WHERE v.scan_id = %s
                       AND v.package_id IS NOT NULL
                       AND {self.LATEST_SCAN_ROW_SQL}
@@ -1372,26 +1397,161 @@ class DatabaseStorage:
         finally:
             conn.close()
 
-        result = {}
+        result, seen, unknown = {}, set(), []
         for row in rows:
             # One row per package (the first, if a scan somehow has two)
-            result.setdefault(row["package_id"], {
+            if row["package_id"] in seen:
+                continue
+            seen.add(row["package_id"])
+            version = rescore_to or row["stored_model"] or current_version
+            params = models.get(version)
+            if params is None:
+                unknown.append(row["package_name"])
+                continue
+            result[row["package_id"]] = {
                 "package_id": row["package_id"],
                 "version_id": row["version_id"],
                 "package_name": row["package_name"],
                 "risk": score_risk(row["age_tier"], row["days_outdated"],
-                                   row["vuln_count"]),
-            })
+                                   row["vuln_count"], params, version),
+            }
+        if unknown:
+            print(f"Risk not updated for {len(unknown)} packages of scan {scan_id}: "
+                  f"their risk model version is not in risk_models ({unknown[:5]})")
         return list(result.values())
 
-    def update_package_risk_for_scan(self, scan_id):
+    #=========================================
+    # RISK FORMULA (settings + risk_models, migration 006)
+    #=========================================
+    def get_risk_formula(self):
+        """
+        (model_version, params) of the current formula, from the settings
+        table; parameters never saved fall back to the v1 defaults.
+        """
+        settings = self.get_settings()
+        params, errors = validate_risk_params(
+            {key: settings.get(key, default) for key, default in DEFAULT_RISK_PARAMS.items()})
+        if errors:
+            raise ValueError("Stored risk formula is invalid: " + " ".join(errors))
+        return settings.get("risk_model_version", DEFAULT_RISK_MODEL_VERSION), params
+
+    def get_risk_models(self, fallback=None):
+        """
+        {model_version: params} of every stored formula (risk_models).
+        Without the table (migration 006 not applied) returns fallback if
+        given, else raises RiskModelsMissing.
+        """
+        conn = get_new_connection()
+        try:
+            with conn.cursor() as cursor:
+                cursor.execute("SELECT model_version, params FROM risk_models")
+                return {r["model_version"]: json.loads(r["params"]) for r in cursor.fetchall()}
+        except Exception as e:
+            if not _missing_table(e):
+                raise
+            if fallback is None:
+                raise RiskModelsMissing("migration 006 not applied") from e
+            return dict(fallback)
+        finally:
+            conn.close()
+
+    def get_risk_model_info(self, version):
+        """created_at of a stored formula, or None."""
+        try:
+            conn = get_new_connection()
+            try:
+                with conn.cursor() as cursor:
+                    cursor.execute("SELECT created_at FROM risk_models WHERE model_version = %s",
+                                   (version,))
+                    row = cursor.fetchone()
+            finally:
+                conn.close()
+        except Exception as e:
+            if _missing_table(e):
+                return None
+            raise
+        return row["created_at"] if row else None
+
+    def save_risk_formula(self, params):
+        """
+        Make params (already validated) the current formula, in one
+        transaction: reuse the version with exactly these params, or add the
+        next one (v2, v3, ...) to risk_models; then write the params and the
+        version to settings. No package is rescored.
+        Returns (model_version, created: bool).
+        """
+        canonical = json.dumps(params, sort_keys=True)
+        conn = get_new_connection()
+        try:
+            with conn.cursor() as cursor:
+                try:
+                    cursor.execute("SELECT model_version, params FROM risk_models")
+                except Exception as e:
+                    if _missing_table(e):
+                        raise RiskModelsMissing("migration 006 not applied") from e
+                    raise
+                stored = cursor.fetchall()
+                version = next((r["model_version"] for r in stored
+                                if json.dumps(json.loads(r["params"]), sort_keys=True) == canonical),
+                               None)
+                created = version is None
+                if created:
+                    numbers = [int(r["model_version"][1:]) for r in stored
+                               if re.fullmatch(r"v\d+", r["model_version"])]
+                    version = f"v{max(numbers, default=0) + 1}"
+                    cursor.execute(
+                        "INSERT INTO risk_models (model_version, params, note) VALUES (%s, %s, %s)",
+                        (version, canonical, "saved on the Settings page"))
+                for key, value in [*params.items(), ("risk_model_version", version)]:
+                    cursor.execute("""
+                        INSERT INTO settings (setting_key, setting_value)
+                        VALUES (%s, %s)
+                        ON DUPLICATE KEY UPDATE setting_value = VALUES(setting_value)
+                    """, (key, str(value)))
+            conn.commit()
+            return version, created
+        except Exception:
+            conn.rollback()
+            raise
+        finally:
+            conn.close()
+
+    def risk_version_counts(self):
+        """[(model_version or None, packages)] for the Settings page."""
+        conn = get_new_connection()
+        try:
+            with conn.cursor() as cursor:
+                cursor.execute("""
+                    SELECT risk_model_version AS version, COUNT(*) AS n
+                    FROM packages GROUP BY risk_model_version
+                    ORDER BY risk_model_version
+                """)
+                return [(r["version"], int(r["n"])) for r in cursor.fetchall()]
+        finally:
+            conn.close()
+
+    def rescore_all_risk(self):
+        """
+        Settings page's Rescore button: score every package with the current
+        formula (no registry lookups), then recompute the update queue.
+        Returns (model_version, packages written).
+        """
+        version, _ = self.get_risk_formula()
+        written = 0
+        for scan in self.get_all_scans():
+            written += self.update_package_risk_for_scan(scan["scan_id"], rescore_to=version)
+        self.update_package_priorities()
+        return version, written
+
+    def update_package_risk_for_scan(self, scan_id, rescore_to=None):
         """
         Write packages.risk_* for every package whose latest scan is scan_id.
         Each UPDATE re-checks that scan_id is still the package's latest
         scan, so an older scan never overwrites a newer scan's risk.
+        rescore_to: see package_risk_rows.
         Returns the number of packages written.
         """
-        rows = self.package_risk_rows(scan_id)
+        rows = self.package_risk_rows(scan_id, rescore_to)
 
         written = 0
         conn = get_new_connection()
@@ -2305,7 +2465,8 @@ SNAPSHOT_INSERT_SQL = f"""
         (run_id, package_id, version_id, scan_id, snapshot_date, package_name, ecosystem,
          installed_version, latest_version, version_status, age_tier, days_behind,
          days_since_release, versions_behind, is_abandoned, vuln_count, normalized_name,
-         match_status, match_score, risk_score, risk_level, priority_score, priority_rank,
+         match_status, match_score, risk_score, risk_level, risk_model_version,
+         priority_score, priority_rank,
          review_status)
     SELECT %s, v.package_id, v.version_id, v.scan_id, %s, v.package_name, p.ecosystem,
            v.version_number, v.latest_version, v.status, v.age_tier, v.days_outdated,
@@ -2315,6 +2476,7 @@ SNAPSHOT_INSERT_SQL = f"""
            (SELECT COUNT(DISTINCT sr.vulnerability_id) FROM scan_results sr
             WHERE sr.version_id = v.version_id),
            p.normalized_name, p.match_status, p.match_score, p.risk_score, p.risk_level,
+           p.risk_model_version,
            p.priority_score, p.priority_rank, COALESCE(r.status, 'Open')
     FROM versions v
     LEFT JOIN package_reviews r ON r.package_id = v.package_id

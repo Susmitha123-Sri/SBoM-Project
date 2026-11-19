@@ -69,6 +69,78 @@
 
     </form>
 
+    <!-- RISK FORMULA (its own form: an error here never blocks the settings above) -->
+    <div class="card" id="risk-formula">
+        <h2>🧮 Risk formula</h2>
+        <p class="hint">
+            Risk score = days-behind points + abandoned penalty + vulnerability points, capped at
+            the maximum score; the level comes from the thresholds (Low starts at 0). Every saved
+            formula gets its own model version. Saving changes no scores: packages keep the
+            version they were scored with until you press Rescore.
+        </p>
+
+        {% if risk_notice %}
+        <div class="notice success">✅ {{ risk_notice }}</div>
+        {% endif %}
+        {% if risk_errors %}
+        <div class="notice error">
+            {% for e in risk_errors %}
+            <div>⚠ {{ e }}</div>
+            {% endfor %}
+            <div>Nothing was saved.</div>
+        </div>
+        {% endif %}
+
+        {% if risk_setup_error %}
+        <div class="notice error">⚠ {{ risk_setup_error }}</div>
+        {% else %}
+        <p class="meta">
+            Current model version: <strong>{{ risk_version }}</strong>
+            {% if risk_since %}(since {{ risk_since }}){% endif %}
+            · Packages per version:
+            {% for v, n in risk_counts %}
+                {{ v if v else "not scored yet" }}: {{ "{:,}".format(n) }}{% if not loop.last %} ·{% endif %}
+            {% endfor %}
+        </p>
+        {% endif %}
+
+        <form method="post" action="/settings/risk-formula">
+            {% for group, fields in risk_groups %}
+            <h3 class="risk-group">{{ group }}</h3>
+            <div class="field-row">
+                {% for key, label, default in fields %}
+                <label for="{{ key }}" title="Default: {{ default }}">{{ label }}</label>
+                <input type="number" id="{{ key }}" name="{{ key }}" min="0" step="1" required
+                       value="{{ risk_values[key] }}">
+                {% endfor %}
+                {% if group.startswith("Level thresholds") %}
+                <span class="meta">Low: 0 (fixed)</span>
+                {% endif %}
+            </div>
+            {% endfor %}
+
+            <div class="actions">
+                <button type="submit" name="action" value="save">💾 Save formula</button>
+                <button type="submit" name="action" value="reset" formnovalidate class="secondary"
+                        onclick="return confirm('Reset the risk formula to the defaults (model v1)? Scores are not changed until you press Rescore.');">
+                    ↺ Reset to defaults
+                </button>
+            </div>
+        </form>
+
+        {% if risk_needs_rescore %}
+        <form method="post" action="/settings/risk-formula/rescore" class="rescore">
+            <p class="hint">Some packages were scored with another model version.</p>
+            <div class="actions">
+                <button type="submit"
+                        onclick="return confirm('Rescore every package with model {{ risk_version }}? This changes the stored risk and the update priorities of all packages.');">
+                    🔁 Rescore all packages with {{ risk_version }}
+                </button>
+            </div>
+        </form>
+        {% endif %}
+    </div>
+
 </div>
 
 <style>
@@ -202,6 +274,27 @@ h1 {
 
 .actions button:hover {
     background: #4f46e5;
+}
+
+/* RISK FORMULA */
+.risk-group {
+    margin: 18px 0 8px;
+    font-size: 14px;
+    color: #334155;
+}
+
+.actions button.secondary {
+    background: #e2e8f0;
+    color: #1e293b;
+    margin-left: 8px;
+}
+
+.actions button.secondary:hover {
+    background: #cbd5e1;
+}
+
+.rescore {
+    margin-top: 18px;
 }
 
 </style>

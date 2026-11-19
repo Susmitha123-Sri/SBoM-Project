@@ -142,6 +142,7 @@ SCHEMA = """
         match_score REAL,
         risk_score REAL,
         risk_level TEXT,
+        risk_model_version TEXT,
         priority_score REAL,
         priority_rank INTEGER,
         review_status TEXT,
@@ -154,6 +155,26 @@ SCHEMA = """
         BEGIN SELECT RAISE(ABORT, 'package_snapshots is insert-only'); END;
     CREATE TRIGGER trg_runs_no_delete BEFORE DELETE ON scan_runs
         BEGIN SELECT RAISE(ABORT, 'scan_runs rows are never deleted'); END;
+    -- created by db_storage.ensure_schema in MySQL
+    CREATE TABLE settings (
+        setting_key TEXT PRIMARY KEY,
+        setting_value TEXT NOT NULL,
+        updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+    );
+    -- 006: every risk formula (model version -> parameters), insert-only
+    CREATE TABLE risk_models (
+        model_version TEXT PRIMARY KEY,
+        params TEXT NOT NULL,
+        created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+        note TEXT
+    );
+    INSERT INTO risk_models (model_version, params, note) VALUES ('v1',
+        '{"risk_abandoned_points": 25, "risk_band1_max_days": 30, "risk_band1_points": 0, "risk_band2_max_days": 365, "risk_band2_points": 15, "risk_band3_max_days": 730, "risk_band3_points": 30, "risk_critical_min": 70, "risk_high_min": 45, "risk_max_score": 100, "risk_medium_min": 20, "risk_over_points": 40, "risk_vuln1_min": 1, "risk_vuln1_points": 20, "risk_vuln2_min": 2, "risk_vuln2_points": 30, "risk_vuln3_min": 5, "risk_vuln3_points": 45}',
+        'risk score v1 (original hard-coded values)');
+    CREATE TRIGGER trg_risk_models_no_update BEFORE UPDATE ON risk_models
+        BEGIN SELECT RAISE(ABORT, 'risk_models is insert-only'); END;
+    CREATE TRIGGER trg_risk_models_no_delete BEFORE DELETE ON risk_models
+        BEGIN SELECT RAISE(ABORT, 'risk_models is insert-only'); END;
     -- 005: /trends summary tables (derived from package_snapshots, rebuildable)
     CREATE TABLE snapshot_summary_runs (
         run_id INTEGER PRIMARY KEY,
