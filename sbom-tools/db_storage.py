@@ -1,11 +1,15 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+import os
+from pathlib import Path
+
 import pymysql
 import threading
 import traceback
 from typing import Optional
 from datetime import date, datetime
+from dotenv import load_dotenv
 from version_monitor import get_package_release_info
 from version_monitor import get_commit_date
 from version_monitor import package_ecosystem, ECOSYSTEM_ALIASES, PACKAGE_TYPES
@@ -151,11 +155,14 @@ def calculate_versions_behind(current, latest):
 
     return ".".join(str(n) for n in gap)
 
+# The password comes from the environment or the project's .env (DB_PASSWORD), never the code
+load_dotenv(Path(__file__).resolve().parent.parent / ".env")
+
 DB_CONFIG = {
     "host": "127.0.0.1",
     "port": 3306,
     "user": "root",
-    "password": "root123",
+    "password": os.environ.get("DB_PASSWORD", ""),
     "database": "sbom_common",
     "cursorclass": pymysql.cursors.DictCursor
 }

@@ -7,3 +7,24 @@ data-prep/
 sbom_backup*.sql
 test_results.txt
 logs/
+# local database backups
+backup_*.sql
+backups/
+
+# scan working data (can be regenerated)
+repo-cache/
+reports_suspect/
+reports/
+scan_log.txt
+retry_failed.log
+*.log
+
+# large generated datasets and scratch files
+dataset/seed_v2_dataset.csv
+dataset/seed_v2_dataset_before_995.csv
+dataset/seed_v2_original_1000.csv
+dataset/seed_v2_criteria_original.json
+uploaded_sboms/*.csv
+sbom_dataset_2.xlsx
+test_names.txt
+*.bak*

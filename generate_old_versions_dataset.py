@@ -1,12 +1,19 @@
+import os
+from pathlib import Path
+
 import pymysql
 import requests
 import csv
+from dotenv import load_dotenv
+
+# The password comes from the environment or the project's .env (DB_PASSWORD), never the code
+load_dotenv(Path(__file__).resolve().parent / ".env")
 
 DB_CONFIG = {
     "host": "127.0.0.1",
     "port": 3306,
     "user": "root",
-    "password": "root123",
+    "password": os.environ.get("DB_PASSWORD", ""),
     "database": "sbom_common",
     "cursorclass": pymysql.cursors.DictCursor
 }

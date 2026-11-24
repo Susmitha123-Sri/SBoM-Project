@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-11-19T09:51:34",
+  "output": "seed_v2_dataset.csv",
+  "encoding": "UTF-8 with BOM",
+  "seed_csv": {
+    "path": "C:\\Users\\prakk\\Desktop\\sbom-project\\dataset\\seed_v2.csv",
+    "bytes": 109451,
+    "sha256": "819997aa288d70c0e3a4c476979e125ac4cd16f3a52c55f4f11a2e35ac68f131"
+  },
+  "reports_dir": "C:\\Users\\prakk\\Desktop\\sbom-project\\reports",
+  "counts": {
+    "repos": 995,
+    "repos_by_status": {
+      "scanned": 876,
+      "no_packages": 119,
+      "not_scanned": 0,
+      "report_error": 0
+    },
+    "rows": 318370,
+    "package_rows": 318251,
+    "db_kept_rows": 265180,
+    "duplicates_dropped": 0
+  },
+  "repos_with_warnings": [],
+  "columns": [
+    "name",
+    "url",
+    "language",
+    "stars",
+    "forks",
+    "last_push",
+    "dependency_files",
+    "scan_status",
+    "report_source",
+    "report_file",
+    "report_timestamp",
+    "report_total_packages",
+    "report_total_vulnerabilities",
+    "report_warning",
+    "package_name",
+    "package_version",
+    "package_type",
+    "ecosystem",
+    "report_latest_version",
+    "report_version_status",
+    "vulnerability_id",
+    "severity",
+    "fixed_version",
+    "has_vulnerability",
+    "db_row"
+  ],
+  "column_notes": {
+    "name, url, language, stars, forks, last_push, dependency_files": "copied from seed_v2.csv, repeated on every row of the repo",
+    "scan_status": "scanned | no_packages (report with 0 packages) | not_scanned (no report yet) | report_error (report unreadable; reason in report_warning)",
+    "report_source": "json, csv (the .json was missing or unreadable) or none",
+    "report_file": "report file name in reports/ (sbom.generate_safe_filename of the url)",
+    "report_timestamp": "when the report was written (scan time)",
+    "report_total_packages": "packages in the report (summary.total_packages for json)",
+    "report_total_vulnerabilities": "Grype matches in the report (json summary; empty for csv)",
+    "report_warning": "';'-joined: count_mismatch (summary.total_packages differs from the package list), target_mismatch (report target is not the seed url), from_csv, duplicates_dropped=N, or the read error",
+    "package_name, package_version, package_type": "report 'package', 'version', 'type' (Syft type: npm, python, github-action, ...). Versions are as sbom.py stores them: a leading 'v' removed; missing or a 40-character commit hash -> 'unknown'",
+    "ecosystem": "the database rule of sbom.py: python/pypi -> python, npm/node -> npm, anything else -> none (never looked up)",
+    "report_latest_version, report_version_status": "report 'latest_version' and 'version_status' as looked up at report_timestamp. When the lookup failed or the type is not looked up, the report copies the installed version, so the status is up_to_date; use the database / daily snapshots for registry data",
+    "vulnerability_id": "the first Grype match only, or 'None'",
+    "severity": "the highest severity among the package's matches, or 'None'",
+    "fixed_version": "report placeholder ('See advisory' or 'N/A'), not a real version",
+    "has_vulnerability": "1 if vulnerability_id is not 'None', else 0",
+    "db_row": "kept = the row the database stores (one versions row per package name per repo, names compared case-insensitively, the last occurrence wins); collapsed = an earlier row with the same name"
+  },
+  "rules": [
+    "One row per (repo, package). A repo without packages (not_scanned, no_packages, report_error) has one row with the package columns empty.",
+    "Packages are unique per (name, version, type) within a repo; exact duplicates are dropped and counted (report_warning duplicates_dropped=N).",
+    "sbom.py already merges packages by name:version before writing the report, so the counts are its de-duplicated counts, not raw Syft artifact counts (dataset/pilot_syft_results.csv). Raw Syft output is not saved.",
+    "The database keeps fewer rows: one per package name per repo. Filter db_row = kept to get the database's row set.",
+    "Latest version, version status and vulnerability fields are scan-time values from the report; see the column notes for their limits.",
+    "Built from files only: no MySQL and no network. Rows follow seed_v2.csv order, then report package order."
+  ]
+}
